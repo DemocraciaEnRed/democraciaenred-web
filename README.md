@@ -4,9 +4,9 @@
   </a>
 </p>
 
-# Landing Page de DemocraciaOS
+# Landing Page de Democracia En Red
 
-> DemocraciaOS, la web especificamente para presentar las plataformas de participación ciudadana de Democracia en Red
+> Web Fundación Democracia en Red
 > Desarrollada utilizando [Gatsby](https://www.gatsbyjs.org/) v3, framework basado en React, y [Bulma](https://bulma.io/), framework de CSS basado en Flexbox.
 
 ## 🚀 Quick start
