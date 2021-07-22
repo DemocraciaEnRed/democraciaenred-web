@@ -1,0 +1,24 @@
+@import "~bulma/sass/utilities/_all.sass";
+
+.footer {
+    .title,
+    .subtitle,
+    a {
+        color: white;
+    }
+    .footer-link {
+        line-height: 24px;
+    }
+    .footer-link,
+    .subtitle {
+        font-size: 14px;
+    }
+}
+
+@include desktop {
+    .footer {
+        // p {
+        //     padding-right: 8rem;
+        // }
+    }
+}

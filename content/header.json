@@ -1,0 +1,107 @@
+[
+  {
+    "title": "header_1.main_title",
+    "description": "header_2.description",
+    "icon": "presupuestoParticipativo",
+    "color": "pink",
+    "image": "presupuesto_participativo",
+    "header": [
+      {
+        "title": "header_1.title_1",
+        "icon":"personalizable" 
+    },
+        {
+          "title": "header_1.title_2",
+          "icon":"codigo_abierto" 
+      },
+        {
+            "title": "header_1.title_3",
+            "icon":"instalacion" 
+        }
+    ]
+  },
+  {
+    "title": "header_2.main_title",
+    "description": "header_2.description",
+    "icon": "consultadigital",
+    "color": "green",
+    "image": "consulta_publica",
+    "header": [
+      {
+        "title": "header_2.title_1",
+        "icon":"personalizable" 
+    },
+        {
+          "title": "header_2.title_2",
+          "icon":"codigo_abierto" 
+      },
+        {
+            "title": "header_2.title_3",
+            "icon":"instalacion" 
+        }
+    ]
+  },
+  {
+    "title": "header_3.main_title",
+    "description": "header_3.description",
+    "icon": "seguimientometas",
+    "color": "purple",
+    "image": "seguimiento_metas",
+    "header": [
+      {
+        "title": "header_3.title_1",
+        "icon":"personalizable" 
+    },
+        {
+          "title": "header_3.title_2",
+          "icon":"codigo_abierto" 
+      },
+        {
+            "title": "header_3.title_3",
+            "icon":"instalacion" 
+        }
+    ]
+  },
+  {
+    "title": "header_4.main_title",
+    "description": "header_4.description",
+    "icon": "coconstruccionleyes",
+    "color": "blue",
+    "image": "co_construccion",
+    "header": [
+      {
+        "title": "header_4.title_1",
+        "icon":"personalizable" 
+    },
+        {
+          "title": "header_4.title_2",
+          "icon":"codigo_abierto" 
+      },
+        {
+            "title": "header_4.title_3",
+            "icon":"instalacion" 
+        }
+    ]
+  },
+  {
+    "title": "header_5.main_title",
+    "description": "header_5.description",
+    "icon": "votacionautoridades",
+    "color": "coral",
+    "image": "votacion_autoridades",
+    "header": [
+      {
+        "title": "header_5.title_1",
+        "icon":"personalizable" 
+    },
+        {
+          "title": "header_5.title_2",
+          "icon":"codigo_abierto" 
+      },
+        {
+            "title": "header_5.title_3",
+            "icon":"instalacion" 
+        }
+    ]
+  }
+]

@@ -1,0 +1,110 @@
+@import "~bulma/sass/utilities/_all.sass";
+$red: #f15a24;
+$orange: #fbb03b;
+$blue: #8BCCFD;
+$pink: #FD7B92;
+$green:#6ED59F;
+$purple: #E7B4F1;
+$coral: #f09c77;
+
+.product {
+    color: white;
+    overflow: hidden;
+    .title {
+        color: white;
+    }
+    .subtitle {
+        color: white;
+    }
+    .button-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .button {
+        display: table;
+        border-color: white;
+        margin: 0;
+        margin-right: 1rem;
+        &:hover {
+            color: #ccc;
+        }
+    }
+    &.product-pink {
+        background-color: $pink;
+    }
+    &.product-green {
+        background-color: $green;
+    }
+    &.product-blue {
+        background-color: $blue;
+    }
+    &.product-purple {
+        background-color: $purple;
+    }
+    &.product-coral {
+        background-color: $coral;
+    }
+    .is-black{
+        border: 0;
+        color: white;
+    }
+    .list-wrapper{
+        margin-bottom: 2rem;
+    }
+}
+
+@include desktop {
+    .product {
+        .text-content {
+            display: flex;
+            .title,
+            .subtitle,
+            .list-wrapper {
+                flex-grow: 1;
+                flex-basis: 0;
+            }
+        }
+        .image {
+            text-align: center;
+            margin-top: 1rem;
+            max-height: 500px;
+            img {
+                max-width: 100%;
+                display: inline-block;
+            }
+        }
+        .button {
+            margin-top: 3.5rem;
+        }
+        .title{
+            &:after {
+                display: block;
+                content: ' ';
+                height: 3px;
+                margin: 1rem 0;
+                background-color: black;
+                width: 35px;
+            }
+        }
+    }
+}
+
+@include fullhd {
+    .product {
+        .image {
+            max-height: 600px;
+            img {
+                max-width: 85%;
+            }
+        }
+    }
+}
+
+@include mobile {
+    .button-container{
+        .button{
+            margin-bottom: 0.5em;
+        }
+    }
+}

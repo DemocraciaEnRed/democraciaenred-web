@@ -1,0 +1,41 @@
+{
+    "title": "instalations.main_title",
+    "instalations": [
+        {
+            "title": "instalations.title_1",
+            "description": "instalations.description_1",
+            "requirements": [
+                "instalations.requirements_1_1", 
+                "instalations.requirements_1_2",
+                "instalations.requirements_1_3"
+            ],
+            "button_text": "instalations.button_text_1",
+            "button_link": "instalations.button_link_1",
+            "icon":"diy"
+        },
+        {
+            "title": "instalations.title_2",
+            "description": "instalations.description_2",
+            "requirements": [
+                "instalations.requirements_2_1", 
+                "instalations.requirements_2_2",
+                "instalations.requirements_2_3"
+            ],
+            "button_text": "instalations.button_text_2",
+            "button_link": "instalations.button_link_2",
+            "icon":"standard" 
+        },
+        {
+            "title": "instalations.title_3",
+            "description": "instalations.description_3",
+            "requirements": [
+                "instalations.requirements_3_1", 
+                "instalations.requirements_3_2",
+                "instalations.requirements_3_3"
+            ],
+            "button_text": "instalations.button_text_3",
+            "button_link": "instalations.button_link_3",
+            "icon":"custom" 
+        }
+    ]
+}
