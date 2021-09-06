@@ -1,11 +1,15 @@
 @import "~bulma/sass/utilities/_all.sass";
 
+$blue: #29abe2;
+$green:#6ED59F;
+$coral: #f09c77;
+
 .hero-slider-item {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     .hero-body {
-        background-color:rgba(60, 36, 21, 0.4);
+        background-color:rgb(15 10 7 / 78%);
         height: 100vh;
     }
     .slider-icon {
@@ -20,95 +24,34 @@
         max-height: unset;
     }
 }
+
 .hero.is-fullheight.is-primary {
     background-image: none;
     background-color: transparent;
     height: 100vh;
 }
 
-.slick-slider,
-.slick-list,
-.slick-track {
+.hero.is-primary .title.hero-slider-coral{
+    color: $coral;
+}
+
+.hero.is-primary .title.hero-slider-green{
+   color: $green
+}
+
+.hero.is-primary .title.hero-slider-blue{
+    color: $blue
+
+}
+
+#hero-slider .slick-prev,#hero-slider .slick-next {
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(59deg) brightness(97%) contrast(102%);
+}
+
+#hero-slider .slick-slider,
+#hero-slider .slick-list,
+#hero-slider .slick-track {
     height: 100vh;
 }
-.slick-dots {
-    bottom: 2rem;
-    li button:before {
-        color: white;
-        font-size: 0.8rem;
-    }
-    li.slick-active button:before {
-        color: white;
-    }
-}
 
-.slick-next {
-    right: 2rem;
-    width: 15px;
-    &:before {
-        content: none;
-    }
-}
 
-.slick-prev {
-    left: 2rem;
-    z-index: 1;
-    width: 15px;
-    &:before {
-        content: none;
-    }
-}
-
-.slick-disabled {
-    opacity: 0.5;
-}
-
-@include mobile {
-    .slick-next {
-        right: 0.5rem;
-    }
-    .slick-prev {
-        left: 0.5rem;
-    }
-    .hero-slider-item {
-        .slider-image-description {
-            left: auto;
-            right: 20px;            
-            max-height: 180px;
-        }
-    }
-}
-
-@include touch {
-    .hero-slider-item {
-        height: 100vh;
-        .slider-icon {
-            margin-bottom: 2rem;
-        }
-    }
-}
-
-@include desktop {
-    .hero-slider-item {
-        .slider-icon {
-            margin-bottom: 2rem;
-        }
-    }
-}
-
-@include widescreen {
-    .hero.is-large {
-        .hero-slider-item {
-            .hero-body {
-                padding-left: 18rem;
-                padding-right: 18rem;
-            }
-        }
-    }
-}
-
-@media screen and (max-height: 600px){
-    .slider-icon {
-        margin-bottom: 0px !important;
-    }
-}

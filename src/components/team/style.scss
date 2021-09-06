@@ -1,0 +1,146 @@
+.title:after {
+  display: block;
+  content: ' ';
+  height: 3px;
+  margin: 1rem 0;
+  width: 35px;
+  background-color: #000;
+}
+
+// Hexágono
+
+.hex-container {
+  overflow: hidden;
+  display: inline-block;
+  margin: 4em 0;
+  width: 22em; height: 19.32em;
+  transform: rotate(-30deg) skewX(30deg);
+  border-radius: .5em;
+}
+
+.hex-container *, .hex-container *:before {
+  display: block;
+  overflow: hidden;
+  width: inherit; height: inherit;
+  border-radius: inherit;
+}
+
+.hex-container-inner {
+  transform: skewX(-30deg) rotate(60deg) skewX(30deg);
+  cursor: pointer;
+}
+
+.hex-container:first-child .hex-container-inner:before, .hex-container-inner-2 {
+  transform: skewX(-30deg) rotate(60deg) skewX(30deg);
+  background: orange;
+  content: '';
+}
+
+.hex-container-inner-2{
+    position:absolute;
+    top:0
+}
+
+.hex-container-inner-2:before {
+  margin-top: -1.5em;
+  height: 22em;
+  transform: skewX(-30deg) rotate(-90deg);
+  background: url(https://assets.codepen.io/2017/17_05_a_amur_leopard_34.jpg);
+  content: '';
+}
+
+@media screen and (max-width:480px) {
+  .hex-container {
+    width: 14em; height: 12.32em;
+  }
+
+  .hex-container-inner-2:before {
+    height: 15em;
+  }  
+}
+
+// Backgrtound Hexágono
+
+.mau-bg:before {
+  background:url(./assets/mau.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hex-container-inner-2.agustin-bg:before {
+  background:url(./assets/agustin.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.florencia-dir-bg:before {
+  background:url(./assets/florencia-dir.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.florencia-presi-bg:before {
+  background:url(./assets/florencia-presi.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.powa-bg:before {
+  background:url(./assets/powa.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.guille-bg:before {
+  background:url(./assets/guille.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.vale-bg:before {
+  background:url(./assets/vale.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.alvaro-bg:before {
+  background:url(./assets/alvaro.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.luciana-bg:before {
+  background:url(./assets/luciana.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.agustina-bg:before {
+  background:url(./assets/agustina.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.daniel-bg:before {
+  background:url(./assets/daniel.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.juli-bg:before {
+  background:url(./assets/juli.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mija-bg:before {
+  background:url(./assets/mija.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.diego-bg:before {
+  background:url(./assets/diego.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}

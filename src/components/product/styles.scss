@@ -7,9 +7,19 @@ $green:#6ED59F;
 $purple: #E7B4F1;
 $coral: #f09c77;
 
+
+.hero.product .hero-body{
+    padding:0
+}
+
+.title-product{
+    border-bottom: 3px solid #000
+}
+
 .product {
     color: white;
     overflow: hidden;
+    min-height: 100vh;
     .title {
         color: white;
     }
@@ -61,7 +71,6 @@ $coral: #f09c77;
             .title,
             .subtitle,
             .list-wrapper {
-                flex-grow: 1;
                 flex-basis: 0;
             }
         }
@@ -76,16 +85,6 @@ $coral: #f09c77;
         }
         .button {
             margin-top: 3.5rem;
-        }
-        .title{
-            &:after {
-                display: block;
-                content: ' ';
-                height: 3px;
-                margin: 1rem 0;
-                background-color: black;
-                width: 35px;
-            }
         }
     }
 }

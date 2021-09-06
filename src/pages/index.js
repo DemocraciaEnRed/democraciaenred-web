@@ -2,19 +2,22 @@ import React, {useState} from "react"
 import "./styles.scss"
 import SEO from "../components/seo"
 import Navbar from "../components/navbar"
+import SocialMediaNavbar from "../components/social-media-navbar"
 import HeroSlider from "../components/hero-slider"
 import heroSliderData from "../../content/hero-slider.json"
-import ProductsSection from "../components/products-section"
-import Product from "../components/product"
 import productsData from "../../content/products.json"
-import InstalationsSection from "../components/instalations-section"
-import instalationsData from "../../content/instalations.json"
-import UsSection from "../components/us-section"
-import usData from "../../content/nosotros.json"
-import CasesSection from "../components/cases-section"
-import casesData from "../../content/cases.json"
 import Footer from "../components/footer"
-import WorkWithSection from "../components/work-with-section"
+import socialMedia from "../../content/social-media-navbar.json"
+import ProductsSlider from "../components/products-slider"
+import LivesSlider from "../components/lives-slider"
+import livesData from "../../content/lives.json"
+import TeamSlider from "../components/team-slider"
+import teamData from "../../content/team.json"
+import ecosystemData from "../../content/ecosystem.json"
+import EcosystemSlider from "../components/ecosystem-slider"
+import Resources from "../components/resources"
+import dataResources from "../../content/resources.json"
+import Division from "../components/division"
 
 //Sets smooth scroll animation for anchor links
 if (typeof window !== "undefined") {
@@ -22,24 +25,29 @@ if (typeof window !== "undefined") {
     new SmoothScroll('a[href*="#"]');
 }
 
-const Home = () => {
+
+export default () => {
+
+    const [show, setShow] = useState(false);
+
+    const handleForm = () =>{
+        setShow(true);
+    }
+
     return (
     <React.Fragment>
         <SEO />
-        <Navbar/>
+        <Navbar handleForm={handleForm}/>
         <HeroSlider slides={heroSliderData}/>
-        <ProductsSection products={productsData}/>
-        {productsData.map((product) => 
-            <Product data={product} key={product.id}/>
-        )}
-        <InstalationsSection data={instalationsData}/>        
-        <UsSection data={usData}/>
-        <WorkWithSection />
-        <CasesSection data={casesData}/>
-        <Footer />
+        <Division/>
+        <Resources resources={dataResources}/>
+        <SocialMediaNavbar socialMedia={socialMedia}/>
+        <ProductsSlider slides={productsData}/>
+        <EcosystemSlider slides={ecosystemData}/>
+        <LivesSlider slides={livesData} />
+        <TeamSlider slides={teamData}/>
+        <Footer handleForm={handleForm} />
     </React.Fragment>
     )
 
 }
-
-export default Home;

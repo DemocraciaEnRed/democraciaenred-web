@@ -1,47 +1,56 @@
 import React, { useState, useEffect } from "react"
 import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
-import { useIntl, IntlContextConsumer, changeLocale, Link  } from "gatsby-plugin-intl"
-import { PopupButton } from '@typeform/embed-react'
+import { useIntl, IntlContextConsumer, changeLocale  } from "gatsby-plugin-intl"
 import "./styles.scss"
+import LogoDer from './assets/logo-der.png'
 
-
-const Navbar = (props) => {
+export default (props) => {
     const [isActive, setIsActive] = useState(false);
     const intl = useIntl()
     const languageName = {
         es: "ESP",
         en: "ENG",
-        // pt: "POR",
+        pt: "POR",
     }
 
-    // useEffect(() => {
-    //     const navbarElement = document.querySelector('#navbar');
-    //     if(isActive) {
-    //         disableBodyScroll(navbarElement);
-    //         document.querySelector('html').style.overflowY =  "hidden";
-    //     } else {
-    //         document.querySelector('html').style.overflowY =  "scroll";
-    //         enableBodyScroll(navbarElement);
-    //     }
-    // }, [isActive]);
+    useEffect(() => {
+        const navbarElement = document.querySelector('#navbar');
+        if(isActive) {
+            disableBodyScroll(navbarElement);
+            document.querySelector('html').style.overflowY =  "hidden";
+        } else {
+            document.querySelector('html').style.overflowY =  "scroll";
+            enableBodyScroll(navbarElement);
+        }
+    }, [isActive]);
+
+    const clickContacto = () =>{
+        handleForm();
+        setIsActive(false)
+    }
+
+    const { handleForm } = props;
 
     return (
         <nav id="navbar" className={(isActive ? 'navbar is-active' : 'navbar')} role="navigation" aria-label="main navigation">
-            <div className="navbar-brand ">
-                <Link className="navbar-item  is-size-2-desktop" to="/">democraciaOS</Link>
+            {/* <div className="navbar-brand ">
+                <a className="navbar-item  is-size-2-desktop" href="https://democraciaos.org">democraciaOS</a>
                 <button onClick={() => setIsActive(prevState => !prevState)} className={(isActive ? 'navbar-burger is-active' : 'navbar-burger')} aria-label="menu" aria-expanded="false" data-target="navbarColapse">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                 </button>
-            </div>
+            </div> */}
 
             <div id="navbarColapse" className={(isActive ? 'navbar-menu is-active' : 'navbar-menu')}>
                 <div className="navbar-start">
                     <div className="left-wrapper">
-                        <Link className="navbar-item" onClick={() => setIsActive(false)} to="/#productos" data-target="productos">
-                            {intl.formatMessage({ id: "products_title" })}
-                        </Link>                  
+                        <a className="navbar-item" onClick={() => setIsActive(false)} href="/" data-target="productos">
+                            {/* {intl.formatMessage({ id: "products_title" })} */}
+                            <img src={LogoDer} alt="Logo Democracia en Red"/>
+                        </a>
+
+                         
                     </div>
                     <div className="lang-switch">
                     
@@ -63,12 +72,12 @@ const Navbar = (props) => {
                    
                     
                     </div>
-                    <Link className="navbar-item" to="/#nosotros" data-target="nosotros">
+                    <a className="navbar-item" onClick={() => setIsActive(false)} href="https://democraciaos.org/es/#nosotros" data-target="nosotros">
                             {intl.formatMessage({ id: "us" })}
-                        </Link>   
-                    <PopupButton id="bkXtFW" className="navbar-item contact" rel="noopener noreferrer">
+                        </a>   
+                    <a className="navbar-item contact" onClick={()=>clickContacto()} href="#implementar" rel="noopener noreferrer">
                         {intl.formatMessage({ id: "contact" })}
-                    </PopupButton>
+                    </a>
                     <a className="navbar-item is-hidden-desktop" href="mailto:contacto@democraciaenred.org">
                         contacto@democraciaenred.org
                     </a>
@@ -98,5 +107,3 @@ const Navbar = (props) => {
         </nav>
     )
 };
-
-export default Navbar;

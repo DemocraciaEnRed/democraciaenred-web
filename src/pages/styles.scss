@@ -1,5 +1,6 @@
 // Import a Google Font
 @import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 // FontAwesome
 $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
@@ -24,11 +25,14 @@ $size-5: 1.13rem;
 $size-6: 1rem;
 $grey-dark: #4d4d4d;
 $red: #f15a24;
-$orange: #fbb03b;
-$blue: #29abe2;
+$orange: #FF9B73;
+$blue:#88CBFF;
+$pink: #FF7990;
+$green: #69D69D;
+$purple: #BB86FC;
+$yellow:#F7EC86;
+$button-disabled-shadow:none;
 
-$pink: #FD7B92;
-$green:#6ED59F;
 
 // Import only what you need from Bulma
 @import "~bulma/bulma.sass";
@@ -65,4 +69,168 @@ html{
 
 hr{
     background-color: $grey-dark;
+}
+.section{
+    padding:6rem
+}
+
+h1{
+    font-size: 34px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+p{
+    font-size: 16px;
+}
+
+/*Text Color*/
+
+.has-text-yellow{
+    color: $yellow;
+}
+
+/***** Backgrounds *****/
+
+.has-background-orange{
+    background-color: $orange
+}
+
+.has-background-blue{
+    background-color: $blue;
+}
+
+.has-background-purple{
+    background-color: $purple;
+}
+
+.has-background-yellow{
+    background-color: $yellow;
+}
+
+.has-background-green{
+    background-color: $green;
+}
+
+.has-background-pink{
+    background-color: $pink;
+}
+
+.has-no-background{
+    background: none;
+}
+
+/* Slick Slider */
+
+.slick-slider,
+.slick-list,
+.slick-track {
+    height: max-content ;
+}
+
+.slick-dots {
+    bottom: 2rem;
+    li button:before {
+        color: white;
+        font-size: 0.8rem;
+    }
+    li.slick-active button:before {
+        color: white;
+    }
+}
+
+.slick-next {
+    right: 2rem;
+    width: 20px;
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(59deg) brightness(30%) contrast(102%);
+    &:before {
+        content: none;
+    }
+}
+
+.slick-prev {
+    left: 2rem;
+    z-index: 1;
+    width: 20px;
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(59deg) brightness(30%) contrast(102%);
+    &:before {
+        content: none;
+    }
+}
+
+.slick-disabled {
+    opacity: 0.5;
+}
+
+@include mobile {
+    .slick-next {
+        right: 0.5rem;
+    }
+    .slick-prev {
+        left: 0.5rem;
+    }
+    .hero-slider-item {
+        .slider-image-description {
+            left: auto;
+            right: 20px;            
+            max-height: 180px;
+        }
+    }
+}
+
+@include touch {
+    .hero-slider-item {
+        height: 100vh;
+        .slider-icon {
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+@include desktop {
+    .hero-slider-item {
+        .slider-icon {
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+@include widescreen {
+    .hero.is-large {
+        .hero-slider-item {
+            .hero-body {
+                padding-left: 18rem;
+                padding-right: 18rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-height: 600px){
+    .slider-icon {
+        margin-bottom: 0px !important;
+    }
+}
+
+/*---------------------*/
+
+@media screen and (max-width: 480px) {
+    .section{
+        padding: 6rem 2rem
+    }
+
+    h1{
+        font-size: 20px;
+    }
+    
+    h2{
+        font-size: 16px;
+    }
+    
+    p{
+        font-size: 16px;
+    }
+    
 }

@@ -1,0 +1,27 @@
+#ecosystem .hexagono img{
+    width:70%;
+    margin:auto
+}
+
+@media screen and (max-width: 768px){
+    .hexagono-mobile-container{
+        position: relative;
+        padding-left: 0;
+    }
+
+    .hexagono-mobile-container .image{
+        width:80%
+    }
+    
+    .hexagono{
+        position:absolute;
+        top:0;
+        bottom:0;
+        left: 0;
+    }
+
+    #ecosystem .hexagono img{
+        width:100%;
+        margin:auto
+    }
+}

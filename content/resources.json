@@ -1,0 +1,125 @@
+{
+    "title":"resources.title",
+    "description":"resources.description",
+    "subtitle":"resources.subtitle",
+    "resources":[
+        {
+        "title":"resources.main_title_1",
+            "subtitle":"resources.subtitle_1",
+            "link": "https://democraciaenred.org/static/assets/ebooks/DER_DESINFORMACIONPDF.pdf",
+            "id":"desinformacion",
+            "color":"yellow"
+        },
+        {
+            "title":"resources.main_title_2",
+            "subtitle":"resources.subtitle_2",
+            "link": "http://www.recuperarlapolitica.org/",
+            "id": "recuperarLaPolitica",
+            "color":"orange"
+        },
+        {   
+
+            "title":"resources.main_title_3",
+            "subtitle":"resources.subtitle_3",
+            "link":"https://drive.google.com/file/d/115nxDhoZ6eUD3ab8n60lpEAFg6aoVv94/view",
+            "id":"guiaCiudadana",
+            "color":"blue"
+        },
+        {   
+
+            "title":"resources.main_title_4",
+            "subtitle":"resources.subtitle_4",
+            "link":"https://democraciaenred.org/static/assets/ebooks/DER_Kit_PParticipativo.pdf",
+            "id": "cajaHerramientasPresupuesto",
+            "color":"green"
+        },
+        {   
+
+            "title":"resources.main_title_5",
+            "subtitle":"resources.subtitle_5",
+            "link":"https://democraciaenred.org/static/assets/ebooks/DER_Kit_CCiudadana.pdf",
+            "id": "cajaHerramientasConsulta",
+            "color":"purple"
+        },
+        {   
+
+            "title":"resources.main_title_6",
+            "subtitle":"resources.subtitle_6",
+            "link":"https://medium.com/multitudes/presupuestos-participativos-en-instituciones-educativas-para-qu%C3%A9-8a3d466a1ece",
+            "id":"presupuestoParticipativo",
+            "color":"orange"
+        },
+        {   
+
+            "title":"resources.main_title_7",
+            "subtitle":"resources.subtitle_7",
+            "link":"https://corazonesymentes.org/",
+            "id":"corazonesYMentes",
+            "color":"purple"
+
+        },
+        {
+            "title":"resources.main_title_8",
+            "subtitle":"resources.subtitle_8",
+            "link":"https://es.reflexicons.org/home-es",
+            "id":"refexicons",
+            "color":"yellow"
+        },
+        {
+            "title":"resources.main_title_9",
+            "subtitle":"https://www.facebook.com/democraciaenred/photos/3971475316246377",
+            "id":"ppvl",
+            "color":"orange"
+        },
+        {
+            "title":"resources.main_title_10",
+            "subtitle":"resources.subtitle_10",
+            "link":"https://drive.google.com/file/d/1Zeoetawt1TL8PbgN6RaJup07J4_OGgXX/view?usp=sharing",
+            "id":"leyesAbiertas",
+            "color":"blue"
+        },
+        {
+            "title":"resources.main_title_11",
+            "subtitle":"resources.subtitle_11",
+            "link":"https://open.spotify.com/show/6vZjR6uzaD7X0Xt8XgqTck?si=hYTKjElMSzCB-8QTvnnTvg&dl_branch=1",
+            "id":"desobedientes",
+            "color":"pink"
+        },
+        {
+            "title":"resources.main_title_12",
+            "subtitle":"resources.subtitle_12",
+            "link":"https://drive.google.com/drive/u/0/folders/1UT8Yah539K198sQelMn9fqmeB6Jr0dmD",
+            "id":"politicaRecuperada",
+            "color":"purple"
+        },
+        {
+            "title":"resources.main_title_13",
+            "subtitle":"resources.subtitle_13",
+            "link":"https://www.facebook.com/democraciaenred/photos/4154098927984014",
+            "id":"politicxsTwitter",
+            "color":"blue"
+        },
+        {
+            "title":"resources.main_title_14",
+            "subtitle":"resources.subtitle_14",
+            "link":"https://www.facebook.com/democraciaenred/photos/3532600110133902",
+            "id":"causasComunes",
+            "color":"orange"
+        },
+        {
+            "title":"resources.main_title_15",
+            "subtitle":"resources.subtitle_15",
+            "link":"https://www.instagram.com/p/CIHbaObAd0R/",
+            "id":"participes",
+            "color":"green"
+        },
+        {
+            "title":"resources.main_title_16",
+            "subtitle":"resources.subtitle_16",
+            "link":"https://drive.google.com/file/d/1YfUOz7faDNcN4Fo9O18XTi2shYPFB_Ng/view?usp=sharing",
+            "id":"miedoBronca",
+            "color":"pink"
+        }
+    ]
+    
+}

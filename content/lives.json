@@ -1,0 +1,61 @@
+[
+    {
+        "title":"lives.title_1",
+        "subtitle":"lives.subtitle_1",
+        "description": "lives.description_1",
+        "link": "https://politicosentwitter.com/",
+        "color": "pink",
+        "video":"https://www.youtube.com/embed/z258VDvsQD4",
+        "id": "live-politics-tw"
+    },
+    {
+        "title":"lives.title_2",
+        "subtitle":"lives.subtitle_2",
+        "description": "lives.description_2",
+        "link": "#",
+        "color": "green",
+        "video":"https://www.youtube.com/embed/NmH6-CvpK24",
+        "id": "live-incubadora-ciudades"
+    },
+    {
+        "title":"lives.title_3",
+        "subtitle":"lives.subtitle_3",
+        "description": "lives.description_3",
+        "link": "#",
+        "color": "green",
+        "video":"https://www.youtube.com/embed/zNehcYqxRhk",
+        "id": "live-electas"
+    },
+    {
+        "title":"lives.title_4",
+        "subtitle":"lives.subtitle_4",
+        "description": "lives.description_4",
+        "link": "#",
+        "color": "green",
+        "video":"https://www.youtube.com/embed/eO-V4sYj5H8",
+        "id": "live-volvamos-a-debatir"
+    },
+    {
+        "title":"lives.title_5",
+        "subtitle":"lives.subtitle_5",
+        "description": "lives.description_5",
+        "link": "https://ciudadescomunes.org/",
+        "color": "green",
+        "video":"https://www.youtube.com/embed/jMs-S-MCdyg",
+        "id": "live-ciudades-comunes"
+    },
+    {
+        "title":"lives.title_6",
+        "subtitle":"lives.subtitle_6",
+        "description": "lives.description_6",
+        "link": "https://ciudadescomunes.org/",
+        "color": "green",
+        "video":"https://www.youtube.com/embed/5beGeuQElZw",
+        "id": "live-forma-de-gobernar"
+    }
+
+
+
+
+
+]

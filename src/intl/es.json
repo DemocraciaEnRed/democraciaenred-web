@@ -1,15 +1,15 @@
 {
     "hero_slider": {
         "title_1": "Democratizar la democracia",
-        "subtitle_1": "Herramientas digitales de participación ciudadana para gobiernos e instituciones",
+        "subtitle_1": "Abrimos las instituciones públicas y la toma de decisiones a través de procesos participativos innovadores.",
         "image_description_1": "Foto: São Paulo, Brasil",
-        "title_2": "Tecnología",
+
+        "title_2": "Democratizar la democracia",
         "image_description_2": "Foto: Mérida, Mexico",
-        "asset_1_title": "Personalizable",
-        "asset_2_title": "Código Abierto",
-        "asset_3_title": "Fácil instalación",
-        "title_3": "Soluciones",
-        "subtitle_3": "Para el poder legislativo, ejecutivo, judicial, organismos descentralizados, partidos políticos, organizaciones y otras instituciones.",
+        "subtitle_2":"Creamos soluciones de participación ciudadana con gobiernos y activistas para fortalecer la democracia.",
+
+        "title_3": "Democratizar la democracia",
+        "subtitle_3": "Buscamos recuperar la política incorporando a la ciudadanía en los procesos de toma de decisión.",
         "image_description_3": "Foto: Guillermo Batakis, Buenos Aires, Argentina"
     },
     "products": {
@@ -97,7 +97,6 @@
         "subtitle_3": "Cámara de Diputados de la Nación"
     },
     "footer": {
-        "title": "democraciaOS",
         "description": "La tecnología avanza y cambia nuestras vidas. Es el momento del sistema político de abrirse al diálogo con la participación ciudadana.",
         "copyright_1": "Democracia OS es un proyecto de ",
         "copyright_2": ", una ONG con base en Buenos Aires, Argentina."
@@ -360,7 +359,187 @@
         "features_6_2": "Descarga de resultados por administradores y usuarios",
         "features_6_3": "Publicación de resultados al finalizar la votación para votantes y candidaturas",
         "img_6": "img_5_6_es"
+
+    },"lives": {
+
+        "title_1":"POLITICXS EN TWITTER ",
+        "subtitle_1":"",
+        "description_1": "Políticxs en Twitter es un repositorio con interacciones de más de 500 usuarios relacionados con la política en Argentina. Ponemos a disposición de la comunidad este ATLAS con datos libres y reutilizables, para facilitar la producción de conocimiento. Te invitamos a conocer más en el evento que hicimos de lanzamiento!",
+
+        "title_2":"Incubadora de Ciudades Comunes",
+        "subtitle_2":"",
+        "description_2": "#VolverALaCalle busca soluciones replicables, de bajo costo y alto impacto para reactivar los espacios públicos con distanciamiento físico y recuperar la confianza perdida en la vida urbana. En el marco del programa de incubación los proyectos ganadores del #IDEATÓN, Agustín Frizzera, Director Ejecutivo de Democracia En Red y Coordinador de Causas Comunes, charló sobre Gobierno Abierto y Nuevas Tecnologías. Conocé más en http://ciudadescomunes.org",
+
+        "title_3":"Electas",
+        "subtitle_3":"",
+        "description_3": "Un estudio y serie audiovisual sobre las mujeres latinoamericanas en el poder. Una aproximación a entender cómo las prácticas políticas y culturales pueden cambiar los espacios políticos institucionales en América Latina y los paradigmas de poder. \n  Más de 96 entrevistas a mujeres electas y especialistas en política y género de 6 países de América Latina.",
+
+        "title_4":"#VolvamosADebatir",
+        "subtitle_4":"",
+        "description_4":"Un encuentro online gratuito para pensar las consecuencias de seguir degradando nuestro espacio público, nuestros lugares comunes. \n Un espacio para analizar cómo discutimos en las redes con una mirada humana, tecnológica y política. \n       Paneles, conversatorios, conferencias y la presentación del documento Estrategias y recomendaciones para enfrentar la #desinformación.",
+
+        "title_5":"El impacto de la crisis actual en las decisiones de las ciudades",
+        "subtitle_5":"",
+        "description_5":"Una observación desde el confinamiento de la experiencia del entorno construido (planificacion urbana, espacio público, espacio privado, movilidad, lucha camLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua climático, vivienda) y a la vista de esta observación/experiencia. Algunas reflexiones abiertas de cómo pueden cambiar las decisiones que tomemos, o quizás las preguntas que nos hagamos en relación al entorno urbano que ya está construído. ",
+
+        "title_6":"¿Cambia la forma de gobernar? ",
+        "subtitle_6":"",
+        "description_6":"Sentimos que el COVID-19 “lo cambia todo”, que nuestras vidas ya no serán iguales. Pero ¿cómo impactará la cuarentena más masiva de la historia en la gestión pública? ¿cuáles son los ajustes que podemos prever en la forma en que se gobiernan las ciudades? ¿cuáles son las oportunidades?"
+
+    },"team":{
+
+        "title_1":"Quienes Somos",
+        "description_1": "Somos una organización conformada por personas activistas, programadoras y científicas sociales.\n Queremos abrir las instituciones públicas y los procesos de toma de decisión.\n Buscamos recuperar la política",
+        
+        "title_2":"Agustín",
+        "subtitle_2": "Director Ejecutivo",
+        "description_2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "id_2":"agustin",
+
+        "title_3":"Florencia",
+        "subtitle_3":"Coordinadora de Proyectos",
+        "description_3":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+
+        "title_4":"Don Powa",
+        "subtitle_4":"Desarrollo de proyectos",
+        "description_4":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+
+        "title_5":"Lu",
+        "subtitle_5": "Gestión de proyectos",
+        "description_5":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        
+        "title_6": "Agustina",
+        "subtitle_6":"Comunicación",
+        "description_6":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        
+        "title_7":"Daniel",
+        "subtitle_7":"Comunicación",
+        "description_7":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "id_7":"dani",
+
+        "title_8":"Guille",
+        "subtitle_8":"Desarrollo",
+        "8":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        
+        "title_9":"Álvaro",
+        "subtitle_9":"DevOps",
+        "description_9":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "id_9":"alvaro",
+
+        "title_10":"Vale",
+        "subtitle_10":"Gestión de proyectos",
+        "description_10":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+
+        "title_11":"Florencia",
+        "subtitle_11":"Presidenta",
+        "description_11":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+
+        "title_12": "Mau",
+        "subtitle_12": "Diseño Gráfico",
+        "description_12":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+
+        "title_13":"Niqui",
+        "subtitle_13":"Community Manager",
+        "description_13":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+
+        "title_14":"Mija",
+        "subtitle_14":"Desarrollo",
+        "description_14":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+
+        "title_15":"Diego",
+        "subtitle_15":"Desarrollo",
+        "description_15":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+
+        "title_16":"Juli",
+        "subtitle_16":"Desarrollo",
+        "description_16":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+
+        "title_17":"Anto",
+        "subtitle_17":"Desarrollo",
+        "description_17":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"        
+        
     },
+    "ecosystem":{
+        "main_title":"Ecosistema",
+
+        "title_1":"REDES & COMUNIDADES:",
+        "features_1_1":"RINP",
+        "features_1_2":"Red de Parlamento abierto",
+        "features_1_3":"People Powered",
+        "features_1_4":"Red de OSC para un Estado Abierto",
+        "features_1_5":"Abrelatam",
+        "descripton_1":"",
+        
+        "title_2":"GOBIERNOS E INSTITUCIONES",
+        "description_2": "Rosario, San Lorenzo, Vicente Lopez, Sunchales, Ecuador, Cámara Diputados Argentina, Concejo Bogota, Maipu, Godoy cruz, Santa lab, Universidad de Rosario, Gobierno de la Ciudad de Buenos Aires, Universidad de Buenos Aires.",
+
+        "title_3": "ORGANIZACIONES Y MOVIMIENTOS:",
+        "description_3": "Extituto, Artemisas, ODIA, ART 41, Change, ACIJ, Directorio Legislativo, ACCION COLECTIVA, ADS, Virtuagora, Conocimiento Abierto, Fundacion conocimiento abierto, Nave, Nuestra Córdoba, Nuestra Mendoza, Fundacion Huesped, f Activismo Digital, Fundeps, Estamos Listas, Minu, Sumando, Observatorio Red, RedAccion, Update",
+
+        "title_4": "FINANCIADORES",
+        "description_4": "Open Society Foundation, Luminate, BID, AVINA, UE, KAS, Y combinator, Fondo Altec (Omidyar y Avina) / CLIP (Conexiones Latinoamericanas para la Innovación Política) / FHHC (Fundación Henrique Cardoso), IFA, Tomson Reuters, FES ,CAF, google (gsuite + ads), microsoft (AZURE ), PERFIT (tenemos descuento), SLACK" ,
+
+        "title_5": "VOS TAMBIÉN SOS PARTE",
+        "description_5":"Descubrí cómo sumarte y colaborar. ",
+
+        "title_6": "QUIÉNES SOMOS",
+        "description_6": "Conocé al equipo de Democracia en Red. "
+
+    },
+    "resources":{
+        "title":"Recursos",
+        "description":"Desarrollamos tecnología cívica innovadora. Producimos contenidos para la incidencia ciudadana. Sistematizamos nuestas experiencias.",
+        "subtitle":"Explorá nuestro trabajo.",
+
+        "main_title_1": "#Desinformación",
+        "subtitle_1": "Más allá de las noticias falsas",
+
+        "main_title_2":"Recuperar la política",
+        "subtitle_2":"Recuperarla significa honrarla. ¿Cómo se organiza el poder y la democracia en una sociedad líquida?",
+
+        "main_title_3":"Internet: Guía Ciudadana.",
+        "subtitle_3":"Un primer paso para que el uso crítico de Internet gane el lugar que merece.",
+
+        "main_title_4":"Caja de herramientas",
+        "subtitle_4":"¿Cómo hacer un presupuesto participativo?",
+
+        "main_title_5":"Caja de herramientas",
+        "subtitle_5":"¿Cómo hacer una consulta ciudadana?",
+        
+        "main_title_6":" Presupuestos participativos en instituciones educativas: ¿para qué?",
+        "subtitle_6":" ",
+
+        "main_title_7":"Corazones y Mentes",
+        "subtitle_7":" ",
+
+        "main_title_8":"Refexicons:",
+        "subtitle_8":"Invitación a mensajes de reflexión",
+
+        "main_title_9":"Presupuesto Participativo Vicente López",
+        "subtitle_9":"",
+
+        "main_title_10":"Leyes Abiertas",
+        "subtitle_10":"",
+
+        "main_title_11":"Desobedientes",
+        "subtitle_11":"Las normas hay que cumplirlas hasta que necesitamos romperlas",
+
+        "main_title_12":"Serie: Política Recuperada",
+        "subtitle_12":"n",
+
+        "main_title_13":"Políticos en Twitter:",
+        "subtitle_13":"repositorio con interacciones de más de 500 usuarios relacionados con la política en Argentina.",
+
+        "main_title_14":"Causas Comunes",
+        "subtitle_14":"",
+
+        "main_title_15":"Participes digital",
+        "subtitle_15":"",
+
+        "main_title_16":"el Miedo y la Bronca",
+        "subtitle_16":""
+    },
+
     "requirements": "Requisitos",
     "features": "Características",
     "preview": "Visualización",

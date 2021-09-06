@@ -1,0 +1,188 @@
+[
+    {
+        "title":"team.title_1",
+        "subtitle":"team.subtitle_1",
+        "description": "team.description_1",
+        "socialmedia":[]
+    },
+    {
+        "title":"team.title_2",
+        "subtitle":"team.subtitle_2",
+        "description": "team.description_2",        
+        "socialmedia":[
+            {
+                "url": "https://twitter.com/agustinfrizzera",
+                "icon":"tw"
+            } 
+        ],
+        "id":"agustin"
+    },
+    {
+        "title":"team.title_3",
+        "subtitle":"team.subtitle_3",
+        "description": "team.description_3",        
+        "socialmedia":[
+            {
+                "url": "www.linkedin.com/in/florenciacaffarone",
+                "icon":"ln"
+            }
+        ],
+        "id":"florencia-dir"
+    },
+    {
+        "title":"team.title_4",
+        "subtitle":"team.subtitle_4",
+        "description": "team.description_4",        
+        "socialmedia":[
+            {
+                "url": "https://www.linkedin.com/in/don-powa-59290473/",
+                "icon":"ln"
+            }
+        ],
+        "id":"powa"
+    },
+    {
+        "title":"team.title_5",
+        "subtitle":"team.subtitle_5",
+        "description": "team.description_5",        
+        "socialmedia":[
+            {
+                "url":"https://twitter.com/_lucianavega" ,
+                "icon":"ig"
+            }
+        ],
+        "id":"luciana"
+    },
+    {
+        "title":"team.title_6",
+        "subtitle":"team.subtitle_6",
+        "description": "team.description_6",        
+        "socialmedia":[
+            {
+                "url": "https://www.instagram.com/agusmanuele",
+                "icon":"tw"
+            }
+        ],
+        "id":"agustina"
+    },
+    {
+        "title":"team.title_7",
+        "subtitle":"team.subtitle_7",
+        "description": "team.description_7",
+        "socialmedia":[
+            {
+                "url":"https://www.instagram.com/dani.zarate" ,
+                "icon":"ig"
+            }
+        ],
+        "id":"daniel"
+    },
+    {
+        "title":"team.title_8",
+        "subtitle":"team.subtitle_8",
+        "description": "team.description_8",
+        "socialmedia":[
+            {
+                "url":"https://twitter.com/guillermocroppi" ,
+                "icon":"tw"
+            }
+        ],
+        "id":"guille"
+    },
+    {
+        "title":"team.title_9",
+        "subtitle":"team.subtitle_9",
+        "description": "team.description_9",
+        "socialmedia":[
+            {
+                "url": "https://github.com/mxdlx",
+                "icon":"gh"
+            }
+        ],
+        "id":"alvaro"
+    },
+    {
+        "title":"team.title_10",
+        "subtitle":"team.subtitle_10",
+        "description": "team.description_10",        
+        "socialmedia":[
+            {
+                "url": "https://twitter.com/ValeLisciani",
+                "icon":"tw"
+            }
+        ],
+        "id":"vale"
+    },
+    {
+        "title":"team.title_11",
+        "subtitle":"team.subtitle_11",
+        "description": "team.description_11",        
+        "socialmedia":[
+            {
+                "url": "https://twitter.com/juicyminerva",
+                "icon":"tw"
+            }
+        ],
+        "id":"florencia-presi"
+    },
+    {
+        "title":"team.title_12",
+        "subtitle":"team.subtitle_12",
+        "description": "team.description_12",        
+        "socialmedia":[
+            {
+                "url": "https://www.instagram.com/salernomau",
+                "icon":"ig"
+            }
+        ],
+        "id":"mau"
+    },
+    {
+        "title":"team.title_13",
+        "subtitle":"team.subtitle_13",
+        "description": "team.description_13",        
+        "socialmedia":[
+            {
+                "url": "https://www.instagram.com/niquialonso/",
+                "icon":"ig"
+            }
+        ],
+        "id":"niqui"
+    },
+    {
+        "title":"team.title_14",
+        "subtitle":"team.subtitle_14",
+        "description": "team.description_14",        
+        "socialmedia":[
+            {
+                "url": "https://www.instagram.com/elgordomija",
+                "icon":"ig"
+            }
+        ],
+        "id":"mija"
+    },
+    {
+        "title":"team.title_15",
+        "subtitle":"team.subtitle_15",
+        "description": "team.description_15",        
+        "socialmedia":[
+            {
+                "url": "https://github.com/devhormiga",
+                "icon":"gh"
+            }
+        ],
+        "id":"diego"
+    },
+    {
+        "title":"team.title_16",
+        "subtitle":"team.subtitle_16",
+        "description": "team.description_16",        
+        "socialmedia":[
+            {
+                "url": "https://github.com/lieta96",
+                "icon":"gh"
+            }
+        ],
+        "id":"juli"
+    }
+]

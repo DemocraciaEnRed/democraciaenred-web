@@ -1,0 +1,43 @@
+.grid-sizer,
+.grid-item { width: 33%; }
+
+.my-masonry-grid {
+    display: -webkit-box; /* Not needed if autoprefixing */
+    display: -ms-flexbox; /* Not needed if autoprefixing */
+    display: flex;
+    width: auto;
+  }
+  .my-masonry-grid_column {
+      background-clip: padding-box;
+  }
+
+.resource-container{
+    position: relative;
+}
+
+.resource-container img{
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.resource-description{
+    height: 100%;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.resource-description:hover{
+    opacity: 1;
+}
+
+.has-background-dark-grey{
+    background-color:#1D1D1B;
+}

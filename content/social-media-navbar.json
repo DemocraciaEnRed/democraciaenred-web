@@ -1,0 +1,28 @@
+[
+    { 
+        "link":"https://www.facebook.com/democraciaenred/",
+        "icon":"fas fab fa-facebook-square"
+   
+    },
+    {        
+        "link":"https://twitter.com/fundacionDER",
+        "icon":"fas fab fa-twitter"
+    },
+    {
+        "link":"https://www.instagram.com/democraciaenred/",
+        "icon":"fas fab fa-instagram"
+    },
+    {
+        "link":"https://github.com/democraciaenred",
+        "icon":"fas fab fa-github"
+        
+    },
+    {
+        "link":"https://www.youtube.com/channel/UCm5n0zxmfWN0pMuMPxk7psw",
+        "icon":"fab fa-youtube"
+    },
+    {
+        "link":"https://medium.com/@fundaciondemocraciaenred",
+        "icon":"fab fa-medium-m"
+    }
+]

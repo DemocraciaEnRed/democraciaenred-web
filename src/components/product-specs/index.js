@@ -350,7 +350,7 @@ export default ({ data }) =>  {
                             <div className="column">
                             {/* <h3 className="title is-3 has-text-centered">{intl.formatMessage({id: "preview"})}</h3> */}
 
-                                    <img src={`${images[intl.formatMessage({id: data.image})]}`}  className="image is-centered"alt="" />
+                                <img src={`${images[intl.formatMessage({id: data.image})]}`}  className="image is-centered"alt="" />
                             </div>
                         </div>
                     </div>

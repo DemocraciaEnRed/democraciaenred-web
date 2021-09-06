@@ -1,0 +1,17 @@
+@import "~bulma/sass/utilities/_all.sass";
+
+.live-slider.hero.is-fullheight.is-primary{
+    position:relative;
+    background-color: rgb(235 195 243);
+}
+
+.title-section{
+    position:absolute;
+    top:0;
+    z-index: 99999;
+    width:100%
+}
+
+.live-image{
+    max-width:150px
+}
