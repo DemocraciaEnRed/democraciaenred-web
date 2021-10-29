@@ -92,6 +92,18 @@ p{
     color: $yellow;
 }
 
+.has-text-green{
+    color:$green
+}
+
+.title.has-text-green::after {
+    background-color:$green;
+}
+
+.title.has-text-white::after {
+    background-color:$white;
+}
+
 /***** Backgrounds *****/
 
 .has-background-orange{
@@ -221,12 +233,12 @@ p{
         padding: 6rem 2rem
     }
 
-    h1{
-        font-size: 20px;
+    h1, .title{
+        font-size: 24px;
     }
     
     h2{
-        font-size: 16px;
+        font-size: 20px;
     }
     
     p{

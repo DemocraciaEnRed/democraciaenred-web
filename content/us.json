@@ -1,0 +1,12 @@
+{
+    "title":"usPage.title",
+    "subtitle":"usPage.subtitle",
+    "mision_values":{
+        "title":"usPage.mision_values.title",
+        "description":"usPage.mision_values.description"
+    },
+    "mision_approach":{
+        "title":"usPage.mision_approach.title",
+        "description":"usPage.mision_approach.description"
+    }
+}

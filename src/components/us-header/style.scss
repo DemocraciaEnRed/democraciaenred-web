@@ -1,0 +1,19 @@
+@import "~bulma/sass/utilities/_all.sass";
+
+.us-header .hero-body{
+    background-color: rgba(15, 10, 7, 0.698);
+}
+
+.us-header{
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    @include mobile{
+    height:50vh
+}
+}
+
+.us-header .subtitle{
+    max-width:700px
+}
+

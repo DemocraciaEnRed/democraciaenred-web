@@ -44,16 +44,37 @@ export default ({ slides }) =>  {
         dots: true,
         infinite: false,
         speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
+        slidesToShow: 3,
+        slidesToScroll: 3,
         swipeToSlide: true,
         nextArrow: <NextArrow />,
-        prevArrow: <PrevArrow />
-    };
+        prevArrow: <PrevArrow />,
+        responsive: [
+            {
+              breakpoint: 840,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                  infinite: true,
+                  dots: true
+                }
+              }
+
+        ]
+    }
 
     
     return (
-        <section id="team-slider" className="team-slider hero is-fullheight is-large is-primary is-bold">
+        <section id="team-slider" className="px-6 team-slider pb-6 hero is-fullheight-deesktop is-large is-primary">
             <Slider {...sliderSettings} >
                 {slides.map((team) => 
                     <Team data={team} key={team.id} className="pt-6"/>

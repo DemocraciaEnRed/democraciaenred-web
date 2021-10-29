@@ -12,8 +12,8 @@
 .hex-container {
   overflow: hidden;
   display: inline-block;
-  margin: 4em 0;
-  width: 22em; height: 19.32em;
+  margin: 2em 0;
+  width: 15em; height: 15em;
   transform: rotate(-30deg) skewX(30deg);
   border-radius: .5em;
 }
@@ -42,8 +42,8 @@
 }
 
 .hex-container-inner-2:before {
-  margin-top: -1.5em;
-  height: 22em;
+  margin-top: -0.5em;
+  height: 18em;
   transform: skewX(-30deg) rotate(-90deg);
   background: url(https://assets.codepen.io/2017/17_05_a_amur_leopard_34.jpg);
   content: '';

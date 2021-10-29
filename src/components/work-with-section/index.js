@@ -17,16 +17,33 @@ import red_innovacion from "./assets/red_innovacion.jpg"
 import rosario from "./assets/rosario.jpg"
 
 
-export default () =>  {
+const WorkWith = () =>  {
     const intl = useIntl()
+
+    const logos=[
+    {
+        name: "Vicente López",
+        src:vicente_lopez,
+        class:"vicente-lopez"
+    }
+    ]
+
+    
 
     return (
         <section id="work-with" className="section work-with">
             <div className="container has-text-centered">
-                <h3 className="main-title title is-4 is-size-1-desktop">
+                <h2 className="main-title mb-3">
                     {intl.formatMessage({ id: 'work_with'})}
-                </h3>
+                </h2>
                 <div className="columns is-multiline">
+                    {logos.map(logo=>
+                        <div className="column is-one-quarter-tablet is-one-quarter-desktop is-half-mobile">
+                        <figure className="image">
+                            <img src={logo.src} className={`cliente-logo${logo.class}`} alt={`${logo.name}`}/>
+                        </figure>
+                    </div>
+                        )}
                     <div className="column is-one-quarter-tablet is-one-quarter-desktop is-half-mobile">
                         <figure className="image">
                             <img src={legislatura_caba} className="client-logo legislatura" alt="Legislatura Ciudad Autoónoma de Buenos Aires"/>
@@ -102,3 +119,5 @@ export default () =>  {
         </section>
     )
 }
+
+export default WorkWith

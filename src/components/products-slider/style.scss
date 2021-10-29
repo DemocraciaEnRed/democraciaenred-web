@@ -42,6 +42,14 @@ $coral: #f09c77;
 
 }
 
+.slick-prev{
+    left: 0 !important;
+}
+
+.slick-next{
+    right: 0 !important;
+}
+
 .slick-dots {
     bottom: 2rem;
     li button:before {

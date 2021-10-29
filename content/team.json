@@ -1,11 +1,5 @@
 [
     {
-        "title":"team.title_1",
-        "subtitle":"team.subtitle_1",
-        "description": "team.description_1",
-        "socialmedia":[]
-    },
-    {
         "title":"team.title_2",
         "subtitle":"team.subtitle_2",
         "description": "team.description_2",        

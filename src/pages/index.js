@@ -18,13 +18,14 @@ import EcosystemSlider from "../components/ecosystem-slider"
 import Resources from "../components/resources"
 import dataResources from "../../content/resources.json"
 import Division from "../components/division"
+import UsSection from "../components/us-section"
+import dataUs from '../../content/us-section.json'
 
 //Sets smooth scroll animation for anchor links
 if (typeof window !== "undefined") {
     const SmoothScroll = require("smooth-scroll");
     new SmoothScroll('a[href*="#"]');
 }
-
 
 export default () => {
 
@@ -33,7 +34,7 @@ export default () => {
     const handleForm = () =>{
         setShow(true);
     }
-
+    
     return (
     <React.Fragment>
         <SEO />
@@ -45,6 +46,7 @@ export default () => {
         <ProductsSlider slides={productsData}/>
         <EcosystemSlider slides={ecosystemData}/>
         <LivesSlider slides={livesData} />
+        <UsSection data={dataUs}/>
         <TeamSlider slides={teamData}/>
         <Footer handleForm={handleForm} />
     </React.Fragment>

@@ -1,22 +1,41 @@
 import React from "react"
 import "./styles.scss"
-import image from "./assets/slider1.jpg"
 import { useIntl } from "gatsby-plugin-intl"
+import { PopupButton } from '@typeform/embed-react'
+
 
 export default ({ data }) =>  {
     const intl = useIntl()
 
     return (
-        <section id="nosotros" className="hero is-fullheight is-large is-dark us-section" style={{ backgroundImage:`url("${image}")`}}>
-            <div className="hero-body">
-                <div className="container has-text-centered">
-                    <h3 className="title is-spaced is-size-1-desktop">
-                        {intl.formatMessage({ id: data.title})}
-                    </h3>
-                    <p className="subtitle is-size-4-desktop">
-                        {intl.formatMessage({ id: data.subtitle})}
-                    </p>
-                    <a className="has-text-white has-text-underline is-size-5" href={data.link} target="_blank" rel="noopener noreferrer">{data.text_link}</a>
+        <section id="nosotros" className="section us-section pb-3 is-primary">
+            <div className="">
+                <div className="container columns">
+                    <div className="column is-one-third-widescreen">
+                    <h1 className="has-text-black title is-spaced  is-hidden-tablet ">
+                            {intl.formatMessage({ id: data.title})}
+                        </h1>
+                        <div className="is-flex is-justify-content-center">
+                            <div class='hex-container'>
+                                <div class='hex-container-inner'>
+                                    <div class={`hex-container-inner-2 ${data.id}-bg`}></div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div className="column">
+                        <h1 className="has-text-black title is-spaced  is-hidden-mobile ">
+                            {intl.formatMessage({ id: data.title})}
+                        </h1>
+                        <p className="has-text-black subtitle">
+                            {intl.formatMessage({ id: data.subtitle_1})}
+                        </p>
+                        <p className="has-text-black subtitle">
+                            {intl.formatMessage({ id: data.subtitle_2})}
+                        </p>
+                        <PopupButton id="bkXtFW" className="button ml-0 is-rounded is-medium is-black" href="{data.link}">{intl.formatMessage({ id:data.text_link })}</PopupButton>
+                    </div>
+                    
                 </div>
             </div>
         </section>

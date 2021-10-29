@@ -22,7 +22,7 @@ import politicxsTwitter from './assets/politicxs-twitter.jpg'
 import causasComunes from './assets/causas-comunes.png'
 import participes from './assets/participes.jpg'
 import miedoBronca from './assets/miedo-bronca.jpg'
-import HeaderResources from "../header-resources";
+
 
 const images={
     desinformacion,
@@ -32,15 +32,15 @@ const images={
     cajaHerramientasConsulta,
     presupuestoParticipativo,
     corazonesYMentes,
-    refexicons,
-    ppvl,
-    leyesAbiertas,
-    desobedientes,
-    politicaRecuperada,
-    politicxsTwitter,
-    causasComunes,
-    participes,
-    miedoBronca
+//     refexicons,
+//     ppvl,
+//     leyesAbiertas,
+//     desobedientes,
+//     politicaRecuperada,
+//     politicxsTwitter,
+//     causasComunes,
+//     participes,
+//     miedoBronca,
 }
 
 const photos=[
@@ -133,11 +133,34 @@ const photos=[
     }
 ]
 
+//Esto funciona, resta linkearlo con el tipo de recurso que queremos mostrar en pantalla y armar la visualización.
+//Creo que cuando 4%2 se ve muy mal, habría que pensar otra alternativa
+let totalResources=Object.keys(images).length
+let col
+let n
+
+function numberOfColumns (){
+    if (Object.values(images).length%4==0){
+        col=4;
+        n=0
+    } else if (Object.values(images).length%3==0){
+        col=3
+        n =0
+    } else if (Object.values(images).length%4==2){
+        col=4
+        n=2
+    }
+    else if (Object.values(images).length%4==3){
+        col=4
+        n=3
+    }
+}
 
 export default ({resources}) =>  {
     
     const intl = useIntl()
-
+    numberOfColumns()
+    
     return (
         <section id="resources">
 
@@ -151,11 +174,11 @@ export default ({resources}) =>  {
             </div>
 
             <Masonry
-                breakpointCols={4}
+                breakpointCols={col}
                 className="my-masonry-grid"
-                columnClassName="my-masonry-grid_column">
+                columnClassName="my-masonry-grid_column">        
                     {
-                        resources.resources.map ((resource)=>
+                        resources.resources.slice(0,totalResources-n).map ((resource)=>
                         <div className="resource-container">
                         <a href={resource.link} target="_blank" >
                            <figure key={resource.id} className="image m-auto" >
@@ -170,6 +193,29 @@ export default ({resources}) =>  {
                         ) 
                     }
             </Masonry>
+
+            <Masonry
+            
+                breakpointCols={n}
+                className="my-masonry-grid"
+                columnClassName="my-masonry-grid_column">
+                    {
+                        resources.resources.slice(totalResources-n).map ((resource)=>
+                        <div className="resource-container">
+                        <a href={resource.link} target="_blank" >
+                           <figure key={resource.id} className="image m-auto" >
+                                <img src={images[resource.id]}  width="100px" alt="" />
+                            </figure> 
+                             <div className={`resource-description has-background-${resource.color} is-flex is-flex-direction-column is-justify-content-center p-3`}>
+                                <h2 className="has-text-black mb-1">{intl.formatMessage({ id: resource.title })}</h2>
+                                <h3 className="has-text-black">{intl.formatMessage({ id: resource.subtitle })}</h3>
+                            </div>
+                         </a>
+                         </div>
+                        ) 
+                    }
+            </Masonry>
+            
 
             {/* <Gallery margin="0" photos={photos}/> */}
             

@@ -1,13 +1,7 @@
 @import "~bulma/sass/utilities/_all.sass";
 
 .us-section {
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    .hero-body {
-        background-color:rgba(60, 36, 21, 0.6);
-        height: 100vh;
-    }
+    background-color: #00d1b2;
 }
 
 @include desktop {
@@ -18,3 +12,20 @@
         }
     }
 }
+
+.us-section .hex-container {
+    width: 20em; height: 20em;
+    @include until ($desktop){
+        width: 15em; height: 15em;
+    }
+}
+
+.us-section .hex-container-inner-2::before {
+    margin-top:0;
+    height: 20rem;
+    @include until ($desktop){
+        margin-top:0;
+        height: 15rem;        
+    }
+}
+
