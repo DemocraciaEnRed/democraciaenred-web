@@ -10,4 +10,11 @@
 
 .slick-dots li button:before {
     color: #000;
-  }
+}
+
+@media screen and (max-width: 768px){
+    .title.our-team{
+        padding-left: 0 !important;
+    }
+
+}

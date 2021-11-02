@@ -75,6 +75,7 @@ export default ({ slides }) =>  {
     
     return (
         <section id="team-slider" className="px-6 team-slider pb-6 hero is-fullheight-deesktop is-large is-primary">
+            <h1 className="pl-6 mb-0 mt-6 our-team title has-text-black">Nuestro equipo</h1>
             <Slider {...sliderSettings} >
                 {slides.map((team) => 
                     <Team data={team} key={team.id} className="pt-6"/>

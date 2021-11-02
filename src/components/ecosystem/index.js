@@ -59,9 +59,18 @@ export default ({data}) =>  {
                             )}
                         </ul>
                     </div>                    
-                    <p className="has-text-black">{intl.formatMessage({ id: data.description })}</p>
+                    <p className="has-text-black">
+                        {
+                            data.description?
+                            `${intl.formatMessage({ id: data.description })}`:''
+                        }
+                    </p>
                     <div className="button-container">
-                        <Link className="button button-disabled-shadow has-no-background is-rounded is-medium is-black is-outlined is-uppercase is-inline-block" to={data.link}>{intl.formatMessage({ id: "see_more" })}</Link>
+                        <Link 
+                            className="button button-disabled-shadow has-no-background is-rounded is-medium is-black is-outlined is-uppercase is-inline-block" 
+                            to={data.link}>
+                            {intl.formatMessage({ id: "see_more" })}
+                        </Link>
                     </div>
                 </div>
 
