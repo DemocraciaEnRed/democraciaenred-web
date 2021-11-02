@@ -12,7 +12,7 @@ import { useIntl, Link } from "gatsby-plugin-intl"
                             className="button button-disabled-shadow has-no-background is-rounded is-medium is-warning is-outlined is-uppercase is-inline-block" 
                             to=''>
                             {intl.formatMessage({ id: "see_more" })}
-                        </Link>
+                    </Link>
                 </div>
                 <div className="column"></div>
             </div>

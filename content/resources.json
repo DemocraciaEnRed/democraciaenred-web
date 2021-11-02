@@ -2,20 +2,23 @@
     "title":"resources.title",
     "description":"resources.description",
     "subtitle":"resources.subtitle",
+    "link":"/recursos",
     "resources":[
         {
-        "title":"resources.main_title_1",
+            "title":"resources.main_title_1",
             "subtitle":"resources.subtitle_1",
             "link": "https://democraciaenred.org/static/assets/ebooks/DER_DESINFORMACIONPDF.pdf",
             "id":"desinformacion",
-            "color":"yellow"
+            "color":"yellow",
+            "home":"true"
         },
         {
             "title":"resources.main_title_2",
             "subtitle":"resources.subtitle_2",
             "link": "http://www.recuperarlapolitica.org/",
             "id": "recuperarLaPolitica",
-            "color":"orange"
+            "color":"orange",
+            "home":"true"
         },
         {   
 
@@ -23,7 +26,8 @@
             "subtitle":"resources.subtitle_3",
             "link":"https://drive.google.com/file/d/115nxDhoZ6eUD3ab8n60lpEAFg6aoVv94/view",
             "id":"guiaCiudadana",
-            "color":"blue"
+            "color":"blue",
+            "home":"true"
         },
         {   
 
@@ -31,7 +35,8 @@
             "subtitle":"resources.subtitle_4",
             "link":"https://democraciaenred.org/static/assets/ebooks/DER_Kit_PParticipativo.pdf",
             "id": "cajaHerramientasPresupuesto",
-            "color":"green"
+            "color":"green",
+            "home":"true"
         },
         {   
 
@@ -39,7 +44,8 @@
             "subtitle":"resources.subtitle_5",
             "link":"https://democraciaenred.org/static/assets/ebooks/DER_Kit_CCiudadana.pdf",
             "id": "cajaHerramientasConsulta",
-            "color":"purple"
+            "color":"purple",
+            "home":"true"
         },
         {   
 
@@ -47,7 +53,8 @@
             "subtitle":"resources.subtitle_6",
             "link":"https://medium.com/multitudes/presupuestos-participativos-en-instituciones-educativas-para-qu%C3%A9-8a3d466a1ece",
             "id":"presupuestoParticipativo",
-            "color":"orange"
+            "color":"orange",
+            "home":"true"
         },
         {   
 
@@ -55,7 +62,8 @@
             "subtitle":"resources.subtitle_7",
             "link":"https://corazonesymentes.org/",
             "id":"corazonesYMentes",
-            "color":"purple"
+            "color":"purple",
+            "home":"true"
 
         },
         {
@@ -69,7 +77,8 @@
             "title":"resources.main_title_9",
             "subtitle":"https://www.facebook.com/democraciaenred/photos/3971475316246377",
             "id":"ppvl",
-            "color":"orange"
+            "color":"orange",
+            "home":"true"
         },
         {
             "title":"resources.main_title_10",

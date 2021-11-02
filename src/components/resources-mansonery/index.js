@@ -40,8 +40,10 @@ const images={
     miedoBronca,
 }
 
-const ResourcesMansonery= ({resources})=>{
+const ResourcesMansonery= ({resources,home})=>{
     const intl = useIntl()
+    // if (home) {return resources.resources.filter(resource=>resource.home=='true')}
+    //pensar
     return (
         <div className="has-background-dark-grey">
             <Masonry
