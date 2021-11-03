@@ -9,8 +9,6 @@ import Mision from "../components/mision"
 import TeamSlider from "../components/team-slider"
 import teamData from "../../content/team.json"
 import WorkWith from "../components/work-with-section"
-
-
 import dataUs from "../../content/us.json"
  
 
@@ -22,7 +20,7 @@ const QuienesSomos = () => {
        <Navbar/>
        <UsHeader data={dataUs}/>
        <Mision data={dataUs}/>
-       <TeamSlider slides={teamData}/>
+       <TeamSlider slides={teamData} title={dataUs}/>
        <WorkWith/>
        <Footer/> 
    </React.Fragment>
