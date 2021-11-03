@@ -20,6 +20,8 @@ import dataResources from "../../content/resources.json"
 import Division from "../components/division"
 import UsSection from "../components/us-section"
 import dataUs from '../../content/us-section.json'
+import PressSlider from '../components/press-slider'
+import pressData from '../../content/press.json'
 
 //Sets smooth scroll animation for anchor links
 if (typeof window !== "undefined") {
@@ -47,7 +49,8 @@ export default () => {
         <EcosystemSlider slides={ecosystemData}/>
         <LivesSlider slides={livesData} />
         <UsSection data={dataUs}/>
-        <TeamSlider slides={teamData}/>
+        <TeamSlider slides={teamData} title={dataUs}/>
+        <PressSlider slides={pressData}/>
         <Footer handleForm={handleForm} />
     </React.Fragment>
     )

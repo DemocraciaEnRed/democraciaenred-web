@@ -401,10 +401,9 @@
     },"usSection":{
         "title":"Quiénes somos",
         "subtitle_1":"Somos una organización conformada por personas activistas, programadoras y científicas sociales. \nQueremos abrir las instituciones públicas y los procesos de toma de decisión.",
-        "subtitle_2":"Buscamos recuperar la política"
-
+        "subtitle_2":"Buscamos recuperar la política",
+        "slider_title":"Nuestro equipo"
     },"team":{
-        
         "title_2":"Agustín",
         "subtitle_2": "Director Ejecutivo",
         "description_2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
@@ -551,6 +550,55 @@
 
         "main_title_16":"el Miedo y la Bronca",
         "subtitle_16":""
+    },
+    "press":{
+        "title":"Prensa",
+        "name_1":"Open Democracy",
+        "title_1":"Simplicity, openness, and modifiability",
+        "subtitle_1":"Governments, endogamic institutions since forever, are not used to opening up. But now there’s political will for it to happen, if a lot of trial and error in the process.",
+
+        "name_2":"BBC",
+        "title_2":"Democracy at the touch of a button? - Newsnight",
+        "subtitle_2":"The internet has transformed our lives in countless ways. But some think that the last redoubt of the unreformed analogue world are our politics and the way our political societies are arranged. Among them are an Argentinian group 'Democracy OS' who have  been working on a twenty-first century upgrade. An app. Pia Mansini, from Democracy OS,  explains for Newsnight.",
+
+        "name_3":"La política online",
+        "title_3":"Tratan proyectos votados en Internet",
+        "subtitle_3":"La Legislatura porteña tratará tres proyectos que fueron elegidos por los ciudadanos mediante votación por Internet. Resultaron ganadores iniciativas sobre Enfermeros, educación y trapitos.",
+
+        "name_4":"La capital",
+        "title_4":"Récord de votantes en el Presupuesto Participativo 2018",
+        "subtitle_4":"Unos 105 mil rosarinos eligieron los proyectos para su barrio entre oficios, deportes, cultura, luces LED y recuperación de espacios públicos",
+
+        "name_5":"Wired",
+        "title_5":"Out in the Open: An Open Source Website That Gives Voters a Platform to Influence Politicians",
+
+        "name_6":"La Nación",
+        "title_6":"Los porteños eligieron prohibir a los cuidacoches",
+        "subtitle_6":"Ese proyecto fue uno de los más votados en la web de la Legislatura",
+
+        "name_7":"TED",
+        "title_7":"How to upgrade democracy for the Internet era",
+        "subtitle_7":"Pia Mancini and her colleagues want to upgrade democracy in Argentina and beyond. Through their open-source mobile platform they want to bring citizens inside the legislative process, and run candidates who will listen to what they say.",
+
+        "name_8":"Popular",
+        "title_8":"Vicente López: Lanzaron los Foros Vecinales Barriales",
+        "subtitle_8":"El intendente de Vicente López, Jorge Macri, presentó una nueva edición de los Foros Vecinales Barriales, en los que los vecinos podrán decidir a qué será asignado parte del presupuesto municipal.",
+
+        "name_9":"Ámbito",
+        "title_9":"Diputados lanzó un portal para que la ciudadanía participe en la elaboración de leyes",
+        "subtitle_9":"Según sus creadores, la plataforma permitirá a los legisladores abrir a los ciudadanos proyectos que estén en etapa de elaboración, para recibir aportes efectivos que permitan mejorar la calidad de los proyectos",
+
+        "name_10":"Radio CUT",
+        "title_10":"Entrevista a Agustín Frizzera director de democracia en red",
+        "subtitle_10":"Diputados lanzó un portal para que la ciudadanía participe en la elaboración de leyes",
+
+        "name_11":"TN",
+        "title_11":"La visión esloganera del futuro y una campaña sin ideas",
+        "subtitle_11":"Nuestro sistema democrático depende de flujo de información veraz y oferta electoral diversa y con candidaturas que digan en forma creible lo que quieren hacer. Estamos lejos de eso.",
+
+        "name_12":"Infobae",
+        "title_12":"Adolescentes y polarización en las redes sociales",
+        "subtitle_12":"Es importante entender cómo funcionan y cómo funcionamos con relación a ellas. Ahí, la verdadera diferencia entre el bien y el mal está en la dicotomía de “dominar la herramienta o ser dominados por ella”"
     },
 
     "requirements": "Requisitos",

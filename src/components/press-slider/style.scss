@@ -1,0 +1,39 @@
+.press-slider.hero.is-fullheight.is-primary{
+    background: #69D69D;
+}
+
+.press-slider .slick-slider,
+.press-slider .slick-list,
+.press-slider .slick-track {
+    height: max-content;
+}
+.press-slider .slick-dots{
+    bottom: 0;
+}
+.press-slider .slick-list{
+    margin-left:1rem;
+    margin-right: 1rem;
+}
+.slick-dots li button:before {
+    color: #000;
+}
+
+@media screen and (max-width: 768px){
+    .title.our-press{
+        padding-left: 0 !important;
+    }
+    .press-slider .slick-prev {
+        right: 4rem !important;
+        top: 0;
+        left: auto !important
+    }
+    .press-slider .slick-next {
+        top: 0;
+        right:1rem !important
+    }
+    .press-slider .slick-list{
+        margin-left:0;
+        margin-right:0;
+    }
+
+}

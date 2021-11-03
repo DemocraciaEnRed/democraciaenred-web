@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./style.scss"
 
-import Team from "../team"
+import Press from '../press'
 
 
 const PrevArrow = ({ className, onClick }) => {
@@ -37,7 +37,7 @@ const NextArrow = ({ className, onClick }) => {
     );
 }
 
-export default ({ slides,title }) =>  {
+export default ({ slides }) =>  {
     const intl = useIntl()
 
     const sliderSettings = {
@@ -74,11 +74,11 @@ export default ({ slides,title }) =>  {
 
     
     return (
-        <section id="team-slider" className="px-6 team-slider pb-6 hero is-fullheight-deesktop is-large is-primary">
-            <h1 className="pl-6 mb-0 mt-6 our-team title has-text-black">{intl.formatMessage({ id: title.slider_title})}</h1>
+        <section id="press-slider" className="section press-slider pb-6 hero is-fullheight-deesktop has-background-yellow">
+            <h1 className="pl-6 mb-0 mt-6 our-press title has-text-black">{intl.formatMessage({ id: slides.title})}</h1>
             <Slider {...sliderSettings} >
-                {slides.map((team) => 
-                    <Team data={team} key={team.id} className="pt-6"/>
+                {slides.press.map((press) => 
+                    <Press data={press} key={press.id} className="pt-6"/>
                 )}
             </Slider>
         </section>
