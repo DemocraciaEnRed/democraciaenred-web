@@ -1,7 +1,6 @@
 import React from "react"
 import "./styles.scss"
-import { useIntl, Link } from "gatsby-plugin-intl"
-import { PopupButton } from '@typeform/embed-react'
+import { useIntl} from "gatsby-plugin-intl"
 
 export default ({ data }) => {
     const intl = useIntl()
@@ -26,7 +25,7 @@ export default ({ data }) => {
                                 <p className="has-text-black is-spaced">{intl.formatMessage({id: data.description})}</p>
 
                                 <div className="button-container ">
-                                    <Link className="button is-rounded is-medium is-inline-block mx-auto" to={data.link}>{intl.formatMessage({ id: "see_more" })}</Link>
+                                    <a className="button is-rounded is-medium is-inline-block mx-auto" href={data.link} target="_blank">{intl.formatMessage({ id: "see_more" })}</a>
                                 </div>
                             </div>
                         </div>
