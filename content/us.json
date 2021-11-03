@@ -8,5 +8,6 @@
     "mision_approach":{
         "title":"usPage.mision_approach.title",
         "description":"usPage.mision_approach.description"
-    }
+    },
+    "slider_title":"usPage.slider_title"
 }
