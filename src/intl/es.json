@@ -23,6 +23,7 @@
         "features_1_4": "Seguimiento de proyectos",
         "features_1_5": "Comentarios",
         "features_1_6": "Votación",
+        
         "title_2":"Consultas Digitales",
         "subtitle_2":"\n Plataforma digital de consulta, diálogo y debate que conecta al gobierno con la comunidad.",
         "description_2": "Busca favorecer la participación, el debate y la interacción entre entidades y personas sobre diversas temáticas",
@@ -504,6 +505,11 @@
         "description":"Desarrollamos tecnología cívica innovadora. Producimos contenidos para la incidencia ciudadana. Sistematizamos nuestas experiencias.",
         "subtitle":"Explorá nuestro trabajo.",
 
+        "filter_1":"Convivencia Digital",
+        "filter_2":"Politica",
+        "filter_3":"Participación Ciudadana",
+        "filter_4":"Activismo",
+
         "main_title_1": "#Desinformación",
         "subtitle_1": "Más allá de las noticias falsas",
 
@@ -529,28 +535,28 @@
         "subtitle_8":"Invitación a mensajes de reflexión",
 
         "main_title_9":"Presupuesto Participativo Vicente López",
-        "subtitle_9":"",
+        "subtitle_9":"pensar subtitulo",
 
         "main_title_10":"Leyes Abiertas",
-        "subtitle_10":"",
+        "subtitle_10":"pensar subtitulo",
 
         "main_title_11":"Desobedientes",
         "subtitle_11":"Las normas hay que cumplirlas hasta que necesitamos romperlas",
 
         "main_title_12":"Serie: Política Recuperada",
-        "subtitle_12":"n",
+        "subtitle_12":"pensar subtitulo",
 
         "main_title_13":"Políticos en Twitter:",
         "subtitle_13":"repositorio con interacciones de más de 500 usuarios relacionados con la política en Argentina.",
 
         "main_title_14":"Causas Comunes",
-        "subtitle_14":"",
+        "subtitle_14":"pensar subtitulo",
 
         "main_title_15":"Participes digital",
-        "subtitle_15":"",
+        "subtitle_15":"pensar subtitulo",
 
         "main_title_16":"el Miedo y la Bronca",
-        "subtitle_16":""
+        "subtitle_16":"pensar subtitulo"
     },
     "press":{
         "title":"Prensa",

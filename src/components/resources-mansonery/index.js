@@ -40,19 +40,36 @@ const images={
     miedoBronca,
 }
 
-const ResourcesMansonery= ({resources,home})=>{
+const ResourcesMansonery= ({resources,home,filter})=>{
     const intl = useIntl()
-    // if (home) {return resources.resources.filter(resource=>resource.home=='true')}
-    //pensar
+    const breakpointCols = {
+        default: 4,
+        700: 2
+      };
     return (
         <div className="has-background-dark-grey">
             <Masonry
-                breakpointCols={4}
+                breakpointCols={breakpointCols}
                 className="my-masonry-grid"
                 columnClassName="my-masonry-grid_column">        
                     {
-                        resources.resources.map ((resource)=>
-                        <div className="resource-container">
+                        resources.resources.filter(resource=>resource.type==filter).map ((resource)=>
+                        <div className="resource-container" key={resources.id}>
+                        <a href={resource.link} target="_blank" >
+                           <figure key={resource.id} className="image m-auto" >
+                                <img src={images[resource.id]}  width="100px" alt="" />
+                            </figure> 
+                             <div className={`resource-description has-background-${resource.color} is-flex is-flex-direction-column is-justify-content-center p-3`}>
+                                <h2 className="has-text-black mb-1">{intl.formatMessage({ id: resource.title })}</h2>
+                                <h3 className="has-text-black">{intl.formatMessage({ id: resource.subtitle })}</h3>
+                            </div>
+                         </a>
+                         </div>
+                        ) 
+                    }
+                    {
+                        resources.resources.filter(resource=>resource.type!==filter).map ((resource)=>
+                        <div className="resource-container" key={resources.id}>
                         <a href={resource.link} target="_blank" >
                            <figure key={resource.id} className="image m-auto" >
                                 <img src={images[resource.id]}  width="100px" alt="" />

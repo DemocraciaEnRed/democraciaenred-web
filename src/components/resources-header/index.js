@@ -1,21 +1,30 @@
-import React from 'react'
-import { useIntl, Link } from "gatsby-plugin-intl"
+import React,{useState} from 'react'
+import { useIntl} from "gatsby-plugin-intl"
+import ResourcesMansonery from '../resources-mansonery'
 
  const ResourcesHeader= ({data})=>{
     const intl = useIntl()
+    const [filter,setFilter]=useState('all')
+    function handleClick(value){
+        setFilter(value)
+        console.log(value)
+    }
     return (
         <section id="resources">
             <div className="columns mt-0 section has-background-dark-grey mb-0 pb-6">
-                <div className="column">
+                <div className="column ">
                     <h1 className="has-text-yellow is-spaced mb-6">{intl.formatMessage({id: data.subtitle})}</h1>
-                    <Link 
-                            className="button button-disabled-shadow has-no-background is-rounded is-medium is-warning is-outlined is-uppercase is-inline-block" 
-                            to=''>
-                            {intl.formatMessage({ id: "see_more" })}
-                    </Link>
+                    {
+                        data.filter.map(filter=>                            
+                            <button key={filter.id} onClick={()=>handleClick(filter.id)}
+                                className="m-1 button button-disabled-shadow has-no-background is-rounded is-small is-warning is-outlined is-uppercase is-inline-block" 
+                                to=''>
+                                {intl.formatMessage({ id: filter.name })}
+                            </button>)
+                    }
                 </div>
-                <div className="column"></div>
             </div>
+            <ResourcesMansonery resources={data} filter={filter}/>
         </section>
     )
 

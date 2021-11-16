@@ -3,6 +3,24 @@
     "description":"resources.description",
     "subtitle":"resources.subtitle",
     "link":"/recursos",
+    "filter":[
+        {
+            "name":"resources.filter_1",
+            "id":"convivencia_digital"
+        },
+        {
+            "name":"resources.filter_2",
+            "id":"politica"
+        },
+        {
+            "name":"resources.filter_3",
+            "id":"participacion_ciudadana"
+        },
+        {
+            "name":"resources.filter_4",
+            "id":"activismo"
+        }
+    ],
     "resources":[
         {
             "title":"resources.main_title_1",
@@ -10,7 +28,8 @@
             "link": "https://democraciaenred.org/static/assets/ebooks/DER_DESINFORMACIONPDF.pdf",
             "id":"desinformacion",
             "color":"yellow",
-            "home":"true"
+            "home":"true",
+            "type":"convivencia_digital"
         },
         {
             "title":"resources.main_title_2",
@@ -18,7 +37,8 @@
             "link": "http://www.recuperarlapolitica.org/",
             "id": "recuperarLaPolitica",
             "color":"orange",
-            "home":"true"
+            "home":"true",
+            "type":"politica"
         },
         {   
 
@@ -27,7 +47,8 @@
             "link":"https://drive.google.com/file/d/115nxDhoZ6eUD3ab8n60lpEAFg6aoVv94/view",
             "id":"guiaCiudadana",
             "color":"blue",
-            "home":"true"
+            "home":"true",
+            "type":"convivencia_digital"
         },
         {   
 
@@ -36,7 +57,8 @@
             "link":"https://democraciaenred.org/static/assets/ebooks/DER_Kit_PParticipativo.pdf",
             "id": "cajaHerramientasPresupuesto",
             "color":"green",
-            "home":"true"
+            "home":"true",
+            "type":"participacion_ciudadana"
         },
         {   
 
@@ -45,7 +67,8 @@
             "link":"https://democraciaenred.org/static/assets/ebooks/DER_Kit_CCiudadana.pdf",
             "id": "cajaHerramientasConsulta",
             "color":"purple",
-            "home":"true"
+            "home":"true",
+            "type":"participacion_ciudadana"
         },
         {   
 
@@ -54,7 +77,8 @@
             "link":"https://medium.com/multitudes/presupuestos-participativos-en-instituciones-educativas-para-qu%C3%A9-8a3d466a1ece",
             "id":"presupuestoParticipativo",
             "color":"orange",
-            "home":"true"
+            "home":"true",
+            "type":"participacion_ciudadana"
         },
         {   
 
@@ -63,7 +87,8 @@
             "link":"https://corazonesymentes.org/",
             "id":"corazonesYMentes",
             "color":"purple",
-            "home":"true"
+            "home":"true",
+            "type":"convivencia_digital"
 
         },
         {
@@ -71,63 +96,73 @@
             "subtitle":"resources.subtitle_8",
             "link":"https://es.reflexicons.org/home-es",
             "id":"refexicons",
-            "color":"yellow"
+            "color":"yellow",
+            "type":"convivencia_digital"
         },
         {
             "title":"resources.main_title_9",
-            "subtitle":"https://www.facebook.com/democraciaenred/photos/3971475316246377",
+            "link":"https://www.facebook.com/democraciaenred/photos/3971475316246377",
+            "subtitle":"resources.subtitle_9",
             "id":"ppvl",
             "color":"orange",
-            "home":"true"
+            "home":"true",
+            "type":"participacion_ciudadana"
         },
         {
             "title":"resources.main_title_10",
             "subtitle":"resources.subtitle_10",
             "link":"https://drive.google.com/file/d/1Zeoetawt1TL8PbgN6RaJup07J4_OGgXX/view?usp=sharing",
             "id":"leyesAbiertas",
-            "color":"blue"
+            "color":"blue",
+            "type":"participacion_ciudadana"
         },
         {
             "title":"resources.main_title_11",
             "subtitle":"resources.subtitle_11",
             "link":"https://open.spotify.com/show/6vZjR6uzaD7X0Xt8XgqTck?si=hYTKjElMSzCB-8QTvnnTvg&dl_branch=1",
             "id":"desobedientes",
-            "color":"pink"
+            "color":"pink",
+            "type":"activismo"
         },
         {
             "title":"resources.main_title_12",
             "subtitle":"resources.subtitle_12",
             "link":"https://drive.google.com/drive/u/0/folders/1UT8Yah539K198sQelMn9fqmeB6Jr0dmD",
             "id":"politicaRecuperada",
-            "color":"purple"
+            "color":"purple",
+            "type":"politica"
         },
         {
             "title":"resources.main_title_13",
             "subtitle":"resources.subtitle_13",
             "link":"https://www.facebook.com/democraciaenred/photos/4154098927984014",
             "id":"politicxsTwitter",
-            "color":"blue"
+            "color":"blue",
+            "type":"politica"
         },
         {
             "title":"resources.main_title_14",
             "subtitle":"resources.subtitle_14",
             "link":"https://www.facebook.com/democraciaenred/photos/3532600110133902",
             "id":"causasComunes",
-            "color":"orange"
+            "color":"orange",
+            "type":"activismo"
         },
         {
             "title":"resources.main_title_15",
             "subtitle":"resources.subtitle_15",
             "link":"https://www.instagram.com/p/CIHbaObAd0R/",
             "id":"participes",
-            "color":"green"
+            "color":"green",
+            "type":"participacion_ciudadana"
         },
         {
             "title":"resources.main_title_16",
             "subtitle":"resources.subtitle_16",
             "link":"https://drive.google.com/file/d/1YfUOz7faDNcN4Fo9O18XTi2shYPFB_Ng/view?usp=sharing",
             "id":"miedoBronca",
-            "color":"pink"
+            "color":"pink",
+            "type":"politica"
         }
     ]
     
