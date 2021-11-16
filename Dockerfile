@@ -19,7 +19,12 @@
 
 FROM node:12-alpine AS build
 
-RUN apk add --no-cache --virtual .gyp python make g++
+# RUN apk update && apk upgrade && 
+
+# RUN apk add --no-cache --virtual .gyp python make g++
+
+RUN apk add --update python make g++\
+   && rm -rf /var/cache/apk/*
 
 WORKDIR /app
 ENV NODE_ENV=production
