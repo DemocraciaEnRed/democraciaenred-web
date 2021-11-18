@@ -163,6 +163,22 @@
             "id":"miedoBronca",
             "color":"pink",
             "type":"politica"
+        },
+        {
+            "title":"resources.main_title_17",
+            "subtitle":"resources.subtitle_17",
+            "link":"https://compaspolitico.merepresenta.info/intro",
+            "id":"compasPolitico",
+            "color":"pink",
+            "type":"politica"
+        },
+        {
+            "title":"resources.main_title_18",
+            "subtitle":"resources.subtitle_18",
+            "link":"https://merepresenta.info/",
+            "id":"meRepresenta",
+            "color":"pink",
+            "type":"participacion_ciudadana"
         }
     ]
     

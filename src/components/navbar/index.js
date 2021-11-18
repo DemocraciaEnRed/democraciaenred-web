@@ -72,7 +72,7 @@ export default (props) => {
                    
                     
                     </div>
-                    <a className="navbar-item" onClick={() => setIsActive(false)} href="https://democraciaos.org/es/#nosotros" data-target="nosotros">
+                    <a className="navbar-item" onClick={() => setIsActive(false)} href="/quienessomos" data-target="nosotros">
                             {intl.formatMessage({ id: "us" })}
                         </a>   
                     <a className="navbar-item contact" onClick={()=>clickContacto()} href="#implementar" rel="noopener noreferrer">

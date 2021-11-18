@@ -48,6 +48,14 @@ $coral: #f09c77;
     filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(59deg) brightness(97%) contrast(102%);
 }
 
+#hero-slider .slick-next {
+    right: 20px !important;
+}
+
+#hero-slider .slick-prev {
+    left: 20px !important;
+}
+
 #hero-slider .slick-slider,
 #hero-slider .slick-list,
 #hero-slider .slick-track {

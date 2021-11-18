@@ -10,7 +10,6 @@ import TeamSlider from "../components/team-slider"
 import teamData from "../../content/team.json"
 import WorkWith from "../components/work-with-section"
 import dataUs from "../../content/us.json"
- 
 
 const QuienesSomos = () => {
 

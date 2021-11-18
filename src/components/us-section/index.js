@@ -16,9 +16,9 @@ export default ({ data }) =>  {
                             {intl.formatMessage({ id: data.title})}
                         </h1>
                         <div className="is-flex is-justify-content-center">
-                            <div class='hex-container'>
-                                <div class='hex-container-inner'>
-                                    <div class={`hex-container-inner-2 ${data.id}-bg`}></div>
+                            <div className='hex-container'>
+                                <div className='hex-container-inner'>
+                                    <div className="hex-container-inner-2 team-bg"></div>
                                 </div>
                             </div> 
                         </div>

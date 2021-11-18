@@ -41,11 +41,11 @@
         "description": "team.description_5",        
         "socialmedia":[
             {
-                "url":"https://twitter.com/_lucianavega" ,
-                "icon":"ig"
+                "url":"https://twitter.com/ebrenman" ,
+                "icon":"tw"
             }
         ],
-        "id":"luciana"
+        "id":"esteban"
     },
     {
         "title":"team.title_6",
@@ -62,19 +62,17 @@
     {
         "title":"team.title_7",
         "subtitle":"team.subtitle_7",
-        "description": "team.description_7",
         "socialmedia":[
             {
-                "url":"https://www.instagram.com/dani.zarate" ,
-                "icon":"ig"
+                "url":"https://www.linkedin.com/in/federico-bertero-7b86a71a1/" ,
+                "icon":"ln"
             }
         ],
-        "id":"daniel"
+        "id":"fede-bertero"
     },
     {
         "title":"team.title_8",
         "subtitle":"team.subtitle_8",
-        "description": "team.description_8",
         "socialmedia":[
             {
                 "url":"https://twitter.com/guillermocroppi" ,
@@ -149,11 +147,11 @@
         "description": "team.description_14",        
         "socialmedia":[
             {
-                "url": "https://www.instagram.com/elgordomija",
-                "icon":"ig"
+                "url": "https://www.linkedin.com/in/mariano-heller-68361813/",
+                "icon":"ln"
             }
         ],
-        "id":"mija"
+        "id":"mariano"
     },
     {
         "title":"team.title_15",

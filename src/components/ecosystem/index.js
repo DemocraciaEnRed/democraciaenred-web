@@ -1,6 +1,7 @@
 import React from "react"
 import "./style.scss"
 import { useIntl, Link } from "gatsby-plugin-intl"
+import { PopupButton } from '@typeform/embed-react'
 
 import hexagono_green from "./assets/hexagono-green.png"
 import hexagono_blue from "./assets/hexagono-blue.png"
@@ -65,13 +66,20 @@ export default ({data}) =>  {
                             `${intl.formatMessage({ id: data.description })}`:''
                         }
                     </p>
-                    <div className="button-container">
-                        <Link 
-                            className="button button-disabled-shadow has-no-background is-rounded is-medium is-black is-outlined is-uppercase is-inline-block" 
-                            to={data.link}>
-                            {intl.formatMessage({ id: "see_more" })}
-                        </Link>
-                    </div>
+                    {data.link &&
+                        <div className="button-container">
+                            <Link 
+                                className="button button-disabled-shadow has-no-background is-rounded is-medium is-black is-outlined is-uppercase is-inline-block" 
+                                to={data.link}>
+                                {intl.formatMessage({ id: "see_more" })}
+                            </Link>
+                        </div>
+                    }
+                    {data.popup &&
+                        <div className="button-container">
+                            <PopupButton id="fSqwwL" style={{ fontSize: 20 }} className="button button-disabled-shadow has-no-background is-rounded is-medium is-black is-outlined is-uppercase is-inline-block">{intl.formatMessage({ id: "see_more" })}</PopupButton>
+                        </div>
+                    }
                 </div>
 
             </div>

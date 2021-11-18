@@ -22,8 +22,7 @@
             "image":"hexagono_blue",
             "imageMobile":"hex_blue_mobile",
             "features":[],
-            "color": "blue",
-            "link": "#"
+            "color": "blue"
          },
          { 
             "title": "ecosystem.title_3",
@@ -31,8 +30,7 @@
             "imageMobile":"hex_purple_mobile",
             "features":[],
             "color": "purple",
-            "description": "ecosystem.description_3",
-            "link": "#"
+            "description": "ecosystem.description_3"
          },
          { 
             "title": "ecosystem.title_4",
@@ -51,7 +49,7 @@
             "features":[],
             "color": "yellow",
             "description": "ecosystem.description_5",
-            "link": "#"
+            "popup":true
          },
 
          { 

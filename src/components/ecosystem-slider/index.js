@@ -49,7 +49,6 @@ export default ({ slides }) =>  {
         nextArrow: <NextArrow />,
         prevArrow: <PrevArrow />
     };
-
     
     return (
         <section id="ecosystem-slider" className="ecosystem-slider hero is-fullheight is-large is-primary is-bold con">
@@ -61,7 +60,6 @@ export default ({ slides }) =>  {
                     <Ecosystem data={ecosystem} key={ecosystem.id} className="pt-6"/>
                 )}
             </Slider>
-        
         </section>
     )
 }

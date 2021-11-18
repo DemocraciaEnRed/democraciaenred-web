@@ -49,6 +49,7 @@
   content: '';
 }
 
+
 @media screen and (max-width:480px) {
   .hex-container {
     width: 14em; height: 12.32em;
@@ -60,6 +61,11 @@
 }
 
 // Backgrtound Hexágono
+.team-bg:before{
+  background:url(./assets/team.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 .mau-bg:before {
   background:url(./assets/mau.jpg);
@@ -141,6 +147,30 @@
 
 .diego-bg:before {
   background:url(./assets/diego.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.niqui-bg:before {
+  background:url(./assets/niqui.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fede-bertero-bg:before {
+  background:url(./assets/fede-bertero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.esteban-bg:before {
+  background:url(./assets/esteban.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mariano-bg:before {
+  background:url(./assets/mariano.png);
   background-size: cover;
   background-repeat: no-repeat;
 }

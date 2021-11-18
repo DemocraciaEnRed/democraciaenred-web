@@ -19,6 +19,8 @@ import politicxsTwitter from './assets/politicxs-twitter.jpg'
 import causasComunes from './assets/causas-comunes.png'
 import participes from './assets/participes.jpg'
 import miedoBronca from './assets/miedo-bronca.jpg'
+import compasPolitico from './assets/compas_politico.jpg'
+import meRepresenta from './assets/me_representa.jpg'
 
 
 const images={
@@ -38,6 +40,8 @@ const images={
     causasComunes,
     participes,
     miedoBronca,
+    compasPolitico,
+    meRepresenta
 }
 
 const ResourcesMansonery= ({resources,home,filter})=>{

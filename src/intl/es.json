@@ -15,7 +15,7 @@
     "products": {
         "title_1":"Presupuesto Participativo",
         "subtitle_1":"Plataforma digital que permite la gestión integral de Presupuestos Participativos, generando instancias de diálogo entre la ciudadanía y los gobiernos.",
-        "description_1": "Plataforma digital que permite la gestión integral de Presupuestos Participativos, generando instancias de diálogo entre la ciudadanía y los gobiernos.",
+        "description_1": "Plataforma digital que permite la gestión integral de Presupuestos Participativos, generando instancias de diálogo entre la ciudadanía y los gobiernos.\nOfrecemos soluciones para gobiernos locales y nacionales, poderes legislativos, organismos descentralizados, partidos politicos, organizaciones de la sociedad civil y otras instituciones.",
         "link_1":"https://democraciaos.org/es/presupuestoparticipativo",
         "features_1_1": "Alta de propuestas",
         "features_1_2": "Factibilidad de propuestas",
@@ -26,32 +26,35 @@
         
         "title_2":"Consultas Digitales",
         "subtitle_2":"\n Plataforma digital de consulta, diálogo y debate que conecta al gobierno con la comunidad.",
-        "description_2": "Busca favorecer la participación, el debate y la interacción entre entidades y personas sobre diversas temáticas",
-        "link_2":"https://democraciaos.org/es/consultadigital",
+        "description_2": "Busca favorecer la participación, el debate y la interacción entre entidades y personas sobre diversas temáticas.\nOfrecemos soluciones para gobiernos locales y nacionales, poderes legislativos, organismos descentralizados, partidos politicos, organizaciones de la sociedad civil y otras instituciones.",
+        "link_2":"https://democraciaos.org/es/consultadigital\nOfrecemos soluciones para gobiernos locales y nacionales, poderes legislativos, organismos descentralizados, partidos politicos, organizaciones de la sociedad civil y otras instituciones.",
         "features_2_1": "Alta de consultas",
         "features_2_2": "Alta de propuestas ciudadanas",
         "features_2_3": "Comentarios",
         "features_2_4": "Votación",
         "features_2_5": "Encuestas",
         "features_2_6":  "Priorización",
+
         "title_3":"Co-construcción de leyes",
         "subtitle_3":"\nPlataforma digital de elaboración colaborativa de normas entre representantes y ciudadanía.",
-        "description_3": "Plataforma digital de elaboración colaborativa de normas entre representantes y ciudadanía.",
+        "description_3": "Plataforma digital de elaboración colaborativa de normas entre representantes y ciudadanía.\nOfrecemos soluciones para gobiernos locales y nacionales, poderes legislativos, organismos descentralizados, partidos politicos, organizaciones de la sociedad civil y otras instituciones.",
         "link_3":"https://democraciaos.org/es/coconstruccionleyes",
         "features_3_1": "Alta de proyectos de ley",
         "features_3_2": "Comentarios",
         "features_3_3": "Sugerencias",
         "features_3_4": "Seguimiento de proyectos",
+
         "title_4":"Seguimiento de metas",
         "subtitle_4":"Plataforma digital que permite la publicacion de metas y compromisos de gobierno facilitando el seguimiento ciudadano.",
-        "description_4": "Plataforma digital que permite la publicacion de metas y compromisos de gobierno facilitando el seguimiento ciudadano",
+        "description_4": "Plataforma digital que permite la publicacion de metas y compromisos de gobierno facilitando el seguimiento ciudadano.\nOfrecemos soluciones para gobiernos locales y nacionales, poderes legislativos, organismos descentralizados, partidos politicos, organizaciones de la sociedad civil y otras instituciones.",
         "link_4":"https://democraciaos.org/es/seguimientometas",
         "features_4_1": "Alta de objetivos y metas",
         "features_4_2": "Reportes de actualización de metas georreferenciables",
         "features_4_3": "Validación y comentarios ciudadanos",
+        
         "title_5":"Votación de autoridades",
         "subtitle_5":"\n Plataforma digital para votación de autoridades en procesos electorales de democracias cotidianas.",
-        "description_5": "Plataforma digital para votación de autoridades en instituciones y organizaciones",
+        "description_5": "Plataforma digital para votación de autoridades en instituciones y organizaciones.\nOfrecemos soluciones para gobiernos locales y nacionales, poderes legislativos, organismos descentralizados, partidos politicos, organizaciones de la sociedad civil y otras instituciones.",
         "link_5":"https://democraciaos.org/es/votacionautoridades",
         "features_5_1": "Alta de candidaturas",
         "features_5_2": "Alta de padrón",
@@ -106,13 +109,20 @@
         "title":"¿Quienes Somos?",
         "subtitle":"Somos Democracia en Red, una organización radicada en Argentina. Conformada por personas activistas, programadores y científicos sociales, que desde el hacer buscamos abrir las instituciones públicas y los procesos de toma de decisión.",
         "mision_values":{
-            "title":"Nuestra mision y valores",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "title":"Misión",
+            "description":"Nuestra misión es la de innovar el sistema político para abrir los procesos de toma de decisión a la ciudadanía, otorgándoles un rol cada vez más activos."
         },
         "mision_approach":{
-            "title":"Nuestra vision y enfoque",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "title":"Visión",
+            "description":"Nuestra visión de éxito se plasma en un mayor número de ciudadanas/os, de diversos perfiles socioeconómicos, incorporándose a procesos participativos que obtienen resultados en términos de políticas públicas."
         },
+        "what_we_do":{
+            "title":"¿Qué hacemos?",
+            "description":"Creamos un espacio donde imaginar, diseñar e implementar soluciones innovadoras de participación ciudadana. Lo hacemos en conjunto con gobiernos, activistas, partidos políticos y organizaciones que persiguen el deseo de mejorar la democracia.\n- Creamos soluciones de participación ciudadana con gobiernos y activistas para fortalecer la democracia.\n- Abrimos las instituciones públicas y la toma de decisiones a través de procesos participativos innovadores.\n- Buscamos recuperar la política incorporando a la ciudadanía en los procesos de toma de decisión. "
+        },
+        "memories":{
+            "title":"Memorias"
+        },        
         "slider_title":"Nuestro equipo"
 
     },"header_1": {
@@ -419,55 +429,42 @@
         "subtitle_4":"Desarrollo de proyectos",
         "description_4":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
 
-        "title_5":"Lu",
-        "subtitle_5": "Gestión de proyectos",
-        "description_5":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "title_5":"Esteban",
+        "subtitle_5": "Vicepresidente",
+
         
         "title_6": "Agustina",
         "subtitle_6":"Comunicación",
-        "description_6":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
         
-        "title_7":"Daniel",
-        "subtitle_7":"Comunicación",
-        "description_7":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-        "id_7":"dani",
+        "title_7":"Fede Bertero",
+        "subtitle_7":"Gestión de proyectos",
 
         "title_8":"Guille",
         "subtitle_8":"Desarrollo",
-        "8":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
         
         "title_9":"Álvaro",
         "subtitle_9":"DevOps",
-        "description_9":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-        "id_9":"alvaro",
 
         "title_10":"Vale",
         "subtitle_10":"Gestión de proyectos",
-        "description_10":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
 
         "title_11":"Florencia",
         "subtitle_11":"Presidenta",
-        "description_11":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
 
         "title_12": "Mau",
         "subtitle_12": "Diseño Gráfico",
-        "description_12":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
 
         "title_13":"Niqui",
         "subtitle_13":"Community Manager",
-        "description_13":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
 
-        "title_14":"Mija",
-        "subtitle_14":"Desarrollo",
-        "description_14":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "title_14":"Mariano",
+        "subtitle_14":"Comisión Directiva",
 
         "title_15":"Diego",
         "subtitle_15":"Desarrollo",
-        "description_15":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
 
         "title_16":"Juli",
         "subtitle_16":"Desarrollo",
-        "description_16":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
 
         "title_17":"Anto",
         "subtitle_17":"Desarrollo",
@@ -556,7 +553,13 @@
         "subtitle_15":"pensar subtitulo",
 
         "main_title_16":"el Miedo y la Bronca",
-        "subtitle_16":"pensar subtitulo"
+        "subtitle_16":"pensar subtitulo",
+
+        "main_title_17":"Compas Político",
+        "subtitle_17":"¿En qué ideología estás \"encuadrado\"?",
+
+        "main_title_18":"MeRepresenta",
+        "subtitle_18":"Una herramienta para pensar tu voto \nConocé candidaturas, partidos, propuestas y mucho más."
     },
     "press":{
         "title":"Prensa",
@@ -614,7 +617,7 @@
     "implementation": "Implementar",
     "see_more": "Ver más",
     "products_title": "productos",
-    "us": "nosotros",
+    "us": "conocenos",
     "contact": "contactar",
     "work_with": "Trabajamos con"
 }

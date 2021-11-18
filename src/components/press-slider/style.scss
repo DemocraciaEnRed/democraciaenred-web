@@ -18,6 +18,10 @@
     color: #000;
 }
 
+.press-slider .slick-prev,.press-slider .slick-next{
+    top:30% 
+}
+
 @media screen and (max-width: 768px){
     .title.our-press{
         padding-left: 0 !important;
