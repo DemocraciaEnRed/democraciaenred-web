@@ -3,6 +3,8 @@ import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
 import { useIntl, IntlContextConsumer, changeLocale  } from "gatsby-plugin-intl"
 import "./styles.scss"
 import LogoDer from './assets/logo-der.png'
+import { PopupButton } from '@typeform/embed-react'
+
 
 export default (props) => {
     const [isActive, setIsActive] = useState(false);
@@ -22,12 +24,7 @@ export default (props) => {
             document.querySelector('html').style.overflowY =  "scroll";
             enableBodyScroll(navbarElement);
         }
-    }, [isActive]);
-
-    const clickContacto = () =>{
-        handleForm();
-        setIsActive(false)
-    }
+    }, [isActive]);    
 
     const { handleForm } = props;
 
@@ -73,11 +70,9 @@ export default (props) => {
                     
                     </div>
                     <a className="navbar-item" onClick={() => setIsActive(false)} href="/quienessomos" data-target="nosotros">
-                            {intl.formatMessage({ id: "us" })}
-                        </a>   
-                    <a className="navbar-item contact" onClick={()=>clickContacto()} href="#implementar" rel="noopener noreferrer">
-                        {intl.formatMessage({ id: "contact" })}
-                    </a>
+                        {intl.formatMessage({ id: "us" })}
+                    </a>   
+                    <PopupButton id="fSqwwL" style={{ fontSize: 20 }} className="navbar-item contact">{intl.formatMessage({ id: "contact" })}</PopupButton>
                     <a className="navbar-item is-hidden-desktop" href="mailto:contacto@democraciaenred.org">
                         contacto@democraciaenred.org
                     </a>

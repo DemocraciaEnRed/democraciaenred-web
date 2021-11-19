@@ -28,7 +28,7 @@
             "link": "https://democraciaenred.org/static/assets/ebooks/DER_DESINFORMACIONPDF.pdf",
             "id":"desinformacion",
             "color":"yellow",
-            "home":"true",
+            "home":true,
             "type":"convivencia_digital"
         },
         {
@@ -37,7 +37,6 @@
             "link": "http://www.recuperarlapolitica.org/",
             "id": "recuperarLaPolitica",
             "color":"orange",
-            "home":"true",
             "type":"politica"
         },
         {   
@@ -47,7 +46,7 @@
             "link":"https://drive.google.com/file/d/115nxDhoZ6eUD3ab8n60lpEAFg6aoVv94/view",
             "id":"guiaCiudadana",
             "color":"blue",
-            "home":"true",
+            "home":true,
             "type":"convivencia_digital"
         },
         {   
@@ -57,7 +56,7 @@
             "link":"https://democraciaenred.org/static/assets/ebooks/DER_Kit_PParticipativo.pdf",
             "id": "cajaHerramientasPresupuesto",
             "color":"green",
-            "home":"true",
+            "home":true,
             "type":"participacion_ciudadana"
         },
         {   
@@ -67,7 +66,7 @@
             "link":"https://democraciaenred.org/static/assets/ebooks/DER_Kit_CCiudadana.pdf",
             "id": "cajaHerramientasConsulta",
             "color":"purple",
-            "home":"true",
+            "home":true,
             "type":"participacion_ciudadana"
         },
         {   
@@ -105,8 +104,8 @@
             "subtitle":"resources.subtitle_9",
             "id":"ppvl",
             "color":"orange",
-            "home":"true",
-            "type":"participacion_ciudadana"
+            "type":"participacion_ciudadana",
+            "home":true
         },
         {
             "title":"resources.main_title_10",
@@ -114,7 +113,8 @@
             "link":"https://drive.google.com/file/d/1Zeoetawt1TL8PbgN6RaJup07J4_OGgXX/view?usp=sharing",
             "id":"leyesAbiertas",
             "color":"blue",
-            "type":"participacion_ciudadana"
+            "type":"participacion_ciudadana",
+            "home":true
         },
         {
             "title":"resources.main_title_11",
@@ -170,7 +170,8 @@
             "link":"https://compaspolitico.merepresenta.info/intro",
             "id":"compasPolitico",
             "color":"pink",
-            "type":"politica"
+            "type":"politica",
+            "home":true
         },
         {
             "title":"resources.main_title_18",
@@ -178,7 +179,8 @@
             "link":"https://merepresenta.info/",
             "id":"meRepresenta",
             "color":"pink",
-            "type":"participacion_ciudadana"
+            "type":"participacion_ciudadana",
+            "home":true
         }
     ]
     
