@@ -36,7 +36,7 @@ export default ({ data }) => {
   };
 
   return (
-    <section id="ecosystem" className="pt-6 ">
+    <section className="ecosystem pt-6 ">
       <div className="section columns is-mobile container m-auto is-flex -is-align-items-start pl-0 pr-6">
         <div className="column is-hidden-mobile pt-6">
           <figure className="image hexagono m-auto">

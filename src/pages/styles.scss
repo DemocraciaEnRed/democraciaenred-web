@@ -159,7 +159,7 @@ p{
     width: 20px;
     filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(59deg) brightness(30%) contrast(102%);
     &:before {
-        content: none;
+        content: none !important;
     }
 }
 
@@ -169,7 +169,7 @@ p{
     width: 20px;
     filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(59deg) brightness(30%) contrast(102%);
     &:before {
-        content: none;
+        content: none !important;
     }
 }
 
