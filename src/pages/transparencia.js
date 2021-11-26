@@ -4,21 +4,21 @@ import Navbar from "../components/navbar"
 import SEO from "../components/seo"
 import Footer from "../components/footer"
 import InternalPageHero from "../components/internal-page-hero"
-import dataResources from "../../content/resources.json"
+import dataTransparency from "../../content/transparency.json"
 import Division from "../components/division"
 import ResourcesHeader from '../components/resources-header'
-
-const Recursos = () => {
+import Transparency from "../components/transparency"
+const Transparencia = () => {
 
     return (
    <React.Fragment>
        <SEO />
        <Navbar/>
-       <InternalPageHero data={dataResources}/>
+       <InternalPageHero data={dataTransparency}/>
        <Division/>
-       <ResourcesHeader data={dataResources}/>
+       <Transparency data={dataTransparency}/>       
        <Footer/> 
    </React.Fragment>
 )}
 
-export default Recursos;
+export default Transparencia;

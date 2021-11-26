@@ -1,4 +1,4 @@
-import React, {useState} from "react"
+import React from "react"
 import "./styles.scss"
 import Navbar from "../components/navbar"
 import SEO from "../components/seo"

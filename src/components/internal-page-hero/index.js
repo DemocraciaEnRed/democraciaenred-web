@@ -1,7 +1,7 @@
 import React from "react"
 import { useIntl } from "gatsby-plugin-intl"
 
-const ResourcesHero = ({ data }) =>  {
+const InternalPageHero = ({ data }) =>  {
     const intl = useIntl()
     return(
         <section className="us-header hero is-medium has-background-black" >
@@ -14,4 +14,4 @@ const ResourcesHero = ({ data }) =>  {
         </section>
     )
 }
-export default ResourcesHero 
+export default InternalPageHero 

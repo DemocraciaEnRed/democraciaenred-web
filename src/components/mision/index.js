@@ -4,12 +4,12 @@ import { useIntl } from "gatsby-plugin-intl"
 const Mision = ({ data }) =>  {
     const intl = useIntl()
     return(
-        <section class="mision-section section has-background-grey-dark">
+        <section className="mision-section section has-background-grey-dark">
             {
                 data.content.map(content=>
-                    <div class="mb-6">
+                    <div className="mb-6">
                         <h2 className="title is-spaced has-text-green" >{intl.formatMessage({ id: content.title })}</h2>
-                        <p class="subtitle has-text-white pb-6">
+                        <p className="subtitle has-text-white pb-6">
                             {intl.formatMessage({ id: content.description })}
                         </p>
                     </div>

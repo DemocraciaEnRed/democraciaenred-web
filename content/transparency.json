@@ -1,0 +1,47 @@
+{
+  "title": "transparency.title",
+  "description": "transparency.description",
+  "subtitle": "transparency.subtitle",
+  "description_home": "transparency.description_home",
+  "link": "/transparencia",
+  "chartIncomes": {
+    "labels": ["Servicios", "Donaciones"],
+
+    "label": "title",
+    "data": [30, 70],
+    "backgroundColor": ["#FF7990", "#69D69E"],
+    "title": "Ingresos"
+  },
+  "chartOutcomes": {
+    "labels": [
+      "honorarios",
+      "gastos de oficina",
+      "impuestos",
+      "diseño y comunicación"
+    ],
+    "label": "title",
+    "data": [20, 30, 10, 40],
+    "backgroundColor": ["#77549E", "#E7B4F1", "#88CBFF", "#53C1B4"],
+    "title": "Gastos"
+  },
+  "balance": {
+    "title": "transparency.balance.title",
+    "subtitle": "transparency.balance.subtitle"
+  },
+  "evolution": {
+    "title": "transparency.evolution.title"
+  },
+  "chartEvolution": {
+    "labels": [
+      "30 de junio de 2015",
+      "30 de junio de 2016",
+      "30 de junio de 2017",
+      "30 de junio de 2018",
+      "30 de junio de 2019",
+      "30 de junio de 2020"
+    ],
+    "backgroundColor":"#5ce175",
+    "data_1": [10, 20, 30, 40, 50, 60],
+    "data_2": [10, 20, 30, 40, 50, 60]
+  }
+}

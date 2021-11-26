@@ -610,6 +610,22 @@
         "title_12":"Adolescentes y polarización en las redes sociales",
         "subtitle_12":"Es importante entender cómo funcionan y cómo funcionamos con relación a ellas. Ahí, la verdadera diferencia entre el bien y el mal está en la dicotomía de “dominar la herramienta o ser dominados por ella”"
     },
+    
+    "transparency":{
+        "title":"Transparencia",
+        "description":"Como ong es importante transparentar como obtenemos nuestros fondos, y como son nuestros balances y gastos; para que asi sepan como se invierte el dinero de sus donaciones y el impacto que generan.",
+        "subtitle":"Colaborar y transparencia",
+        "description_home": "Si te interesa colaborar con nuestros proyectos, sumarte como voluntario e enviarnos consutlas podes realizarlo por medio del formulario de contacto o con nuestro correo consultas@democracyos.io\nComo ong es importante transparentar como obtenemos nuestros fondos, y como son nuestros balances y gastos; para que asi sepan como se invierte el dinero de sus donaciones y el impacto que generan.",
+        "link":"/transparencia",
+        "balance":{
+            "title":"Balance 2020",
+            "subtitle":"¿Quien nos financia?¿Como y en que gastamos?"
+        },
+        "evolution":{
+            "title":"Evolución de ingresos y gastos"
+        }
+        
+    },
 
     "requirements": "Requisitos",
     "features": "Características",
@@ -617,7 +633,7 @@
     "implementation": "Implementar",
     "see_more": "Ver más",
     "products_title": "productos",
-    "us": "conocenos",
-    "contact": "contactar",
+    "us": "Conocenos",
+    "contact": "contactanos",
     "work_with": "Trabajamos con"
 }

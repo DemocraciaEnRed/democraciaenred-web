@@ -22,6 +22,9 @@ import UsSection from "../components/us-section";
 import dataUs from "../../content/us-section.json";
 import PressSlider from "../components/press-slider";
 import pressData from "../../content/press.json";
+import dataTransparency from "../../content/transparency.json";
+import TransparencySection from "../components/transparency-section";
+
 
 //Sets smooth scroll animation for anchor links
 if (typeof window !== "undefined") {
@@ -50,6 +53,7 @@ export default () => {
       <UsSection data={dataUs} />
       <TeamSlider slides={teamData} title={dataUs} />
       <PressSlider slides={pressData} />
+      <TransparencySection data={dataTransparency}/>
       <Footer />
     </React.Fragment>
   );

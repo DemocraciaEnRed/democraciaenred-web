@@ -59,8 +59,8 @@ export default (props) => {
               <img src={LogoDer} alt="Logo Democracia en Red" />
             </a>
           </div>
-          <div className="lang-switch">
-            {/* <IntlContextConsumer>
+          {/* <div className="lang-switch">
+            <IntlContextConsumer>
               {({ languages, language: currentLocale }) =>
                 languages.map((language) => (
                   <button
@@ -75,8 +75,8 @@ export default (props) => {
                   </button>
                 ))
               }
-            </IntlContextConsumer> */}
-          </div>
+            </IntlContextConsumer>
+          </div> */}
           <a
             className="navbar-item"
             onClick={() => setIsActive(false)}
@@ -92,14 +92,6 @@ export default (props) => {
             data-target="nosotros"
           >
             {intl.formatMessage({ id: "resources.title" })}
-          </a>
-          <a
-            className="navbar-item"
-            onClick={() => setIsActive(false)}
-            href="#ecosystem"
-            data-target="nosotros"
-          >
-            {intl.formatMessage({ id: "ecosystem.main_title" })}
           </a>
           <PopupButton
             id="fSqwwL"

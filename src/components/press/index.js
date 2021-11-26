@@ -36,22 +36,22 @@ export default ({ data }) => {
 
     return (
         <section id={data.id} className="px-3 py-6 hero is-flex is-justify-content-center is-flex-direction-column">
-            <div class="card">
-                <div class="card-content">
-                    <div class="media">
-                        <div class="media-left">
-                            <figure class="image is-48x48">
+            <div className="card">
+                <div className="card-content">
+                    <div className="media">
+                        <div className="media-left">
+                            <figure className="image is-48x48">
                             <img src={logos[data.logo]} alt={data.name}/>
                             </figure>
                         </div>
-                        <div class="media-content">
-                            <h2 class="is-4 has-text-black">
+                        <div className="media-content">
+                            <h2 className="is-4 has-text-black">
                             {intl.formatMessage({id: data.title})}
                             </h2>
                         </div>
                     </div>
 
-                    <div class="content">
+                    <div className="content">
                     <p className=" is-6 has-text-black ">
                         {data.subtitle?`${intl.formatMessage({id: data.subtitle})}`:''}</p>
                         <a 
