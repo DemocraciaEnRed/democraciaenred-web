@@ -1,11 +1,12 @@
 import React from "react";
 import Pie from "../chart/Pie";
-import Bar from "../chart/Bar";
+import BarIncomes from "../chart/BarIncomes";
+import BarOutcomes from "../chart/BarOutcomes";
 import { useIntl } from "gatsby-plugin-intl";
 
 export default function Transparency({ data }) {
   const intl = useIntl();
-  console.log(data.chartEvolution)
+
   return (
     <div>
       <section className="section ">
@@ -24,10 +25,19 @@ export default function Transparency({ data }) {
             <Pie chartData={data.chartOutcomes} />
           </div>
         </div>
-        <h1 className="is-spaced has-text-centered mb-6">
+        <h1 className="is-spaced has-text-centered mb-2">
           {intl.formatMessage({ id: data.evolution.title })}
         </h1>
-        {/* <Bar chartData={data.chartEvolution}/> */}
+        <div className="columns is-justify-content-center ">
+          <div class="column is-10">
+            <BarIncomes chartData={data.chartEvolution} />
+          </div>
+        </div>
+        <div className="columns is-justify-content-center ">
+          <div class="column is-10">
+            <BarOutcomes chartData={data.chartEvolution} />
+          </div>
+        </div>
       </section>
     </div>
   );

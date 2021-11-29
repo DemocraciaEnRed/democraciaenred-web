@@ -29,19 +29,33 @@
     "subtitle": "transparency.balance.subtitle"
   },
   "evolution": {
-    "title": "transparency.evolution.title"
+    "title": "transparency.evolution.title",
+    "title_outcomes": "transparency.evolution.title_outcomes"
   },
   "chartEvolution": {
     "labels": [
-      "30 de junio de 2015",
-      "30 de junio de 2016",
-      "30 de junio de 2017",
-      "30 de junio de 2018",
-      "30 de junio de 2019",
-      "30 de junio de 2020"
+      "transparency.evolution.labels.label_1",
+      "transparency.evolution.labels.label_2",
+      "transparency.evolution.labels.label_3",
+      "transparency.evolution.labels.label_4",
+      "transparency.evolution.labels.label_5",
+      "transparency.evolution.labels.label_6"
     ],
-    "backgroundColor":"#5ce175",
-    "data_1": [10, 20, 30, 40, 50, 60],
-    "data_2": [10, 20, 30, 40, 50, 60]
+    "incomesBar":{
+      "title":"transparency.evolution.incomesBar.title",
+      "label":[
+        "transparency.evolution.incomesBar.label_1",
+        "transparency.evolution.incomesBar.label_2"
+      ]      
+    },
+    "outcomesBar":{
+      "title":"transparency.evolution.outcomesBar.title",
+      "label":[
+        "transparency.evolution.outcomesBar.label_1",
+        "transparency.evolution.outcomesBar.label_2",
+        "transparency.evolution.outcomesBar.label_3",
+        "transparency.evolution.outcomesBar.label_4"
+      ]   
+    }
   }
 }
