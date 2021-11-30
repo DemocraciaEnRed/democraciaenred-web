@@ -616,6 +616,7 @@
     "description": "Como ong es importante transparentar como obtenemos nuestros fondos, y como son nuestros balances y gastos; para que asi sepan como se invierte el dinero de sus donaciones y el impacto que generan.",
     "subtitle": "Colaborar y transparencia",
     "description_home": "Si te interesa colaborar con nuestros proyectos, sumarte como voluntario e enviarnos consutlas podes realizarlo por medio del formulario de contacto o con nuestro correo consultas@democracyos.io\nComo ong es importante transparentar como obtenemos nuestros fondos, y como son nuestros balances y gastos; para que asi sepan como se invierte el dinero de sus donaciones y el impacto que generan.",
+    "balance_button":"VER BALANCES COMPLETOS",
     "link": "/transparencia",
     "balance": {
       "title": "Balance 2020",

@@ -1,0 +1,11 @@
+@import "~bulma/sass/utilities/_all.sass";
+
+
+.canvas-container{
+    height: 500px;
+}
+@include mobile{
+    .canvas-container{
+        height: 50vh;
+    }
+}

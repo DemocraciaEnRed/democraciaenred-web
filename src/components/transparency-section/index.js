@@ -44,6 +44,7 @@ const TransparencySection = ({ data }) => {
         </div>
       </div>
 
+
       
     
     </section>

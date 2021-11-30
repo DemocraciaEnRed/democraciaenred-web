@@ -1,6 +1,7 @@
 import React from "react";
 import { Bar as Grafico } from "react-chartjs-2";
 import { useIntl } from "gatsby-plugin-intl";
+import './style.scss'
 
 export const Bar = ({ chartData }) => {
   const intl = useIntl();
@@ -33,10 +34,16 @@ export const Bar = ({ chartData }) => {
       },
     ],
   };
+  const chartOptions={
+    maintainAspectRatio:false,
+    responsive: true,
+  }
   return (
     <div className="my-6">
-      <h1 className="is-spaced has-text-centered mb-2">{intl.formatMessage({ id: chartData.incomesBar.title })}</h1>
-      <Grafico data={chart} datasetIdKey="id" />
+      <h1 className="is-spaced has-text-centered mb-3">{intl.formatMessage({ id: chartData.incomesBar.title })}</h1>
+      <div className="is-relative canvas-container">
+        <Grafico options={chartOptions} data={chart} datasetIdKey="id" />
+      </div>
     </div>
   );
 };

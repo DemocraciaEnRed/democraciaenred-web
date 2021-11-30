@@ -3,6 +3,7 @@
   "description": "transparency.description",
   "subtitle": "transparency.subtitle",
   "description_home": "transparency.description_home",
+  "balance_button":"transparency.balance_button",
   "link": "/transparencia",
   "chartIncomes": {
     "labels": ["Servicios", "Donaciones"],

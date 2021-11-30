@@ -29,15 +29,25 @@ export default function Transparency({ data }) {
           {intl.formatMessage({ id: data.evolution.title })}
         </h1>
         <div className="columns is-justify-content-center ">
-          <div class="column is-10">
+          <div class="column is-10 is-12-tablet">
             <BarIncomes chartData={data.chartEvolution} />
           </div>
         </div>
-        <div className="columns is-justify-content-center ">
-          <div class="column is-10">
+        <div className="columns is-desktop is-justify-content-center ">
+          <div class="column is-10 is-12-tablet">
             <BarOutcomes chartData={data.chartEvolution} />
           </div>
         </div>
+        <div className="is-flex is-justify-content-center">
+        <a
+          className="button button-disabled-shadow has-no-background is-rounded is-medium is-dark  is-uppercase is-inline-block"
+          href="https://drive.google.com/drive/u/0/folders/18FqJdWg7Ucj6sey126T_SQPUQv0hZFyy"
+          target="_blank"
+        >
+          {intl.formatMessage({ id: data.balance_button })}
+        </a>
+        </div>
+        
       </section>
     </div>
   );

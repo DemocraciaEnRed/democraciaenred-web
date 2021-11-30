@@ -1,6 +1,7 @@
 import React from "react";
 import { Bar as Grafico } from "react-chartjs-2";
 import { useIntl } from "gatsby-plugin-intl";
+import './style.scss'
 
 export const Bar = ({ chartData }) => {
   const intl = useIntl();
@@ -45,14 +46,21 @@ export const Bar = ({ chartData }) => {
         hoverBorderColor: "#C894FF",
         data: [1547948, 2184899, 1254320, 1727560, 5166089.87, 8378914.83],
       },
+      
     ],
   };
+  const chartOptions={
+    maintainAspectRatio:false,
+    responsive: true,
+  }
   return (
     <div className="my-6">
-      <h1 className="is-spaced has-text-centered mb-2">
+      <h1 className="is-spaced has-text-centered mb-3">
         {intl.formatMessage({ id: chartData.outcomesBar.title })}
       </h1>
-      <Grafico data={chart} datasetIdKey="id" />
+      <div className="is-relative canvas-container">
+        <Grafico options={chartOptions} data={chart} datasetIdKey="id" />
+      </div>
     </div>
   );
 };
