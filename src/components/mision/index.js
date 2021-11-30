@@ -15,14 +15,23 @@ const Mision = ({ data }) =>  {
                     </div>
                     )
             }
-            <div className="my-6">
+            {/* <div className="my-6">
                 <h2 className="title is-spaced has-text-green" >{intl.formatMessage({ id: data.memories.title })}</h2>
+                <div className="is-flex is-justify-content-center">
                 {
                     data.memories.buttons.map(memory=>
-                        <a className="m-1 button button-disabled-shadow has-no-background is-rounded is-medium is-warning is-outlined is-uppercase is-inline-block" href={memory.link} target="_blank">{memory.title}</a>
+                        // <a className="m-1 button button-disabled-shadow has-no-background is-rounded is-medium is-warning is-outlined is-uppercase is-inline-block" href={memory.link} target="_blank"
+                        // >
+                        //     {memory.title}</a>
+                            
+                            <a className="is-medium button-memory is-flex is-justify-content-center is-align-items-center mx-2" href={memory.link} target="_blank">
+                            {memory.title}
+                            </a>
+                        
                         )
                 }
-            </div>
+                </div>
+            </div> */}
         </section>
     )
 }

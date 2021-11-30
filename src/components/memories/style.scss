@@ -1,0 +1,38 @@
+@import "~bulma/sass/utilities/_all.sass";
+
+.button-memory{
+    width: 250px;
+    height: 250px;
+    &.purple{
+        background:url(./assets//button-purple.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    &.blue{
+        background:url(./assets//button-blue.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    &.green{
+        background:url(./assets//button-green.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    @include mobile{
+        width: 30vw;
+        height: 30vw;
+    }
+}
+a{
+    white-space: break-spaces;
+}
+
+.memories-section{
+    background: url(./assets/memories-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

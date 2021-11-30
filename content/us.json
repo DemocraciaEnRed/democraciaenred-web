@@ -19,18 +19,22 @@
     ],
     "memories":{
         "title":"usPage.memories.title",
+        "text":"usPage.memories.button_text",
         "buttons":[
             {
-                "title":"2020",
-                "link":"https://democraciaenred.org/static/files/der-memorias-gestion_2020.pdf"
+                "year":"2020",
+                "link":"https://democraciaenred.org/static/files/der-memorias-gestion_2020.pdf",
+                "color":"blue"
             },
             {
-                "title":"2019",
-                "link":"https://drive.google.com/file/d/16zZiqKcE6LYcD2lCThlemXgABzKGK-l2/view"
+                "year":"2019",
+                "link":"https://drive.google.com/file/d/16zZiqKcE6LYcD2lCThlemXgABzKGK-l2/view",
+                "color":"purple"
             },
             {
-                "title":"2018",
-                "link":"https://drive.google.com/file/d/1dOuw_imRgG0dLA539Zoi6OIlRMCXInnd/view"
+                "year":"2018",
+                "link":"https://drive.google.com/file/d/1dOuw_imRgG0dLA539Zoi6OIlRMCXInnd/view",
+                "color":"green"
             }
         ]
     },
