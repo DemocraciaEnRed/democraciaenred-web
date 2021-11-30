@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
 import { useIntl, IntlContextConsumer, changeLocale } from "gatsby-plugin-intl";
+import socialMedia from "../../../content/social-media-navbar.json";
 import "./styles.scss";
 import LogoDer from "./assets/logo-der.png";
 import { PopupButton } from "@typeform/embed-react";
@@ -34,31 +35,28 @@ export default (props) => {
       role="navigation"
       aria-label="main navigation"
     >
-      {/* <div className="navbar-brand ">
-                <a className="navbar-item  is-size-2-desktop" href="https://democraciaos.org">democraciaOS</a>
-                <button onClick={() => setIsActive(prevState => !prevState)} className={(isActive ? 'navbar-burger is-active' : 'navbar-burger')} aria-label="menu" aria-expanded="false" data-target="navbarColapse">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                </button>
-            </div> */}
+      <div className="navbar-brand ">
+        <a className="navbar-item " onClick={() => setIsActive(false)} href="/">
+          <img src={LogoDer} alt="Logo Democracia en Red" />
+        </a>
+        <button
+          onClick={() => setIsActive((prevState) => !prevState)}
+          className={isActive ? "navbar-burger is-active" : "navbar-burger"}
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarColapse"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
+      </div>
 
       <div
         id="navbarColapse"
         className={isActive ? "navbar-menu is-active" : "navbar-menu"}
       >
         <div className="navbar-start">
-          <div className="left-wrapper">
-            <a
-              className="navbar-item"
-              onClick={() => setIsActive(false)}
-              href="/"
-              data-target="productos"
-            >
-              {/* {intl.formatMessage({ id: "products_title" })} */}
-              <img src={LogoDer} alt="Logo Democracia en Red" />
-            </a>
-          </div>
           {/* <div className="lang-switch">
             <IntlContextConsumer>
               {({ languages, language: currentLocale }) =>
@@ -106,46 +104,18 @@ export default (props) => {
           >
             contacto@democraciaenred.org
           </a>
-          <a
-            className="navbar-item is-hidden-desktop is-inline-block"
-            href="https://www.facebook.com/democraciaenred/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span className="icon">
-              <i className="fas fab fa-facebook-square"></i>
-            </span>
-          </a>
-          <a
-            className="navbar-item is-hidden-desktop is-inline-block"
-            href="https://twitter.com/fundacionDER"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span className="icon">
-              <i className="fas fab fa-twitter"></i>
-            </span>
-          </a>
-          <a
-            className="navbar-item is-hidden-desktop is-inline-block"
-            href="https://www.instagram.com/democraciaenred/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span className="icon">
-              <i className="fas fab fa-instagram"></i>
-            </span>
-          </a>
-          <a
-            className="navbar-item is-hidden-desktop is-inline-block"
-            href="https://github.com/democraciaenred"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span className="icon">
-              <i className="fas fab fa-github"></i>
-            </span>
-          </a>
+          {socialMedia.map((media) => (
+            <a
+              className="navbar-item is-hidden-desktop is-inline-block"
+              href={media.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="icon">
+                <i className={media.icon}></i>
+              </span>
+            </a>
+          ))}
           <p className="is-size-7 is-hidden-desktop has-text-white">
             {intl.formatMessage({ id: "footer.copyright_1" })}
             <a
