@@ -46,9 +46,9 @@ export default ({ data }) => {
       <div className="hero-body">
         <div className="container">
           <div className="text-content">
-            <div className="columns is-align-items-center">
-              <div className="column is-half">
-                <div className="is-flex title-product   is-justify-content-space-around is-align-items-center pb-4 mb-6">
+            <div className="columns is-align-items-center is-flex-wrap-wrap">
+              <div className="column is-half-desktop is-full">
+                <div className="is-flex title-product   is-justify-content-space-around is-align-items-center  pb-4 mb-6">
                   <figure className="image is-96x96 mr-3">
                     <img
                       src={`${icons[data.icon]}`}
@@ -98,7 +98,7 @@ export default ({ data }) => {
                   )}
                 </div>
               </div>
-              <div className="column">
+              <div className="column is-half-desktop is-full">
                 <figure className="image is-hidden-mobile">
                   <img src={`${images[data.image]}`} alt="" />
                 </figure>

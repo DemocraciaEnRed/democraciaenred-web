@@ -45,8 +45,8 @@ export default () => {
       <Navbar />
       <HeroSlider slides={heroSliderData} />
       <Division />
-      <Resources resources={dataResources} />
       <SocialMediaNavbar socialMedia={socialMedia} />
+      <Resources resources={dataResources} />
       <ProductsSlider slides={productsData} />
       <EcosystemSlider slides={ecosystemData} />
       <LivesSlider slides={livesData} />

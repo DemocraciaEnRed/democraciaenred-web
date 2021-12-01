@@ -95,12 +95,12 @@ const WorkWith = () => {
   return (
     <section id="work-with" className="section work-with">
       <div className="container has-text-centered">
-        <h2 className="main-title mb-3 is-size-3">
+        <h2 className="main-title mb-6 is-size-3">
           {intl.formatMessage({ id: "work_with" })}
         </h2>
         <div className="columns is-multiline">
           {logos.map((logo) => (
-            <div className="column is-one-quarter-tablet is-one-quarter-desktop is-half-mobile">
+            <div className="column is-one-third-tablet is-one-quarter-desktop is-half-mobile">
               <figure className="image">
                 <img
                   src={logo.src}

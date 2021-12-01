@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react'
+import React from 'react'
 import {Pie as Grafico} from 'react-chartjs-2'
 import Chart from 'chart.js/auto'
 

@@ -1,65 +1,101 @@
 @import "~bulma/sass/utilities/_all.sass";
 
 $blue: #29abe2;
-$green:#6ED59F;
+$green: #6ed59f;
 $coral: #f09c77;
 
 .hero-slider-item {
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    .hero-body {
-        background-color:rgb(15 10 7 / 78%);
-        height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  .hero-body {
+    background-color: rgb(15 10 7 / 78%);
+    height: 100vh;
+    @include touch {
+      height: 50vh;
     }
-    .slider-icon {
-        display: inline-block;
-        height: 70px;
-    }
-    .slider-image-description {
-        font-size: $size-7;
-        position: absolute;
-        bottom: 50px;
-        left: 50px;
-        max-height: unset;
-    }
+  }
+  .slider-icon {
+    display: inline-block;
+    height: 70px;
+  }
+  .slider-image-description {
+    font-size: $size-7;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    max-height: unset;
+  }
+}
+
+#hero-slider .hero.is-large .hero-body {
+  @include touch {
+    padding: 12rem 6rem;
+  }
+  @include mobile {
+    padding: 1.5rem;
+  }
+}
+
+#hero-slider .slick-dots li {
+  button:before {
+    color: #848181;
+    opacity: 0.75;
+  }
+  &.slick-active button:before {
+    color: white;
+  }
 }
 
 .hero.is-fullheight.is-primary {
-    background-image: none;
-    background-color: transparent;
-    height: 100vh;
+  background-image: none;
+  background-color: transparent;
+  height: 100vh;
+  @include touch {
+    height: 50vh;
+    min-height: auto;
+  }
 }
 
-.hero.is-primary .title.hero-slider-coral{
-    color: $coral;
+.hero.is-primary .title.hero-slider-coral {
+  color: $coral;
 }
 
-.hero.is-primary .title.hero-slider-green{
-   color: $green
+.hero.is-primary .title.hero-slider-green {
+  color: $green;
 }
 
-.hero.is-primary .title.hero-slider-blue{
-    color: $blue
-
+.hero.is-primary .title.hero-slider-blue {
+  color: $blue;
 }
 
-#hero-slider .slick-prev,#hero-slider .slick-next {
-    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(59deg) brightness(97%) contrast(102%);
+#hero-slider .slick-prev,
+#hero-slider .slick-next {
+  filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(59deg) brightness(97%)
+    contrast(102%);
 }
 
 #hero-slider .slick-next {
-    right: 20px !important;
+  right: 20px !important;
+  @include mobile {
+    display: none;
+  }
 }
 
 #hero-slider .slick-prev {
-    left: 20px !important;
+  left: 20px !important;
+  @include mobile {
+    display: none;
+  }
 }
 
 #hero-slider .slick-slider,
 #hero-slider .slick-list,
-#hero-slider .slick-track {
-    height: 100vh;
+#hero-slider .slick-track,
+#hero-slider .hero-slider-item {
+  height: 100vh;
+  @include touch {
+    height: 50vh;
+    min-height: auto;
+  }
 }
-
-

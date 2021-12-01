@@ -1,3 +1,8 @@
+@import "~bulma/sass/utilities/_all.sass";
+
 #division{
     height: 5vh;
+    @include  touch{
+        height: 3vh;
+    }
 }

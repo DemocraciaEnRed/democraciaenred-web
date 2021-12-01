@@ -10,13 +10,13 @@ export default ({ data }) => {
             <div className="hero-body pt-5">
                 <div className="container">
                     <div className="text-content">
-                        <div className="columns is-variable is-8 is-align-items-start">
-                            <div className="column is-7">
+                        <div className="columns is-variable is-8 is-align-items-start is-flex-wrap-wrap">
+                            <div className="column is-7-desktop is-full">
                                 <div className=" is-hidden-mobile iframe-container">
                                     <iframe width='100%' height='100%' src={data.video} title='YouTube video player' frameBorder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowFullScreen className="responsive-iframe"></iframe>
                                     </div>
                                 </div>
-                            <div className="column is-5">
+                            <div className="column is-5-desktop is-full">
 
                                 <h4 className="has-text-black title is-spaced mb-6">{intl.formatMessage({id: data.title})}</h4>
                                 <div className="is-hidden-desktop is-hidden-tablet iframe-container mb-6">
