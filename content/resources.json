@@ -153,7 +153,7 @@
             "subtitle":"resources.subtitle_15",
             "link":"https://www.instagram.com/p/CIHbaObAd0R/",
             "id":"participes",
-            "color":"green",
+            "color":"purple",
             "type":"participacion_ciudadana"
         },
         {
@@ -161,7 +161,7 @@
             "subtitle":"resources.subtitle_16",
             "link":"https://drive.google.com/file/d/1YfUOz7faDNcN4Fo9O18XTi2shYPFB_Ng/view?usp=sharing",
             "id":"miedoBronca",
-            "color":"pink",
+            "color":"blue",
             "type":"politica"
         },
         {
@@ -169,7 +169,7 @@
             "subtitle":"resources.subtitle_17",
             "link":"https://compaspolitico.merepresenta.info/intro",
             "id":"compasPolitico",
-            "color":"pink",
+            "color":"blue",
             "type":"politica",
             "home":true
         },
@@ -181,6 +181,22 @@
             "color":"pink",
             "type":"participacion_ciudadana",
             "home":true
+        },
+        {
+            "title":"resources.main_title_19",
+            "subtitle":"resources.subtitle_19",
+            "link":"https://medium.com/multitudes/gatopardismo-1e6967894774",
+            "id":"gatopardismo",
+            "color":"yellow",
+            "type":"participacion_ciudadana"
+        },
+        {
+            "title":"resources.main_title_20",
+            "subtitle":"resources.subtitle_20",
+            "link":"https://youtu.be/qJn3XVme-oQ",
+            "id":"tedDemocracias",
+            "color":"orange",
+            "type":"participacion_ciudadana"
         }
     ]
     

@@ -1,13 +1,11 @@
 import React from "react";
 import { useIntl, Link } from "gatsby-plugin-intl";
 import { PopupButton } from "@typeform/embed-react";
-import Pie from '../chart/Pie'
-import Chart from 'chart.js/auto'
-
+import Pie from "../chart/Pie";
 
 const TransparencySection = ({ data }) => {
   const intl = useIntl();
-  
+
   return (
     <section id="transparency" className="has-background-light">
       <div className="section">
@@ -37,16 +35,12 @@ const TransparencySection = ({ data }) => {
       </div>
       <div className="columns is-justify-content-center pb-6">
         <div className="mx-6">
-          <Pie chartData={data.chartIncomes}/>
+          <Pie chartData={data.chartIncomes} />
         </div>
         <div className="mx-6">
-          <Pie chartData={data.chartOutcomes}/>
+          <Pie chartData={data.chartOutcomes} />
         </div>
       </div>
-
-
-      
-    
     </section>
   );
 };
