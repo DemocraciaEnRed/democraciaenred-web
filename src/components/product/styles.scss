@@ -6,7 +6,7 @@ $pink: #FD7B92;
 $green:#6ED59F;
 $purple: #E7B4F1;
 $coral: #f09c77;
-
+$yellow:#F7EC86;
 
 .hero.product .hero-body{
     padding:0
@@ -54,6 +54,9 @@ $coral: #f09c77;
     }
     &.product-coral {
         background-color: $coral;
+    }
+    &.product-yellow {
+        background-color: $yellow;
     }
     .is-black{
         border: 0;

@@ -1,5 +1,16 @@
 [
     {
+        "title":"products.title_0",
+        "subtitle":"products.subtitle_0",
+        "description": "products.description_0",
+        "external_link": "https://democraciaos.org/es/",
+        "color": "yellow",
+        "icon": "democracia_os",
+        "image": "democracia_os",
+        "id": "democracia_os"
+        
+    },
+    {
         "title":"products.title_1",
         "subtitle":"products.subtitle_1",
         "description": "products.description_1",
@@ -84,5 +95,5 @@
         "icon": "votacion_autoridades",
         "image": "votacion_autoridades",
         "id": "votacion_autoridades"
-    }
+    } 
 ]
