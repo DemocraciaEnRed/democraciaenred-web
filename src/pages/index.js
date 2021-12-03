@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./styles.scss";
 import SocialMediaNavbar from "../components/social-media-navbar";
 import HeroSlider from "../components/hero-slider";
@@ -30,11 +30,6 @@ if (typeof window !== "undefined") {
 }
 
 export default () => {
-  const [show, setShow] = useState(false);
-
-  const handleForm = () => {
-    setShow(true);
-  };
 
   return (
     <React.Fragment>

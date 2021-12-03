@@ -1,13 +1,15 @@
 @import "~bulma/sass/utilities/_all.sass";
 
 .us-header .hero-body{
-    background-color: rgba(15, 10, 7, 0.698);
+    background-color: rgba(177, 177, 177, 0.7);
 }
 
 .us-header{
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
+    position: relative;
+    overflow: hidden;
     @include mobile{
     height:50vh
 }
@@ -17,3 +19,26 @@
     max-width:700px
 }
 
+.us-header::before{
+    content: url('./assets/der-iso-logo.png');
+    position:absolute;
+    top:0;
+    right: -30%;
+    z-index: -1;
+    -webkit-animation:spin 15s linear infinite;
+    -moz-animation:spin 15s linear infinite;
+    animation:spin 15s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+
+}

@@ -35,6 +35,10 @@
             {
                 "url": "https://www.linkedin.com/in/don-powa-59290473/",
                 "icon":"ln"
+            },
+            {
+                "url":"https://twitter.com/donpowa",
+                "icon":"tw"
             }
         ],
         "id":"powa"
