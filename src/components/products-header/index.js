@@ -50,7 +50,7 @@ const iconTitle = {
             <div className="hero-body">
             <div className="container ">
                 <div className="columns header-columns">
-                    <div className="column is-two-fifths">
+                    <div className="column is-two-fifths-desktop">
                         <div className="is-hidden-desktop">
                             <br/>
                             <br/>

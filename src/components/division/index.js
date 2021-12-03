@@ -1,7 +1,7 @@
 import React from 'react'
 import "./style.scss"
 
-export default (params) => {
+export default () => {
     return (
         <section id="division" className="columns is-mobile my-0 ">
             <div className="column has-background-orange "></div>

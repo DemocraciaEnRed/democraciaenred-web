@@ -48,7 +48,7 @@ export default ({ data }) => {
           <div className="text-content">
             <div className="columns is-align-items-center is-flex-wrap-wrap">
               <div className="column is-half-desktop is-full">
-                <div className="is-flex title-product   is-justify-content-space-around is-align-items-center  pb-4 mb-6">
+                <div className="is-flex title-product   is-justify-content-space-evenly is-align-items-center  pb-4 mb-6">
                   <figure className="image is-96x96 mr-3">
                     <img
                       src={`${icons[data.icon]}`}
@@ -73,30 +73,32 @@ export default ({ data }) => {
                                         )}
                                     </ul>
                                 </div> */}
-                <div className="button-container">
-                  <PopupButton
-                    id="bkXtFW"
-                    className="button is-rounded is-medium is-black"
-                    href="#implementar"
+
+                {data.external_link ? (
+                  <a
+                    className="button is-rounded is-medium"
+                    href={data.external_link}
+                    target="_blank"
                   >
-                    {intl.formatMessage({ id: "implementation" })}
-                  </PopupButton>
-                  {data.external_link ? (
-                    <a
-                      className="button is-rounded is-medium"
-                      href={data.external_link} target="_blank"
+                    {intl.formatMessage({ id: "see_more" })}
+                  </a>
+                ) : (
+                  <div className="button-container">
+                    <PopupButton
+                      id="bkXtFW"
+                      className="button is-rounded is-medium is-black"
+                      href="#implementar"
                     >
-                      {intl.formatMessage({ id: "see_more" })}
-                    </a>
-                  ) : (
+                      {intl.formatMessage({ id: "implementation" })}
+                    </PopupButton>
                     <Link
                       className="button is-rounded is-medium"
                       to={data.link}
                     >
                       {intl.formatMessage({ id: "see_more" })}
                     </Link>
-                  )}
-                </div>
+                  </div>
+                )}
               </div>
               <div className="column is-half-desktop is-full">
                 <figure className="image is-hidden-mobile">

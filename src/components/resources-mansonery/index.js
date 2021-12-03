@@ -1,6 +1,7 @@
 import React from "react";
 import Masonry from "react-masonry-css";
 import { useIntl } from "gatsby-plugin-intl";
+import "./style.scss";
 
 import desinformacion from "./assets/desinformacion.jpg";
 import recuperarLaPolitica from "./assets/recuperar-la-politica.jpg";
@@ -21,7 +22,7 @@ import miedoBronca from "./assets/miedo-bronca.jpg";
 import compasPolitico from "./assets/compas_politico.jpg";
 import meRepresenta from "./assets/me_representa.jpg";
 import gatopardismo from "./assets/gatopardismo.jpg";
-import tedDemocracias from "./assets/ted-democracias.jpg"
+import tedDemocracias from "./assets/ted-democracias.jpg";
 
 const images = {
   desinformacion,
@@ -43,7 +44,7 @@ const images = {
   compasPolitico,
   meRepresenta,
   gatopardismo,
-  tedDemocracias
+  tedDemocracias,
 };
 
 const ResourcesMansonery = ({ resources, home, filter }) => {
@@ -52,38 +53,38 @@ const ResourcesMansonery = ({ resources, home, filter }) => {
     default: 4,
     700: 2,
   };
-  let resourcesArray;
-  // Filtramos los recursos: si estamos en la home muestra solo los seleccionados. Si estamos en la página de recursos muestra todos y nos permite filtrarlos según el tipo de recurso.
-  switch (home) {
-    case true:
-      resourcesArray = resources.resources.filter(
-        (resource) => resource.home == true
-      );
-      break;
-    default: {
-      resourcesArray = resources.resources.filter(
-        (resource) => resource.type == filter
-      );
-      resourcesArray = resourcesArray.concat(
-        resources.resources
-          .filter((resource) => resource.type !== filter)
-          .map((resource) => resource)
-      );
+
+  const getArray = () => {
+    if (home) {
+      return resources.resources.filter((resource) => resource.home === true);
     }
-  }
+    let resourcesArray = resources.resources.filter(
+      (resource) => resource.type === filter
+    );
+    resourcesArray = resourcesArray.concat(
+      resources.resources
+        .filter((resource) => resource.type !== filter)
+        .map((resource) => resource)
+    );
+    return resourcesArray;
+  };
 
   return (
     <div className="has-background-dark-grey">
       <Masonry
         breakpointCols={breakpointCols}
-        className="my-masonry-grid"
-        columnClassName="my-masonry-grid_column"
+        className="masonry-grid"
+        columnClassName="masonry-grid_column"
       >
-        {resourcesArray.map((resource) => (
+        {getArray().map((resource) => (
           <div className="resource-container" key={resources.id}>
             <a href={resource.link} target="_blank">
               <figure key={resource.id} className="image m-auto">
-                <img src={images[resource.id]} width="100px" alt="" />
+                <img
+                  src={images[resource.id]}
+                  width="100px"
+                  alt={`Imagen del recurso ${resource.title}`}
+                />
               </figure>
               <div
                 className={`resource-description has-background-${resource.color} is-flex is-flex-direction-column is-justify-content-center p-3`}

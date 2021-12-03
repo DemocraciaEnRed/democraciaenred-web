@@ -15,7 +15,7 @@ import TeamSlider from "../components/team-slider";
 import teamData from "../../content/team.json";
 import ecosystemData from "../../content/ecosystem.json";
 import EcosystemSlider from "../components/ecosystem-slider";
-import Resources from "../components/resources";
+import Resources from "../components/resources-section";
 import dataResources from "../../content/resources.json";
 import Division from "../components/division";
 import UsSection from "../components/us-section";

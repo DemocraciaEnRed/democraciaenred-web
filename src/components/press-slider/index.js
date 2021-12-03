@@ -1,86 +1,49 @@
-import React from "react"
+import React from "react";
 import Slider from "react-slick";
-import { useIntl } from "gatsby-plugin-intl"
+import { useIntl } from "gatsby-plugin-intl";
+import "./style.scss";
+import sliderSettings from "../slider-settings";
 
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import "./style.scss"
+import Press from "../press";
 
-import Press from '../press'
-
-
-const PrevArrow = ({ className, onClick }) => {
-    return (
-        <button className={className} onClick={onClick}>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12.44 22.05">
-                <g>
-                    <g>
-                        <polyline fill="none" stroke="#fff" strokeMiterlimit="10" strokeWidth="2px" points="11.73 21.34 5.38 14.99 1.41 11.03 11.73 0.71"/>
-                    </g>
-                </g>
-            </svg>
-        </button>
-    );
-}
-
-const NextArrow = ({ className, onClick }) => {
-    return (
-        <button className={className} onClick={onClick}>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12.44 22.05">
-                <g>
-                    <g>
-                        <polyline fill="none" stroke="#fff" strokeMiterlimit="10" strokeWidth="2px" points="0.71 0.71 11.03 11.03 5.89 16.16 0.71 21.34"/>
-                    </g>
-                </g>
-            </svg>      
-        </button>
-    );
-}
-
-export default ({ slides }) =>  {
-    const intl = useIntl()
-
-    const sliderSettings = {
+export default ({ slides }) => {
+  const intl = useIntl();
+  sliderSettings.slidesToShow = 3;
+  sliderSettings.slidesToScroll = 3;
+  sliderSettings.responsive = [
+    {
+      breakpoint: 840,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        infinite: true,
         dots: true,
-        infinite: false,
-        speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        swipeToSlide: true,
-        nextArrow: <NextArrow />,
-        prevArrow: <PrevArrow />,
-        responsive: [
-            {
-              breakpoint: 840,
-              settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2,
-                infinite: true,
-                dots: true
-              }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                  slidesToShow: 1,
-                  slidesToScroll: 1,
-                  infinite: true,
-                  dots: true
-                }
-              }
+      },
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true,
+      },
+    },
+  ];
 
-        ]
-    }
-
-    
-    return (
-        <section id="press-slider" className="section press-slider pb-6 hero is-fullheight-deesktop has-background-yellow">
-            <h1 className="pl-6 mb-0 mt-6 our-press title has-text-black">{intl.formatMessage({ id: slides.title})}</h1>
-            <Slider {...sliderSettings} >
-                {slides.press.map((press) => 
-                    <Press data={press} key={press.id} className="pt-6"/>
-                )}
-            </Slider>
-        </section>
-    )
-}
+  return (
+    <section
+      id="press-slider"
+      className="section press-slider pb-6 hero is-fullheight-deesktop has-background-yellow"
+    >
+      <h1 className="pl-6 mb-0 mt-6 our-press title has-text-black">
+        {intl.formatMessage({ id: slides.title })}
+      </h1>
+      <Slider {...sliderSettings}>
+        {slides.press.map((press) => (
+          <Press data={press} key={press.id} className="pt-6" />
+        ))}
+      </Slider>
+    </section>
+  );
+};
