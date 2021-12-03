@@ -19,6 +19,10 @@
             {
                 "url": "www.linkedin.com/in/florenciacaffarone",
                 "icon":"ln"
+            },
+            {
+                "url": "https://twitter.com/pitucaffarone",
+                "icon":"tw"
             }
         ],
         "id":"florencia-dir"
@@ -173,6 +177,10 @@
             {
                 "url": "https://github.com/lieta96",
                 "icon":"gh"
+            },
+            {
+                "url": "https://www.linkedin.com/in/julieta-garcia96/",
+                "icon":"ln"
             }
         ],
         "id":"juli"
