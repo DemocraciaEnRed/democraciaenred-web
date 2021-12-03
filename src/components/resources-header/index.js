@@ -8,7 +8,7 @@ const ResourcesHeader = ({ data }) => {
 
   return (
     <section id="resources">
-      <div className="columns mt-0 section has-background-dark-grey mb-0 pb-6">
+      <div className="columns mt-0 section has-background-dark mb-0 pb-6">
         <div className="column ">
           <h1 className="has-text-yellow is-spaced mb-6">
             {intl.formatMessage({ id: data.subtitle })}
