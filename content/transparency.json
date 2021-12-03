@@ -6,11 +6,12 @@
   "balance_button":"transparency.balance_button",
   "link": "/transparencia",
   "chartIncomes": {
-    "labels": ["Servicios", "Donaciones"],
-
+    "labels": ["Servicios", "Donaciones","Avina","OSF","Unión Europea"],
     "label": "title",
-    "data": [30, 70],
-    "backgroundColor": ["#FF7990", "#69D69E"],
+    "data": [
+      56.8, 0, 10.2, 23.2, 9.8
+    ],
+    "backgroundColor": ["#FF9B73","#88CBFF","#F7EC86","#BB86FC","#69D69D"],
     "title": "Ingresos"
   },
   "chartOutcomes": {
