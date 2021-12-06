@@ -115,11 +115,6 @@
   background-repeat: no-repeat;
 }
 
-.luciana-bg:before {
-  background:url(./assets/luciana.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 
 .agustina-bg:before {
   background:url(./assets/agustina.jpeg);
@@ -127,20 +122,9 @@
   background-repeat: no-repeat;
 }
 
-.daniel-bg:before {
-  background:url(./assets/daniel.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 
 .juli-bg:before {
   background:url(./assets/juli.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.mija-bg:before {
-  background:url(./assets/mija.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -171,6 +155,12 @@
 
 .mariano-bg:before {
   background:url(./assets/mariano.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ceci-bg:before {
+  background:url(./assets/ceci.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
