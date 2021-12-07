@@ -3,29 +3,50 @@
   "description": "transparency.description",
   "subtitle": "transparency.subtitle",
   "description_home": "transparency.description_home",
-  "balance_button":"transparency.balance_button",
+  "balance_button": "transparency.balance_button",
   "link": "/transparencia",
-  "chartIncomes": {
-    "labels": ["Servicios", "Donaciones","Avina","OSF","Unión Europea"],
-    "label": "title",
-    "data": [
-      56.8, 0, 10.2, 23.2, 9.8
-    ],
-    "backgroundColor": ["#FF9B73","#88CBFF","#F7EC86","#BB86FC","#69D69D"],
-    "title": "Ingresos"
+  "chartPieIncomes": {
+    "title":"transparency.chartsPie.income_title",
+    "labels": ["Servicios", "Donaciones", "Avina", "OSF", "Unión Europea"],
+    "datasets": [
+      {
+        "data": [56.8, 0, 10.2, 23.2, 9.8],
+        "backgroundColor": [
+          "#FF9B73",
+          "#88CBFF",
+          "#F7EC86",
+          "#BB86FC",
+          "#69D69D"
+        ]
+      },
+      {
+        "data": [56.8, 43.2],
+        "backgroundColor": [
+          "#FF9B73",
+          "#88CBFF",
+          "#F7EC86",
+          "#BB86FC",
+          "#69D69D"
+        ]
+      }
+    ]
   },
-  "chartOutcomes": {
+  "chartPieOutcomes": {
+    "title":"transparency.chartsPie.outcome_title",
     "labels": [
       "honorarios",
       "gastos de oficina",
       "impuestos",
       "diseño y comunicación"
     ],
-    "label": "title",
-    "data": [20, 30, 10, 40],
-    "backgroundColor": ["#77549E", "#E7B4F1", "#88CBFF", "#53C1B4"],
-    "title": "Gastos"
+    "datasets": [
+      {
+        "data": [20, 30, 10, 40],
+        "backgroundColor": ["#77549E", "#E7B4F1", "#88CBFF", "#53C1B4"]
+      }
+    ]
   },
+
   "balance": {
     "title": "transparency.balance.title",
     "subtitle": "transparency.balance.subtitle"
@@ -43,21 +64,21 @@
       "transparency.evolution.labels.label_5",
       "transparency.evolution.labels.label_6"
     ],
-    "incomesBar":{
-      "title":"transparency.evolution.incomesBar.title",
-      "label":[
+    "incomesBar": {
+      "title": "transparency.evolution.incomesBar.title",
+      "label": [
         "transparency.evolution.incomesBar.label_1",
         "transparency.evolution.incomesBar.label_2"
-      ]      
+      ]
     },
-    "outcomesBar":{
-      "title":"transparency.evolution.outcomesBar.title",
-      "label":[
+    "outcomesBar": {
+      "title": "transparency.evolution.outcomesBar.title",
+      "label": [
         "transparency.evolution.outcomesBar.label_1",
         "transparency.evolution.outcomesBar.label_2",
         "transparency.evolution.outcomesBar.label_3",
         "transparency.evolution.outcomesBar.label_4"
-      ]   
+      ]
     }
   }
 }

@@ -631,6 +631,10 @@
       "title": "Balance 2020",
       "subtitle": "¿Quién nos financia? ¿Cómo y en qué gastamos?"
     },
+    "chartsPie": {
+      "income_title": "Ingresos",
+      "outcome_title": "Gastos"
+    },
     "evolution": {
       "title": "Evolución de ingresos y gastos",
       "labels": {

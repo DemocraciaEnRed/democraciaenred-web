@@ -35,10 +35,10 @@ const TransparencySection = ({ data }) => {
       </div>
       <div className="columns is-justify-content-center pb-6">
         <div className="mx-6">
-          <Pie chartData={data.chartIncomes} />
+          <Pie chartData={data.chartPieIncomes} />
         </div>
         <div className="mx-6">
-          <Pie chartData={data.chartOutcomes} />
+          <Pie chartData={data.chartPieOutcomes} />
         </div>
       </div>
     </section>
