@@ -1,6 +1,6 @@
 import React from "react"
 import "./style.scss"
-import { useIntl, Link } from "gatsby-plugin-intl"
+import { useIntl } from "gatsby-plugin-intl"
 
 export default ({ data }) => {
     
@@ -13,8 +13,6 @@ export default ({ data }) => {
         tw:"fab fa-twitter",
         ln: "fab fa-linkedin"
     }
-
-    let icon;
 
     return (
         <section id={data.id} className="px-3 py-6 hero is-flex is-justify-content-center is-flex-direction-column">

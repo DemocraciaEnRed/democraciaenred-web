@@ -18,7 +18,7 @@ export default function Transparency({ data }) {
         </h2>
         <h2></h2>
         <div className="columns is-justify-content-center pb-6">
-          <div className="mx-6 pie-incomes-container">
+          <div className="mx-6 pie-incomes-container mb-6">
             <Pie chartData={data.chartPieIncomes} />
           </div>
           <div className="mx-6">
