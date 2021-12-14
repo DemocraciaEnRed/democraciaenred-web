@@ -89,10 +89,10 @@ const ResourcesMansonery = ({ resources, home, filter }) => {
               <div
                 className={`resource-description has-background-${resource.color} is-flex is-flex-direction-column is-justify-content-center p-3`}
               >
-                <h2 className="has-text-black mb-1">
+                <h2 className="has-text-black mb-1 is-size-6-mobile">
                   {intl.formatMessage({ id: resource.title })}
                 </h2>
-                <h3 className="has-text-black">
+                <h3 className="has-text-black is-size-7-mobile">
                   {intl.formatMessage({ id: resource.subtitle })}
                 </h3>
               </div>

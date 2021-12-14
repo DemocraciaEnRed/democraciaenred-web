@@ -76,7 +76,7 @@ export default (props) => {
             </IntlContextConsumer>
           </div> */}
           <a
-            className="navbar-item"
+            className="navbar-item is-size-6 my-3 is-capitalized"
             onClick={() => setIsActive(false)}
             href="/quienessomos"
             data-target="nosotros"
@@ -84,7 +84,7 @@ export default (props) => {
             {intl.formatMessage({ id: "us" })}
           </a>
           <a
-            className="navbar-item"
+            className="navbar-item is-size-6 my-3 is-capitalized"
             onClick={() => setIsActive(false)}
             href="/recursos"
             data-target="nosotros"
@@ -94,39 +94,27 @@ export default (props) => {
           <PopupButton
             id="fSqwwL"
             style={{ fontSize: 20 }}
-            className="navbar-item contact"
+            className="navbar-item contact is-size-6 my-3 is-capitalized"
           >
             {intl.formatMessage({ id: "contact" })}
           </PopupButton>
-          <a
-            className="navbar-item is-hidden-desktop"
-            href="mailto:contacto@democraciaenred.org"
-          >
-            contacto@democraciaenred.org
-          </a>
-          {socialMedia.map((media) => (
+          <div className="my-6 is-flex is-justify-content-space-between mr-2">
+            {socialMedia.map((media) => (
             <a
-              className="navbar-item is-hidden-desktop is-inline-block"
+              className="navbar-item is-hidden-desktop is-inline-block p-0"
               href={media.link}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span className="icon">
+              <span className="icon is-large ">
                 <i className={media.icon}></i>
               </span>
             </a>
           ))}
+          </div>
+          
           <p className="is-size-7 is-hidden-desktop has-text-white">
-            {intl.formatMessage({ id: "footer.copyright_1" })}
-            <a
-              className="has-text-underline has-text-white"
-              href="https://democraciaenred.org/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Democracia en Red
-            </a>
-            {intl.formatMessage({ id: "footer.copyright_2" })}
+            {intl.formatMessage({ id: "footer.description" })}
           </p>
         </div>
       </div>

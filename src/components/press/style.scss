@@ -1,0 +1,19 @@
+@import "~bulma/sass/utilities/_all.sass";
+
+@keyframes animationCard {
+  0% {
+    scale: 1;
+    box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+  }
+  100% {
+    scale:1.05;
+    box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.67), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+  }
+}
+
+.card {
+  &:hover {
+    animation: animationCard 0.6s ease;
+    
+  }
+}

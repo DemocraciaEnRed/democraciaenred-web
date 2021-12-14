@@ -1,3 +1,5 @@
+@import "~bulma/sass/utilities/_all.sass";
+
 .ecosystem-slider{
     background: #E3E3E3E3 !important;
     position:relative
@@ -5,8 +7,16 @@
 
 .ecosystem-slider .slick-next {
     right: 20px !important;
+    @include touch{
+        bottom: 70px !important;
+        top:auto
+    }
 }
 
 .ecosystem-slider .slick-prev {
     left: 20px !important;
+    @include touch{
+        bottom: 70px !important;
+        top:auto
+    }
 }

@@ -12,6 +12,10 @@ import hexagono_yellow from "./assets/hexagono-yellow.png";
 import hex_blue_mobile from "./assets/hex-blue-mobile.png";
 import hex_orange_mobile from "./assets/hex-orange-mobile.png";
 import hex_purple_mobile from "./assets/hex-purple-mobile.png";
+import hex_green_mobile from "./assets/hex-green-mobile.png";
+import hex_yellow_mobile from "./assets/hex-yellow-mobile.png";
+import hex_red_mobile from "./assets/hex-red-mobile.png";
+
 
 export default ({ data }) => {
   const intl = useIntl();
@@ -30,9 +34,9 @@ export default ({ data }) => {
     hex_orange_mobile,
     hex_purple_mobile,
     hex_blue_mobile,
-    hex_orange_mobile,
-    hex_blue_mobile,
-    hex_orange_mobile,
+    hex_green_mobile,
+    hex_red_mobile,
+    hex_yellow_mobile,
   };
 
   return (

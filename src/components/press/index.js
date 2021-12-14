@@ -1,5 +1,7 @@
 import React from "react"
 import { useIntl} from "gatsby-plugin-intl"
+import "./style.scss"
+
 
 //Logos
 import openDemocracy from './assets/open-democracy.png'
@@ -36,7 +38,7 @@ export default ({ data }) => {
 
     return (
         <section id={data.id} className="px-3 py-6 hero is-flex is-justify-content-center is-flex-direction-column">
-            <div className="card">
+            <div className="card mb-6">
                 <div className="card-content">
                     <div className="media">
                         <div className="media-left">

@@ -2,6 +2,7 @@ import React from "react";
 import "./styles.scss";
 import { useIntl } from "gatsby-plugin-intl";
 import logo_der from "./assets/logo-der-white.svg";
+import { PopupButton } from "@typeform/embed-react";
 
 import socialMedia from "../../../content/social-media-navbar.json";
 
@@ -19,7 +20,7 @@ export default () => {
             <p className="is-size-7">
               {intl.formatMessage({ id: "footer.description" })}
             </p>
-            <p className="is-size-7">
+            {/* <p className="is-size-7">
               {intl.formatMessage({ id: "footer.copyright_1" })}{" "}
               <a
                 className="has-text-underline"
@@ -30,7 +31,7 @@ export default () => {
                 Democracia en Red
               </a>
               {intl.formatMessage({ id: "footer.copyright_2" })}
-            </p>
+            </p> */}
           </div>
 
           <div className="column is-offset-1 is-two-thirds">
@@ -47,6 +48,31 @@ export default () => {
                   </span>
                 </a>
               ))}
+            </div>
+            <div className="mt-4 ml-0">
+              <a
+                className="navbar-item pl-0 ml-0"
+                onClick={() => setIsActive(false)}
+                href="/quienessomos"
+                data-target="nosotros"
+              >
+                {intl.formatMessage({ id: "us" })}
+              </a>
+              <a
+                className="navbar-item pl-0 ml-0"
+                onClick={() => setIsActive(false)}
+                href="/recursos"
+                data-target="nosotros"
+              >
+                {intl.formatMessage({ id: "resources.title" })}
+              </a>
+              <PopupButton
+                id="fSqwwL"
+                style={{ fontSize: 20 }}
+                className="navbar-item pl-0 ml-0 is-size-6 is-capitalized"
+              >
+                {intl.formatMessage({ id: "contact" })}
+              </PopupButton>
             </div>
           </div>
         </div>

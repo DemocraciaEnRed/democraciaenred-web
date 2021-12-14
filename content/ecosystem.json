@@ -35,9 +35,9 @@
          { 
             "title": "ecosystem.title_4",
             "image":"hexagono_red",
-            "imageMobile":"hex_orange_mobile",
+            "imageMobile":"hex_red_mobile",
             "features":[],
-            "color": "red",
+            "color": "pink",
             "description": "ecosystem.description_4",
             "link": "/transparencia"
          },
@@ -45,7 +45,7 @@
          { 
             "title": "ecosystem.title_5",
             "image":"hexagono_yellow",
-            "imageMobile":"hex_orange_mobile",
+            "imageMobile":"hex_yellow_mobile",
             "features":[],
             "color": "yellow",
             "description": "ecosystem.description_5",
@@ -55,7 +55,7 @@
          { 
             "title": "ecosystem.title_6",
             "image":"hexagono_green",
-            "imageMobile":"hex_orange_mobile",
+            "imageMobile":"hex_green_mobile",
             "features":[],
             "color": "green",
             "description": "ecosystem.description_6",

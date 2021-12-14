@@ -1,3 +1,5 @@
+@import "~bulma/sass/utilities/_all.sass";
+
 .press-slider.hero.is-fullheight.is-primary{
     background: #69D69D;
 }
@@ -22,18 +24,20 @@
     top:30% 
 }
 
-@media screen and (max-width: 768px){
+@include touch{
     .title.our-press{
         padding-left: 0 !important;
     }
     .press-slider .slick-prev {
-        right: 4rem !important;
-        top: 0;
+        left: 20px !important;
+        bottom: 70px !important;
+        top:auto;
         left: auto !important
     }
     .press-slider .slick-next {
-        top: 0;
-        right:1rem !important
+        right:20px !important;
+        bottom: 70px !important;
+        top:auto
     }
     .press-slider .slick-list{
         margin-left:0;

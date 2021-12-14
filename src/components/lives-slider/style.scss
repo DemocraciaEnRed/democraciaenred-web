@@ -18,8 +18,17 @@
 
 #live-slider .slick-next {
     right: 20px !important;
+    @include touch{
+        bottom: 70px !important;
+        top:auto
+    }
+    
 }
 
 #live-slider .slick-prev {
     left: 20px !important;
+    @include touch{
+        bottom: 70px !important;
+        top:auto
+    }
 }

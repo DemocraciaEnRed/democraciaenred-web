@@ -23,7 +23,7 @@ export default ({ data }) =>  {
                             </div> 
                         </div>
                     </div>
-                    <div className="column">
+                    <div className="column is-flex is-flex-direction-column is-justify-content-space-evenly">
                         <h1 className="has-text-black title is-spaced  is-hidden-mobile ">
                             {intl.formatMessage({ id: data.title})}
                         </h1>
@@ -33,7 +33,7 @@ export default ({ data }) =>  {
                         <p className="has-text-black subtitle">
                             {intl.formatMessage({ id: data.subtitle_2})}
                         </p>
-                        <Link className="button button-disabled-shadow has-no-background is-rounded is-medium is-black is-outlined is-uppercase is-inline-block" to={data.link}>{intl.formatMessage({ id: data.button })}</Link>
+                        <Link className="button button-disabled-shadow has-no-background is-rounded is-medium is-black is-outlined is-uppercase is-inline-block my-0 ml-0 mr-auto" to={data.link}>{intl.formatMessage({ id: data.button })}</Link>
                     </div>
                     
                 </div>

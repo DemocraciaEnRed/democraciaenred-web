@@ -44,10 +44,18 @@ $coral: #f09c77;
 
 .slick-prev{
     left: 0 !important;
+    @include touch{
+        bottom: 70px !important;
+        top:auto
+    }
 }
 
 .slick-next{
     right: 0 !important;
+    @include touch{
+        bottom: 70px !important;
+        top:auto
+    }
 }
 
 .slick-dots {
