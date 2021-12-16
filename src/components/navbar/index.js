@@ -114,7 +114,7 @@ export default (props) => {
           </div>
           
           <p className="is-size-7 is-hidden-desktop has-text-white">
-            {intl.formatMessage({ id: "footer.description" })}
+            {intl.formatMessage({ id: "footer.copyright_1" })}
           </p>
         </div>
       </div>

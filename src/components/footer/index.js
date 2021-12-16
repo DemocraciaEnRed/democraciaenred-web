@@ -17,21 +17,12 @@ export default () => {
             <a href="https://democraciaenred.org" target="_blank">
               <img src={logo_der} className="image mb-3" width="180" />
             </a>
+            <p className="is-size-7 mb-2">
+              {intl.formatMessage({ id: "footer.copyright_1" })}{" "}
+            </p>
             <p className="is-size-7">
               {intl.formatMessage({ id: "footer.description" })}
             </p>
-            {/* <p className="is-size-7">
-              {intl.formatMessage({ id: "footer.copyright_1" })}{" "}
-              <a
-                className="has-text-underline"
-                href="https://democraciaenred.org/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Democracia en Red
-              </a>
-              {intl.formatMessage({ id: "footer.copyright_2" })}
-            </p> */}
           </div>
 
           <div className="column is-offset-1 is-two-thirds">
