@@ -29,8 +29,7 @@ if (typeof window !== "undefined") {
   new SmoothScroll('a[href*="#"]');
 }
 
-export default () => {
-
+const IndexPage =()=>{
   return (
     <React.Fragment>
       <Layout>
@@ -49,3 +48,4 @@ export default () => {
     </React.Fragment>
   );
 };
+export default IndexPage
