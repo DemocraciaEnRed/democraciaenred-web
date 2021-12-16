@@ -106,8 +106,7 @@
   },
   "footer": {
     "description": "La tecnología avanza y cambia nuestras vidas. Es el momento del sistema político de abrirse al diálogo con la participación ciudadana.",
-    "copyright_1": "Democracia OS es un proyecto de ",
-    "copyright_2": ", una ONG con base en Buenos Aires, Argentina."
+    "copyright_1": "Democracia en Red es una ONG latinoamericana de Buenos Aires, Argentina, para el mundo."
   },
   "usPage": {
     "title": "¿Quiénes somos?",
@@ -421,18 +420,14 @@
     "slider_title": "Nuestro equipo"
   },
   "team": {
-    "title_2": "Agustín",
+    "title_2": "Agus Frizzera",
     "subtitle_2": "Director Ejecutivo",
-    "description_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    "id_2": "agustin",
 
-    "title_3": "Florencia",
+    "title_3": "Flor",
     "subtitle_3": "Coordinadora de Proyectos",
-    "description_3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
 
     "title_4": "Don Powa",
     "subtitle_4": "Desarrollo de proyectos",
-    "description_4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
 
     "title_5": "Esteban",
     "subtitle_5": "Vicepresidente",
@@ -471,7 +466,10 @@
     "subtitle_16": "Desarrollo",
 
     "title_17": "Ceci",
-    "subtitle_17": "Gestión de Proyectos"
+    "subtitle_17": "Gestión de Proyectos",
+
+    "title_18": "Fede Pasutti",
+    "subtitle_18": "Diseñador UX/UI"
 
   },
   "ecosystem": {
