@@ -111,6 +111,10 @@
       {
         "url": "https://twitter.com/ValeLisciani",
         "icon": "tw"
+      },
+      {
+        "url":"https://www.linkedin.com/in/valeria-lisciani",
+        "icon":"ln"
       }
     ],
     "id": "vale"
@@ -190,10 +194,21 @@
     "subtitle": "team.subtitle_17",
     "socialmedia": [
       {
-        "url": "#",
+        "url": "https://www.linkedin.com/in/cecilia-anabel-ibarra-0b0141166/",
         "icon": "ln"
       }
     ],
     "id": "ceci"
+  },
+  {
+    "title": "team.title_18",
+    "subtitle": "team.subtitle_18",
+    "socialmedia": [
+      {
+        "url": "https://www.linkedin.com/in/federico-pasutti/",
+        "icon": "ln"
+      }
+    ],
+    "id": "pasutti"
   }
 ]
