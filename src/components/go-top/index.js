@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import goTopButton from "./assets/to-top.png";
 import "./style.scss";
 
@@ -21,8 +21,10 @@ const GoTop = () => {
     });
   };
 
-  window.addEventListener("scroll", toggleVisible);
-
+  useEffect(() => {
+    window.addEventListener("scroll", toggleVisible);
+  }, [])
+  
   return (
     <>
       <div
