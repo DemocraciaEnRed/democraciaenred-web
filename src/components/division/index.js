@@ -3,7 +3,7 @@ import "./style.scss"
 
 export default () => {
     return (
-        <section id="division" className="columns is-mobile my-0 ">
+        <section id="division" className="columns is-mobile m-0 ">
             <div className="column has-background-orange "></div>
             <div className="column has-background-pink"></div>
             <div className="column has-background-purple"></div>

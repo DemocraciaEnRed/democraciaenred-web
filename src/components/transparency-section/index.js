@@ -33,7 +33,7 @@ const TransparencySection = ({ data }) => {
 
         <p className="">{intl.formatMessage({ id: data.description_home })}</p>
       </div>
-      <div className="columns is-justify-content-center pb-6">
+      <div className="columns mx-0 is-justify-content-center pb-6">
         <div className="mx-6 mb-6">
           <Pie chartData={data.chartPieIncomes} />
         </div>

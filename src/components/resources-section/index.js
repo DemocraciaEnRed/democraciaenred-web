@@ -7,7 +7,7 @@ export default ({ resources }) => {
 
   return (
     <section id="resources">
-      <div className="columns mt-0 section has-background-dark mb-0 pb-6">
+      <div className="columns mt-0 mx-0 section has-background-dark mb-0 pb-6">
         <div className="column is-two-thirds">
           <h1 className="has-text-white title is-spaced mb-6">
             {intl.formatMessage({ id: resources.title })}
