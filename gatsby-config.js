@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Democracia en Red`,
-    description: `Creamos soluciones de participación ciudadana con gobiernos y activistas para fortalecer la democracia`,
+    description: `Abrimos las instituciones públicas y la toma de decisiones a través de procesos participativos innovadores.`,
     author: `@DemocraciaEnRed`,
-    siteUrl: `https://democraciaos.org`
+    siteUrl: `https://webstaging.democraciaenred.org/`
   },
   plugins: [
     "gatsby-plugin-sass",
