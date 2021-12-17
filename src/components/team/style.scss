@@ -62,9 +62,10 @@
 
 // Backgrtound Hexágono
 .team-bg:before{
-  background:url(./assets/team.png);
+  background:url(./assets/team.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .mau-bg:before {
