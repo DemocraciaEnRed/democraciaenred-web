@@ -35,4 +35,10 @@ a{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    @include touch {
+        &.hero.is-fullheight{
+            min-height: 100%;
+        }
+    }
+    
 }
