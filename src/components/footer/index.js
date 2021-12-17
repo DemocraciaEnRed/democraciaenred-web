@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.scss";
-import { useIntl } from "gatsby-plugin-intl";
+import { useIntl, Link } from "gatsby-plugin-intl";
 import logo_der from "./assets/logo-der-white.svg";
 import { PopupButton } from "@typeform/embed-react";
 
@@ -14,9 +14,9 @@ export default () => {
       <div className="container">
         <div className="columns is-vcentered">
           <div className="column ">
-            <a href="https://democraciaenred.org" target="_blank">
+            <Link to="/" target="_blank">
               <img src={logo_der} className="image mb-3" width="180" />
-            </a>
+            </Link>
             <p className="is-size-7 mb-2">
               {intl.formatMessage({ id: "footer.copyright_1" })}{" "}
             </p>
@@ -41,22 +41,22 @@ export default () => {
               ))}
             </div>
             <div className="mt-4 ml-0">
-              <a
+              <Link
                 className="navbar-item pl-0 ml-0"
                 onClick={() => setIsActive(false)}
-                href="/quienessomos"
+                to="/quienessomos"
                 data-target="nosotros"
               >
                 {intl.formatMessage({ id: "us" })}
-              </a>
-              <a
+              </Link>
+              <Link
                 className="navbar-item pl-0 ml-0"
                 onClick={() => setIsActive(false)}
-                href="/recursos"
+                to="/recursos"
                 data-target="nosotros"
               >
                 {intl.formatMessage({ id: "resources.title" })}
-              </a>
+              </Link>
               <PopupButton
                 id="fSqwwL"
                 style={{ fontSize: 20 }}

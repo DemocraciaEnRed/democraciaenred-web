@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
-import { useIntl, IntlContextConsumer, changeLocale } from "gatsby-plugin-intl";
+import { useIntl, IntlContextConsumer, changeLocale, Link } from "gatsby-plugin-intl";
 import socialMedia from "../../../content/social-media-navbar.json";
 import "./styles.scss";
 import LogoDer from "./assets/logo-der.png";
@@ -36,9 +36,9 @@ export default (props) => {
       aria-label="main navigation"
     >
       <div className="navbar-brand ">
-        <a className="navbar-item " onClick={() => setIsActive(false)} href="/">
+        <Link className="navbar-item " onClick={() => setIsActive(false)} to="/">
           <img src={LogoDer} alt="Logo Democracia en Red" />
-        </a>
+        </Link>
         <button
           onClick={() => setIsActive((prevState) => !prevState)}
           className={isActive ? "navbar-burger is-active" : "navbar-burger"}
@@ -75,22 +75,22 @@ export default (props) => {
               }
             </IntlContextConsumer>
           </div> */}
-          <a
+          <Link
             className="navbar-item is-size-6 my-3 is-capitalized"
             onClick={() => setIsActive(false)}
-            href="/quienessomos"
+            to="/quienessomos"
             data-target="nosotros"
           >
             {intl.formatMessage({ id: "us" })}
-          </a>
-          <a
+          </Link>
+          <Link
             className="navbar-item is-size-6 my-3 is-capitalized"
             onClick={() => setIsActive(false)}
-            href="/recursos"
+            to="/recursos"
             data-target="nosotros"
           >
             {intl.formatMessage({ id: "resources.title" })}
-          </a>
+          </Link>
           <PopupButton
             id="fSqwwL"
             style={{ fontSize: 20 }}
