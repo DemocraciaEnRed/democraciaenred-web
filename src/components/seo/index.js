@@ -71,11 +71,11 @@ const SEO = ({ description, lang, meta, title }) => {
                 },
                 {
                     name: `og:image`,
-                    content: `${site.siteMetadata.siteUrl}/democraciaos-sharer.jpg`,
+                    content: `${site.siteMetadata.siteUrl}/der-share.png`,
                 },
                 {
                     name: `twitter:image`,
-                    content: `${site.siteMetadata.siteUrl}/democraciaos-sharer.jpg`,
+                    content: `${site.siteMetadata.siteUrl}/der-share.png`,
                 },
             ].concat(meta)}
         >
