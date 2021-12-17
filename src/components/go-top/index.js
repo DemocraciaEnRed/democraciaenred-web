@@ -34,9 +34,6 @@ const GoTop = () => {
       >
         <figure className="image is-48x48 goTop is-relative">
           <img src={goTopButton} />
-          <span className="icon is-large has-text-dark">
-            <i className="fas fa-angle-up fa-2x"></i>
-          </span>
         </figure>
       </div>
     </>
