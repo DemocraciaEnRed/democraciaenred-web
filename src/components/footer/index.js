@@ -1,7 +1,8 @@
 import React from "react";
 import "./styles.scss";
 import { useIntl, Link } from "gatsby-plugin-intl";
-import logo_der from "./assets/logo-der-white.svg";
+// import logo_der from "./assets/logo-der-white.svg";
+import logo_der from "./assets/logo-der.png";
 import { PopupButton } from "@typeform/embed-react";
 
 import socialMedia from "../../../content/social-media-navbar.json";
@@ -56,6 +57,30 @@ export default () => {
                 data-target="nosotros"
               >
                 {intl.formatMessage({ id: "resources.title" })}
+              </Link>
+              <Link
+                className="navbar-item pl-0 ml-0"
+                onClick={() => setIsActive(false)}
+                to="/transparencia"
+                data-target="transparency"
+              >
+                {intl.formatMessage({ id: "transparencia" })}
+              </Link>
+              <Link
+                className="navbar-item pl-0 ml-0"
+                onClick={() => setIsActive(false)}
+                to="/ecosystem"
+                data-target="transparency"
+              >
+                {intl.formatMessage({ id: "ecosistema" })}
+              </Link>
+              <Link
+                className="navbar-item pl-0 ml-0"
+                onClick={() => setIsActive(false)}
+                to="/press"
+                data-target="transparency"
+              >
+                {intl.formatMessage({ id: "prensa" })}
               </Link>
               <PopupButton
                 id="fSqwwL"
