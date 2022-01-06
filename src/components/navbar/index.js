@@ -91,6 +91,20 @@ export default (props) => {
           >
             {intl.formatMessage({ id: "resources.title" })}
           </Link>
+          <Link
+            className="navbar-item is-size-6 my-3 is-capitalized"
+            onClick={() => setIsActive(false)}
+            to="/transparencia"
+            data-target="transparency"
+          >
+            {intl.formatMessage({ id: "transparencia" })}
+          </Link>
+          <a href="#ecosystem" className="navbar-item is-size-6 my-3 is-capitalized">
+            {intl.formatMessage({ id: "ecosystem.main_title" })}
+          </a>
+          <a href="#press-slider" className="navbar-item is-size-6 my-3 is-capitalized">
+            {intl.formatMessage({ id: "press.title" })}
+          </a>
           <PopupButton
             id="fSqwwL"
             style={{ fontSize: 20 }}

@@ -22,12 +22,12 @@ const TransparencySection = ({ data }) => {
             >
               {intl.formatMessage({ id: "see_more" })}
             </Link>
-            <PopupButton
+            {/* <PopupButton
               id="fSqwwL"
               className="mt-0 mx-2 button button-disabled-shadow has-no-background is-rounded is-medium is-dark is-outlined is-uppercase is-inline-block "
             >
               {intl.formatMessage({ id: "contact" })}
-            </PopupButton>
+            </PopupButton> */}
           </div>
         </div>
 

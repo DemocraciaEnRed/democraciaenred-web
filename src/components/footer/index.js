@@ -26,8 +26,8 @@ export default () => {
             </p>
           </div>
 
-          <div className="column is-offset-1 is-two-thirds">
-            <div className="is-flex is-justify-content-space-between">
+          <div className="column is-offset-1 is-two-thirds columns ">
+            <div className="column is-12 is-flex is-justify-content-space-between">
               {socialMedia.map((media) => (
                 <a
                   className="mx-1 is-size-5 has-text-white"
@@ -41,56 +41,53 @@ export default () => {
                 </a>
               ))}
             </div>
-            <div className="mt-4 ml-0">
-              <Link
-                className="navbar-item pl-0 ml-0"
-                onClick={() => setIsActive(false)}
-                to="/quienessomos"
-                data-target="nosotros"
-              >
-                {intl.formatMessage({ id: "us" })}
-              </Link>
-              <Link
-                className="navbar-item pl-0 ml-0"
-                onClick={() => setIsActive(false)}
-                to="/recursos"
-                data-target="nosotros"
-              >
-                {intl.formatMessage({ id: "resources.title" })}
-              </Link>
-              <Link
-                className="navbar-item pl-0 ml-0"
-                onClick={() => setIsActive(false)}
-                to="/transparencia"
-                data-target="transparency"
-              >
-                {intl.formatMessage({ id: "transparencia" })}
-              </Link>
-              <Link
-                className="navbar-item pl-0 ml-0"
-                onClick={() => setIsActive(false)}
-                to="/ecosystem"
-                data-target="transparency"
-              >
-                {intl.formatMessage({ id: "ecosistema" })}
-              </Link>
-              <Link
-                className="navbar-item pl-0 ml-0"
-                onClick={() => setIsActive(false)}
-                to="/press"
-                data-target="transparency"
-              >
-                {intl.formatMessage({ id: "prensa" })}
-              </Link>
-              <PopupButton
-                id="fSqwwL"
-                style={{ fontSize: 20 }}
-                className="navbar-item pl-0 ml-0 is-size-6 is-capitalized"
-              >
-                {intl.formatMessage({ id: "contact" })}
-              </PopupButton>
+            <div className="column is-12 columns">
+              <div className=" column mt-4 ml-0">
+                <Link
+                  className="navbar-item pl-0 ml-0"
+                  onClick={() => setIsActive(false)}
+                  to="/quienessomos"
+                  data-target="nosotros"
+                >
+                  {intl.formatMessage({ id: "us" })}
+                </Link>
+                <Link
+                  className="navbar-item pl-0 ml-0"
+                  onClick={() => setIsActive(false)}
+                  to="/recursos"
+                  data-target="nosotros"
+                >
+                  {intl.formatMessage({ id: "resources.title" })}
+                </Link>
+                <Link
+                  className="navbar-item pl-0 ml-0"
+                  onClick={() => setIsActive(false)}
+                  to="/transparencia"
+                  data-target="transparency"
+                >
+                  {intl.formatMessage({ id: "transparencia" })}
+                </Link>
+                <a href="#ecosystem" className="navbar-item pl-0 ml-0z`">
+                  {intl.formatMessage({ id: "ecosystem.main_title" })}
+                </a>
+                <a href="#press-slider" className="navbar-item pl-0 ml-0">
+                  {intl.formatMessage({ id: "press.title" })}
+                </a>
+              </div>
+              <div className="column ">
+                <PopupButton
+                  id="fSqwwL"
+                  style={{ fontSize: 20 }}
+                  className="navbar-item contact is-size-6 my-3 is-capitalized"
+                >
+                  {intl.formatMessage({ id: "contact" })}
+                </PopupButton>
+                <hr></hr>
+                <p>contacto@democraciaenred.org</p>
+              </div>
             </div>
           </div>
+
         </div>
       </div>
     </section>

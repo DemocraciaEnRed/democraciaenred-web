@@ -15,3 +15,25 @@
     }
 }
 
+
+.navbar-item {
+    border: none;
+    background: none;
+    outline: none !important;
+    font-size: 1rem;
+
+    &:not(.contact){
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    &.contact {
+        border-radius: 20px;
+        border: 1px solid white;
+        &:hover {
+            background-color: white;
+            color: black;
+            box-shadow: 2.7px 2.7px 4.8px 0 rgba(0, 0, 0, 0.21);
+        }
+    }
+}
