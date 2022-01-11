@@ -197,6 +197,15 @@
             "id":"tedDemocracias",
             "color":"orange",
             "type":"participacion_ciudadana"
+        },
+        {
+            "title":"resources.main_title_21",
+            "subtitle":"resources.subtitle_21",
+            "link": "https://democraciaenred.org/static/assets/ebooks/SUMEN_RendicionDeCuentas.pdf",
+            "id":"sumen",
+            "color":"yellow",
+            "home":true,
+            "type":"convivencia_digital"
         }
     ]
     

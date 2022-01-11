@@ -1,7 +1,8 @@
 import React from "react";
 import { useIntl } from "gatsby-plugin-intl";
 import "./style.scss";
-const Memories = ({ data }) => {
+const 
+Memories = ({ data }) => {
   const intl = useIntl();
   return (
     <section className="memories-section hero is-fullheight ">

@@ -10,12 +10,12 @@ import seguimiento_metas from "./assets/seguimiento_metas.png";
 import votacion_autoridades from "./assets/votacion_autoridades.png";
 import democracia_os from "./assets/democracia_os.png";
 
-import presupuesto_participativo_icon from "./assets/presupuesto.svg";
-import co_construccion_icon from "./assets/coconstruccion.png";
-import consulta_publica_icon from "./assets/consultadigital.svg";
-import seguimiento_metas_icon from "./assets/seguimientometas.svg";
-import votacion_autoridades_icon from "./assets/votacionautoridades.svg";
-import democracia_os_icon from "./assets/democraciaos.svg";
+import presupuesto_participativo_icon from "./assets/Icono_PresupuestoParticipativo.png";
+import co_construccion_icon from "./assets/Icono_CoConstrusccionLeyes.png";
+import consulta_publica_icon from "./assets/Icono_ConsultasDigitales.png";
+import seguimiento_metas_icon from "./assets/Icono_SeguimientoMetas.png";
+import votacion_autoridades_icon from "./assets/Icono_VotacionAutoridades.png";
+import democracia_os_icon from "./assets/Icono_DemocraciaOS.png";
 
 const images = {
   presupuesto_participativo: presupuesto_participativo,
@@ -41,9 +41,9 @@ export default ({ data }) => {
   return (
     <section
       id={data.id}
-      className={`hero section product product-${data.color}`}
+      className={`hero section mx-6  product product-${data.color}`}
     >
-      <div className="hero-body">
+      <div className="hero-body px-6">
         <div className="container">
           <div className="text-content">
             <div className="columns is-align-items-center is-flex-wrap-wrap">

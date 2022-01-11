@@ -23,7 +23,7 @@ import compasPolitico from "./assets/compas_politico.jpg";
 import meRepresenta from "./assets/me_representa.jpg";
 import gatopardismo from "./assets/gatopardismo.jpg";
 import tedDemocracias from "./assets/ted-democracias.jpg";
-
+import sumen from "./assets/sumen.png";
 const images = {
   desinformacion,
   recuperarLaPolitica,
@@ -45,6 +45,7 @@ const images = {
   meRepresenta,
   gatopardismo,
   tedDemocracias,
+  sumen,
 };
 
 const ResourcesMansonery = ({ resources, home, filter }) => {
@@ -66,6 +67,7 @@ const ResourcesMansonery = ({ resources, home, filter }) => {
         .filter((resource) => resource.type !== filter)
         .map((resource) => resource)
     );
+    console.log("resources \n", resourcesArray)
     return resourcesArray;
   };
 

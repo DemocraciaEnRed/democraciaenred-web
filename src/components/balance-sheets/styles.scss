@@ -1,0 +1,35 @@
+.item-grid {
+
+    width: 214.07px;
+    height: 214.07px;
+    left: 168px;
+    top: 2769px;
+
+    background: #FFFFFF;
+    border-radius: 24.0178px;
+}   
+
+.balance{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.above{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 28px;
+    /* identical to box height, or 62% */
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
