@@ -13,8 +13,9 @@ export default () => {
   return (
     <section className="footer section has-background-grey-dark	has-text-white">
       <div className="container">
-        <div className="columns is-vcentered">
-          <div className="column ">
+        {/* removed class is-vcentered  */}
+        <div className="columns">
+          <div className="column my-0">
             <Link to="/" target="_blank">
               <img src={logo_der} className="image mb-3" width="180" />
             </Link>
@@ -26,7 +27,7 @@ export default () => {
             </p>
           </div>
 
-          <div className="column is-offset-1 is-two-thirds columns ">
+          <div className="column is-offset-1 is-two-thirds  flex is-flex-direction-row">
             <div className="column is-12 is-flex is-justify-content-space-between">
               {socialMedia.map((media) => (
                 <a

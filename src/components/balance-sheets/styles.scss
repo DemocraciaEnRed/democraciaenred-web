@@ -13,17 +13,20 @@
     position: relative;
     display: inline-block;
     text-align: center;
+    padding: 12px 0px 12px 0px;
+    margin: 0px;
 }
 
 .above{
     position: absolute;
     top: 40%;
-    left: 40%;
+    left: 35%;
     font-family: Lexend Deca;
     font-style: normal;
     font-weight: normal;
     font-size: 45px;
     line-height: 28px;
+
     /* identical to box height, or 62% */
 }
 
