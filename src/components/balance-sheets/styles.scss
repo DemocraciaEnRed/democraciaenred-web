@@ -33,3 +33,21 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.anio{
+
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 28px;
+    /* identical to box height, or 62% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.04em;
+
+    color: #000000;
+
+}
