@@ -33,15 +33,15 @@ export default ({data}) =>  {
                 </p>
             </div>
             <div class="columns ">
-                <div class="column  balance ">
+                <div class="column  balance">
                     <img src={images.violeta}></img>
                     <div className="above">
                         <a href="https://drive.google.com/file/d/1FVbYIdb5saJeqjCqLj08duP1rgPgnLor/view?usp=sharing" class="anio">2021</a>
                     </div>
                 </div>
-                <div class="column  balance ">
+                <div class="column  balance">
                     <img src={images.celeste}></img>
-                    <div className="above">
+                    <div className="above ">
                         <a href="https://docs.google.com/document/d/1nPSoBu9U5mO8u2dYsb1JNctdW-qQqWLoq8gdmEjxynQ/edit?usp=sharing" class="anio">2020</a>
                     </div>
                 </div>
@@ -61,7 +61,7 @@ export default ({data}) =>  {
             <div class="columns">
                 <div class="column  balance ">
                     <img src={images.naranja}></img>
-                    <div className="above">
+                    <div className="above" >
                         <a href="https://drive.google.com/file/d/11kp8Iv6PWkjoc3-6JPLfBYQ0xQW7O8WS/view?usp=sharing" class="anio">2017</a>
                     </div>
                 </div>
