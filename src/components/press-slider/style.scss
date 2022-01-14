@@ -23,7 +23,12 @@
 .press-slider .slick-prev,.press-slider .slick-next{
     top:30% 
 }
+.press-box{
+    height:470px;
+    width: 100%;
+    overflow: hidden;
 
+}
 @include touch{
     .title.our-press{
         padding-left: 0 !important;

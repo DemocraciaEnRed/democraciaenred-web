@@ -7,6 +7,7 @@ import sliderSettings from "../slider-settings";
 import Press from "../press";
 
 export default ({ slides }) => {
+  let boxvalue = false;
   const intl = useIntl();
   sliderSettings.slidesToShow = 3;
   sliderSettings.slidesToScroll = 3;
@@ -31,6 +32,23 @@ export default ({ slides }) => {
     },
   ];
 
+   function seeMore  ()  {
+    if (boxvalue == false) {
+      let box = document.getElementById('press-box')
+      box.style.height = '100%';
+      boxvalue = true
+      console.log('valor de boxValue', boxvalue)
+    }
+      else
+    {
+      let box = document.getElementById('press-box')
+      box.style.height = '440px';
+      boxvalue = false
+      console.log('valor de boxValue', boxvalue)
+    }
+  }
+
+
   return (
     <section
       id="press-slider"
@@ -39,11 +57,18 @@ export default ({ slides }) => {
       <h1 className="pl-6 mb-0 mt-6 our-press title has-text-black">
         {intl.formatMessage({ id: slides.title })}
       </h1>
-      <Slider {...sliderSettings}>
+      {/* <Slider {...sliderSettings}>
         {slides.press.map((press) => (
           <Press data={press} key={press.id} className="pt-6" />
         ))}
-      </Slider>
+      </Slider> */}
+      <div id="press-box" className=" flex press-box has-background-link	">
+        {slides.press.map((press) => (
+            <Press data={press} key={press.id} className=" pt-6" />
+          ))}
+      </div>
+      <button onClick={seeMore}>Ver mas</button>
+
     </section>
   );
 };
