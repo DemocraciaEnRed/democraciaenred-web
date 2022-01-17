@@ -54,10 +54,10 @@ export default ({ data }) => {
                     </div>
 
                     <div className="content">
-                    <p className=" is-6 has-text-black ">
+                    <p className=" is-4 has-text-black ">
                         {data.subtitle?`${intl.formatMessage({id: data.subtitle})}`:''}</p>
                         <a 
-                            className="button button-disabled-shadow has-no-background is-rounded is-small is-black is-uppercase is-inline-block mt-0" 
+                            className="button button-disabled-shadow has-no-background is-rounded is-small  is-outlined is-uppercase is-inline-block mt-0" 
                             href={data.link} target="_blank">
                             {intl.formatMessage({ id: "see_more" })}
                         </a>

@@ -62,12 +62,12 @@ export default ({ slides }) => {
           <Press data={press} key={press.id} className="pt-6" />
         ))}
       </Slider> */}
-      <div id="press-box" className=" flex press-box has-background-link	">
+      <div id="press-box" className="  press-box ">
         {slides.press.map((press) => (
             <Press data={press} key={press.id} className=" pt-6" />
           ))}
       </div>
-      <button onClick={seeMore}>Ver mas</button>
+      <button className="button is-black is-rounded" onClick={seeMore}>Ver mas</button>
 
     </section>
   );
