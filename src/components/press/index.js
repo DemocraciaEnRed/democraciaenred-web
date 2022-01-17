@@ -56,6 +56,9 @@ export default ({ data }) => {
                     <div className="content">
                     <p className=" is-4 has-text-black ">
                         {data.subtitle?`${intl.formatMessage({id: data.subtitle})}`:''}</p>
+
+                    </div>
+                    <div>
                         <a 
                             className="button button-disabled-shadow has-no-background is-rounded is-small  is-outlined is-uppercase is-inline-block mt-0" 
                             href={data.link} target="_blank">
