@@ -10,7 +10,7 @@ export default ({ slides }) => {
   const intl = useIntl();
 
   return (
-    <section className="hero is-fullheight is-large is-primary is-bold products-slider">
+    <section id="slider-product" className="hero is-fullheight is-large is-primary has-background-dark s-bold products-slider">
       <Slider {...sliderSettings}>
         {slides.map((product) => (
           <Product data={product} key={product.id} />

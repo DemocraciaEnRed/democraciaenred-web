@@ -67,7 +67,9 @@ export default ({ slides }) => {
             <Press data={press} key={press.id} className=" pt-6" />
           ))}
       </div>
-      <button className="button is-black is-rounded" onClick={seeMore}>Ver mas</button>
+      <div className="pos-right">
+        <button className="button is-black is-rounded flex-items" onClick={seeMore}>Ver mas</button>
+      </div>
 
     </section>
   );

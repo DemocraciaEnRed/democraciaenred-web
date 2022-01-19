@@ -38,6 +38,22 @@
   
 
 }
+.pos-right{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+  
+  }
+
+.flex-items:nth-child(1) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+ }
 @include touch{
     .title.our-press{
         padding-left: 0 !important;

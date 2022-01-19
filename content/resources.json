@@ -204,7 +204,7 @@
             "link": "https://democraciaenred.org/static/assets/ebooks/SUMEN_RendicionDeCuentas.pdf",
             "id":"sumen",
             "color":"yellow",
-            "home":true,
+            "home":false,
             "type":"convivencia_digital"
         }
     ]

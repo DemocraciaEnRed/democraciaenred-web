@@ -67,7 +67,7 @@ const ResourcesMansonery = ({ resources, home, filter }) => {
         .filter((resource) => resource.type !== filter)
         .map((resource) => resource)
     );
-    console.log("resources \n", resourcesArray)
+    // console.log("resources \n", resourcesArray)
     return resourcesArray;
   };
 
@@ -76,7 +76,7 @@ const ResourcesMansonery = ({ resources, home, filter }) => {
       <Masonry
         breakpointCols={breakpointCols}
         className="masonry-grid"
-        columnClassName="masonry-grid_column"
+        columnClassName="masonry-grid_column has-background-dark"
       >
         {getArray().map((resource) => (
           <div className="resource-container" key={resources.id}>
