@@ -35,16 +35,21 @@ export default ({ slides }) => {
    function seeMore  ()  {
     if (boxvalue == false) {
       let box = document.getElementById('press-box')
+      let btn = document.getElementById('btn-see')
       box.style.height = '100%';
       boxvalue = true
-      console.log('valor de boxValue', boxvalue)
+      btn.innerHTML= 'ver menos'
+
     }
       else
     {
       let box = document.getElementById('press-box')
+      let btn = document.getElementById('btn-see')
+
       box.style.height = '440px';
       boxvalue = false
-      console.log('valor de boxValue', boxvalue)
+      btn.innerHTML= 'ver más'
+
     }
   }
 
@@ -68,7 +73,7 @@ export default ({ slides }) => {
           ))}
       </div>
       <div className="pos-right">
-        <button className="button is-black is-rounded flex-items" onClick={seeMore}>Ver mas</button>
+        <button id="btn-see" className="button is-black is-rounded flex-items" onClick={seeMore}>Ver más</button>
       </div>
 
     </section>
