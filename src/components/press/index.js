@@ -39,7 +39,7 @@ export default ({ data }) => {
     return (
         <section id={data.id} className=" px-3 py-6 hero is-flex is-justify-content-center is-flex-direction-column">
             <div className="card mb-6">
-                <div className="card-content">
+                <div className="card-content is-flex is-flex-direction-column">
                     <div className="media">
                         <div className="media-left">
                             <figure className="image is-48x48">
@@ -58,9 +58,9 @@ export default ({ data }) => {
                         {data.subtitle?`${intl.formatMessage({id: data.subtitle})}`:''}</p>
 
                     </div>
-                    <div>
+                    <div className="flex-container">
                         <a 
-                            className="button button-disabled-shadow has-no-background is-rounded is-small  is-outlined is-uppercase is-inline-block mt-0" 
+                            className="button button-disabled-shadow btn-align has-no-background is-rounded is-small  is-outlined is-uppercase is-inline-block mt-0" 
                             href={data.link} target="_blank">
                             {intl.formatMessage({ id: "see_more" })}
                         </a>
