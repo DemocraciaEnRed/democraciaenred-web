@@ -10,6 +10,7 @@
     "labels": ["Servicios", "Donaciones", "Avina", "OSF", "Unión Europea"],
     "datasets": [
       {
+        "type": "doughnut",
         "data": [56.8, 0, 10.2, 23.2, 9.8],
         "backgroundColor": [
           "#FF9B73",
@@ -20,6 +21,7 @@
         ]
       },
       {
+        "type": "doughnut",
         "data": [56.8, 43.2],
         "backgroundColor": [
           "#FF9B73",
@@ -41,6 +43,7 @@
     ],
     "datasets": [
       {
+        "type": "doughnut",
         "data": [20, 30, 10, 40],
         "backgroundColor": ["#77549E", "#E7B4F1", "#88CBFF", "#53C1B4"]
       }
