@@ -39,13 +39,13 @@ export default function Transparency({ data }) {
           </div>
         </div>
         <div className="is-flex is-justify-content-center">
-        <a
+        {/* <a
           className="button button-disabled-shadow has-no-background is-rounded is-medium is-dark  is-uppercase is-inline-block"
           href="https://drive.google.com/drive/u/0/folders/18FqJdWg7Ucj6sey126T_SQPUQv0hZFyy"
           target="_blank"
         >
           {intl.formatMessage({ id: data.balance_button })}
-        </a>
+        </a> */}
         </div>
         
       </section>

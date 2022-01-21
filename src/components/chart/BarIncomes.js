@@ -13,21 +13,21 @@ export const Bar = ({ chartData }) => {
       {
         label: intl.formatMessage({ id: chartData.incomesBar.label[0] }),
         minBarLength: 2,
-        backgroundColor: "#219EFF",
-        borderColor: "#219EFF",
+        backgroundColor: "#88CBFF",
+        borderColor: "#88CBFF",
         borderWidth: 1,
-        hoverBackgroundColor: "#219EFF",
-        hoverBorderColor: "#219EFF",
+        hoverBackgroundColor: "#88CBFF",
+        hoverBorderColor: "#2e6087",
         data: [0, 2019402.49, 330325.3, 678800, 3710207.54, 4412196.84],
       },
       {
         label: intl.formatMessage({ id: chartData.incomesBar.label[1] }),
         minBarLength: 2,
-        backgroundColor: "#5ce175",
+        backgroundColor: "#69D69D",
         borderColor: "#5ce175",
         borderWidth: 1,
-        hoverBackgroundColor: "#5ce175",
-        hoverBorderColor: "#5ce175",
+        hoverBackgroundColor: "#69D69D",
+        hoverBorderColor: "#308a5b",
         data: [
           1497115.69, 933012.19, 1346284.39, 2630485.26, 7935275.84, 3352066.77,
         ]
