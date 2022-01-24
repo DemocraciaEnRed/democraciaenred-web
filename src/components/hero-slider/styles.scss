@@ -89,13 +89,13 @@ $coral: #f09c77;
   }
 }
 
-#hero-slider .slick-slider,
-#hero-slider .slick-list,
-#hero-slider .slick-track,
-#hero-slider .hero-slider-item {
-  height: 100vh;
-  @include touch {
-    height: 50vh;
-    min-height: auto;
-  }
-}
+// #hero-slider .slick-slider,
+// #hero-slider .slick-list,
+// #hero-slider .slick-track,
+// #hero-slider .hero-slider-item {
+//   height: 100vh;
+//   @include touch {
+//     height: 50vh;
+//     min-height: auto;
+//   }
+// }

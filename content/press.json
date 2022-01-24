@@ -36,7 +36,7 @@
         {
             "name":"press.name_5",
             "title":"press.title_5",
-            "subtitle":null,
+            "subtitle":"press.subtitle_5",
             "link":"https://www.wired.com/2014/05/democracy-os/",
             "logo":"wired",
             "id":"wired"
