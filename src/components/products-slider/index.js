@@ -8,8 +8,7 @@ import Product from "../product";
 
 export default ({ slides }) => {
   const intl = useIntl();
-  let slider = document.getElementById('slider-product');
-  
+    
   return (
     <section id="slider-product" className="hero is-fullheight is-large is-primary has-background-dark s-bold products-slider">
       <Slider {...sliderSettings}>
