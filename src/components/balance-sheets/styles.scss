@@ -1,3 +1,5 @@
+@import "~bulma/sass/utilities/_all.sass";
+
 .item-grid {
 
     width: 214.07px;
@@ -15,6 +17,7 @@
     text-align: center;
     padding: 12px 0px 12px 0px;
     margin: 0px;
+
 }
 
 .above{
@@ -26,7 +29,9 @@
     font-weight: normal;
     font-size: 45px;
     line-height: 28px;
-
+    @include touch{
+        left: 30%;
+    }
     /* identical to box height, or 62% */
 }
 
@@ -52,5 +57,10 @@
     letter-spacing: -0.04em;
 
     color: #000000;
-
+    @include touch{
+        font-size: 3rem;
+        margin: 0px;
+       
+    }
 }
+

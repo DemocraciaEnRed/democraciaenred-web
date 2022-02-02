@@ -67,7 +67,7 @@ export default ({ slides }) => {
           <Press data={press} key={press.id} className="pt-6" />
         ))}
       </Slider> */}
-      <div id="press-box" className="  press-box ">
+      <div id="press-box" className=" level press-box ">
         {slides.press.map((press) => (
             <Press data={press} key={press.id} className=" pt-6" />
           ))}

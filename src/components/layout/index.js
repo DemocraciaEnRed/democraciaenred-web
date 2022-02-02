@@ -5,8 +5,7 @@ import Footer from "../footer"
 import GoTop from "../go-top";
 
 const Layout = ({ children }) => {
-  console.log('ooó')
-  console.log('///')
+
 
   return (
     <>

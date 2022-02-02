@@ -1,0 +1,165 @@
+svg {
+    width: 80%;
+    justify-self: center;
+}
+
+.st0 {
+    display: none;
+}
+.st1 {
+    display: inline;
+}
+.st2 {
+    opacity: 0.5;
+    fill: #ff7990;
+    enable-background: new;
+}
+.st3 {
+    opacity: 0.5;
+    fill: #bb86fc;
+    enable-background: new;
+}
+.st4 {
+    z-index: 1000;
+    opacity: 0.5;
+    fill: #88cbff;
+    enable-background: new;
+}
+.st5 {
+    opacity: 0.5;
+    fill: #69d69d;
+    enable-background: new;
+}
+.st6 {
+    opacity: 0.5;
+    fill: #f7ec86;
+    enable-background: new;
+}
+.st7 {
+    opacity: 0.5;
+    fill: #ff9b73;
+    enable-background: new;
+}
+.st8 {
+    fill: #bb86fc;
+}
+.st9 {
+    fill: #88cbff;
+}
+.st10 {
+    fill: #ff9b73;
+}
+.st11 {
+    fill: #ff7990;
+}
+.st12 {
+    fill: #69d69d;
+}
+.st13 {
+    fill: #f7ec86;
+}
+.st14 {
+    fill: #2b2b2b;
+}
+.st15 {
+    fill: none;
+    stroke: #000000;
+    stroke-width: 2;
+}
+.st16 {
+    fill: #ffffff;
+}
+.st17 {
+    fill: none;
+    stroke: #2b2b2b;
+}
+// animation zone
+
+#gobiernos,
+#quienesSomos,
+#sosParte,
+#redes,
+#financiadores,
+#organizaciones {
+    opacity: 0;
+}
+
+#gobiernos:hover,
+#quienesSomos:hover,
+#sosParte:hover,
+#redes:hover,
+#financiadores:hover,
+#organizaciones:hover {
+    opacity: 1;
+    transition: 0.6s;
+}
+
+#organisaciones_,
+#gobiernos_,
+#redes_,
+#financiadores_,
+#quienes_somos_,
+#vos_sos_parte_ {
+    z-index: 10000;
+}
+
+.st2,
+.st3,
+.st4,
+.st5,
+.st6,
+.st7 {
+    animation-name: beatColor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: alternate;
+    animation-direction: alternate;
+}
+
+@for $i from 1 through 7 {
+    .st2 {
+        -webkit-animation-delay: (#{$i * 0.3s});
+        animation-delay: (#{$i * 0.3s});
+        animation-duration: (#{$i * 0.3s});
+
+    }
+    .st3 {
+        -webkit-animation-delay: (#{$i * 0.5s});
+        animation-delay: (#{$i * 0.5s});
+        animation-duration: (#{$i * 0.5s});
+
+    }
+    .st4 {
+        -webkit-animation-delay: (#{$i * 0.1s});
+        animation-delay: (#{$i * 0.1s});
+        animation-duration: (#{$i * 0.3s});
+
+    }
+    .st5 {
+        -webkit-animation-delay: (#{$i * 0.8s});
+        animation-delay: (#{$i * 0.8s});
+        animation-duration: (#{$i * 0.8s});
+
+    }
+    .st6 {
+        -webkit-animation-delay: (#{$i * 0.1s});
+        animation-delay: (#{$i * 0.1s});
+        animation-duration: (#{$i * 0.1s});
+
+    }
+    .st7 {
+        -webkit-animation-delay: (#{$i * 0.1s});
+        animation-delay: (#{$i * 0.1s});
+    }
+}
+@keyframes beatColor {
+    0% {
+        opacity: 0%;
+    }
+    50% {
+        opacity: 50%;
+    }
+    100% {
+        opacity: 80%;
+    }
+}

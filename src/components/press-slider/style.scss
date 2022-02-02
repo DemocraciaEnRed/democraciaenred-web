@@ -73,5 +73,19 @@
         margin-left:0;
         margin-right:0;
     }
-
+    .press-box{
+        height:940px;
+        width: 100%; 
+        overflow: hidden;
+        display: grid; 
+        grid-template-columns: 389px  ; 
+        grid-template-rows: 1fr; 
+        gap: 9px 9px; 
+        grid-template-areas: 
+          "."
+          "."
+          "."; 
+      
+    
+    }
 }
