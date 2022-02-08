@@ -80,9 +80,50 @@ svg {
 #sosParte,
 #redes,
 #financiadores,
-#organizaciones {
+#organizaciones
+ {
     opacity: 0;
 }
+
+#FondoNaranja,
+#FondoVerde,
+#FondoLila,
+#FondoRojo,
+#FondoAmarillo,
+#FondoCeleste{
+    z-index: 1000;
+
+}
+#TarjetaAmarilla,
+#TarjetaVerde,
+#TarjetaCeleste,
+#TarjetaRoja,
+#TarjetaLila,
+#TarjetaNaranja{
+    opacity: 1;
+    z-index: 5000;
+}
+
+#FlotanteCeleste,
+#FlotanteLila,
+#FlotanteRojo,
+#FlotanteNaranja,
+#FlotanteVerde,
+#FlotanteAmarillo
+{
+
+    opacity: 0;
+}
+#hexagonoVerde,
+#HexagonoCeleste,
+#HexagonoLila,
+#HexagonoRojo,
+#HexagonoNaranja,
+#HexagonoAmarillo{
+
+    opacity: 0;
+}
+
 
 #gobiernos:hover,
 #quienesSomos:hover,
@@ -121,7 +162,9 @@ transform: translate(-3px, -13px);
     animation-fill-mode: alternate;
     animation-direction: alternate;
 }
-
+.floatly{
+    z-index: 3000;
+}
 @for $i from 1 through 7 {
     .st2 {
         -webkit-animation-delay: (#{$i * 0.3s});

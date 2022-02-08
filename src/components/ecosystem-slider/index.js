@@ -5,6 +5,7 @@ import { useIntl } from "gatsby-plugin-intl";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import sliderSettings from "../slider-settings";
+import EcosystemAnimated from "../ecosystrem-animated"
 
 import "./style.scss";
 
@@ -23,11 +24,15 @@ export default ({ slides }) => {
           {intl.formatMessage({ id: slides.title })}
         </h1>
       </div>
-      <Slider {...sliderSettings}>
+      <EcosystemAnimated></EcosystemAnimated>
+      <div>
+        
+      </div>
+      {/* <Slider {...sliderSettings}>
         {slides.ecosystem.map((ecosystem) => (
           <Ecosystem data={ecosystem} key={ecosystem.id} className="pt-6" />
         ))}
-      </Slider>
+      </Slider> */}
     </section>
   );
 };

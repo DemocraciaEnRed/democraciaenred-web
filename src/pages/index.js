@@ -12,7 +12,7 @@ import TeamSlider from "../components/team-slider";
 import teamData from "../../content/team.json";
 import ecosystemData from "../../content/ecosystem.json";
 import EcosystemSlider from "../components/ecosystem-slider";
-import EcosystemAnimated from "../components/ecosystrem-animated"
+// import EcosystemAnimated from "../components/ecosystrem-animated"
 import Resources from "../components/resources-section";
 import dataResources from "../../content/resources.json";
 import Division from "../components/division";
@@ -40,7 +40,7 @@ const IndexPage =()=>{
         <Resources resources={dataResources} />
         <ProductsSlider slides={productsData} />
         <EcosystemSlider slides={ecosystemData} />
-        <EcosystemAnimated></EcosystemAnimated>
+        {/* <EcosystemAnimated></EcosystemAnimated> */}
         <LivesSlider slides={livesData} />
         <UsSection data={dataUs} />
         <TeamSlider slides={teamData} title={dataUs} />
