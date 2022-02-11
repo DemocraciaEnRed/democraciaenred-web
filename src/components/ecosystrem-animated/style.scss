@@ -94,22 +94,22 @@ svg {
     z-index: 1000;
 
 }
-#TarjetaAmarilla,
-#TarjetaVerde,
-#TarjetaCeleste,
-#TarjetaRoja,
-#TarjetaLila,
-#TarjetaNaranja{
-    opacity: 1;
-    z-index: 5000;
+
+#TarjetaAmarilla_m:hover,
+#TarjetaVerde_m:hover,
+#TarjetaCeleste_m:hover,
+#TarjetaRoja_m:hover,
+#TarjetaLila_m:hover,
+#TarjetaNaranja_m:hover{
+    border: 1px solid #000;
 }
 
-#FlotanteCeleste,
-#FlotanteLila,
-#FlotanteRojo,
-#FlotanteNaranja,
-#FlotanteVerde,
-#FlotanteAmarillo
+#FlotanteCeleste_m,
+#FlotanteLila_m,
+#FlotanteRojo_m,
+#FlotanteNaranja_m,
+#FlotanteVerde_m,
+#FlotanteAmarillo_m
 {
 
     opacity: 0;
@@ -123,8 +123,12 @@ svg {
 
     opacity: 0;
 }
-
-
+#FlotanteVerde{
+    opacity: 0
+}
+#TarjetaVerde:target{
+    opacity: 1;
+}
 #gobiernos:hover,
 #quienesSomos:hover,
 #sosParte:hover,
@@ -155,7 +159,13 @@ transform: translate(-3px, -13px);
 .st4,
 .st5,
 .st6,
-.st7 {
+.st7,
+#FondoNaranja_m,
+#FondoVerde_m,
+#FondoLila_m,
+#FondoRojo_m,
+#FondoAmarillo_m,
+#FondoCeleste_m {
     animation-name: beatColor;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -165,8 +175,16 @@ transform: translate(-3px, -13px);
 .floatly{
     z-index: 3000;
 }
+
+.FondoRojo,
+.FondoLila,
+.FondoCeleste,
+.FondoVerde,
+.FondoAmarillo{
+    opacity: 0 !important;
+}
 @for $i from 1 through 7 {
-    .st2 {
+    .st2{
         -webkit-animation-delay: (#{$i * 0.3s});
         animation-delay: (#{$i * 0.3s});
         animation-duration: (#{$i * 1s});
