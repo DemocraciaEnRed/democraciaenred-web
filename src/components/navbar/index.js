@@ -99,9 +99,17 @@ export default (props) => {
           >
             {intl.formatMessage({ id: "transparencia" })}
           </Link>
-          <a href="#ecosystem" className="navbar-item is-size-6 my-3 is-capitalized">
+          <Link
+            className="navbar-item is-size-6 my-3 is-capitalized"
+            onClick={() => setIsActive(false)}
+            to="/#ecosystem"
+            data-target="ecosystem"
+          >
             {intl.formatMessage({ id: "ecosystem.main_title" })}
-          </a>
+          </Link>
+          {/* <a href="#ecosystem" className="navbar-item is-size-6 my-3 is-capitalized">
+            {intl.formatMessage({ id: "ecosystem.main_title" })}
+          </a> */}
           <a href="#press-slider" className="navbar-item is-size-6 my-3 is-capitalized">
             {intl.formatMessage({ id: "press.title" })}
           </a>

@@ -28,11 +28,13 @@ export default ({ slides }) => {
       <div>
         
       </div>
-      {/* <Slider {...sliderSettings}>
-        {slides.ecosystem.map((ecosystem) => (
-          <Ecosystem data={ecosystem} key={ecosystem.id} className="pt-6" />
-        ))}
-      </Slider> */}
+      <div className="is-hidden-desktop">
+        <Slider {...sliderSettings}>
+          {slides.ecosystem.map((ecosystem) => (
+            <Ecosystem data={ecosystem} key={ecosystem.id} className="pt-6" />
+          ))}
+        </Slider>
+      </div>
     </section>
   );
 };

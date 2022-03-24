@@ -5,6 +5,7 @@ import dataTransparency from "../../content/transparency.json";
 import Division from "../components/division";
 import Transparency from "../components/transparency";
 import Layout from "../components/layout";
+import Balance from "../components/balance-sheets";
 
 const Transparencia = () => {
   return (
@@ -13,6 +14,7 @@ const Transparencia = () => {
         <InternalPageHero data={dataTransparency} />
         <Division />
         <Transparency data={dataTransparency} />
+        <Balance /> 
       </Layout>
     </React.Fragment>
   );

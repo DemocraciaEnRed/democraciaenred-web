@@ -1,15 +1,15 @@
 {
   "hero_slider": {
     "title_1": "Democratizar la democracia",
-    "subtitle_1": "Abrimos las instituciones públicas y la toma de decisiones a través de procesos participativos innovadores.",
+    "subtitle_1": "Utilizamos la tecnología para democratizar las instituciones públicas.",
     "image_description_1": "Foto: São Paulo, Brasil",
 
     "title_2": "Democratizar la democracia",
     "image_description_2": "Foto: Mérida, Mexico",
-    "subtitle_2": "Creamos soluciones de participación ciudadana con gobiernos y activistas para fortalecer la democracia.",
+    "subtitle_2": "Reducimos la brecha entre representantes y representadxs para generar políticas públicas con mayor impacto.",
 
     "title_3": "Democratizar la democracia",
-    "subtitle_3": "Buscamos recuperar la política incorporando a la ciudadanía en los procesos de toma de decisión.",
+    "subtitle_3": "Impulsamos el cambio cultural a través de campañas de comunicación y herramientas educativas que motiven la participación ciudadana.",
     "image_description_3": "Foto: Guillermo Batakis, Buenos Aires, Argentina"
   },
   "products": {
@@ -92,7 +92,7 @@
   },
   "nosotros": {
     "title": "¿Quiénes somos?",
-    "subtitle_1": "Somos Democracia en Red, una organización radicada en Argentina. Conformada por personas activistas, programadores y científicos sociales, que desde el hacer buscamos abrir las instituciones públicas y los procesos de toma de decisión.",
+    "subtitle_1": "Somos una organización conformada por personas activistas, programadoras y científicas sociales que creen en potenciar la inteligencia colectiva para adaptar la democracia al siglo XXI.",
     "subtitle_2": " Buscamos recuperar la política"
   },
   "cases": {
@@ -105,23 +105,23 @@
     "subtitle_3": "Cámara de Diputados de la Nación"
   },
   "footer": {
-    "description": "La tecnología avanza y cambia nuestras vidas. Es el momento del sistema político de abrirse al diálogo con la participación ciudadana.",
-    "copyright_1": "Democracia en Red es una ONG latinoamericana de Buenos Aires, Argentina, para el mundo."
+    "description": "Gracias al avance tecnológico y a la capacidad de difundir información en segundos por todo el mundo, hoy tenemos la oportunidad histórica de democratizar el sistema democrático.",
+    "copyright_1": "Democracia en Red es una ONG latinoamericana de Buenos Aires, Argentina, para el mundo. "
   },
   "usPage": {
     "title": "¿Quiénes somos?",
-    "subtitle": "Somos Democracia en Red, una organización radicada en Argentina. Conformada por personas activistas, programadores y científicos sociales, que desde el hacer buscamos abrir las instituciones públicas y los procesos de toma de decisión.",
+    "subtitle": "Somos una organización conformada por personas activistas,programadoras y científicas sociales que creen en potenciar la inteligencia colectiva para adaptar la democracia al siglo XXI.",
     "mision_values": {
       "title": "Misión",
-      "description": "Nuestra misión es la de innovar el sistema político para abrir los procesos de toma de decisión a la ciudadanía, otorgándoles un rol cada vez más activos."
+      "description": "Utilizar la tecnología para democratizar las instituciones públicas."
     },
     "mision_approach": {
       "title": "Visión",
-      "description": "Nuestra visión de éxito se plasma en un mayor número de ciudadanas/os, de diversos perfiles socioeconómicos, incorporándose a procesos participativos que obtienen resultados en términos de políticas públicas."
+      "description": "Ser la Organización referente en todo LATAM en implementar la tecnología para abrir la toma de decisiones públicas a la ciudadanía."
     },
     "what_we_do": {
       "title": "¿Qué hacemos?",
-      "description": "Creamos un espacio donde imaginar, diseñar e implementar soluciones innovadoras de participación ciudadana. Lo hacemos en conjunto con gobiernos, activistas, partidos políticos y organizaciones que persiguen el deseo de mejorar la democracia.\n- Creamos soluciones de participación ciudadana con gobiernos y activistas para fortalecer la democracia.\n- Abrimos las instituciones públicas y la toma de decisiones a través de procesos participativos innovadores.\n- Buscamos recuperar la política incorporando a la ciudadanía en los procesos de toma de decisión. "
+      "description": "Creemos en potenciar la inteligencia colectiva para garantizar la democracia.\n- Generamos y aplicamos estrategias para abrir las instituciones públicas a través del diseño, desarrollo e implementación de herramientas digitales que promueven la participación ciudadana.\n-Realizamos asesorías para Gobiernos y Organizaciones de la Sociedad Civil de todo LATAM para reducir la brecha entre representantes y representadxs y generar políticas públicas con mayor impacto.\n-Impulsamos el cambio cultural en forma de campañas de comunicación y herramientas educativas que motiven la participación ciudadana.\n "
     },
     "memories": {
       "title": "Nuestras memorias",
@@ -500,8 +500,8 @@
   },
   "resources": {
     "title": "Recursos",
-    "description": "Desarrollamos tecnología cívica innovadora. Producimos contenidos para la incidencia ciudadana. Sistematizamos nuestas experiencias.",
-    "subtitle": "Explorá nuestro trabajo.",
+    "description": "Desarrollamos tecnología cívica innovadora. Producimos contenidos para la incidencia ciudadana. Sistematizamos y compartimos nuestas experiencias.",
+    "subtitle": "Mirá lo que hacemos.",
 
     "filter_1": "Convivencia Digital",
     "filter_2": "Politica",
@@ -584,11 +584,11 @@
 
     "name_3": "La política online",
     "title_3": "Tratan proyectos votados en Internet",
-    "subtitle_3": "La Legislatura porteña tratará tres proyectos que fueron elegidos por los ciudadanos mediante votación por Internet. Resultaron ganadores iniciativas sobre Enfermeros, educación y trapitos.",
+    "subtitle_3": "La Legislatura porteña tratará tres proyectos que fueron elegidos por los ciudadanos mediante votación por Internet. Resultaron ganadores iniciativas sobre enfermeros, educación y trapitos.",
 
     "name_4": "La capital",
     "title_4": "Récord de votantes en el Presupuesto Participativo 2018",
-    "subtitle_4": "Unos 105 mil rosarinos eligieron los proyectos para su barrio entre oficios, deportes, cultura, luces LED y recuperación de espacios públicos",
+    "subtitle_4": "Más de 100 mil rosarinos eligieron los proyectos para su barrio entre las categorías de oficios, deportes, cultura, alumbrado LED y recuperación de espacios públicos.",
 
     "name_5": "Wired",
     "title_5": "Out in the Open",
@@ -596,7 +596,7 @@
 
     "name_6": "La Nación",
     "title_6": "Los porteños eligieron prohibir a los cuidacoches",
-    "subtitle_6": " Prohibir a los cuidacoches, fue uno de los proyectos más votado por la ciudadanía en la web de la Legislatura Porteña",
+    "subtitle_6": "Prohibir a los cuidacoches fue uno de los proyectos más votado por la ciudadanía en la web de la Legislatura Porteña.",
 
     "name_7": "TED",
     "title_7": "How to upgrade democracy for the Internet era",
@@ -616,16 +616,16 @@
 
     "name_11": "TN",
     "title_11": "La visión esloganera del futuro y una campaña sin ideas",
-    "subtitle_11": "Nuestro sistema democrático depende de flujo de información veraz y oferta electoral diversa y con candidaturas que digan en forma creible lo que quieren hacer.",
+    "subtitle_11": "Nuestro sistema democrático depende del flujo de información veraz y de la oferta electoral diversa con candidaturas que expresen de forma clara y concreta lo que quieren hacer.",
 
     "name_12": "Infobae",
     "title_12": "Adolescentes y polarización en las redes sociales",
-    "subtitle_12": "Es importante entender cómo funcionan y cómo funcionamos con relación a ellas. Ahí, la verdadera diferencia entre el bien y el mal está en la dicotomía de “dominar la herramienta o ser dominados por ella”"
+    "subtitle_12": "Hoy más que nunca es importante entender cómo funcionan las Redes Sociales y, sobre todo, cómo funcionamos en relación a ellas. La verdadera dicotomía está en “dominar la herramienta o ser dominados por ella”"
   },
 
   "transparency": {
     "title": "Transparencia",
-    "description": "Como ong es importante transparentar como obtenemos nuestros fondos, y como son nuestros balances y gastos; para que asi sepan como se invierte el dinero de sus donaciones y el impacto que generan.",
+    "description": "Somos una organización que promueve la apertura y la transparencia. Es por eso publicamos nuestros balances para que conozcas cómo se generan nuestros ingresos y en qué lo gastamos.",
     "subtitle": "Transparencia",
     "description_home": "Como ong es importante transparentar como obtenemos nuestros fondos, y como son nuestros balances y gastos; para que asi sepan como se invierte el dinero de sus donaciones y el impacto que generan.",
     "balance_button":"VER BALANCES COMPLETOS",

@@ -103,7 +103,9 @@ svg {
 #TarjetaNaranja_m:hover{
     border: 1px solid #000;
 }
-
+#TarjetaVerde_m{
+    z-index: 3000;
+}
 #FlotanteCeleste_m,
 #FlotanteLila_m,
 #FlotanteRojo_m,
@@ -113,6 +115,8 @@ svg {
 {
 
     opacity: 0;
+    visibility: 0;
+
 }
 #hexagonoVerde,
 #HexagonoCeleste,
@@ -122,6 +126,7 @@ svg {
 #HexagonoAmarillo{
 
     opacity: 0;
+    visibility: 0;
 }
 #FlotanteVerde{
     opacity: 0

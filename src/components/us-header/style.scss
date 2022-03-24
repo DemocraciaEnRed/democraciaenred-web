@@ -1,13 +1,13 @@
 @import "~bulma/sass/utilities/_all.sass";
 
 .us-header .hero-body{
-    background-color: rgba(177, 177, 177, 0.7);
+    background-color: rgba(216, 216, 216, 0.7);
 }
 
 .us-header{
     background-repeat: no-repeat;
     background-position:center;
-    background-size: cover;
+    background-size: 1000% ;
     position: relative;
     overflow: hidden;
     @include mobile{
@@ -29,6 +29,9 @@
     -moz-animation:spin 15s linear infinite;
     animation:spin 15s linear infinite;
 }
+// .navbar-item ,.navbar-link{
+//     color: #000 !important;
+// }
 @-moz-keyframes spin { 
     100% { -moz-transform: rotate(360deg); } 
 }
