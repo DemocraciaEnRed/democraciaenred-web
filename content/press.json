@@ -96,6 +96,22 @@
             "link":"https://www.infobae.com/opinion/2021/04/15/adolescentes-y-polarizacion-en-las-redes-sociales/",
             "logo":"infobae",
             "id":"infobae"
+        },
+        {
+            "name":"press.name_13",
+            "title":"press.title_13",
+            "subtitle":"press.subtitle_13",
+            "link":"https://www.lanacion.com.ar/tecnologia/merepresenta-el-sitio-que-organiza-los-datos-de-las-candidaturas-y-propuestas-de-los-partidos-nid11112021/",
+            "logo":"LANacion",
+            "id":"la-nacion"
+        },
+        {
+            "name":"press.name_14",
+            "title":"press.title_14",
+            "subtitle":"press.subtitle_14",
+            "link":"https://www.clarin.com/opinion/disonancia-cognitiva-entorno-siempre-razon_0_tfwwsQBSA.html",
+            "logo":"clarin",
+            "id":"clarin"
         }
     ]
 }

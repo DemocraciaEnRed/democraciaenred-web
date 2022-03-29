@@ -551,7 +551,7 @@
     "subtitle_14": "Porque sólo seremos mejores cuando seamos capaces de soñarnos mejores.",
 
     "main_title_15": "Participes digital",
-    "subtitle_15": "Una herramienta digital de código abierto para la rendición de cuentas y el monitoreo ciudadano",
+    "subtitle_15": "¿Cómo hacer rendición de cuentas en la plataforma digital Partícipes?",
 
     "main_title_16": "el Miedo y la Bronca",
     "subtitle_16": "Agustin Frizzera analiza las PASO de 2019 en Argentina.",
@@ -569,8 +569,11 @@
     "subtitle_20": "La tecnología y la toma de decisiones colectiva, permiten imaginar una democracia que se adapte al estilo de vida de los ciudadanos del siglo XXI.",
 
     "main_title_21": "¿Cómo hacer rendición de cuentas en la plataforma digital Sumen?",
-    "subtitle_21": "Creemos que es importante poder contar con una sociedad informada que se involucre y con un Estado transparente"
-  
+    "subtitle_21": "Creemos que es importante poder contar con una sociedad informada que se involucre y con un Estado transparente",
+
+    "main_title_22": "Somos Partícipes",
+    "subtitle_22": "Experiencias de Rendición de Cuentas, Monitoreo y Participación Ciudadana en Argentina"
+    
   },
   "press": {
     "title": "Prensa",
@@ -620,7 +623,16 @@
 
     "name_12": "Infobae",
     "title_12": "Adolescentes y polarización en las redes sociales",
-    "subtitle_12": "Hoy más que nunca es importante entender cómo funcionan las Redes Sociales y, sobre todo, cómo funcionamos en relación a ellas. La verdadera dicotomía está en “dominar la herramienta o ser dominados por ella”"
+    "subtitle_12": "Hoy más que nunca es importante entender cómo funcionan las Redes Sociales y, sobre todo, cómo funcionamos en relación a ellas. La verdadera dicotomía está en “dominar la herramienta o ser dominados por ella”",
+
+    "name_13": "La Nación",
+    "title_13": "#MeRepresenta",
+    "subtitle_13": "El sitio que organiza los datos de las candidaturas y propuestas de los partidos políticos que participan en las elecciones del domingo.",
+  
+    "name_14": "Clarín",
+    "title_14": "Disonancia cognitiva: nuestro entorno no siempre tiene razón.",
+    "subtitle_14": "Como señalamos desde la iniciativa Corazones y Mentes, lo descrito puede sonar familiar: es un mecanismo que predomina en nuestras interacciones y está presente en el ecosistema de las redes sociales, donde las etiquetas se exponen con orgullo y la demanda de inmediatez entorpece la reflexión."
+  
   },
 
   "transparency": {

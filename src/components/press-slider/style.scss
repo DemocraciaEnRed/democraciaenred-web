@@ -29,9 +29,10 @@
     overflow: hidden;
     display: grid; 
     grid-template-columns: 389px 390px 390px; 
-    grid-template-rows: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr; 
     gap: 9px 9px; 
     grid-template-areas: 
+      ". . . "
       ". . . "
       ". . . "
       ". . . "; 

@@ -17,13 +17,14 @@ import desobedientes from "./assets/desobedientes.jpg";
 import politicaRecuperada from "./assets/politica-recuperada.jpg";
 import politicxsTwitter from "./assets/politicxs-twitter.jpg";
 import causasComunes from "./assets/causas-comunes.png";
-import participes from "./assets/participes.jpg";
+import participes from "./assets/participes.png";
 import miedoBronca from "./assets/miedo-bronca.jpg";
 import compasPolitico from "./assets/compas_politico.jpg";
 import meRepresenta from "./assets/me_representa.jpg";
 import gatopardismo from "./assets/gatopardismo.jpg";
 import tedDemocracias from "./assets/ted-democracias.jpg";
 import sumen from "./assets/sumen.png";
+import somosParticipes from "./assets/somosParticipes.png";
 const images = {
   desinformacion,
   recuperarLaPolitica,
@@ -46,6 +47,7 @@ const images = {
   gatopardismo,
   tedDemocracias,
   sumen,
+  somosParticipes,
 };
 
 const ResourcesMansonery = ({ resources, home, filter }) => {

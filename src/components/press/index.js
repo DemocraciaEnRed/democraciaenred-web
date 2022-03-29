@@ -16,7 +16,7 @@ import ted from './assets/ted.png'
 import tn from './assets/tn.png'
 import wired from './assets/wired.png'
 import infobae from './assets/infobae.png'
-
+import clarin from './assets/clarin.png'
 const logos={
     openDemocracy,
     bbc,
@@ -29,7 +29,8 @@ const logos={
     ted,
     tn,
     wired,
-    infobae
+    infobae,
+    clarin
 }
 
 export default ({ data }) => {
@@ -55,7 +56,7 @@ export default ({ data }) => {
 
                     <div className="content">
                     <p className=" is-4 has-text-black ">
-                        {data.subtitle?`${intl.formatMessage({id: data.subtitle})}`:''}</p>
+                        {data.subtitle?`${intl.formatMessage({id: data.subtitle}).substring(0,200)}`:''}</p>
 
                     </div>
                     <div className="flex-container">
