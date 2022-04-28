@@ -27,8 +27,8 @@ const ConsultaDigital = () => {
         <ProductHeader data={productsData[1]} />
         <FeaturesSection data={FeaturesData[1]} />
 
-        {productsSpecsData[1].map((product) => (
-          <ProductSpecs data={product} key={product.id} />
+        {productsSpecsData[1].map((product, index) => (
+          <ProductSpecs data={product} key={index} />
         ))}
         <hr />
         <InstalationsSection data={instalationsData} />

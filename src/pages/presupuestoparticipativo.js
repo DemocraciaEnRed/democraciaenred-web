@@ -27,8 +27,8 @@ const PresupuestoParticipativo = () => {
         <ProductHeader data={productsData[0]} />
         <FeaturesSection data={FeaturesData[0]} />
 
-        {productsSpecsData[0].map((product) => (
-          <ProductSpecs data={product} key={product.id} />
+        {productsSpecsData[0].map((product, index) => (
+          <ProductSpecs data={product} key={index} />
         ))}
         <hr />
         <InstalationsSection data={instalationsData} />

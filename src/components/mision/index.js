@@ -6,8 +6,8 @@ const Mision = ({ data }) =>  {
     return(
         <section className="mision-section section has-background-grey-dark">
             {
-                data.content.map(content=>
-                    <div className="mb-6">
+                data.content.map((content, index)=>
+                    <div className="mb-6" key={index}>
                         <h2 className="title is-spaced has-text-green" >{intl.formatMessage({ id: content.title })}</h2>
                         <p className="subtitle has-text-white pb-6">
                             {intl.formatMessage({ id: content.description })}

@@ -23,8 +23,8 @@ const SeguimientoMetas = () => {
         <ProductHeader data={productsData[2]} />
         <FeaturesSection data={FeaturesData[2]} />
 
-        {productsSpecsData[2].map((product) => (
-          <ProductSpecs data={product} key={product.id} />
+        {productsSpecsData[2].map((product, index) => (
+          <ProductSpecs data={product} key={index} />
         ))}
         <hr />
         <InstalationsSection data={instalationsData} />

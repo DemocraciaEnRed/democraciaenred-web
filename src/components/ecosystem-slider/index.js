@@ -30,8 +30,8 @@ export default ({ slides }) => {
       </div>
       <div className="is-hidden-desktop">
         <Slider {...sliderSettings}>
-          {slides.ecosystem.map((ecosystem) => (
-            <Ecosystem data={ecosystem} key={ecosystem.id} className="pt-6" />
+          {slides.ecosystem.map((ecosystem, index) => (
+            <Ecosystem data={ecosystem} key={index} className="pt-6" />
           ))}
         </Slider>
       </div>

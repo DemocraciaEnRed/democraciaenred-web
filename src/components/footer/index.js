@@ -29,12 +29,13 @@ export default () => {
 
           <div className="column is-offset-1 is-two-thirds  flex is-flex-direction-row">
             <div className="column is-12 is-flex is-justify-content-space-between">
-              {socialMedia.map((media) => (
+              {socialMedia.map((media, index) => (
                 <a
                   className="mx-1 is-size-5 has-text-white"
                   href={media.link}
                   target="_blank"
                   rel="noopener noreferrer"
+                  key={index}
                 >
                   <span className="icon">
                     <i className={media.icon}></i>

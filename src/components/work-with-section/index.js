@@ -99,8 +99,8 @@ const WorkWith = () => {
           {intl.formatMessage({ id: "work_with" })}
         </h2>
         <div className="columns is-multiline">
-          {logos.map((logo) => (
-            <div className="column is-one-third-tablet is-one-quarter-desktop is-half-mobile">
+          {logos.map((logo, index) => (
+            <div key={index} className="column is-one-third-tablet is-one-quarter-desktop is-half-mobile">
               <figure className="image">
                 <img
                   src={logo.src}

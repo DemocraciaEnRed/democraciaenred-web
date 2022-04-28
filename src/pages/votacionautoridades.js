@@ -30,8 +30,8 @@ const VotacionAutoridades = () => {
         <Navbar/>
         <ProductHeader data={productsData[4]}/>
         <FeaturesSection data={FeaturesData[4]}/>
-        {productsSpecsData[4].map((product) => 
-            <ProductSpecs data={product} key={product.id}/>
+        {productsSpecsData[4].map((product, index) => 
+            <ProductSpecs data={product} key={index}/>
         )}
         <hr/>
         <InstalationsSection data={instalationsData}/>

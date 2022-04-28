@@ -80,8 +80,8 @@ const ResourcesMansonery = ({ resources, home, filter }) => {
         className="masonry-grid"
         columnClassName="masonry-grid_column has-background-dark"
       >
-        {getArray().map((resource) => (
-          <div className="resource-container" key={resources.id}>
+        {getArray().map((resource, index) => (
+          <div className="resource-container" key={index}>
             <a href={resource.link} target="_blank">
               <figure key={resource.id} className="image m-auto">
                 <img

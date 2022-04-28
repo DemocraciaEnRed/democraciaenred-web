@@ -27,8 +27,8 @@ export default ({ data }) => {
                 <h1 className="has-text-black title is-spaced">{intl.formatMessage({id: data.title})}</h1>
                 <h3 className="subtitle is-6 has-text-black is-spaced">{intl.formatMessage({id: data.subtitle})}</h3>
                 <div className="mb-6">
-                    {data.socialmedia.map((media)=> 
-                    <a href={media.url} target="_blank">
+                    {data.socialmedia.map((media, index)=> 
+                    <a key={index} href={media.url} target="_blank">
                         <span className="icon is-medium has-text-black ml-2">
                             <i className={`${icons[media.icon]} fa-2x`}></i>
                         </span>

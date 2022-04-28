@@ -27,8 +27,8 @@ const CoConstruccionLeyes = () => {
         <ProductHeader data={productsData[3]} />
         <FeaturesSection data={FeaturesData[3]} />
 
-        {productsSpecsData[3].map((product) => (
-          <ProductSpecs data={product} key={product.id} />
+        {productsSpecsData[3].map((product, index) => (
+          <ProductSpecs data={product} key={index} />
         ))}
 
         <InstalationsSection data={instalationsData} />

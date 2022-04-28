@@ -12,8 +12,8 @@ export default ({ slides }) => {
   return (
     <section id="slider-product" className="hero is-fullheight is-large is-primary has-background-dark s-bold products-slider">
       <Slider {...sliderSettings}>
-        {slides.map((product) => (
-          <Product data={product} key={product.id} />
+        {slides.map((product, index) => (
+          <Product data={product} key={index} />
         ))}
       </Slider>
     </section>

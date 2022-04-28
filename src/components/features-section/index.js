@@ -74,8 +74,8 @@ export default ({ data }) =>  {
                         </div>                   
                     </div>
                     <div className="columns is-multiline feature-container">
-                        {data.data.map((product) =>
-                            <div key={product.id} className={`feature feature-item feature-item-green column has-text-centered is-parent ${data.data[0].icon == 'objetivos' ? 'is-3' : 'is-4'}`}>
+                        {data.data.map((product, index) =>
+                            <div key={index} className={`feature feature-item feature-item-green column has-text-centered is-parent ${data.data[0].icon == 'objetivos' ? 'is-3' : 'is-4'}`}>
                                 <img src={`${icons[product.icon]}`} alt="" className="image is-centered" />
                                 <h4 className="subtitle is-size-4 has-text-grey-dark">{intl.formatMessage({id: product.title})}</h4>
                             </div>

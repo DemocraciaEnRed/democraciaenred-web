@@ -121,12 +121,13 @@ export default (props) => {
             {intl.formatMessage({ id: "contact" })}
           </PopupButton>
           <div className="my-6 is-flex is-justify-content-space-between mr-2">
-            {socialMedia.map((media) => (
+            {socialMedia.map((media, index) => (
             <a
               className="navbar-item is-hidden-desktop is-inline-block p-0"
               href={media.link}
               target="_blank"
               rel="noopener noreferrer"
+              key={index}
             >
               <span className="icon is-large ">
                 <i className={media.icon}></i>

@@ -13,9 +13,9 @@ const ResourcesHeader = ({ data }) => {
           <h1 className="has-text-yellow is-spaced mb-6">
             {intl.formatMessage({ id: data.subtitle })}
           </h1>
-          {data.filter.map((filter) => (
+          {data.filter.map((filter, index) => (
             <button
-              key={filter.id}
+              key={index}
               onClick={() => setFilter(filter.id)}
               className="m-1 button button-disabled-shadow has-no-background is-rounded is-small is-warning is-outlined is-uppercase is-inline-block"
               to=""

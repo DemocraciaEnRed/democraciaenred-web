@@ -19,8 +19,8 @@ export default ({ slides }) =>  {
                 <h1 className="is-size-1 title">Prensa</h1>
             </div>
             <Slider {...sliderSettings} >
-                {slides.map((live) => 
-                    <Lives data={live} key={live.id} className="pt-6"/>
+                {slides.map((live, index) => 
+                    <Lives data={live} key={index} className="pt-6"/>
                 )}
             </Slider>
         </section>

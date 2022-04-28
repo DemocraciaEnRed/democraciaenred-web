@@ -11,11 +11,12 @@ Memories = ({ data }) => {
           {intl.formatMessage({ id: data.memories.title })}
         </h2>
         <div className="is-flex is-justify-content-center is-flex-wrap-wrap">
-          {data.memories.buttons.map((memory) => (
+          {data.memories.buttons.map((memory, index) => (
             <a
               className={`is-medium button-memory is-flex has-text-centered has-text-dark is-justify-content-center is-align-items-center is-size-4-tablet is-size-6 mx-2 ${memory.color}`}
               href={memory.link}
               target="_blank"
+              key={index}
             >
               {intl.formatMessage({ id: data.memories.text })}
               <br />

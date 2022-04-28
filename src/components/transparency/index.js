@@ -29,12 +29,12 @@ export default function Transparency({ data }) {
           {intl.formatMessage({ id: data.evolution.title })}
         </h1>
         <div className="columns is-justify-content-center ">
-          <div class="column is-10 is-12-tablet">
+          <div className="column is-10 is-12-tablet">
             <BarIncomes chartData={data.chartEvolution} />
           </div>
         </div>
         <div className="columns is-desktop is-justify-content-center ">
-          <div class="column is-10 is-12-tablet">
+          <div className="column is-10 is-12-tablet">
             <BarOutcomes chartData={data.chartEvolution} />
           </div>
         </div>
