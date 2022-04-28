@@ -40,7 +40,6 @@ const IndexPage =()=>{
         <Resources resources={dataResources} />
         <ProductsSlider slides={productsData} />
         <EcosystemSlider slides={ecosystemData} />
-        {/* <EcosystemAnimated></EcosystemAnimated> */}
         <LivesSlider slides={livesData} />
         <UsSection data={dataUs} />
         <TeamSlider slides={teamData} title={dataUs} />
