@@ -7,7 +7,8 @@
       "bg_image": "slider1",
       "image_description": "hero_slider.image_description_1",
       "color":"coral"
-    }
+    },
+    "id": "hero-1"
   },
   {
     "type": "text",
@@ -17,7 +18,8 @@
       "bg_image": "slider2",
       "image_description": "hero_slider.image_description_2",
       "color":"green"
-    }
+    },
+    "id": "hero-2"
   },
   {
     "type": "text",
@@ -27,7 +29,8 @@
       "title": "hero_slider.title_3",
       "subtitle": "hero_slider.subtitle_3",
       "color":"blue"
-    }
+    },
+    "id": "hero-3"
   }
 ]
       
