@@ -8,9 +8,9 @@ $coral: #f09c77;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  height: 100vh;
   .hero-body {
     background-color: rgb(15 10 7 / 78%);
-    height: 100vh;
     @include touch {
       height: 50vh;
     }
