@@ -13,7 +13,7 @@ import LogoLive from './assets/der-live.png'
 
 export default ({ slides }) =>  {  
     return (
-        <section id="live-slider" className="live-slider has-background-dark hero is-fullheight is-large is-primary is-bold">
+        <section id="live-slider" className="live-slider hero is-fullheight is-large is-primary is-bold">
             <div className="title-section is-flex is-justify-content-space-between is-align-items-center	p-6">
                 <figure className="image is-flex is-align-content-center live-image">
                     <img src={LogoLive} alt="Logo Democracia en Red en Vivo" />
