@@ -110,9 +110,18 @@ export default (props) => {
           {/* <a href="#ecosystem" className="navbar-item is-size-6 my-3 is-capitalized">
             {intl.formatMessage({ id: "ecosystem.main_title" })}
           </a> */}
+          <Link
+            className="navbar-item is-size-6 my-3 is-capitalized"
+            onClick={() => setIsActive(false)}
+            to="/#press-slider"
+            data-target="press-slider"
+          >
+            {intl.formatMessage({ id: "press.title" })}
+          </Link>
+{/* 
           <a href="#press-slider" className="navbar-item is-size-6 my-3 is-capitalized">
             {intl.formatMessage({ id: "press.title" })}
-          </a>
+          </a> */}
           <PopupButton
             id="fSqwwL"
             style={{ fontSize: 20 }}
