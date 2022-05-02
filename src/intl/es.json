@@ -13,7 +13,7 @@
     "image_description_3": "Foto: Guillermo Batakis, Buenos Aires, Argentina"
   },
   "products": {
-    "title_0": "democraciaOS",
+    "title_0": "DemocraciaOS",
     "description_0": "Ofrecemos soluciones para gobiernos locales y nacionales, poderes legislativos, organismos descentralizados, partidos políticos, organizaciones de la sociedad civil y otras instituciones.",
 
     "title_1": "Presupuesto Participativo",
@@ -109,7 +109,7 @@
     "copyright_1": "Democracia en Red es una ONG latinoamericana de Buenos Aires, Argentina, para el mundo. "
   },
   "usPage": {
-    "title": "¿Quiénes somos?",
+    "title": "¡Conocenos!",
     "subtitle": "Somos una organización conformada por personas activistas,programadoras y científicas sociales que creen en potenciar la inteligencia colectiva para adaptar la democracia al siglo XXI.",
     "mision_values": {
       "title": "Misión",
@@ -637,7 +637,7 @@
 
   "transparency": {
     "title": "Transparencia",
-    "description": "Somos una organización que promueve la apertura y la transparencia. Es por eso publicamos nuestros balances para que conozcas cómo se generan nuestros ingresos y en qué lo gastamos.",
+    "description": "Como ONG es importante transparentar cómo obtenemos nuestros fondos y cómo son nuestros balances y gastos para que así sepan cómo se invierte el dinero de sus donaciones y el impacto que generan.",
     "subtitle": "Transparencia",
     "description_home": "Como ong es importante transparentar como obtenemos nuestros fondos, y como son nuestros balances y gastos; para que asi sepan como se invierte el dinero de sus donaciones y el impacto que generan.",
     "balance_button":"VER BALANCES COMPLETOS",
