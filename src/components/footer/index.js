@@ -47,7 +47,7 @@ export default () => {
               <div className=" column mt-4 ml-0">
                 <Link
                   className="navbar-item pl-0 ml-0"
-                  onClick={() => setIsActive(false)}
+                  // onClick={() => setIsActive(false)}
                   to="/quienessomos"
                   data-target="nosotros"
                 >
@@ -55,7 +55,7 @@ export default () => {
                 </Link>
                 <Link
                   className="navbar-item pl-0 ml-0"
-                  onClick={() => setIsActive(false)}
+                  // onClick={() => setIsActive(false)}
                   to="/recursos"
                   data-target="nosotros"
                 >
@@ -63,18 +63,28 @@ export default () => {
                 </Link>
                 <Link
                   className="navbar-item pl-0 ml-0"
-                  onClick={() => setIsActive(false)}
+                  // onClick={() => setIsActive(false)}
                   to="/transparencia"
                   data-target="transparency"
                 >
                   {intl.formatMessage({ id: "transparencia" })}
                 </Link>
-                <a href="#ecosystem" className="navbar-item pl-0 ml-0z`">
+                <Link
+                  className="navbar-item pl-0 ml-0"
+                  // onClick={() => setIsActive(false)}
+                  to="/#ecosystem"
+                  data-target="ecosystem"
+                >
                   {intl.formatMessage({ id: "ecosystem.main_title" })}
-                </a>
-                <a href="#press-slider" className="navbar-item pl-0 ml-0">
+                </Link>
+                <Link
+                  className="navbar-item pl-0 ml-0"
+                  // onClick={() => setIsActive(false)}
+                  to="/#press-slider"
+                  data-target="press-slider"
+                >
                   {intl.formatMessage({ id: "press.title" })}
-                </a>
+                </Link>                                
               </div>
               <div className="column ">
                 <PopupButton
