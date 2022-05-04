@@ -1,13 +1,14 @@
 import React from "react";
 import "./styles.scss";
+import Layout from "../components/layout";
 import UsHeader from "../components/us-header";
 import Mision from "../components/mision";
+import Claim from "../components/claim";
 import TeamSlider from "../components/team-slider";
-import teamData from "../../content/team.json";
 import WorkWith from "../components/work-with-section";
-import dataUs from "../../content/us.json";
 import Memories from "../components/memories";
-import Layout from "../components/layout";
+import teamData from "../../content/team.json";
+import dataUs from "../../content/us.json";
 // import Balance from "../components/balance-sheets";
 
 const QuienesSomos = () => {
@@ -19,6 +20,7 @@ const QuienesSomos = () => {
         <Memories data={dataUs} />
         {/* <Balance /> */}
         <TeamSlider slides={teamData} title={dataUs} />
+        <Claim />
         <WorkWith />
       </Layout>
     </React.Fragment>
