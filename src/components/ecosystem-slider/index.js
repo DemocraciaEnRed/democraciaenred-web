@@ -24,7 +24,9 @@ export default ({ slides }) => {
           {intl.formatMessage({ id: slides.title })}
         </h1>
       </div>
-      <EcosystemAnimated></EcosystemAnimated>
+      <div className="is-justify-content-space-between is-align-items-center has-text-centered">
+        <EcosystemAnimated />
+      </div>
       <div>
         
       </div>
