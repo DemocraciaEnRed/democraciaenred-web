@@ -55,8 +55,8 @@ export default ({ data }) => {
                     </div>
 
                     <div className="content">
-                    <p className=" is-4 has-text-black ">
-                        {data.subtitle?`${intl.formatMessage({id: data.subtitle}).substring(0,200)}`:''}</p>
+                    <p className=" is-4 has-text-black mt-0">
+                        {data.subtitle?`${intl.formatMessage({id: data.subtitle}).substring(0,180)}...`:''}</p>
 
                     </div>
                     <div className="flex-container">

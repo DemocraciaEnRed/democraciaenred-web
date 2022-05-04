@@ -27,6 +27,14 @@
 }
 .media{
   margin-bottom: 0.5rem;
+  .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        vertical-align: middle;
+    }
+  }      
 }
 .is-outlined{
   border: 1px solid black;
@@ -62,6 +70,14 @@
   }
   .media{
     margin-bottom: 0.5  rem;
+    .image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+          vertical-align: middle;
+      }
+    }    
   }
   .is-outlined{
     border: 1px solid black;
