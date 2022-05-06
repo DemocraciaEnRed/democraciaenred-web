@@ -41,7 +41,7 @@ export default ({ data }) => {
   return (
     <section
       id={data.id}
-      className={`hero section mx-6  product product-${data.color}`}
+      className={`hero section product product-${data.color}`}
     >
       <div className="hero-body px-6">
         <div className="container">
