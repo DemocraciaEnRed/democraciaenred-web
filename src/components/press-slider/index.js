@@ -33,7 +33,7 @@ export default ({ slides }) => {
   return (
     <section
       id="press-slider"
-      className="section press-slider pb-6 hero is-fullheight-deesktop has-background-yellow"
+      className="section pb-6 hero is-fullheight-deesktop has-background-yellow"
     >
       <h1 className="pl-6 mb-0 mt-6 our-press title has-text-black">
         {intl.formatMessage({ id: slides.title })}
