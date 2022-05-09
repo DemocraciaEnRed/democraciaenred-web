@@ -32,61 +32,61 @@ export default ({data}) =>  {
                     Te invitamos a descargar y conocer los balances de años pasados 
                 </p>
             </div>
-            <div class="columns ">
-                <div class="column  balance">
+            <div className="columns ">
+                <div className="column  balance">
                     <img src={images.violeta}></img>
                     <div className="above">
-                        <a href="https://drive.google.com/file/d/1FVbYIdb5saJeqjCqLj08duP1rgPgnLor/view?usp=sharing" class="anio">2021</a>
+                        <a href="https://drive.google.com/file/d/1FVbYIdb5saJeqjCqLj08duP1rgPgnLor/view?usp=sharing" className="anio">2021</a>
                     </div>
                 </div>
-                <div class="column  balance">
+                <div className="column  balance">
                     <img src={images.celeste}></img>
                     <div className="above ">
-                        <a href="https://docs.google.com/document/d/1nPSoBu9U5mO8u2dYsb1JNctdW-qQqWLoq8gdmEjxynQ/edit?usp=sharing" class="anio">2020</a>
+                        <a href="https://docs.google.com/document/d/1nPSoBu9U5mO8u2dYsb1JNctdW-qQqWLoq8gdmEjxynQ/edit?usp=sharing" className="anio">2020</a>
                     </div>
                 </div>
-                <div class="column  balance ">
+                <div className="column  balance ">
                     <img src={images.verde}></img>
                     <div className="above">
-                        <a href="https://drive.google.com/file/d/1vv4u3m5jfx8_Fe8noNo1vEuin6eZHPl7/view?usp=sharing" class="anio">2019</a>
+                        <a href="https://drive.google.com/file/d/1vv4u3m5jfx8_Fe8noNo1vEuin6eZHPl7/view?usp=sharing" className="anio">2019</a>
                     </div>
                 </div>
-                <div class="column  balance ">
+                <div className="column  balance ">
                     <img src={images.amarillo}></img>
                     <div className="above">
-                        <a href="https://drive.google.com/file/d/11kp8Iv6PWkjoc3-6JPLfBYQ0xQW7O8WS/view?usp=sharing" class="anio">2018</a>
+                        <a href="https://drive.google.com/file/d/11kp8Iv6PWkjoc3-6JPLfBYQ0xQW7O8WS/view?usp=sharing" className="anio">2018</a>
                     </div>
                 </div>
             </div>
-            <div class="columns">
-                <div class="column  balance ">
+            <div className="columns">
+                <div className="column  balance ">
                     <img src={images.naranja}></img>
                     <div className="above" >
-                        <a href="https://drive.google.com/file/d/11kp8Iv6PWkjoc3-6JPLfBYQ0xQW7O8WS/view?usp=sharing" class="anio">2017</a>
+                        <a href="https://drive.google.com/file/d/11kp8Iv6PWkjoc3-6JPLfBYQ0xQW7O8WS/view?usp=sharing" className="anio">2017</a>
                     </div>
                 </div>
-                <div class="column  balance ">
+                <div className="column  balance ">
                     <img src={images.rosa}></img>
                     <div className="above">
-                        <a href="https://drive.google.com/file/d/11kp8Iv6PWkjoc3-6JPLfBYQ0xQW7O8WS/view?usp=sharing" class="anio">2016</a>
+                        <a href="https://drive.google.com/file/d/11kp8Iv6PWkjoc3-6JPLfBYQ0xQW7O8WS/view?usp=sharing" className="anio">2016</a>
                     </div>
                 </div>
-                <div class="column  balance ">
+                <div className="column  balance ">
                     <img src={images.violeta}></img>
                     <div className="above">
-                        <a href="https://drive.google.com/file/d/1Svu-ozSGfpgS_Rrap5ZqokLXDArxd38l/view?usp=sharing" class="anio">2015</a>
+                        <a href="https://drive.google.com/file/d/1Svu-ozSGfpgS_Rrap5ZqokLXDArxd38l/view?usp=sharing" className="anio">2015</a>
                     </div>
                 </div>
-                <div class="column  balance ">
+                <div className="column  balance ">
                     <img src={images.celeste}></img>
                     <div className="above">
-                        <a href="https://drive.google.com/file/d/1iGA6FTBmOFx_Xy1mRv6bEjAQYRwfIDC8/view?usp=sharing" class="anio" download>2014</a>
+                        <a href="https://drive.google.com/file/d/1iGA6FTBmOFx_Xy1mRv6bEjAQYRwfIDC8/view?usp=sharing" className="anio" download>2014</a>
                     </div>
                 </div>
-                <div class="column  balance ">
+                <div className="column  balance ">
                     <img src={images.verde}></img>
                     <div className="above">
-                        <a href="https://drive.google.com/file/d/1rGABZl_Bw_P5GVSzi6Q3udyNmiOK1SQk/view?usp=sharing" class="anio" download>2013</a>
+                        <a href="https://drive.google.com/file/d/1rGABZl_Bw_P5GVSzi6Q3udyNmiOK1SQk/view?usp=sharing" className="anio" download>2013</a>
                     </div>
                 </div>
             </div>
