@@ -1,8 +1,5 @@
 @import "~bulma/sass/utilities/_all.sass";
 
-.us-header .hero-body{
-    background-color: rgba(216, 216, 216, 0.7);
-}
 
 .us-header{
     background-repeat: no-repeat;
@@ -10,9 +7,6 @@
     background-size: 1000% ;
     position: relative;
     overflow: hidden;
-    @include mobile{
-    height:50vh
-}
 }
 
 .us-header .subtitle{

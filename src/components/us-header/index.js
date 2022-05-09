@@ -5,14 +5,16 @@ import "./style.scss";
 const UsHeader = ({ data }) => {
   const intl = useIntl();
   return (
-    <section className="us-header hero is-large">
-      <div className="hero-body has-text-centered is-flex-mobile is-justify-content-center is-flex-direction-column">
-        <h1 className="is-size-1 is-spaced has-text-dark mb-5">
-          {intl.formatMessage({ id: data.title })}
-        </h1>
-        {/* <p className="mx-auto subtitle has-text-dark">
-          {intl.formatMessage({ id: data.subtitle })}
-        </p> */}
+    <section className="us-header has-background-black hero is-medium">
+      <div className="hero-body has-text-centered ">
+        <div className="columns is-justify-content-center">
+          <div className="column is-9">
+            <h1 className="is-spaced has-text-yellow mb-5">
+              {intl.formatMessage({ id: data.title })}
+            </h1>
+            <br /><br />
+          </div>
+        </div>
       </div>
     </section>
   );

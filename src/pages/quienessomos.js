@@ -9,6 +9,7 @@ import WorkWith from "../components/work-with-section";
 import Memories from "../components/memories";
 import teamData from "../../content/team.json";
 import dataUs from "../../content/us.json";
+import Division from "../components/division";
 // import Balance from "../components/balance-sheets";
 
 const QuienesSomos = () => {
@@ -16,6 +17,7 @@ const QuienesSomos = () => {
     <React.Fragment>
       <Layout>
         <UsHeader data={dataUs} />
+        <Division />        
         <Mision data={dataUs} />
         <Memories data={dataUs} />
         {/* <Balance /> */}
