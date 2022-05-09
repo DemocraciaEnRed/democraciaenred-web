@@ -45,7 +45,7 @@
       {
         "type": "doughnut",
         "data": [20, 30, 10, 40],
-        "backgroundColor": ["#77549E", "#E7B4F1", "#88CBFF", "#53C1B4"]
+        "backgroundColor": ["#BB86FC", "#E7B4F1", "#88CBFF", "#FF7990"]
       }
     ]
   },
