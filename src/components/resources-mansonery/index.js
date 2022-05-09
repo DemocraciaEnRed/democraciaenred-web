@@ -9,6 +9,7 @@ import guiaCiudadana from "./assets/guia-ciudadana.jpg";
 import cajaHerramientasPresupuesto from "./assets/ch-presupuesto-participativo.jpg";
 import cajaHerramientasConsulta from "./assets/ch-consulta-ciudadana.jpg";
 import presupuestoParticipativo from "./assets/presupuesto-participativo.jpg";
+import presupuestoParticipativoInstitucionesEducativas from "./assets/UNR.jpg"
 import corazonesYMentes from "./assets/corazones-y-mentes.jpg";
 import refexicons from "./assets/refexicons.jpg";
 import ppvl from "./assets/ppvl.jpg";
@@ -25,6 +26,8 @@ import gatopardismo from "./assets/gatopardismo.jpg";
 import tedDemocracias from "./assets/ted-democracias.jpg";
 import sumen from "./assets/sumen.png";
 import somosParticipes from "./assets/somosParticipes.png";
+import eleccionesDemocracia from "./assets/serie-elecciones-democracia.jpg";
+import rendicionCuentasParticipes from "./assets/rendicion-cuentas-participes.png"
 const images = {
   desinformacion,
   recuperarLaPolitica,
@@ -32,6 +35,7 @@ const images = {
   cajaHerramientasPresupuesto,
   cajaHerramientasConsulta,
   presupuestoParticipativo,
+  presupuestoParticipativoInstitucionesEducativas,
   corazonesYMentes,
   refexicons,
   ppvl,
@@ -48,6 +52,8 @@ const images = {
   tedDemocracias,
   sumen,
   somosParticipes,
+  eleccionesDemocracia,
+  rendicionCuentasParticipes
 };
 
 const ResourcesMansonery = ({ resources, home, filter }) => {
@@ -58,8 +64,9 @@ const ResourcesMansonery = ({ resources, home, filter }) => {
   };
 
   const getArray = () => {
+
     if (home) {
-      return resources.resources.filter((resource) => resource.home === true);
+      return resources.resources.filter((resource) => resource.home === true).reverse();
     }
     let resourcesArray = resources.resources.filter(
       (resource) => resource.type === filter
@@ -70,7 +77,7 @@ const ResourcesMansonery = ({ resources, home, filter }) => {
         .map((resource) => resource)
     );
     // console.log("resources \n", resourcesArray)
-    return resourcesArray;
+    return resourcesArray.reverse();
   };
 
   return (
