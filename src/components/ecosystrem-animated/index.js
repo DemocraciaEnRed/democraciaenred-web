@@ -10,7 +10,7 @@ const EcoAnimated = (props) => (
 {/* is-hidden-desktop */}
 
     <svg               
-      className="is-hidden-touch  column has-text-centered"
+      className="is-hidden-touch  column is-12 is-offset-2 has-text-centered"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 2048 1024"
       style={{

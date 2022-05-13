@@ -68,7 +68,14 @@ $coral: #f09c77;
         color: white;
     }
 }
-
+//  evidentemente es la clases .product
+// podriamos probar ocn calc() o con javascript que calcul oel ancho de la pantalla y l oasigne aca
+//esta clase ancho luego se toma en una prop clasName del react-slick (slider)
+.ancho{
+    .slick-list .slick-track .product{
+        width: 1800px !important;
+    }
+}
 .products-slider .slick-next {
     right: 20px !important;
     width: 15px;
