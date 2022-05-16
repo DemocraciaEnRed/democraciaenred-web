@@ -38,7 +38,7 @@ export default ({ slides,title }) =>  {
         <section id="team-slider" className="px-6 team-slider pb-6 hero is-fullheight-deesktop is-large is-primary">
             <h1 className="pl-6 mb-0 mt-6 our-team title has-text-black">{intl.formatMessage({ id: title.slider_title})}</h1>
             <Slider {...sliderSettingsWith3} >
-                {slides.map((team, index) => 
+                {slides.sort(() => Math.random() - 0.5).map((team, index) => 
                     <Team data={team} key={index} className="pt-6"/>
                 )}
             </Slider>
