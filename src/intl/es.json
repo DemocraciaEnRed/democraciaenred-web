@@ -420,56 +420,59 @@
     "slider_title": "Nuestro equipo"
   },
   "team": {
-    "title_2": "Agus Frizzera",
+    "title_2": "Agustín Frizzera",
     "subtitle_2": "Director Ejecutivo",
 
-    "title_3": "Flor",
-    "subtitle_3": "Coordinadora de Proyectos",
+    "title_3": "Florencia Caffarone",
+    "subtitle_3": "Directora General",
 
     "title_4": "Don Powa",
     "subtitle_4": "Desarrollo de proyectos",
 
-    "title_5": "Esteban",
+    "title_5": "Esteban Brenman",
     "subtitle_5": "Vicepresidente",
 
-    "title_6": "Agustina",
+    "title_6": "Agustina Manuele",
     "subtitle_6": "Comunicación",
 
     "title_7": "Fede Bertero",
-    "subtitle_7": "Gestión de proyectos",
+    "subtitle_7": "Gestión de Proyectos",
 
-    "title_8": "Guille",
+    "title_8": "Guillermo Croppi",
     "subtitle_8": "Desarrollo",
 
-    "title_9": "Álvaro",
+    "title_9": "Álvaro Araujo",
     "subtitle_9": "DevOps",
 
-    "title_10": "Vale",
-    "subtitle_10": "Gestión de proyectos",
+    "title_10": "Valeria Lisciani",
+    "subtitle_10": "Gestión de Proyectos",
 
-    "title_11": "Florencia",
+    "title_11": "Florencia Polimeni",
     "subtitle_11": "Presidenta",
 
-    "title_12": "Mau",
+    "title_12": "Mauro Salerno",
     "subtitle_12": "Diseño Gráfico",
 
-    "title_13": "Niqui",
+    "title_13": "Nicole Alonso",
     "subtitle_13": "Community Manager",
 
-    "title_14": "Mariano",
+    "title_14": "Mariano Heller",
     "subtitle_14": "Comisión Directiva",
 
-    "title_15": "Diego",
+    "title_15": "Diego Villardebó",
     "subtitle_15": "Desarrollo",
 
-    "title_16": "Juli",
-    "subtitle_16": "Desarrollo",
-
-    "title_17": "Ceci",
+    "title_17": "Cecilia Ibarra",
     "subtitle_17": "Gestión de Proyectos",
 
     "title_18": "Fede Pasutti",
-    "subtitle_18": "Diseñador UX/UI"
+    "subtitle_18": "Diseñador UX/UI",
+
+    "title_19": "Carolina Avila",
+    "subtitle_19": "Gestión de Proyectos",
+
+    "title_20": "Mariano Valdez",
+    "subtitle_20": "Desarrollo"
 
   },
   "ecosystem": {
