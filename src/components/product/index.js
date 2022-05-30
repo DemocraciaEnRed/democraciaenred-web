@@ -43,13 +43,13 @@ export default ({ data }) => {
       id={data.id}
       className={`hero section product product-${data.color}`}
     >
-      <div className="hero-body px-6">
+      <div className="hero-body">
         <div className="container">
           <div className="text-content">
             <div className="columns is-align-items-center is-flex-wrap-wrap">
               <div className="column is-half-desktop is-full">
-                <div className="is-flex title-product   is-justify-content-space-evenly is-align-items-center  pb-4 mb-6">
-                  <figure className="image is-96x96 mr-3">
+                <div className="is-flex title-product is-justify-content-space-evenly is-align-items-center mb-6">
+                  <figure className="image is-96x96">
                     <img
                       src={`${icons[data.icon]}`}
                       alt=""
@@ -63,7 +63,7 @@ export default ({ data }) => {
                 <figure className="image is-hidden-desktop is-hidden-tablet">
                   <img src={`${images[data.image]}`} alt="" />
                 </figure>
-                <p className="subtitle has-text-black  pt-4 is-spaced">
+                <p className="subtitle has-text-black is-spaced">
                   {intl.formatMessage({ id: data.description })}
                 </p>
                 {/* <div className="list-wrapper">
