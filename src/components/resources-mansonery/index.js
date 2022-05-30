@@ -28,6 +28,7 @@ import sumen from "./assets/sumen.png";
 import somosParticipes from "./assets/somosParticipes.png";
 import eleccionesDemocracia from "./assets/serie-elecciones-democracia.jpg";
 import rendicionCuentasParticipes from "./assets/rendicion-cuentas-participes.png"
+import datosEnFuga from "./assets/datosEnFuga.png"
 const images = {
   desinformacion,
   recuperarLaPolitica,
@@ -53,7 +54,8 @@ const images = {
   sumen,
   somosParticipes,
   eleccionesDemocracia,
-  rendicionCuentasParticipes
+  rendicionCuentasParticipes,
+  datosEnFuga
 };
 
 const ResourcesMansonery = ({ resources, home, filter }) => {

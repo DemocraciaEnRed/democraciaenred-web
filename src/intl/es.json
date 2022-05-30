@@ -110,7 +110,7 @@
   },
   "usPage": {
     "title": "¡Conocenos!",
-    "subtitle": "Somos una organización conformada por personas activistas,programadoras y científicas sociales que creen en potenciar la inteligencia colectiva para adaptar la democracia al siglo XXI.",
+    "subtitle": "Somos una organización conformada por personas activistas, programadoras y científicas sociales que creen en potenciar la inteligencia colectiva para adaptar la democracia al siglo XXI.",
     "mision_values": {
       "title": "Misión",
       "description": "Utilizar la tecnología para democratizar las instituciones públicas."
@@ -121,7 +121,7 @@
     },
     "what_we_do": {
       "title": "¿Qué hacemos?",
-      "description": "Creemos en potenciar la inteligencia colectiva para garantizar la democracia.\n- Generamos y aplicamos estrategias para abrir las instituciones públicas a través del diseño, desarrollo e implementación de herramientas digitales que promueven la participación ciudadana.\n-Realizamos asesorías para Gobiernos y Organizaciones de la Sociedad Civil de todo LATAM para reducir la brecha entre representantes y representadxs y generar políticas públicas con mayor impacto.\n-Impulsamos el cambio cultural en forma de campañas de comunicación y herramientas educativas que motiven la participación ciudadana.\n "
+      "description": "Creemos en potenciar la inteligencia colectiva para garantizar la democracia.\n\n- Generamos y aplicamos estrategias para abrir las instituciones públicas a través del diseño, desarrollo e implementación de herramientas digitales que promueven la participación ciudadana.\n-Realizamos asesorías para Gobiernos y Organizaciones de la Sociedad Civil de todo LATAM para reducir la brecha entre representantes y representadxs y generar políticas públicas con mayor impacto.\n-Impulsamos el cambio cultural en forma de campañas de comunicación y herramientas educativas que motiven la participación ciudadana.\n "
     },
     "memories": {
       "title": "Nuestras memorias",
@@ -415,7 +415,7 @@
   },
   "usSection": {
     "title": "Quiénes somos",
-    "subtitle_1": "Somos una organización conformada por personas activistas, programadoras y científicas sociales. \nQueremos abrir las instituciones públicas y los procesos de toma de decisión.",
+    "subtitle_1": "Somos una organización conformada por personas activistas, programadoras y científicas sociales que creen en potenciar la inteligencia colectiva para adaptar la democracia al siglo XXI.",
     "subtitle_2": "Buscamos recuperar la política",
     "slider_title": "Nuestro equipo"
   },
@@ -581,7 +581,10 @@
     "subtitle_24": "Creemos que es importante poder contar con una sociedad informada que se involucre y con un Estado transparente",
 
     "main_title_25": "Somos Partícipes",
-    "subtitle_25": "Experiencias de Rendición de Cuentas, Monitoreo y Participación Ciudadana en Argentina"
+    "subtitle_25": "Experiencias de Rendición de Cuentas, Monitoreo y Participación Ciudadana en Argentina",
+
+    "main_title_26": "Datos en Fuga",
+    "subtitle_26": "Queremos que el Estado asegure estándares de ciberseguridad y que atienda a las alarmas que suenan por todos lados"
     
   },
   "press": {

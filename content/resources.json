@@ -161,8 +161,7 @@
             "subtitle":"resources.subtitle_18",
             "link":"https://medium.com/multitudes/el-miedo-y-la-bronca-171914e124bc",
             "id":"miedoBronca",
-            "color":"blue",
-            "home": true,            
+            "color":"blue",          
             "type":"politica"
         },
         {
@@ -227,7 +226,16 @@
             "color":"blue",
             "home": true,
             "type":"participacion_ciudadana"
-        }
+        },
+        {
+            "title":"resources.main_title_26",
+            "subtitle":"resources.subtitle_26",
+            "link": "https://datosenfuga.org/",
+            "id":"datosEnFuga",
+            "color":"pink",
+            "home": true,
+            "type":"activismo"
+        }        
     ]
     
 }
