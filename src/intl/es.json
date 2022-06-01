@@ -503,11 +503,11 @@
   },
   "resources": {
     "title": "Recursos",
-    "description": "Desarrollamos tecnología cívica innovadora. Producimos contenidos para la incidencia ciudadana. Sistematizamos y compartimos nuestas experiencias.",
+    "description": "Desarrollamos tecnología cívica innovadora.\nProducimos contenidos para la incidencia ciudadana.\nSistematizamos y compartimos nuestas experiencias.",
     "subtitle": "Mirá lo que hacemos.",
 
     "filter_1": "Convivencia Digital",
-    "filter_2": "Politica",
+    "filter_2": "Política",
     "filter_3": "Participación Ciudadana",
     "filter_4": "Activismo",
 
@@ -530,7 +530,7 @@
     "subtitle_7": " ",
 
     "main_title_8": "Corazones y Mentes",
-    "subtitle_8": "EL INTERNET ES ÚTIL PARA TODOS, PERO QUEREMOS QUE APRENDAS A USARLO PARA QUE SAQUES LO MEJOR DE ÉL Y NO LO PEOR DE TI.",
+    "subtitle_8": "Herramientas y mucha data para dominar internet y promover una convivencia digital positiva.",
 
     "main_title_9": "Refexicons:",
     "subtitle_9": "Invitación a mensajes de reflexión",
@@ -548,12 +548,12 @@
     "subtitle_13": "MUCHOS PROTAGONISTAS... ALGUNAS ENTREVISTAS",
 
     "main_title_14": "Políticos en Twitter:",
-    "subtitle_14": "repositorio con interacciones de más de 500 usuarios relacionados con la política en Argentina.",
+    "subtitle_14": "Repositorio con interacciones de más de 500 usuarios relacionados con la política en Argentina.",
 
     "main_title_15": "Causas Comunes",
     "subtitle_15": "Porque sólo seremos mejores cuando seamos capaces de soñarnos mejores.",
 
-    "main_title_16": "Participes digital",
+    "main_title_16": "Partícipes digital",
     "subtitle_16": "¿Cómo hacer rendición de cuentas en la plataforma digital Partícipes?",
 
     "main_title_17": "TEDx Democracias y nuevas tecnologías",
