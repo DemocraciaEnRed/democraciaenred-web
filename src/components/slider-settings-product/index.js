@@ -52,7 +52,7 @@ const sliderSettings = {
   centerPadding:'100px',
   nextArrow: <NextArrow />,
   prevArrow: <PrevArrow />,
-  className: 'ancho'
+  // className: 'ancho'
 };
 
 export default sliderSettings;

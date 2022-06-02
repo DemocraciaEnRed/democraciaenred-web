@@ -40,15 +40,15 @@ export default ({ data }) => {
   };
 
   return (
-    <section className="ecosystem pt-6 ">
-      <div className="section columns is-mobile container m-auto is-flex -is-align-items-start pl-0 pr-6">
-        <div className="column is-hidden-mobile pt-6">
+    <section className="ecosystem">
+      <div className="columns is-mobile container m-auto is-flex -is-align-items-start pl-0 pr-6">
+        <div className="column is-hidden-mobile">
           <figure className="image hexagono m-auto">
             <img src={images[data.image]} width="60%" alt="" />
           </figure>
         </div>
 
-        <div className="column hexagono-mobile-container is-one-third is-hidden-tablet pt-6">
+        <div className="column hexagono-mobile-container is-one-third is-hidden-tablet">
           <figure className="image hexagono m-auto">
             <img src={imagesMobile[data.imageMobile]} width="100%" alt="" />
           </figure>

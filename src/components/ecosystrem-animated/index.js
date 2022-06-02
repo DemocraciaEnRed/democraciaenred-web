@@ -132,7 +132,7 @@ const EcoAnimated = (props) => (
 
       </g>
       <g id="quienesSomos">
-        <a href="https://webstaging.democraciaenred.org/es/quienessomos" ><path
+        <a href="https://www.democraciaenred.org/es/quienessomos" ><path
           id="_x3C_Pol\xEDgonoVerde_x3E_"
           className="st12"
           d="m276.7 620.6 173.6 100.2 173.6-100.2V420.1L450.3 319.9 276.7 420.1z"

@@ -22,6 +22,11 @@
         "text":"usPage.memories.button_text",
         "buttons":[
             {
+                "year":"2021",
+                "link":"https://drive.google.com/file/d/1joTigpOhmv2qsvjd2w-n2rYXemoOkouS/view",
+                "color":"red"
+            },            
+            {
                 "year":"2020",
                 "link":"https://democraciaenred.org/static/files/der-memorias-gestion_2020.pdf",
                 "color":"blue"

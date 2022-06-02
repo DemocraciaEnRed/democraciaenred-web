@@ -56,22 +56,6 @@
     "id": "esteban"
   },
   {
-    "title": "team.title_6",
-    "subtitle": "team.subtitle_6",
-    "description": "team.description_6",
-    "socialmedia": [
-      {
-        "url": "https://www.linkedin.com/in/agustina-manuele-472b96bb/",
-        "icon": "ln"
-      },
-      {
-        "url": "https://www.instagram.com/agusmanuele/",
-        "icon": "ig"
-      }
-    ],
-    "id": "agustina"
-  },
-  {
     "title": "team.title_7",
     "subtitle": "team.subtitle_7",
     "socialmedia": [
@@ -195,5 +179,28 @@
       }
     ],
     "id": "pasutti"
+  },
+  {
+    "title": "team.title_19",
+    "subtitle": "team.subtitle_19",
+    "socialmedia": [
+      {}
+    ],
+    "id": "caro-avila"
+  },
+  {
+    "title": "team.title_20",
+    "subtitle": "team.subtitle_20",
+    "socialmedia": [
+      {
+        "url": "https://github.com/mpvaldez",
+        "icon": "gh"
+      },
+      {
+        "url": "https://twitter.com/Frenhofer1",
+        "icon": "tw"
+      } 
+    ],
+    "id": "pano"
   }
 ]

@@ -3,7 +3,7 @@ module.exports = {
     title: `Democracia en Red`,
     description: `Abrimos las instituciones públicas y la toma de decisiones a través de procesos participativos innovadores.`,
     author: `@DemocraciaEnRed`,
-    siteUrl: `https://webstaging.democraciaenred.org/`
+    siteUrl: `https://www.democraciaenred.org/`
   },
   plugins: [
     "gatsby-plugin-sass",

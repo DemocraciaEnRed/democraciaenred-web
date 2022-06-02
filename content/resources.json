@@ -25,7 +25,7 @@
         {
             "title":"resources.main_title_1",
             "subtitle":"resources.subtitle_1",
-            "link": "https://democraciaenred.org/static/assets/ebooks/DER_DESINFORMACIONPDF.pdf",
+            "link": "/assets/ebooks/DER_DESINFORMACIONPDF.pdf",
             "id":"desinformacion",
             "color":"yellow",
             "type":"convivencia_digital"
@@ -42,7 +42,7 @@
 
             "title":"resources.main_title_3",
             "subtitle":"resources.subtitle_3",
-            "link":"https://drive.google.com/file/d/115nxDhoZ6eUD3ab8n60lpEAFg6aoVv94/view",
+            "link":"/assets/ebooks/INTERNET_GuiaCiudadana.pdf",
             "id":"guiaCiudadana",
             "color":"blue",
             "type":"convivencia_digital"
@@ -51,7 +51,7 @@
 
             "title":"resources.main_title_4",
             "subtitle":"resources.subtitle_4",
-            "link":"https://democraciaenred.org/static/assets/ebooks/DER_Kit_PParticipativo.pdf",
+            "link":"/assets/ebooks/DER_Kit_PParticipativo.pdf",
             "id": "cajaHerramientasPresupuesto",
             "color":"green",
             "type":"participacion_ciudadana"
@@ -60,7 +60,7 @@
 
             "title":"resources.main_title_5",
             "subtitle":"resources.subtitle_5",
-            "link":"https://democraciaenred.org/static/assets/ebooks/DER_Kit_CCiudadana.pdf",
+            "link":"/assets/ebooks/DER_Kit_CCiudadana.pdf",
             "id": "cajaHerramientasConsulta",
             "color":"purple",
             "type":"participacion_ciudadana"
@@ -161,8 +161,7 @@
             "subtitle":"resources.subtitle_18",
             "link":"https://medium.com/multitudes/el-miedo-y-la-bronca-171914e124bc",
             "id":"miedoBronca",
-            "color":"blue",
-            "home": true,            
+            "color":"blue",          
             "type":"politica"
         },
         {
@@ -195,7 +194,7 @@
         {
             "title":"resources.main_title_22",
             "subtitle":"resources.subtitle_22",
-            "link":"https://democraciaenred.org/static/assets/ebooks/mr-articulos-frizzera.pdf",
+            "link":"/assets/ebooks/mr-articulos-frizzera.pdf",
             "id":"eleccionesDemocracia",
             "color":"purple",
             "home": true,            
@@ -204,7 +203,7 @@
         {
             "title":"resources.main_title_23",
             "subtitle":"resources.subtitle_23",
-            "link": "https://democraciaenred.org/static/assets/ebooks/SUMEN_RendicionDeCuentas.pdf",
+            "link": "/assets/ebooks/SUMEN_RendicionDeCuentas.pdf",
             "id":"sumen",
             "color":"yellow",
             "home": true,            
@@ -213,7 +212,7 @@
         {
             "title":"resources.main_title_24",
             "subtitle":"resources.subtitle_24",
-            "link": "https://drive.google.com/file/d/1mfZ5ji7Xq25vFOLEWPZydGUEqtOEwWOi/view?usp=sharing",
+            "link": "/assets/ebooks/PARTICIPES_RendicionDeCuentas-12122021.pdf",
             "id":"rendicionCuentasParticipes",
             "color":"purple",
             "home": true,            
@@ -227,7 +226,16 @@
             "color":"blue",
             "home": true,
             "type":"participacion_ciudadana"
-        }
+        },
+        {
+            "title":"resources.main_title_26",
+            "subtitle":"resources.subtitle_26",
+            "link": "https://datosenfuga.org/",
+            "id":"datosEnFuga",
+            "color":"pink",
+            "home": true,
+            "type":"activismo"
+        }        
     ]
     
 }

@@ -28,7 +28,7 @@
     width: 100%; 
     overflow: hidden;
     display: grid; 
-    grid-template-columns: 389px 390px 390px; 
+    grid-template-columns: 33.34% 33.33% 33.33%; 
     grid-template-rows: 1fr 1fr 1fr 1fr; 
     gap: 9px 9px; 
     grid-template-areas: 
@@ -55,6 +55,7 @@
   align-self: auto;
   order: 0;
  }
+
 @include touch{
     .title.our-press{
         padding-left: 0 !important;
@@ -79,13 +80,87 @@
         width: 100%; 
         overflow: hidden;
         display: grid; 
-        grid-template-columns: 389px  ; 
+        grid-template-columns: 100%  ; 
         grid-template-rows: 1fr; 
         gap: 9px 9px; 
         grid-template-areas: 
           "."
           "."
           "."; 
+      
+    
+    }
+}
+
+@include from($tablet){
+    .title.our-press{
+        padding-left: 0 !important;
+    }
+    .press-slider .slick-prev {
+        left: 20px !important;
+        bottom: 70px !important;
+        top:auto;
+        left: auto !important
+    }
+    .press-slider .slick-next {
+        right:20px !important;
+        bottom: 70px !important;
+        top:auto
+    }
+    .press-slider .slick-list{
+        margin-left:0;
+        margin-right:0;
+    }
+    .press-box{
+        height:940px;
+        width: 100%; 
+        overflow: hidden;
+        display: grid; 
+        grid-template-columns: 50% 50%; 
+        grid-template-rows: 1fr 1fr; 
+        gap: 9px 9px; 
+        grid-template-areas: 
+          ". . "
+          ". . "
+          ". . "; 
+      
+    
+    }
+}
+
+
+@include widescreen{
+    .title.our-press{
+        padding-left: 0 !important;
+    }
+    .press-slider .slick-prev {
+        left: 20px !important;
+        bottom: 70px !important;
+        top:auto;
+        left: auto !important
+    }
+    .press-slider .slick-next {
+        right:20px !important;
+        bottom: 70px !important;
+        top:auto
+    }
+    .press-slider .slick-list{
+        margin-left:0;
+        margin-right:0;
+    }
+    .press-box{
+        height:940px;
+        width: 100%; 
+        overflow: hidden;
+        display: grid; 
+        grid-template-columns: 33.34% 33.33% 33.33%; 
+        grid-template-rows: 1fr 1fr 1fr 1fr; 
+        gap: 9px 9px; 
+        grid-template-areas: 
+          ". . . "
+          ". . . "
+          ". . . "
+          ". . . "; 
       
     
     }

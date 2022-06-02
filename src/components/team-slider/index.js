@@ -12,6 +12,7 @@ export default ({ slides,title }) =>  {
       ...sliderSettings,
       slidesToShow: 3,
       slidesToScroll: 3,
+      dots: false,
       responsive: [
         {
           breakpoint: 840,
@@ -19,7 +20,7 @@ export default ({ slides,title }) =>  {
             slidesToShow: 2,
             slidesToScroll: 2,
             infinite: true,
-            dots: true,
+            dots: false,
           },
         },
         {
@@ -28,7 +29,7 @@ export default ({ slides,title }) =>  {
             slidesToShow: 1,
             slidesToScroll: 1,
             infinite: true,
-            dots: true,
+            dots: false,
           },
         },
       ]

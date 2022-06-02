@@ -21,6 +21,12 @@
         background-size: contain;
         background-repeat: no-repeat;
     }
+    &.red{
+        background:url(./assets//button-red.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }    
     @include mobile{
         width: 30vw;
         height: 30vw;
