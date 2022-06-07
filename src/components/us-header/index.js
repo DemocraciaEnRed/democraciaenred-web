@@ -13,6 +13,9 @@ const UsHeader = ({ data }) => {
               {intl.formatMessage({ id: data.title })}
             </h1>
             <br /><br />
+            <h3>
+            {intl.formatMessage({ id: data.subtitle })}
+            </h3>
           </div>
         </div>
       </div>

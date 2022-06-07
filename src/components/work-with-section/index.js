@@ -15,6 +15,40 @@ import diputados from "./assets/diputados.jpg";
 import bs_as_ciudad from "./assets/bs_as_ciudad.jpeg";
 import red_innovacion from "./assets/red_innovacion.jpg";
 import rosario from "./assets/rosario.jpg";
+import accion_colectiva from "./assets/accionColectiva.png";
+import acij from "./assets/acij.png";
+import argentina_unida from "./assets/argentina_unida.png";
+import artemisa from "./assets/artemisa.png";
+import avina from "./assets/avina.png";
+import caf from "./assets/caf.png";
+import cippec from "./assets/cippec.png";
+import conocimiento_abierto from "./assets/conocimientoAbierto.png";
+import demolab from "./assets/demolab.png";
+import directorio_legislativo from "./assets/directorioLegislativo.png"
+import ecohouse from "./assets/ecohouse.png"
+import facebook from "./assets/facebook.png"
+import fundacion_huesped from "./assets/fundacionHuesped.png"
+import fundeps from "./assets/fundeps.png"
+import gobierno_abierto from "./assets/gobiernoAbierto.png"
+import godoy_cruz from "./assets/godoyCruz.png"
+import indela from "./assets/indela.png"
+import konrad from "./assets/konrad.png"
+import maipu from "./assets/maipu.png"
+import mano from "./assets/mano.png"
+import mgp from "./assets/mgp.png"
+import ministerio_economia from "./assets/ministerioEconomia.png"
+import moe from "./assets/moe.png"
+import nuestra_cordoba from "./assets/nuestraCordoba.png"
+import nuestra_mendoza from "./assets/nuestraMendoza.png"
+import observatorioRedes from "./assets/observatorioRedes.png"
+import odia from "./assets/odia.svg"
+import onu from "./assets/onu.png"
+import open_society from "./assets/openSociety.png"
+import poder_ciudadano from "./assets/poderCiudadano.png"
+import redaccion from "./assets/redaccion.png"
+import sistemab from "./assets/sistemab.png"
+import twitter from "./assets/twitter.png"
+import via_libre from "./assets/viaLibre.png"
 
 const WorkWith = () => {
   const intl = useIntl();
@@ -88,6 +122,176 @@ const WorkWith = () => {
     {
       name: "Municipalidad de Rosario",
       src: rosario,
+      class: "",
+    },
+    {
+      name: "Accion Colectiva",
+      src: accion_colectiva,
+      class: "",
+    },
+    {
+      name: "Observatorio de Justicia ACCIJ",
+      src: acij,
+      class: "",
+    },
+    {
+      name: "Argentina unida",
+      src: argentina_unida,
+      class: "",
+    },
+    {
+      name: "Artemisas",
+      src: artemisa,
+      class: "",
+    },
+    {
+      name: "Avina",
+      src: avina,
+      class: "",
+    },
+    {
+      name: "CAF",
+      src: caf,
+      class: "",
+    },
+    {
+      name: "cippec",
+      src: cippec,
+      class: "",
+    },
+    {
+      name: "COnocimiento Abierto",
+      src: conocimiento_abierto,
+      class: "",
+    },
+    {
+      name: "DemoLab",
+      src: demolab,
+      class: "",
+    },
+    {
+      name: "Directorio LEgislativo",
+      src: directorio_legislativo,
+      class: "",
+    },
+    {
+      name: "ecohouse",
+      src: ecohouse,
+      class: "",
+    },
+    {
+      name: "Facebook",
+      src: facebook,
+      class: "",
+    },
+    {
+      name: "fundacion Huesped",
+      src: fundacion_huesped,
+      class: "",
+    },
+    {
+      name: "fundepc",
+      src: fundeps,
+      class: "",
+    },
+    {
+      name: "gobierno Abierto",
+      src: gobierno_abierto,
+      class: "",
+    },
+    {
+      name: "Godoy Cruz",
+      src: godoy_cruz,
+      class: "",
+    },
+    {
+      name: "indela",
+      src: indela,
+      class: "",
+    },
+    {
+      name: "Konrad",
+      src: konrad,
+      class: "",
+    },
+    {
+      name: "maipu",
+      src: maipu,
+      class: "",
+    },
+    {
+      name: "mano",
+      src: mano,
+      class: "",
+    },
+    {
+      name: "Presupuesto participativo General Puyrredon",
+      src: mgp,
+      class: "",
+    },
+    {
+      name: "Ministerio de Economia",
+      src: ministerio_economia,
+      class: "",
+    },
+    {
+      name: "MOE",
+      src: moe,
+      class: "",
+    },
+    {
+      name: "Red Ciudadana Nuestra Cordoba",
+      src: nuestra_cordoba,
+      class: "",
+    },
+    {
+      name: "Nuestra Mendoza",
+      src: nuestra_mendoza,
+      class: "",
+    },
+    {
+      name: "Observatorio de Redes",
+      src: observatorioRedes,
+      class: "",
+    },
+    {
+      name: "ODIA",
+      src: odia,
+      class: "",
+    },
+    {
+      name: "onu",
+      src: onu,
+      class: "",
+    },
+    {
+      name: "Open Society",
+      src: open_society,
+      class: "",
+    },
+    {
+      name: "poder Ciudadano",
+      src: poder_ciudadano,
+      class: "",
+    },
+    {
+      name: "RedAccion",
+      src: redaccion,
+      class: "",
+    },
+    {
+      name: "Sistema B",
+      src: sistemab,
+      class: "",
+    },
+    {
+      name: "Twittewr",
+      src: twitter,
+      class: "",
+    },
+    {
+      name: "Via Libre",
+      src: via_libre,
       class: "",
     },
   ];
