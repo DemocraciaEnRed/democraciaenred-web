@@ -11,9 +11,7 @@ const InternalPageHero = ({ data }) => {
             <h1 className="is-spaced has-text-yellow mb-5">
               {intl.formatMessage({ id: data.title })}
             </h1>
-            <p className="mx-auto subtitle has-text-white">
-              {intl.formatMessage({ id: data.description })}
-            </p>
+            <p className="mx-auto subtitle has-text-white" dangerouslySetInnerHTML={{__html: intl.formatMessage({ id: data.description })}}></p>    
           </div>
         </div>
       </div>

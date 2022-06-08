@@ -14,7 +14,27 @@
         font-size: 14px;
     }
 }
-
+a .fab {
+    font-size: 2rem !important;
+}
+a .fa-linkedin:hover {
+    color: $red;
+}
+a .fa-twitter:hover{
+   color: $orange;
+}
+a .fa-instagram:hover {
+    color:$yellow;
+}
+a .fa-github:hover {
+    color: $green;
+}
+a .fa-youtube:hover {
+    color: $blue;
+}
+a .fa-medium-m:hover {
+    color: $purple;
+}
 
 .navbar-item {
     border: none;

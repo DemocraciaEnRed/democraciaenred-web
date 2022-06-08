@@ -30,8 +30,7 @@ const TransparencySection = ({ data }) => {
             </PopupButton> */}
           </div>
         </div>
-
-        <p className="">{intl.formatMessage({ id: data.description_home })}</p>
+        <div  dangerouslySetInnerHTML={{__html: intl.formatMessage({ id: data.description_home })}}></div>    
       </div>
       <div className="columns mx-0 is-justify-content-center pb-6">
         <div className="mx-6 mb-6">

@@ -1,15 +1,15 @@
 {
   "hero_slider": {
     "title_1": "Democratizar la democracia",
-    "subtitle_1": "Utilizamos la tecnología para democratizar las instituciones públicas.",
+    "subtitle_1": "Creamos soluciones de participación ciudadana con gobiernos y activistas para fortalecer la democracia.",
     "image_description_1": "Foto: São Paulo, Brasil",
 
-    "title_2": "Democratizar la democracia",
+    "title_2": "Redistribuir el poder",
     "image_description_2": "Foto: Mérida, Mexico",
-    "subtitle_2": "Reducimos la brecha entre representantes y representadxs para generar políticas públicas con mayor impacto.",
+    "subtitle_2": "Abrimos las instituciones públicas y la toma de decisiones a través de procesos participativos innovadores.",
 
-    "title_3": "Democratizar la democracia",
-    "subtitle_3": "Impulsamos el cambio cultural a través de campañas de comunicación y herramientas educativas que motiven la participación ciudadana.",
+    "title_3": "Ocupar la politica",
+    "subtitle_3": " Buscamos recuperar la política incorporando a la ciudadanía en los procesos de toma de decisión.",
     "image_description_3": "Foto: Guillermo Batakis, Buenos Aires, Argentina"
   },
   "products": {
@@ -459,7 +459,7 @@
     "title_14": "Mariano Heller",
     "subtitle_14": "Comisión Directiva",
 
-    "title_15": "Diego Villardebó",
+    "title_15": "Diego Vilardebó",
     "subtitle_15": "Desarrollo",
 
     "title_17": "Cecilia Ibarra",
@@ -649,9 +649,9 @@
 
   "transparency": {
     "title": "Transparencia",
-    "description": "Somos una organización que promueve la apertura y la transparencia. Por eso publicamos nuestros ingresos y egresos para que conozcas como se generan nuestros ingresos y en qué lo gastamos.",
+    "description": "Somos una organización que promueve la <b>apertura</b> y la <b>transparencia</b>.<br> Por eso <b>publicamos nuestros ingresos y egresos</b> para que conozcas cómo se generan nuestros ingresos y en qué lo gastamos.",
     "subtitle": "Transparencia",
-    "description_home": "Somos una organización que promueve la apertura y la transparencia. Por eso publicamos nuestros ingresos y egresos para que conozcas como se generan nuestros ingresos y en qué lo gastamos.",
+    "description_home": "Somos una organización que promueve la <b>apertura</b> y la <b>transparencia</b>.<br> Por eso <b>publicamos nuestros ingresos y egresos</b> para que conozcas cómo se generan nuestros ingresos y en qué lo gastamos.",
     "balance_button":"VER BALANCES COMPLETOS",
     "link": "/transparencia",
     "balance": {

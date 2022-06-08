@@ -5,6 +5,9 @@
     position: absolute;
     width: 100%;
 }
+.navbar-item img{
+    max-height: 3rem !important;
+}
 .navbar-burger {
     border: none;
     background-color: transparent;
