@@ -29,10 +29,12 @@ export default function Transparency({ data }) {
           {intl.formatMessage({ id: data.evolution.title })}
         </h1>
         <div className="columns is-justify-content-center ">
+          {/* Ingresos por fuente de financiamiento (año fiscal) */}
           <div className="column is-10 is-12-tablet">
             <BarIncomes chartData={data.chartEvolution} />
           </div>
         </div>
+        {/* Egreso por objeto del año fiscal */}
         <div className="columns is-desktop is-justify-content-center ">
           <div className="column is-10 is-12-tablet">
             <BarOutcomes chartData={data.chartEvolution} />

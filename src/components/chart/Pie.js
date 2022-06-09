@@ -12,7 +12,7 @@ export const Pie = ({ chartData }) => {
   return (
     <div>
       <h1 className="has-text-centered mb-4">{intl.formatMessage({ id:chartData.title})}</h1>
-      <Grafico data={chart} datasetIdKey="id" />
+      <Grafico  data={chart} datasetIdKey="id" />
     </div>
   );
 };

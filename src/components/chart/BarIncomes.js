@@ -12,8 +12,7 @@ export const Bar = ({ chartData }) => {
     datasets: [
       {
         label: intl.formatMessage({ id: chartData.incomesBar.label[0] }),
-        barThickness: 40,
-        minBarLength: 2,
+
         backgroundColor: "#88CBFF",
         borderColor: "#88CBFF",
         borderWidth: 1,
@@ -23,8 +22,7 @@ export const Bar = ({ chartData }) => {
       },
       {
         label: intl.formatMessage({ id: chartData.incomesBar.label[1] }),
-        barThickness: 40,
-        minBarLength: 2,
+
         backgroundColor: "#69D69D",
         borderColor: "#5ce175",
         borderWidth: 1,
