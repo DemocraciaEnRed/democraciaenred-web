@@ -38,7 +38,7 @@ export default ({ data }) => {
     const intl = useIntl()
 
     return (
-        <section id={data.id} className=" px-3 py-6 hero is-flex is-justify-content-center is-flex-direction-column">
+        <section id={data.id} className=" px-3 hero is-flex is-justify-content-center is-flex-direction-column">
             <div className="card mb-6">
                 <div className="card-content is-flex is-flex-direction-column">
                     <div className="media">

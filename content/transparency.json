@@ -36,10 +36,10 @@
   "chartPieOutcomes": {
     "title":"transparency.chartsPie.outcome_title",
     "labels": [
-      "honorarios",
-      "gastos de oficina",
-      "impuestos",
-      "diseño y comunicación"
+      "Honorarios",
+      "Gastos de Oficina",
+      "Impuestos",
+      "Diseño y Comunicación"
     ],
     "datasets": [
       {
