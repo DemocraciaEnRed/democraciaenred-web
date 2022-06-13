@@ -61,8 +61,10 @@ const images = {
 const ResourcesMansonery = ({ resources, home, filter }) => {
   const intl = useIntl();
   const breakpointCols = {
-    default: 4,
+    default: 5,
+    1216: 4,
     700: 2,
+    
   };
 
   const getArray = () => {

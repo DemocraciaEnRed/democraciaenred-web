@@ -71,7 +71,7 @@
     }
 }
 
-img {
+.above img {
     @include mobile{
         max-width: 120px !important;
     }

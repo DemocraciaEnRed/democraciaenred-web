@@ -27,7 +27,7 @@
 
 .hex-container-inner {
   transform: skewX(-30deg) rotate(60deg) skewX(30deg);
-  cursor: pointer;
+  // cursor: pointer;
 }
 
 .hex-container:first-child .hex-container-inner:before, .hex-container-inner-2 {

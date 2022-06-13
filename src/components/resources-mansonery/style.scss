@@ -3,13 +3,19 @@
   display: -ms-flexbox; /* Not needed if autoprefixing */
   display: flex;
   width: auto;
+  padding: 20px;
+  background-color: #1D1D1B !important;
 }
 
 .masonry-grid_column {
   background-clip: padding-box;
+  background-color: #1D1D1B !important;
+
 }
 
 .resource-container {
+  background-color: #1D1D1B !important;
+
   position: relative;
     img {
         opacity: 1;
