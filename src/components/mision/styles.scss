@@ -1,9 +1,21 @@
+@import "~bulma/sass/utilities/_all.sass";
+
 .mision-section{
    display: grid;
    grid-template-columns: 1fr 1fr;
    gap: 1rem;
-}
+   @include mobile{
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      }
+   }
+
+
 .mision-section :first-child{
-   grid-column-start: 1;
-   grid-column-end: 4;
+   @include desktop {
+      grid-column-start: 1;
+      grid-column-end: 4;
+   }
 }
+
