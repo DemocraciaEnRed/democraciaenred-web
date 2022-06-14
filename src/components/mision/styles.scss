@@ -1,6 +1,9 @@
 .mision-section{
-   display: flex !important;
-   flex-direction: row !important;
-   color:  yellow !important;
-
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 1rem;
+}
+.mision-section :first-child{
+   grid-column-start: 1;
+   grid-column-end: 4;
 }

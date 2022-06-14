@@ -5,8 +5,8 @@ import "./styles.scss";
 const Mision = ({ data }) =>  {
     const intl = useIntl()
     
-    function renderMision() {
-        let cont = 0;
+    // function renderMision() {
+    //     let cont = 0;
         // const vista = ReactDOM.createElement('div')
         //     // console.log('contador', cont)
         //     data.content.map((content, index)=>
@@ -32,13 +32,21 @@ const Mision = ({ data }) =>  {
         //         }
         //     }
         //     )
-        return( <h1>aca hay que devolver el elemento completo</h1>    )
+    //     return( <h1>aca hay que devolver el elemento completo</h1>    )
 
-    }
+    // }
     return(
         <section id="" className="mision-section section has-background-grey-dark">
             {
-                renderMision()
+            data.content.map((content, index)=>
+
+                <div className="mb-6" key={index}>
+                    <h2 className="title is-spaced has-text-green" >{intl.formatMessage({ id: content.title })}</h2>
+                    <p className="subtitle has-text-white pb-6">
+                        {intl.formatMessage({ id: content.description })}
+                    </p>
+                </div>
+            )
             }
             {/* <div className="my-6">
                 <h2 className="title is-spaced has-text-green" >{intl.formatMessage({ id: data.memories.title })}</h2>
