@@ -35,55 +35,55 @@ export default ({data}) =>  {
             <div className="columns is-flex-desktop is-flex-wrap-wrap">
                 <div className="column is-one-quarter is-full-mobile balance">
                     <div className="above ">
-                        <img clasName="imgres" src={images.violeta}></img>
+                        <img className="imgres" src={images.violeta}></img>
                         <a href="https://drive.google.com/drive/folders/1TD-81Yo7G1fdqEZMHex3mRwM-AqTXUWa" className="anio">2021</a>
                     </div>
                 </div>
                 <div className="column is-one-quarter is-half-mobile balance">
                     <div className="above  ">
-                        <img clasName="image imgres" src={images.celeste}></img>
+                        <img className="image imgres" src={images.celeste}></img>
                         <a href="https://drive.google.com/drive/folders/1TD-81Yo7G1fdqEZMHex3mRwM-AqTXUWa" className="anio">2020</a>
                     </div>
                 </div>
                 <div className="column is-one-quarter is-half-mobile balance ">
                     <div className="above ">
-                        <img clasName="image imgres" src={images.verde}></img>
+                        <img className="image imgres" src={images.verde}></img>
                         <a href="https://drive.google.com/drive/folders/1TD-81Yo7G1fdqEZMHex3mRwM-AqTXUWa" className="anio">2019</a>
                     </div>
                 </div>
                 <div className="column is-one-quarter is-one-third-mobile balance ">
                     <div className="above ">
-                        <img clasName="image imgres" src={images.amarillo}></img>
+                        <img className="image imgres" src={images.amarillo}></img>
                         <a href="https://drive.google.com/drive/folders/1TD-81Yo7G1fdqEZMHex3mRwM-AqTXUWa" className="anio">2018</a>
                     </div>
                 </div>
                 <div className="column is-one-fifth is-one-third-mobile balance ">
                     <div className="above " >
-                        <img clasName="image imgres" src={images.naranja}></img>
+                        <img className="image imgres" src={images.naranja}></img>
                         <a href="https://drive.google.com/drive/folders/1TD-81Yo7G1fdqEZMHex3mRwM-AqTXUWa" className="anio">2017</a>
                     </div>
                 </div>
                 <div className="column is-one-fifth is-one-third-mobile balance ">
                     <div className="above ">
-                        <img clasName="image imgres" src={images.rosa}></img>
+                        <img className="image imgres" src={images.rosa}></img>
                         <a href="https://drive.google.com/drive/folders/1TD-81Yo7G1fdqEZMHex3mRwM-AqTXUWa" className="anio">2016</a>
                     </div>
                 </div>
                 <div className="column is-one-fifth is-half-mobile balance ">
                     <div className="above ">
-                        <img clasName="image imgres" src={images.violeta}></img>
+                        <img className="image imgres" src={images.violeta}></img>
                         <a href="https://drive.google.com/drive/folders/1TD-81Yo7G1fdqEZMHex3mRwM-AqTXUWa" className="anio">2015</a>
                     </div>
                 </div>
                 <div className="column is-one-fifth is-half-mobile balance ">
                     <div className="above ">
-                        <img clasName="image imgres" src={images.celeste}></img>
+                        <img className="image imgres" src={images.celeste}></img>
                         <a href="https://drive.google.com/drive/folders/1TD-81Yo7G1fdqEZMHex3mRwM-AqTXUWa" className="anio" download>2014</a>
                     </div>
                 </div>
                 <div className="column is-one-fifth is-full-mobile balance ">
                     <div className="above ">
-                        <img clasName="image imgres" src={images.verde}></img>
+                        <img className="image imgres" src={images.verde}></img>
                         <a href="https://drive.google.com/drive/folders/1TD-81Yo7G1fdqEZMHex3mRwM-AqTXUWa" className="anio" download>2013</a>
                     </div>
                 </div>

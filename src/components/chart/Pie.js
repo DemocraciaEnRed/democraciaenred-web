@@ -10,20 +10,29 @@ export const Pie = ({ chartData }) => {
     datasets: chartData.datasets
   };
 
-  // const chartOptions = { 
-  //   plugins: {
-  //     tooltip: {
-  //       callbacks: {
-  //         footer: footer,
-  //       }
-  //     }
-  //   }
-  //   }
-  // options={chartOptions} 
+  const label = (context) => {
+   
+    let lbl = context.label+' '+ context.formattedValue+' ' + '%'
+    return lbl
+  }
+  const chartOptions = { 
+    plugins:{
+      tooltip: {
+        callbacks: {
+            label: label,
+        }, 
+        
+  
+    },
+    }
+   
+
+    }
+  
   return (
     <div>
       <h1 className="has-text-centered mb-4">{intl.formatMessage({ id:chartData.title})}</h1>
-      <Grafico  data={chart} datasetIdKey="id" />
+      <Grafico options={chartOptions}  data={chart} datasetIdKey="id" />
     </div>
   );
 };
