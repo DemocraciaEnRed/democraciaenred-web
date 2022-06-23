@@ -6,22 +6,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import sliderSettings from "../slider-settings";
 import EcosystemAnimated from "../ecosystrem-animated"
-import Hexagono from "../hexagono"
 import "./style.scss";
 
 import Ecosystem from "../ecosystem";
 
 export default ({ slides }) => {
   const intl = useIntl();
-  // borrar luego cuando se termine le ocmponente hexagono
-  // esto deberia venir del archivo de traduccion
-  const data = {
-    texto: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta.',
-    boton: {
-      label: 'ir a...',
-      link: 'www.democraciaenred.org'
-    }
-  }
   return (
     <section
       id="ecosystem"
@@ -33,13 +23,9 @@ export default ({ slides }) => {
         </h1>
       </div>
       <div className="is-justify-content-space-between is-align-items-center has-text-centered">
-        {/* <EcosystemAnimated /> */}
+        <EcosystemAnimated />
        
-      </div>
-       <div className="section">
-        <Hexagono props={data}/>
-       </div>
-      <div>
+
         
       </div>
       <div className="is-hidden-desktop">
