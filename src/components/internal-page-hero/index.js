@@ -8,7 +8,7 @@ const InternalPageHero = ({ data }) => {
       <div className="hero-body has-text-centered ">
         <div className="columns is-justify-content-center">
           <div className="column is-9">
-            <h1 className="is-spaced has-text-yellow mb-5">
+            <h1 className="has-text-purple is-spaced  mb-5">
               {intl.formatMessage({ id: data.title })}
             </h1>
             <p className="mx-auto subtitle has-text-white" dangerouslySetInnerHTML={{__html: intl.formatMessage({ id: data.description })}}></p>    

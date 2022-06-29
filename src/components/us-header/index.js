@@ -9,7 +9,7 @@ const UsHeader = ({ data }) => {
       <div className="hero-body has-text-centered ">
         <div className="columns is-justify-content-center">
           <div className="column is-9">
-            <h1 className="is-spaced has-text-yellow mb-5">
+            <h1 className=" is-spaced has-text-green mb-5">
               {intl.formatMessage({ id: data.title })}
             </h1>
             <br /><br />

@@ -11,40 +11,30 @@ export default () => {
   const intl = useIntl();
 
   return (
-    <section className="footer section has-background-grey-dark	has-text-white">
+    <section className="footer section background-lazy-dark	has-text-white">
       <div className="container">
         {/* removed class is-vcentered  */}
         <div className="columns">
-          <div className="column my-0">
+          <div className="column my-0 orga">
             <Link to="/" target="_blank">
-              <img src={logo_der} className="image mb-3" width="180" />
+              <img src={logo_der} className="image mb-3" width="237" />
             </Link>
-            <p className="is-size-7 mb-2">
+            <p className=" description mb-2">
               {intl.formatMessage({ id: "footer.copyright_1" })}{" "}
             </p>
-            <p className="is-size-7">
+            <hr></hr>
+            <p className="sub-description">
               {intl.formatMessage({ id: "footer.description" })}
             </p>
           </div>
 
           <div className="column is-offset-1 is-two-thirds  flex is-flex-direction-row">
-            <div className="column is-12 is-flex is-justify-content-space-between">
-              {socialMedia.map((media, index) => (
-                <a
-                  className="mx-1 is-size-5 has-text-white"
-                  href={media.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  key={index}
-                >
-                  <span className="icon">
-                    <i className={media.icon}></i>
-                  </span>
-                </a>
-              ))}
-            </div>
+
             <div className="column is-12 columns">
-              <div className=" column mt-4 ml-0">
+              <div className=" column ml-0">
+                <h1 className="subtitle">
+                  {intl.formatMessage({id: "footer.subtitles.sections"})}
+                </h1>
                 <Link
                   className="navbar-item pl-0 ml-0"
                   // onClick={() => setIsActive(false)}
@@ -87,6 +77,9 @@ export default () => {
                 </Link>                                
               </div>
               <div className="column ">
+                 <h1 className="subtitle">
+                  {intl.formatMessage({id: "footer.subtitles.contact"})}
+                 </h1>
                 <PopupButton
                   id="fSqwwL"
                   style={{ fontSize: 20 }}
@@ -94,8 +87,30 @@ export default () => {
                 >
                   {intl.formatMessage({ id: "contact" })}
                 </PopupButton>
-                <hr></hr>
+                
                 <p>contacto@democraciaenred.org</p>
+
+                <div className="container mt-6">
+                  <h1 className="subtitle">
+                    {intl.formatMessage({id: "footer.subtitles.social"})}
+                  </h1>
+                  <div className="column is-12 is-flex is-justify-content-space-between">
+
+                    {socialMedia.map((media, index) => (
+                      <a
+                        className="mx-1 is-size-5 has-text-white"
+                        href={media.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        key={index}
+                      >
+                        <span className="icon">
+                          <i className={media.icon}></i>
+                        </span>
+                      </a>
+                    ))}
+                  </div>
+                </div>
               </div>
             </div>
           </div>

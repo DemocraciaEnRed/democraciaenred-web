@@ -1,22 +1,66 @@
 @import "~bulma/sass/utilities/_all.sass";
-
+.background-lazy-dark{
+    background-color: #1E1E1C !important;
+}
 .footer {
     .title,
     .subtitle,
     a {
         color: white;
     }
+    a {
+
+        font-family: 'Titillium Web';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        text-decoration-line: underline;
+        
+        color: #FFFFFF;
+        
+    }
     .footer-link {
         line-height: 24px;
     }
-    .footer-link,
-    .subtitle {
+    .footer-link {
         font-size: 14px;
     }
+    .subtitle{
+        font-family: 'Titillium Web';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+
+        color: #FFFFFF;
+    }
+    .description{
+        font-family: 'Titillium Web';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px !important;
+        line-height: 24px;
+        
+        color: #FFFFFF;
+    }
+    .sub-description{
+        font-family: 'Titillium Web';
+        font-style: italic;
+        font-weight: 300;
+        font-size: 14px !important;
+        line-height: 24px;
+        
+        color: #FFFFFF;
+    }
+    p{
+        color: #9E9D9C;
+
+    }
 }
-a .fab {
-    font-size: 2rem !important;
-}
+// a .fab {
+//     font-size: 2rem !important;
+// }
 a .fa-linkedin:hover {
     color: $red;
 }
@@ -35,7 +79,11 @@ a .fa-youtube:hover {
 a .fa-medium-m:hover {
     color: $purple;
 }
-
+.orga{
+    p {
+        width: 80%;
+    }
+}
 .navbar-item {
     border: none;
     background: none;

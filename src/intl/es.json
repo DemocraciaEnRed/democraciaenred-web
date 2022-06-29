@@ -105,8 +105,13 @@
     "subtitle_3": "Cámara de Diputados de la Nación"
   },
   "footer": {
-    "description": "Gracias al avance tecnológico y a la capacidad de difundir información en segundos por todo el mundo, hoy tenemos la oportunidad histórica de democratizar el sistema democrático.",
-    "copyright_1": "Democracia en Red es una ONG latinoamericana de Buenos Aires, Argentina, para el mundo. "
+    "description": "La tecnología avanza y cambia nuestras vidas. Es el momento del sistema político de abrirse al diálogo con la participación ciudadana.",
+    "copyright_1": "Democracia en Red es una ONG latinoamericana de Buenos Aires, Argentina, para el mundo. ",
+    "subtitles": {
+      "sections": "Secciones",
+      "contact": "Contacto",
+      "social": "Redes"
+    }
   },
   "usPage": {
     "title": "¡Conocenos!",

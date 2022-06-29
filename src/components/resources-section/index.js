@@ -7,12 +7,12 @@ export default ({ resources }) => {
 
   return (
     <section id="resources">
-      <div className="columns mt-0 mx-0 section has-background-dark mb-0 pb-6">
+      <div className="columns mt-0 mx-0 section bg-dark mb-0 pb-3 pt-4">
         <div className="column is-two-thirds">
-          <h1 className="has-text-white title is-spaced mb-6">
+          <h1 className="has-text-white title is-spaced mb-3">
             {intl.formatMessage({ id: resources.title })}
           </h1>
-          <h2 className="has-text-white is-spaced mb-6">
+          <h2 className="has-text-white is-spaced mb-3">
             {intl.formatMessage({ id: resources.description })}
           </h2>
           {/* <h2 className="has-text-yellow is-spaced mb-6">

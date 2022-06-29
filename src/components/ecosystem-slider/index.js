@@ -18,7 +18,7 @@ export default ({ slides }) => {
       className="ecosystem-slider hero is-fullheight is-large is-primary is-bold con"
     >
       <div className="container title-section is-flex is-justify-content-space-between is-align-items-center p-6">
-        <h1 className="has-text-black title">
+        <h1 className="has-text-black title pt-6 pl-6">
           {intl.formatMessage({ id: slides.title })}
         </h1>
       </div>

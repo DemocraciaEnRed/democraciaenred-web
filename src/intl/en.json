@@ -100,7 +100,12 @@
         "title": "DemocraciaOS",
         "description": "Technology moves forward and changes our lives. It is time for political systems to open up to citizen participation.",
         "copyright_1": "Democracia OS is a project from ",
-        "copyright_2": ", a NGO based in Buenos Aires, Argentina."
+        "copyright_2": ", a NGO based in Buenos Aires, Argentina.",
+        "subtitles": {
+            "sections": "Secciones",
+            "contact": "Contacto",
+            "social": "Redes"
+          }
     },
     "header_1": {
         "main_title": "Participatory Budget",
