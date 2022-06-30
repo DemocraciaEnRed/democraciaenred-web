@@ -75,24 +75,24 @@ const ResourcesMansonery = ({ resources, home, filter }) => {
     let resourcesArray = resources.resources.filter(
       (resource) => resource.type === filter
     );
-    resourcesArray = resourcesArray.concat(
-      resources.resources
-        .filter((resource) => resource.type !== filter)
-        .map((resource) => resource)
-    );
+    // console.log(resourcesArray)
+      if (filter == 'all'){
+        resourcesArray = resourcesArray.concat(
+          resources.resources
+            .filter((resource) => resource.type !== filter)
+            .map((resource) => resource)
+        );
+      }
     // console.log("resources \n", resourcesArray)
-    return resourcesArray.reverse();
+    return resourcesArray.reverse()
   };
-
-  return (
-    <div className="has-background-dark-grey">
-      <Masonry
-        breakpointCols={breakpointCols}
-        className="masonry-grid"
-        columnClassName="masonry-grid_column has-background-dark"
-      >
-        {getArray().map((resource, index) => (
-          <div className="resource-container" key={index}>
+const updateArray= () => {
+  let containerResources = document.getElementById("containResources")
+  if (containerResources){
+    containerResources.remove()
+  }
+  return getArray().map((resource, index) => (
+          <div  className="resource-container" key={index}>
             <a href={resource.link} target="_blank">
               <figure key={resource.id} className="image m-auto">
                 <img
@@ -113,7 +113,17 @@ const ResourcesMansonery = ({ resources, home, filter }) => {
               </div>
             </a>
           </div>
-        ))}
+        ))
+}
+  return (
+    <div  className="has-background-dark-grey">
+      <Masonry
+      
+        breakpointCols={breakpointCols}
+        className="masonry-grid"
+        columnClassName="masonry-grid_column has-background-dark"
+      >
+        {updateArray()}
       </Masonry>
     </div>
   );
