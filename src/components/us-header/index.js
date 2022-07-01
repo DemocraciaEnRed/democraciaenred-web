@@ -13,7 +13,7 @@ const UsHeader = ({ data }) => {
               {intl.formatMessage({ id: data.title })}
             </h1>
             <br /><br />
-            <h3 className="mx-auto  has-text-white">
+            <h3 className="mx-auto subtitle has-text-white">
             {intl.formatMessage({ id: data.subtitle })}
             </h3>
           </div>
