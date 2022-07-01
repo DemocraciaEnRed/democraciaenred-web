@@ -14,13 +14,24 @@
     .image {
         display: inline-block;
         text-align: center;
-        transition: transform 0.6s ease;
-        &:hover{
-            transform: scale(1.5);            
-        }
+        // transition: transform 0.6s ease;
+        // &:hover{
+        //     transform: scale(1.5);            
+        // }
     }
     .client-logo {
         display: inline-block;
+    }
+    .expand{
+        display: inline-block;
+        height: 50px;
+
+    }
+    .contract{
+        height:150px;
+    }
+    .contractmore{
+        height:120px;
     }
 }
 
@@ -46,16 +57,16 @@
     .work-with {
         .client-logo {
             max-width: 60%;
-            &.diputados,
-            &.buenos-aires {
-                max-width: 40%;
-            }
-            &.red-innovacion {
-                max-width: 45%;
-            }
-            &.san-lorenzo {
-                max-width: 50%;
-            }
+            // &.diputados,
+            // &.buenos-aires {
+            //     max-width: 40%;
+            // }
+            // &.red-innovacion {
+            //     max-width: 45%;
+            // }
+            // &.san-lorenzo {
+            //     max-width: 50%;
+            // }
         }
     }
 }
@@ -67,23 +78,23 @@
             padding: 4rem 0;
         }
         .client-logo {
-            width: auto;
-            height: 50px;
-            &.diputados {
-                height: 80px;
-            }
-            &.legislatura {
-                height: 35px;
-            }
-            &.san-martin {
-                height: 60px
-            }
-            &.argentina-unida {
-                height: 35px;
-            }
-            &.presidencia_nacion {
-                height: 35px;
-            }
+            // width: auto;
+            // height: 50px;
+            // &.diputados {
+            //     height: 80px;
+            // }
+            // &.legislatura {
+            //     height: 35px;
+            // }
+            // &.san-martin {
+            //     height: 60px
+            // }
+            // &.argentina-unida {
+            //     height: 35px;
+            // }
+            // &.presidencia_nacion {
+            //     height: 35px;
+            // }
         }
     }
 }

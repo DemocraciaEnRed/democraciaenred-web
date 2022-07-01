@@ -107,7 +107,7 @@ const WorkWith = () => {
     {
       name: "Diputados Argentina",
       src: diputados,
-      class: "diputados",
+      class: "contractmore",
     },
     {
       name: "Buenos Aires Ciudad",
@@ -142,7 +142,7 @@ const WorkWith = () => {
     {
       name: "Artemisas",
       src: artemisa,
-      class: "",
+      class: "contractmore",
     },
     {
       name: "Avina",
@@ -177,7 +177,7 @@ const WorkWith = () => {
     {
       name: "ecohouse",
       src: ecohouse,
-      class: "",
+      class: "contract",
     },
     {
       name: "Facebook",
@@ -257,12 +257,12 @@ const WorkWith = () => {
     {
       name: "ODIA",
       src: odia,
-      class: "",
+      class: "expand",
     },
     {
       name: "onu",
       src: onu,
-      class: "",
+      class: "contractmore",
     },
     {
       name: "Open Society",
@@ -282,12 +282,12 @@ const WorkWith = () => {
     {
       name: "Sistema B",
       src: sistemab,
-      class: "",
+      class: "contract",
     },
     {
       name: "Twittewr",
       src: twitter,
-      class: "",
+      class: "contract",
     },
     {
       name: "Via Libre",
