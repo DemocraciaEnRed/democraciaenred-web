@@ -22,7 +22,7 @@ export default ({ slides }) => {
       let box = document.getElementById('press-box')
       let btn = document.getElementById('btn-see')
 
-      box.style.height = '440px';
+      box.style.height = '350px';
       boxvalue = false
       btn.innerHTML= 'ver más'
 

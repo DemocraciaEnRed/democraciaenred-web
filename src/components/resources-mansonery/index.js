@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+
 import Masonry from "react-masonry-css";
 import { useIntl } from "gatsby-plugin-intl";
 import "./style.scss";
@@ -86,6 +87,9 @@ const ResourcesMansonery = ({ resources, home, filter }) => {
     // console.log("resources \n", resourcesArray)
     return resourcesArray.reverse()
   };
+  useEffect(() => {
+    updateArray();
+  });
 const updateArray= () => {
   let containerResources = document.getElementById("containResources")
   if (containerResources){
