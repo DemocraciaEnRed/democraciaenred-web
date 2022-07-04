@@ -91,11 +91,72 @@ const ResourcesMansonery = ({ resources, home, filter }) => {
     updateArray();
   });
 const updateArray= () => {
-  let containerResources = document.getElementById("containResources")
-  if (containerResources){
-    containerResources.remove()
-  }
-  return getArray().map((resource, index) => (
+  if (typeof document !== `undefined`) {
+    let containerResources = document.getElementById("containResources")
+    if (containerResources){
+      containerResources.remove()
+    }
+    return getArray().map((resource, index) => (
+      <div  className="resource-container" key={index}>
+        <a href={resource.link} target="_blank">
+          <figure key={resource.id} className="image m-auto">
+            <img
+              src={images[resource.id]}
+              width="100px"
+              alt={`Imagen del recurso ${resource.title}`}
+            />
+          </figure>
+          <div
+            className={`resource-description has-background-${resource.color} is-flex is-flex-direction-column is-justify-content-center p-3`}
+          >
+            <h2 className="has-text-black mb-1 is-size-6-mobile">
+              {intl.formatMessage({ id: resource.title })}
+            </h2>
+            <h3 className="has-text-black is-size-7-mobile">
+              {intl.formatMessage({ id: resource.subtitle })}
+            </h3>
+          </div>
+        </a>
+      </div>
+    ))
+  } else {
+    return getArray().map((resource, index) => (
+      <div  className="resource-container" key={index}>
+        <a href={resource.link} target="_blank">
+          <figure key={resource.id} className="image m-auto">
+            <img
+              src={images[resource.id]}
+              width="100px"
+              alt={`Imagen del recurso ${resource.title}`}
+            />
+          </figure>
+          <div
+            className={`resource-description has-background-${resource.color} is-flex is-flex-direction-column is-justify-content-center p-3`}
+          >
+            <h2 className="has-text-black mb-1 is-size-6-mobile">
+              {intl.formatMessage({ id: resource.title })}
+            </h2>
+            <h3 className="has-text-black is-size-7-mobile">
+              {intl.formatMessage({ id: resource.subtitle })}
+            </h3>
+          </div>
+        </a>
+      </div>
+    ))
+  
+
+  
+}}
+  return (
+    <div  className="has-background-dark-grey">
+      <Masonry
+      
+        breakpointCols={breakpointCols}
+        className="masonry-grid"
+        columnClassName="masonry-grid_column has-background-dark"
+      >
+        {updateArray()}
+        {/* {getArray().map((resource, index) => (
           <div  className="resource-container" key={index}>
             <a href={resource.link} target="_blank">
               <figure key={resource.id} className="image m-auto">
@@ -117,17 +178,7 @@ const updateArray= () => {
               </div>
             </a>
           </div>
-        ))
-}
-  return (
-    <div  className="has-background-dark-grey">
-      <Masonry
-      
-        breakpointCols={breakpointCols}
-        className="masonry-grid"
-        columnClassName="masonry-grid_column has-background-dark"
-      >
-        {updateArray()}
+        ))} */}
       </Masonry>
     </div>
   );
