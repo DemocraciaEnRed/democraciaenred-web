@@ -56,9 +56,11 @@ export default ({ data }) => {
                       className={`${data.icon}`}
                     />
                   </figure>
-                  <h1 className="has-text-black is-spaced">
-                    {intl.formatMessage({ id: data.title })}
-                  </h1>
+                  <div className="content-title">
+                    <h1 className="has-text-black is-spaced">
+                      {intl.formatMessage({ id: data.title })}
+                    </h1>
+                  </div>
                 </div>
                 <figure className="image is-hidden-desktop is-hidden-tablet">
                   <img src={`${images[data.image]}`} alt="" />
