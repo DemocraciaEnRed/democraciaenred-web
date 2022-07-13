@@ -10,7 +10,8 @@ import LivesSlider from "../components/lives-slider";
 import livesData from "../../content/lives.json";
 import TeamSlider from "../components/team-slider";
 import teamData from "../../content/team.json";
-import ecosystemData from "../../content/ecosystem.json";
+// import ecosystemData from "../../content/ecosystem.json";
+import ecosystemData from "../../content/hexaEcosystem.json";
 import EcosystemSlider from "../components/ecosystem-slider";
 // import EcosystemAnimated from "../components/ecosystrem-animated"
 import Resources from "../components/resources-section";

@@ -1,0 +1,61 @@
+{
+    "title": "ecosystem.main_title",
+    "ecosystem": [
+       { 
+           "title": "ecosystem.title_1",
+            "styles": {
+              "color":"#69D62D"
+        
+           },
+            "texto": "ecosystem.description_1",
+            "boton": {
+              "label": "ecosystem.lbl_button_1",
+              "link":  "/quienessomos"
+            }
+        },
+        { 
+            "title": "ecosystem.title_2",
+             "styles": {
+               "color":"#62D69D"
+         
+            },
+             "texto": "ecosystem.description_2"
+         },
+         { 
+            "title": "ecosystem.title_3",
+             "styles": {
+               "color":"#69D692"
+         
+            },
+             "texto": "ecosystem.description_3",
+             "boton": {
+               "label": "ecosystem.lbl_button_3",
+               "link":  "/quienessomos"
+             }
+         },
+         { 
+            "title": "ecosystem.title_4",
+             "styles": {
+               "color":"#62269D"
+         
+            },
+             "texto": "ecosystem.description_4"
+         },
+         { 
+            "title": "ecosystem.title_5",
+             "styles": {
+               "color":"#69D22D"
+         
+            },
+             "texto": "ecosystem.description_5"
+         },
+         { 
+            "title": "ecosystem.title_6",
+             "styles": {
+               "color":"#69D622"
+         
+            },
+             "texto": "ecosystem.description_6"
+         }
+    ]
+}

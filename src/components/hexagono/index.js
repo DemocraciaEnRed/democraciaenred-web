@@ -1,15 +1,20 @@
 import React from "react";
 import "./style.scss";
 import styled from 'styled-components';
+import { useIntl } from "gatsby-plugin-intl";
 
 let Hexa = ''
-const hexagono = ({props}) => (
+let intl = '';
 
+const hexagono = ({props}) => (
+    intl = useIntl(),
+// faltaria poder recibir las dimensiones de manera dinamica por ahora se labu
      Hexa = styled.div`
     height: 335px;
     max-width: 249px;
+    min-width: 249px;
     max-height: 155px;
-    background: ${props.color};
+    background: ${props.styles.color};
     position: relative;
 
     :before {
@@ -21,7 +26,7 @@ const hexagono = ({props}) => (
         height: 0;
         border-width: 0 125px 67px;
         border-style: solid;
-        border-color: transparent transparent ${props.color};
+        border-color: transparent transparent ${props.styles.color};
     }
 
     &:after {
@@ -33,19 +38,18 @@ const hexagono = ({props}) => (
         height: 0;
         border-width: 67px 125px 0;
         border-style: solid;
-        border-color: ${props.color} transparent transparent;
+        border-color: ${props.styles.color} transparent transparent;
     }
-
-`,
+   `,
   
-    <Hexa >
+    <Hexa id="hexagono">
                 <div className="contenido">
                     <div className="texto">
-                        {props.texto }
+                    {intl.formatMessage({ id: props.texto })}
                     </div>
                    {props.boton &&
                         <div className="link">
-                            <a href={props.boton.link}>{props.boton.label}</a>
+                            <a href={props.boton.link}>{intl.formatMessage({ id: props.boton.label })}</a>
                         </div>
                     }
         </div>

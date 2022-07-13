@@ -9,28 +9,24 @@ import EcosystemAnimated from "../ecosystrem-animated"
 import Hexagono from "../hexagono"
 import "./style.scss";
 
-import Ecosystem from "../ecosystem";
+// import Ecosystem from "../ecosystem";
 
 export default ({ slides }) => {
   const intl = useIntl();
   // borrar luego cuando se termine le ocmponente hexagono
   // esto deberia venir del archivo de traduccion
-  const data = {
-    color:'red',
-    texto: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta.',
-    boton: {
-      label: 'ir a...',
-      link: 'www.democraciaenred.org'
-    }
-  }
-  const data2 = {
-    color:'green',
-    texto: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta.',
-    boton: {
-      label: 'ir a...',
-      link: 'www.democraciaenred.org'
-    }
-  }
+  // const data = {
+  //   styles: {
+  //     color:'#69D69D',
+
+  //  },
+  //   texto: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta.',
+  //   boton: {
+  //     label: 'ir a...',
+  //     link: 'www.democraciaenred.org'
+  //   }
+  // }
+
   return (
     <section
       id="ecosystem"
@@ -45,21 +41,22 @@ export default ({ slides }) => {
         {/* <EcosystemAnimated /> */}
        
       </div>
-       <div className="section is-flex">
-        <Hexagono props={data}/>
-        <Hexagono props={data2}/>
-
+       <div className="section is-flex is-flex-direction-row is-justify-content-space-between">
+        
+        {slides.ecosystem.map((ecosystem, index) => (
+            <Hexagono props={ecosystem} key={index}/>
+          ))}
        </div>
       <div>
         
       </div>
-      <div className="is-hidden-desktop">
+      {/* <div className="is-hidden-desktop">
         <Slider {...sliderSettings}>
           {slides.ecosystem.map((ecosystem, index) => (
             <Ecosystem data={ecosystem} key={index} />
           ))}
         </Slider>
-      </div>
+      </div> */}
     </section>
   );
 };
