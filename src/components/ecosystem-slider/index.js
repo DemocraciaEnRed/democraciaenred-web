@@ -30,23 +30,25 @@ export default ({ slides }) => {
   return (
     <section
       id="ecosystem"
-      className="ecosystem-slider hero is-fullheight is-large is-primary is-bold con"
+      className="ecosystem-slider hero is-fullheight  is-primary is-bold con"
     >
       <div className="container title-section is-flex is-justify-content-space-between is-align-items-center p-6">
         <h1 className="has-text-black title">
           {intl.formatMessage({ id: slides.title })}
         </h1>
       </div>
-      <div className="is-justify-content-space-between is-align-items-center has-text-centered">
-        {/* <EcosystemAnimated /> */}
+      {/* <div className="is-justify-content-space-between is-align-items-center has-text-centered">
+        <EcosystemAnimated />
        
+      </div> */}
+      <div className="section div-circle">
+        <div className="circle-container">
+          
+          {slides.ecosystem.map((ecosystem, index) => (
+              <Hexagono props={ecosystem} key={index}/>
+            ))}
+        </div>
       </div>
-       <div className="section is-flex is-flex-direction-row is-justify-content-space-between">
-        
-        {slides.ecosystem.map((ecosystem, index) => (
-            <Hexagono props={ecosystem} key={index}/>
-          ))}
-       </div>
       <div>
         
       </div>

@@ -42,9 +42,9 @@ const hexagono = ({props}) => (
     }
    `,
   
-    <Hexa id="hexagono">
+    <Hexa id={intl.formatMessage({ id: props.title })} className={props.styles.position} >
                 <div className="contenido">
-                    <div className="texto">
+                    <div  className={props.styles.verticalCenter ? 'vertical-center' : 'texto'}>
                     {intl.formatMessage({ id: props.texto })}
                     </div>
                    {props.boton &&

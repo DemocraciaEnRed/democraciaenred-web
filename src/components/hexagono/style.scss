@@ -43,13 +43,13 @@
     justify-items: center;
     text-align: center;
     position: relative;
-    // visibility: hidden;
-}
+    align-items: center;}
 
 // #hexagono:hover .contenido{
 //     visibility: visible !important;
 // }
 .contenido .texto{
+
     color:#000;
     min-height: 135px;
     max-height: 135px;
@@ -57,6 +57,16 @@
     text-align: center;
     padding: 5px;
     
+}
+.contenido .vertical-center{
+    display: flex;
+    align-items: center;
+    color:#000;
+    min-height: 135px;
+    max-height: 135px;
+    overflow: auto;
+    text-align: center;
+    padding: 5px;
 }
 .contenido .texto::-webkit-scrollbar{
     width: 5px !important;
@@ -79,3 +89,13 @@
     left: 52px;
     z-index: 2000;
 }
+
+#hexagon:hover{
+    z-index: 5000;
+}
+.deg0 { transform: translate(11em, -15em) ; }/* 12em = 1/2 anchura del contenedor */
+.deg45 { transform: rotate(88deg) translate(-16em) rotate(273deg); }
+.deg135 { transform: translate(11em, -9em); }
+.deg180 { transform:translate(-1em, -15em); }
+.deg225 { transform: translate(-14em, -28em) ;}
+.deg315 { transform: rotate(344deg) translate(-15em) rotate(16deg); }

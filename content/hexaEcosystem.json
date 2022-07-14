@@ -3,9 +3,10 @@
     "ecosystem": [
        { 
            "title": "ecosystem.title_1",
-            "styles": {
-              "color":"#69D62D"
-        
+            "styles": { 
+              "color":"#69D69Da3",
+               "position": "deg315",
+               "verticalCenter": true
            },
             "texto": "ecosystem.description_1",
             "boton": {
@@ -16,16 +17,17 @@
         { 
             "title": "ecosystem.title_2",
              "styles": {
-               "color":"#62D69D"
-         
+               "color":"#88CBFFa3",
+               "position": "deg45"
             },
              "texto": "ecosystem.description_2"
          },
          { 
             "title": "ecosystem.title_3",
              "styles": {
-               "color":"#69D692"
-         
+               "color":"#BB86FCa3",
+               "position": "deg0",
+               "verticalCenter": true
             },
              "texto": "ecosystem.description_3",
              "boton": {
@@ -36,24 +38,26 @@
          { 
             "title": "ecosystem.title_4",
              "styles": {
-               "color":"#62269D"
-         
+               "color":"#FF7990a3",
+               "position": "deg135"
             },
              "texto": "ecosystem.description_4"
          },
          { 
             "title": "ecosystem.title_5",
              "styles": {
-               "color":"#69D22D"
-         
+               "color":"#FF9B73a3",
+               "position": "deg180"
             },
              "texto": "ecosystem.description_5"
          },
          { 
             "title": "ecosystem.title_6",
              "styles": {
-               "color":"#69D622"
-         
+               "color":"#F7EC86a3",
+               "position": "deg225",
+               "verticalCenter": true
+
             },
              "texto": "ecosystem.description_6"
          }

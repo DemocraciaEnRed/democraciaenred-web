@@ -20,3 +20,20 @@
         top:auto
     }
 }
+.div-circle{
+    max-width: 500px;
+    min-height: 800px;
+    border: 2px solid red;
+    margin: 50px auto;
+}
+.circle-container {
+    position: relative;
+    width: 20em;
+    height: 20em;
+    max-height: 20rem;
+    padding: 2.8em;
+    border: dashed 1px;
+    border-color: black;
+    border-radius: 50%;
+    margin: 1.75em auto ;
+}
