@@ -1,3 +1,5 @@
+@import "~bulma/sass/utilities/_all.sass";
+
 // #hexagono {
     
 //     // min-width: 300px;
@@ -48,6 +50,13 @@
 // #hexagono:hover .contenido{
 //     visibility: visible !important;
 // }
+.contenido .hexa-label{
+    position: absolute;
+    top: 0em;
+    background-color: inherit;
+    color: #000;
+    padding: 10px;
+}
 .contenido .texto{
 
     color:#000;
@@ -94,8 +103,29 @@
     z-index: 5000;
 }
 .deg0 { transform: translate(11em, -15em) ; }/* 12em = 1/2 anchura del contenedor */
-.deg45 { transform: rotate(88deg) translate(-16em) rotate(273deg); }
+.deg45 { transform: translate(-1.5em, -12em); }
 .deg135 { transform: translate(11em, -9em); }
-.deg180 { transform:translate(-1em, -15em); }
+.deg180 { transform:translate(-1em, -13em); }
 .deg225 { transform: translate(-14em, -28em) ;}
 .deg315 { transform: rotate(344deg) translate(-15em) rotate(16deg); }
+
+
+@include mobile {
+    .contenido {
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        align-items: center;}
+    
+    // #hexagono:hover .contenido{
+    //     visibility: visible !important;
+    // }
+    .contenido .hexa-label{
+        position: absolute;
+        top: 0em;
+        background-color: inherit;
+        color: #000;
+        padding: 10px;
+    }
+}

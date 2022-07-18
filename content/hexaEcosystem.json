@@ -6,7 +6,8 @@
             "styles": { 
               "color":"#69D69Da3",
                "position": "deg315",
-               "verticalCenter": true
+               "verticalCenter": true,
+               "lbl_position": "translate(-14em, -0em)"
            },
             "texto": "ecosystem.description_1",
             "boton": {
@@ -18,7 +19,8 @@
             "title": "ecosystem.title_2",
              "styles": {
                "color":"#88CBFFa3",
-               "position": "deg45"
+               "position": "deg45",
+               "lbl_position": "translate(0em, -10em)"
             },
              "texto": "ecosystem.description_2"
          },
@@ -27,19 +29,21 @@
              "styles": {
                "color":"#BB86FCa3",
                "position": "deg0",
-               "verticalCenter": true
+               "verticalCenter": true,
+               "lbl_position": "translate(17em, 0em)"
             },
              "texto": "ecosystem.description_3",
              "boton": {
                "label": "ecosystem.lbl_button_3",
-               "link":  "/quienessomos"
+               "link":  "https://preguntarparaacordar.typeform.com/to/ZLAPxAhj"
              }
          },
          { 
             "title": "ecosystem.title_4",
              "styles": {
                "color":"#FF7990a3",
-               "position": "deg135"
+               "position": "deg135",
+               "lbl_position": "translate(14em, 3em)"
             },
              "texto": "ecosystem.description_4"
          },
@@ -47,7 +51,8 @@
             "title": "ecosystem.title_5",
              "styles": {
                "color":"#FF9B73a3",
-               "position": "deg180"
+               "position": "deg180",
+               "lbl_position": "translate(0em, 14em)"
             },
              "texto": "ecosystem.description_5"
          },
@@ -56,7 +61,8 @@
              "styles": {
                "color":"#F7EC86a3",
                "position": "deg225",
-               "verticalCenter": true
+               "verticalCenter": true,
+               "lbl_position": "translate(-17em, 3em)"
 
             },
              "texto": "ecosystem.description_6"

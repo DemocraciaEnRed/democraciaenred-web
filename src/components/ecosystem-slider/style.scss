@@ -23,8 +23,7 @@
 .div-circle{
     max-width: 500px;
     min-height: 800px;
-    border: 2px solid red;
-    margin: 50px auto;
+    margin: 120px auto;
 }
 .circle-container {
     position: relative;
@@ -32,8 +31,34 @@
     height: 20em;
     max-height: 20rem;
     padding: 2.8em;
-    border: dashed 1px;
-    border-color: black;
+  
     border-radius: 50%;
     margin: 1.75em auto ;
+}
+
+@include mobile{
+
+    .div-circle{
+        max-width: 500px;
+        min-height: 800px;
+        margin: auto;
+    }
+    .circle-container {
+        width: 20em;
+        height: 20em;
+        max-height: 20rem;
+        padding: 2.8em;
+    
+        border-radius: 50%;
+        margin: 1.75em auto ;
+    }
+    #ecosystem-slider .slick-list{
+        padding: 85px  !important;
+
+    }
+    #ecosystem-slider .slick-track{
+        height: 500px !important;
+        padding-top: 180px  !important;
+
+    }
 }
