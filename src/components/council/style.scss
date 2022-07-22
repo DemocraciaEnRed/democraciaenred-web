@@ -1,0 +1,59 @@
+@import "~bulma/sass/utilities/_all.sass";
+h1{
+    color: white;
+}
+
+.contain-consejo{
+    background-color: #88CBFF !important;
+}
+#council{
+    // max-width: 150px;
+    margin: 20px auto;
+    width: 950px;
+}
+#council:nth-child(6){
+    margin: 50px 0;
+}
+#council .px-3{
+    padding-left: 2.75em !important;
+}
+
+
+// Backgrtound Hexágono
+.dardo-bg:before{
+    background:url(./assets/Dardo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .juan-bg:before {
+    background:url(./assets/Juan.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .martin-bg:before {
+    background:url(./assets/Martin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .monica-bg:before {
+    background:url(./assets/Monica.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .natalia-bg:before {
+    background:url(./assets/Natalia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .yanina-bg:before {
+    background:url(./assets/Yanina.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  

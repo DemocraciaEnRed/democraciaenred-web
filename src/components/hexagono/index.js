@@ -61,19 +61,6 @@ const hexagono = ({props, mobile}) => (
         </div>
     </Hexa>
 
-    // id="hexagono"
-    // <div id="hexagono" style={hexaStyle} >
-    //     <div className="contenido">
-    //                 <div className="texto">
-    //                     {props.texto }
-    //                 </div>
-    //                {props.boton &&
-    //                     <div className="link">
-    //                         <a href={props.boton.link}>{props.boton.label}</a>
-    //                     </div>
-    //                 }
-    //     </div>
-    // </div>
 
 )
 

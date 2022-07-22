@@ -16,7 +16,7 @@ export default ({ data }) => {
 
     return (
         <section id={data.id} className="px-3 py-6 hero is-flex is-justify-content-center is-flex-direction-column">
-            <div className="container  is-align-items-center">
+            <div className="container  is-align-items-center" style={{maxWidth: "238px"}}>
                 <div className="is-flex">
                     <div className='hex-container'>
                         <div className='hex-container-inner'>
