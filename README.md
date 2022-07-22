@@ -14,9 +14,9 @@
 
 ### Para correr la aplicación:
 
-1. Asegurarnos de tener utilizar la versión correcta de Node. Requiere, como minimo, NodeJS 12.x 
+1. Asegurarnos de tener utilizar la versión correcta de Node. Requiere, como minimo, NodeJS 14.x 
 ```bash
-nvm use v12.22.3
+nvm use v14
 ```
 
 2. Instalar dependencias del proyecto
@@ -32,7 +32,7 @@ Se disponibiliza el sitio en [http://localhost:8000/](http://localhost:8000/)
 
 5. Generar build productivo*
 ```bash
-npm run  build
+npm run build
 ```
 Genera archivos estáticos dentro de la carpeta `build`
 
@@ -40,7 +40,7 @@ Genera archivos estáticos dentro de la carpeta `build`
 
 6. Para probar el build productivo:
 ```bash
-npm run  serve
+npm run serve
 ```
 Se disponibiliza el sitio en [http://localhost:9000/](http://localhost:9000/)
 
