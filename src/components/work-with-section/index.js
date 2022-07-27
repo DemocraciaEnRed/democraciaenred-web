@@ -160,7 +160,7 @@ const WorkWith = () => {
       class: "",
     },
     {
-      name: "COnocimiento Abierto",
+      name: "Conocimiento Abierto",
       src: conocimiento_abierto,
       class: "",
     },
