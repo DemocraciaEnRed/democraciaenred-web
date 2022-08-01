@@ -94,7 +94,7 @@ export default () => {
                   <h1 className="subtitle">
                     {intl.formatMessage({id: "footer.subtitles.social"})}
                   </h1>
-                  <div className="column is-12 is-flex is-justify-content-space-between">
+                  <div className="social column is-12 is-flex is-justify-content-space-between">
 
                     {socialMedia.map((media, index) => (
                       <a
