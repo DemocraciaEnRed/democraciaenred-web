@@ -6,19 +6,22 @@ h1{
 .contain-consejo{
     background-color: #88CBFF !important;
 }
-#council{
+@include tablet {
+
+  #council{
     // max-width: 150px;
     margin: 20px auto;
     width: 950px;
 }
-#council:nth-child(6){
-    margin: 50px 0;
-}
+
 #council .px-3{
     padding-left: 2.75em !important;
 }
 
-
+}
+#council:nth-child(6){
+  margin: 50px 0;
+}
 // Backgrtound Hexágono
 .dardo-bg:before{
     background:url(./assets/Dardo.jpg);
