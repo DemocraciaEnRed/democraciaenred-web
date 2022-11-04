@@ -57,7 +57,7 @@ export default (props) => {
         className={isActive ? "navbar-menu is-active" : "navbar-menu"}
       >
         <div className="navbar-start">
-          {/* <div className="lang-switch">
+          <div className="lang-switch">
             <IntlContextConsumer>
               {({ languages, language: currentLocale }) =>
                 languages.map((language) => (
@@ -74,7 +74,7 @@ export default (props) => {
                 ))
               }
             </IntlContextConsumer>
-          </div> */}
+          </div>
           <Link
             className="navbar-item is-size-6 my-3 is-capitalized"
             onClick={() => setIsActive(false)}

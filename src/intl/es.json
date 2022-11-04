@@ -394,7 +394,7 @@
     "img_6": "img_5_6_es"
   },
   "lives": {
-    "title_1": "POLITICXS EN TWITTER ",
+    "title_1": "POLITICXS EN TWITTER",
     "subtitle_1": "",
     "description_1": "Políticxs en Twitter es un repositorio con interacciones de más de 500 usuarios relacionados con la política en Argentina. Ponemos a disposición de la comunidad este ATLAS con datos libres y reutilizables, para facilitar la producción de conocimiento. Te invitamos a conocer más en el evento que hicimos de lanzamiento!",
 
@@ -422,7 +422,8 @@
     "title": "Quiénes somos",
     "subtitle_1": "Somos una organización conformada por personas activistas, programadoras y científicas sociales que creen en potenciar la inteligencia colectiva para adaptar la democracia al siglo XXI.",
     "subtitle_2": "Buscamos recuperar la política",
-    "slider_title": "Nuestro equipo"
+    "slider_title": "Nuestro equipo",
+    "button": "Conocenos"
   },
   "team": {
     "title_2": "Agustín Frizzera",
@@ -679,8 +680,9 @@
   
     "name_14": "Clarín",
     "title_14": "Disonancia cognitiva: nuestro entorno no siempre tiene razón.",
-    "subtitle_14": "Como señalamos desde la iniciativa Corazones y Mentes, lo descrito puede sonar familiar: es un mecanismo que predomina en nuestras interacciones y está presente en el ecosistema de las redes sociales, donde las etiquetas se exponen con orgullo y la demanda de inmediatez entorpece la reflexión."
-  
+    "subtitle_14": "Como señalamos desde la iniciativa Corazones y Mentes, lo descrito puede sonar familiar: es un mecanismo que predomina en nuestras interacciones y está presente en el ecosistema de las redes sociales, donde las etiquetas se exponen con orgullo y la demanda de inmediatez entorpece la reflexión.",
+    "see_more": "Ver más",
+    "see_less": "Ver menos"
   },
 
   "transparency": {
@@ -727,7 +729,6 @@
   "features": "Características",
   "preview": "Visualización",
   "implementation": "Implementar",
-  "see_more": "Ver más",
   "products_title": "productos",
   "us": "Conocenos",
   "contact": "Contactanos",
@@ -735,5 +736,6 @@
   "prensa":"Prensa",
   "ecosistema": "Ecosistema",
   "work_with": "Trabajamos con",
-  "claim": "“Hoy, las ideas se diseminan con mucha facilidad. Nuestra capacidad milenaria de compartir historias y experiencias anidó en internet, formando una red de conocimientos para evolucionar. Nuestro sistema de gobierno, sin embargo, ha evolucionado poco y continúa reservando la potestad de decidir en 'especialistas', como hace dos siglos atrás. El saber del representante sigue siendo necesario pero debe ser permeable a la sabiduría colectiva. La política no puede ser el monopolio del poder sino que deberia ser la habilidad de tramitar poderes repartidos”"
+  "claim": "“Hoy, las ideas se diseminan con mucha facilidad. Nuestra capacidad milenaria de compartir historias y experiencias anidó en internet, formando una red de conocimientos para evolucionar. Nuestro sistema de gobierno, sin embargo, ha evolucionado poco y continúa reservando la potestad de decidir en 'especialistas', como hace dos siglos atrás. El saber del representante sigue siendo necesario pero debe ser permeable a la sabiduría colectiva. La política no puede ser el monopolio del poder sino que deberia ser la habilidad de tramitar poderes repartidos”",
+  "livesH1": "#VIVOS"
 }

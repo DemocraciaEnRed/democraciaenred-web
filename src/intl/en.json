@@ -3,19 +3,20 @@
         "title_1": "Democratize democracy",
         "subtitle_1": "Digital tools designed for citizen participation for governments and institutions",
         "image_description_1": "Photo: São Paulo, Brasil",
-        "title_2": "Technology",
+        "title_2": "Redistributing power",
         "image_description_2": "Photo: Mérida, Mexico",
+        "subtitle_2": "We open up public institutions and decision-making through innovative participatory processes.",
         "asset_1_title": "Customizable",
         "asset_2_title": "Open source",
         "asset_3_title": "Easy installation",
-        "title_3": "Solutions",
-        "subtitle_3": "For legislative, executive and judiciary power, decentralized bodies, political parties, organisations and other kind of institutions.",
+        "title_3": "Occupy the policy",
+        "subtitle_3": "We seek to reclaim politics by incorporating citizens in decision-making processes. ",
         "image_description_3": "Photo: Guillermo Batakis, Buenos Aires, Argentina"
     },
     "resources": {
         "title": "Resources",
-        "description": "Desarrollamos tecnología cívica innovadora.\nProducimos contenidos para la incidencia ciudadana.\nSistematizamos y compartimos nuestas experiencias.",
-        "subtitle": "Mirá lo que hacemos.",
+        "description": "We develop innovative civic technology. We produce content for citizen advocacy. We detail and share our experiences.",
+        "subtitle": "Explore our work.",
         "filter_0": "Todos los proyectos",
         "filter_1": "Convivencia Digital",
         "filter_2": "Política",
@@ -99,9 +100,11 @@
         
       },
     "products": {
+        "title_0": "DemocraciaOS",
+        "description_0": "We offer solutions to local and national governments, legislative branches, decentralized agencies, political parties, civil society organizations, and other institutions.",
         "title_1":"Participatory Budget",
         "subtitle_1":"Digital platform for participatory budget management, promoting a dialogue between citizenship, project authors and governments.",
-        "description_1": "Digital platform to manage integrally a participatory budget, promoting a dialogue between citizenship, project authors and governments.",
+        "description_1": "A digital platform for the integral management of Participatory Budgets. It maintains dialogue between the citizens and governments.",
         "link_1":"https://democraciaos.org/en/presupuestoparticipativo",
         "features_1_1": "Proposals upload",
         "features_1_2": "Feasibility of proposals",
@@ -109,9 +112,9 @@
         "features_1_4": "Project follow-up",
         "features_1_5": "Comments",
         "features_1_6": "Vote",
-        "title_2":"Public Consultation",
+        "title_2":"Digital Consultation",
         "subtitle_2":"Digital platform for consultation, dialogue and debate between a government and its community.",
-        "description_2": "Digital platform for consultation, dialogue and debate between a government and its community.",
+        "description_2": "A digital platform that seekes to encourage participation, debates, and interaction among entities and individuals on various topics.",
         "link_2": "https://democraciaos.org/en/consultadigital",
         "features_2_1": "Consult upload",
         "features_2_2": "Citizen proposal upload",
@@ -119,9 +122,9 @@
         "features_2_4": "Vote",
         "features_2_5": "Polls",
         "features_2_6":  "Prioritize",
-        "title_3":"Crowd Law Making",
+        "title_3":"Co-construction of Laws",
         "subtitle_3":"Digital platform to elaborate collaboratively bills/laws between parliaments and citizenship.",
-        "description_3": "Digital platform to elaborate collaboratively bills/laws between legislators/deputies and citizenship.",
+        "description_3": "A digital platform of collaborative rule-making between representatives and citizens.",
         "link_3":"https://democraciaos.org/en/coconstruccionleyes",
         "features_3_1": "Bills submit",
         "features_3_2": "Comments",
@@ -129,14 +132,14 @@
         "features_3_4": "Follow up bills",
         "title_4": "Goals tracking",
         "subtitle_4": "Digital platform that allows the publication of government goals and commitments, facilitating citizen monitoring.",
-        "description_4": "Digital platform that allows the publication of government goals and commitments, facilitating citizen monitoring",
+        "description_4": "A digital platform that allows the publication of government goals and commitments, facilitating citizen follow-ups.",
         "link_4":"https://democraciaos.org/en/seguimientometas",
         "features_4_1": "Registration of objectives and goals",
         "features_4_2": "Georeferenceable goals update reports",
         "features_4_3": "Validation and citizen feedback",
-        "title_5": "Goals tracking",
+        "title_5": "Voting of Authorities",
         "subtitle_5": "Digital platform that allows the publication of government goals and commitments, facilitating citizen monitoring.",
-        "description_5": "Digital platform that allows the publication of government goals and commitments, facilitating citizen monitoring",
+        "description_5": "A Digital platform for the voting of authorities in institutions and organizations.",
         "link_5":"https://democraciaos.org/en/votacionautoridades",
         "features_5_1": "Candidatures registration",
         "features_5_2": "Electoral roll addition",
@@ -185,12 +188,12 @@
     "footer": {
         "title": "DemocraciaOS",
         "description": "Technology moves forward and changes our lives. It is time for political systems to open up to citizen participation.",
-        "copyright_1": "Democracia OS is a project from ",
+        "copyright_1": "Democracia en Red is a Latin American NGO from Buenos Aires, Argentina, for the world. ",
         "copyright_2": ", a NGO based in Buenos Aires, Argentina.",
         "subtitles": {
-            "sections": "Secciones",
-            "contact": "Contacto",
-            "social": "Redes"
+            "sections": "Sections",
+            "contact": "Contact",
+            "social": "Networks"
           }
     },
     "header_1": {
@@ -458,9 +461,9 @@
     "implementation": "Implement",
     "see_more": "See more",
     "products_title": "products",
-    "us": "about us",
+    "us": "About us",
     "contact": "contact us",
-    "transparencia": "transparency",
+    "transparencia": "Transparency",
     "prensa":"press",
     "ecosistema": "ecosystem",
     "work_with": "We work with",
@@ -508,7 +511,9 @@
         "subtitle_13": "The site that organizes data on the candidates and the proposals of the political parties participating in Sunday's elections.",
         "title_14": "Cognitive dissonance: our environment is not always right",
         "name_14": "Clarín",
-        "subtitle_14": "As we highlighted from the Hearts and Minds initiative, what has been described may sound familiar: it is a mechanism that prevails in our interactions and is present in the ecosystem of social networks, where tags are proudly exposed and the demand for immediacy hinders reflection."
+        "subtitle_14": "As we highlighted from the Hearts and Minds initiative, what has been described may sound familiar: it is a mechanism that prevails in our interactions and is present in the ecosystem of social networks, where tags are proudly exposed and the demand for immediacy hinders reflection.",
+        "see_more": "See more",
+        "see_less": "See less"
     },
     "lives": {
         "title_1": "POLITICXS EN TWITTER",
@@ -518,7 +523,7 @@
         "description_2": "#VolverALaCalle (Back to the Street) finds replicable, low-cost, and high-impact solutions to reactivate public spaces with physical distancing and recover lost confidence in urban life. \nIn the framework of the incubation programs for the winning projects of #IDEATÓN, Agustín Frizzera, Executive Director of Democracia en Red and Coordinator of Common Causes, spoke about open government and new technologies.\nLearn more at http://ciudadescomunes.org",
         "subtitle_2": "",
         "title_3": "Women in Power",
-        "description_3": "",
+        "description_3": " ",
         "subtitle_3": "",
         "title_4": "#VolvamosADebatir (Let's Get Back to the Debate)",
         "description_4": "Natalia Aruguete\n(CONICET Researcher and Journalist) - ARG\n\n\nModerated by: Agustin Frizzera (Democracia en Red)\nA free online meeting to think about the consequences of continuing to degrade our public spaces, our common places.\nA space to analyze how we interact on the Internet with a human, technological, and political perspective. \nPanels, talks, conferences, and the presentation of the document \"Strategies\" as well as recommendations to face #disinformation.",
@@ -530,7 +535,7 @@
         "description_6": "Participants:\nFabio Quetglas - Argentine National Congressman\nDonka Atanassova - Mayor de Bogotá\nLucía Abelenda - AVINA\nModerator:\nAgustin Frizzera - Democracia en Red\n\n\nMore information",
         "subtitle_6": "",
         "title_7": "#Disinformation: Beyond Fake News",
-        "description_7": "A conversation with Agustín Frizzera from @DemocraciaenRed y Bernardo Sorj from Democratic Platform (Brazil), to describe and analyze the current phenomenon that changed the paradigm in political communication and threatens the democratic space: #Disinformation.\nThis is a space to talk about the strategies and tactics that are carried out to try to understand how disinformation operates as a political project. ",
+        "description_7": "A conversation with Agustín Frizzera from @DemocraciaenRed y Bernardo Sorj from Democratic Platform (Brazil), to describe and analyze the current phenomenon that changed the paradigm in political communication and threatens the democratic space: #Disinformation.\nThis is a space to talk about the strategies and tactics that are carried out to try to understand how disinformation operates as a political project.",
         "subtitle_7": ""
     },
     "team": {
@@ -568,5 +573,38 @@
         "subtitle_11": "President",
         "title_14": "Mariano Heller",
         "subtitle_14": "Head of the Board of Directors "
-    }
+    },
+    "ecosystem": {
+        "main_title": "Ecosystem",
+        "title_1": "WHO WE ARE",
+        "title_2": "GOVERNMENTS AND INSTITUTIONS",
+        "description_1": "Meet the Democracia en Red team",
+        "lbl_button_1": "Meet us",
+        "description_2": "Rosario , San Lorenzo , Vicente Lopez , Sunchales , Ecuador , Cámara Diputados Argentina , Concejo Bogota. Maipu , Godoy cruz , Santa lab , Universidad de Rosario, Gobierno de la Ciudad de Buenos Aires, Universidad de Buenos Aires.",
+        "title_3": "YOU ARE ALSO PART OF IT",
+        "description_3": "Find out how to join and collaborate.",
+        "lbl_button_3": "Contact us",
+        "title_4": "FINANCERS",
+        "description_4": "Open Society Foundation, Luminate, BID, AVINA, UE, KAS, Y combinator, Fondo Altec  / CLIP / FHHC, IFA, Tomson Reuters, FES, CAF, Google, Microsoft, PERFIT, SLACK.",
+        "title_5": "ORGANIZATIONS AND MOVEMENTS",
+        "description_5": "XR, Extituto, Artemisas, ODIA, ART 41, Change, ACIJ, Directorio Legislativo, ACCION COLECTIVA, ADS, Virtuagora, Conocimiento Abierto,  Nave,  Nuestra Córdoba, Nuestra Mendoza, Fundacion Huesped, Activismo Digital, Fundeps, Estamos Listas, Minu, Sumando, Observatorio Red,  RedAccion, Update",
+        "title_6": "NETWORKS & COMMUNITIES",
+        "description_6": "CSO Network for an Open State, Open Parliament Network, People powered, Abrelatam, RINP"
+    },
+    "usSection": {
+        "title": "Who we are",
+        "subtitle_1": "We are an organization made up of activists, programmers and social scientists who believe in empowering collective intelligence to adapt democracy to the 21st century.",
+        "subtitle_2": "We seek to recover politics",
+        "slider_title": "Our team",
+        "button": "Meet us"
+    },
+    "transparency": {
+        "subtitle": "Transparency",
+        "description_home": "We are an organization that promotes <b>transparency</b>. This is why <b>we publish our income and expenses</b>  - so that you can know how we generate funds and how we spend it.",
+        "chartsPie": {
+            "income_title": "Revenues",
+            "outcome_title": "Expenses"
+        }
+    },
+    "livesH1": "#LIVES"
 }

@@ -1,8 +1,8 @@
 import React from "react";
 import { useIntl } from "gatsby-plugin-intl";
 import "./style.scss";
-
 import Press from "../press";
+
 
 export default ({ slides }) => {
   let boxvalue = false;
@@ -14,8 +14,7 @@ export default ({ slides }) => {
       let btn = document.getElementById('btn-see')
       box.style.height = '100%';
       boxvalue = true
-      btn.innerHTML= 'ver menos'
-
+      btn.innerHTML= `${intl.formatMessage({ id: "press.see_less" })}`
     }
       else
     {
@@ -24,13 +23,13 @@ export default ({ slides }) => {
 
       box.style.height = '350px';
       boxvalue = false
-      btn.innerHTML= 'ver más'
-
+      btn.innerHTML= `${intl.formatMessage({ id: "press.see_more" })}`
     }
   }
 
 
   return (
+    
     <section
       id="press-slider"
       className="section pb-6 hero is-fullheight-deesktop has-background-yellow"
@@ -44,7 +43,7 @@ export default ({ slides }) => {
           ))}
       </div>
       <div className="pos-right">
-        <button id="btn-see" className="button is-black is-rounded flex-items" onClick={seeMore}>Ver más</button>
+        <button id="btn-see" className="button is-black is-rounded flex-items" onClick={seeMore}>{intl.formatMessage({ id: "press.see_more" })}</button>
       </div>
 
     </section>

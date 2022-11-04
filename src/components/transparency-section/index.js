@@ -20,7 +20,7 @@ const TransparencySection = ({ data }) => {
               className="mt-0 button button-disabled-shadow has-no-background is-rounded is-medium is-dark is-outlined is-uppercase is-inline-block"
               to={data.link}
             >
-              {intl.formatMessage({ id: "see_more" })}
+              {intl.formatMessage({ id: "press.see_more" })}
             </Link>
             {/* <PopupButton
               id="fSqwwL"

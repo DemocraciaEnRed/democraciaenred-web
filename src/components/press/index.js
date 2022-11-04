@@ -63,7 +63,7 @@ export default ({ data }) => {
                         <a 
                             className="button button-disabled-shadow btn-align has-no-background is-rounded is-small  is-outlined is-uppercase is-inline-block mt-0" 
                             href={data.link} target="_blank">
-                            {intl.formatMessage({ id: "see_more" })}
+                            {intl.formatMessage({ id: "press.see_more" })}
                         </a>
                     </div>
                 </div>

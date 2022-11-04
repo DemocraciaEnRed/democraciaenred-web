@@ -82,7 +82,7 @@ export default ({ data }) => {
                     href={data.external_link}
                     target="_blank"
                   >
-                    {intl.formatMessage({ id: "see_more" })}
+                    {intl.formatMessage({ id: "press.see_more" })}
                   </a>
                 ) : (
                   <div className="button-container">
@@ -97,7 +97,7 @@ export default ({ data }) => {
                       className="button is-rounded is-medium"
                       to={data.link}
                     >
-                      {intl.formatMessage({ id: "see_more" })}
+                      {intl.formatMessage({ id: "press.see_more" })}
                     </Link>
                   </div>
                 )}

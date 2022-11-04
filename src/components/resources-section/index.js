@@ -15,14 +15,14 @@ export default ({ resources }) => {
           <h2 className="has-text-white is-spaced mb-3">
             {intl.formatMessage({ id: resources.description })}
           </h2>
-          {/* <h2 className="has-text-yellow is-spaced mb-6">
+          <h2 className="has-text-yellow is-spaced mb-6">
             {intl.formatMessage({ id: resources.subtitle })}
-          </h2> */}
+          </h2>
           <Link
             className="button button-disabled-shadow has-no-background is-rounded is-medium is-warning is-outlined is-uppercase is-inline-block"
             to={resources.link}
           >
-            {intl.formatMessage({ id: "see_more" })}
+            {intl.formatMessage({ id: "press.see_more" })}
           </Link>
         </div>        
       </div>
