@@ -30,7 +30,7 @@
             "title":"resources.main_title_1",
             "subtitle":"resources.subtitle_1",
             "link": "/assets/ebooks/DER_DESINFORMACIONPDF.pdf",
-            "id":"desinformacion",
+            "id":"resources.img_1",
             "color":"yellow",
             "type":"convivencia_digital"
         },
@@ -38,7 +38,7 @@
             "title":"resources.main_title_2",
             "subtitle":"resources.subtitle_2",
             "link": "http://www.recuperarlapolitica.org/",
-            "id": "recuperarLaPolitica",
+            "id": "resources.img_2",
             "color":"orange",
             "type":"politica"
         },
@@ -47,7 +47,7 @@
             "title":"resources.main_title_3",
             "subtitle":"resources.subtitle_3",
             "link":"/assets/ebooks/INTERNET_GuiaCiudadana.pdf",
-            "id":"guiaCiudadana",
+            "id":"resources.img_3",
             "color":"blue",
             "type":"convivencia_digital"
         },
@@ -56,7 +56,7 @@
             "title":"resources.main_title_4",
             "subtitle":"resources.subtitle_4",
             "link":"/assets/ebooks/DER_Kit_PParticipativo.pdf",
-            "id": "cajaHerramientasPresupuesto",
+            "id": "resources.img_4",
             "color":"green",
             "type":"participacion_ciudadana"
         },
@@ -65,7 +65,7 @@
             "title":"resources.main_title_5",
             "subtitle":"resources.subtitle_5",
             "link":"/assets/ebooks/DER_Kit_CCiudadana.pdf",
-            "id": "cajaHerramientasConsulta",
+            "id": "resources.img_5",
             "color":"purple",
             "type":"participacion_ciudadana"
         },
@@ -74,7 +74,7 @@
             "title":"resources.main_title_7",
             "subtitle":"resources.subtitle_7",
             "link":"https://medium.com/multitudes/presupuestos-participativos-en-instituciones-educativas-para-qu%C3%A9-8a3d466a1ece",
-            "id":"presupuestoParticipativoInstitucionesEducativas",
+            "id":"resources.img_7",
             "color":"orange",
             "type":"participacion_ciudadana"
         },
@@ -83,7 +83,7 @@
             "title":"resources.main_title_8",
             "subtitle":"resources.subtitle_8",
             "link":"https://corazonesymentes.org/",
-            "id":"corazonesYMentes",
+            "id":"resources.img_8",
             "color":"purple",
             "type":"convivencia_digital"
 
@@ -92,7 +92,7 @@
             "title":"resources.main_title_9",
             "subtitle":"resources.subtitle_9",
             "link":"https://es.reflexicons.org/home-es",
-            "id":"refexicons",
+            "id":"resources.img_9",
             "color":"yellow",
             "type":"convivencia_digital"
         },
@@ -100,7 +100,7 @@
             "title":"resources.main_title_10",
             "subtitle":"resources.subtitle_10",
             "link":"https://medium.com/multitudes/presupuesto-participativo-de-vicente-l%C3%B3pez-9db05cc3147d",
-            "id":"ppvl",
+            "id":"resources.img_10",
             "color":"orange",
             "type":"participacion_ciudadana"
         },
@@ -132,7 +132,7 @@
             "title":"resources.main_title_14",
             "subtitle":"resources.subtitle_14",
             "link":"https://politicosentwitter.com/",
-            "id":"politicxsTwitter",
+            "id":"resources.img_14",
             "color":"blue",
             "type":"politica"
         },
@@ -140,7 +140,7 @@
             "title":"resources.main_title_15",
             "subtitle":"resources.subtitle_15",
             "link":"https://www.causascomunes.org/",
-            "id":"causasComunes",
+            "id":"resources.img_15",
             "color":"orange",
             "type":"activismo"
         },
@@ -165,7 +165,7 @@
             "title":"resources.main_title_18",
             "subtitle":"resources.subtitle_18",
             "link":"https://medium.com/multitudes/el-miedo-y-la-bronca-171914e124bc",
-            "id":"miedoBronca",
+            "id":"resources.img_18",
             "color":"blue", 
             "home": true,         
             "type":"politica"
@@ -183,7 +183,7 @@
             "title":"resources.main_title_20",
             "subtitle":"resources.subtitle_20",
             "link":"https://merepresenta.info/",
-            "id":"meRepresenta",
+            "id":"resources.img_20",
             "color":"pink",
             "home": true,            
             "type":"participacion_ciudadana"
@@ -192,7 +192,7 @@
             "title":"resources.main_title_21",
             "subtitle":"resources.subtitle_21",
             "link":"https://compaspolitico.merepresenta.info/intro",
-            "id":"compasPolitico",
+            "id":"resources.img_21",
             "color":"blue",
             "home": true,            
             "type":"politica"
@@ -201,7 +201,7 @@
             "title":"resources.main_title_22",
             "subtitle":"resources.subtitle_22",
             "link":"/assets/ebooks/mr-articulos-frizzera.pdf",
-            "id":"eleccionesDemocracia",
+            "id":"resources.img_22",
             "color":"purple",
             "home": true,            
             "type":"politica"
@@ -210,7 +210,7 @@
             "title":"resources.main_title_23",
             "subtitle":"resources.subtitle_23",
             "link": "/assets/ebooks/SUMEN_RendicionDeCuentas.pdf",
-            "id":"sumen",
+            "id":"resources.img_23",
             "color":"yellow",
             "home": true,            
             "type":"participacion_ciudadana"
@@ -228,7 +228,7 @@
             "title":"resources.main_title_25",
             "subtitle":"resources.subtitle_25",
             "link": "https://www.avina.net/wp-content/uploads/2022/03/PARTICIPES-14022021.pdf",
-            "id":"somosParticipes",
+            "id":"resources.img_25",
             "color":"blue",
             "home": true,
             "type":"participacion_ciudadana"
@@ -237,7 +237,7 @@
             "title":"resources.main_title_26",
             "subtitle":"resources.subtitle_26",
             "link": "https://datosenfuga.org/",
-            "id":"datosEnFuga",
+            "id":"resources.img_26",
             "color":"pink",
             "home": true,
             "type":"activismo"
