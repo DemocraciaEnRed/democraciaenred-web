@@ -196,6 +196,27 @@
             "social": "Networks"
           }
     },
+    "usPage": {
+        "title": "About us",
+        "subtitle": "An organization using technology to adapt democracy to the 21st century",
+        "mision_values": {
+          "title": "Mission",
+          "description": "Using technology to democratize public institutions."
+        },
+        "mision_approach": {
+          "title": "Vision",
+          "description": "To be the benchmark organization throughout LATAM in implementing technology to open public decision making to citizens."
+        },
+        "what_we_do": {
+          "title": "What do we do?",
+          "description": "We believe in empowering collective intelligence to guarantee democracy. We generate and apply strategies to open public institutions through the design, development and implementation of digital tools that promote citizen participation. We provide consulting services for governments and civil society organizations throughout LATAM to reduce the gap between representatives and represented and generate public policies with greater impact. We promote cultural change through communication campaigns and educational tools that encourage citizen participation.\n "
+        },
+        "memories": {
+          "title": "Our memories",
+          "button_text":"Management \nmemories"
+        },
+        "slider_title": "Our team"
+      },
     "header_1": {
         "main_title": "Participatory Budget",
         "description": "Digital platform that allows the integral management of Participatory Budgets, generating instances of dialogue, co-governance between the citizens and the governments, adapting it to the context and the regulations of each region.",
@@ -574,6 +595,33 @@
         "title_14": "Mariano Heller",
         "subtitle_14": "Head of the Board of Directors "
     },
+    "council": {
+        "main_title": "Advisory Council",
+        "title_1": "DARDO CEBALLOS",
+        "subtitle_1": "Innovation and digital transformation strategies applied to public sector and policy innovation.",
+        "description_1": "COMPLETAR",
+    
+        "title_2": "JUAN CRUZ ZORZOLI",
+        "subtitle_2": "Sustainable and Regenerative Development / Participatory Planning and Communication / Environmental Education / Paradigm Shift.",
+        "description_2": "COMPLETAR",
+    
+        "title_3": "MARTÍN GALANTERNIK",
+        "subtitle_3": "Participatory programs of civic education, promotion of rights and education and Road Safety.",
+        "description_3": "COMPLETAR",
+    
+        "title_4": "MÓNICA VILLEGAS",
+        "subtitle_4": "Public leadership, citizen participation and cities.",
+        "description_4": "COMPLETAR",
+    
+        "title_5": "YANINA WELP",
+        "subtitle_5": "Research and editorial coordination with focus on political participation, Albert Hirschman Centre on Democracy.",
+        "description_5": "COMPLETAR",
+    
+        "title_6": "NATALIA CARFI",
+        "subtitle_6": "Design and implementation of Open Government public policies and open data.",
+        "description_6": "COMPLETAR"
+    
+      },
     "ecosystem": {
         "main_title": "Ecosystem",
         "title_1": "WHO WE ARE",
