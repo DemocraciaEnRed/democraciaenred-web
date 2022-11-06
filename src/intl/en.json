@@ -17,87 +17,86 @@
         "title": "Resources",
         "description": "We develop innovative civic technology. We produce content for citizen advocacy. We detail and share our experiences.",
         "subtitle": "Explore our work.",
-        "filter_0": "Todos los proyectos",
-        "filter_1": "Convivencia Digital",
-        "filter_2": "Política",
-        "filter_3": "Participación Ciudadana",
-        "filter_4": "Activismo",
+        "filter_0": "All Projects",
+        "filter_1": "Digital Coexistence",
+        "filter_2": "Politics",
+        "filter_3": "Citizen Participation",
+        "filter_4": "Activism",
+
+        "main_title_1": "#Disinformation",
+        "subtitle_1": "Beyond Fake News.",
     
-        "main_title_1": "#Desinformación",
-        "subtitle_1": "Más allá de las noticias falsas",
+        "main_title_2": "Reclaim Politics",
+        "subtitle_2": "Reclaiming it means honoring it - how do you organize power and democracy in a liquid society?",
+
+        "main_title_3": "Citizen's Guide to the Internet.",
+        "subtitle_3": "The first step for the critical use of the Internet to gain the respect it deserves.",
+
+        "main_title_4": "Toolbox",
+        "subtitle_4": "How to Make a Participatory Budget?",
     
-        "main_title_2": "Recuperar la política",
-        "subtitle_2": "Recuperarla significa honrarla. ¿Cómo se organiza el poder y la democracia en una sociedad líquida?",
-    
-        "main_title_3": "Internet: Guía Ciudadana.",
-        "subtitle_3": "Un primer paso para que el uso crítico de Internet gane el lugar que merece.",
-    
-        "main_title_4": "Caja de herramientas",
-        "subtitle_4": "¿Cómo hacer un presupuesto participativo?",
-    
-        "main_title_5": "Caja de herramientas",
-        "subtitle_5": "¿Cómo hacer una consulta ciudadana?",
-    
-        "main_title_7": " Presupuestos participativos en instituciones educativas: ¿para qué?",
+        "main_title_5": "Toolbox",
+        "subtitle_5": "How to Make a Citizen Consultation?",
+
+        "main_title_7": "CASE: Patricipatory Budgets in Educational Institutions: What are They For?",
         "subtitle_7": " ",
     
-        "main_title_8": "Corazones y Mentes",
-        "subtitle_8": "Herramientas y mucha data para dominar internet y promover una convivencia digital positiva.",
-    
-        "main_title_9": "Refexicons:",
-        "subtitle_9": "Invitación a mensajes de reflexión",
-    
-        "main_title_10": "Presupuesto Participativo Vicente López",
-        "subtitle_10": "Participación e innovación para transformar el territorio.",
-    
-        "main_title_11": "Leyes Abiertas",
-        "subtitle_11": "Innovación y participación en la Cámara de Diputados.",
-    
-        "main_title_12": "Desobedientes",
-        "subtitle_12": "Las normas hay que cumplirlas hasta que necesitamos romperlas",
-    
-        "main_title_13": "Serie: Política Recuperada",
-        "subtitle_13": "MUCHOS PROTAGONISTAS... ALGUNAS ENTREVISTAS",
-    
-        "main_title_14": "Políticos en Twitter:",
-        "subtitle_14": "Repositorio con interacciones de más de 500 usuarios relacionados con la política en Argentina.",
-    
-        "main_title_15": "Causas Comunes",
-        "subtitle_15": "Porque sólo seremos mejores cuando seamos capaces de soñarnos mejores.",
-    
-        "main_title_16": "Partícipes digital",
-        "subtitle_16": "¿Cómo hacer rendición de cuentas en la plataforma digital Partícipes?",
-    
-        "main_title_17": "TEDx Democracias y nuevas tecnologías",
-        "subtitle_17": "La tecnología y la toma de decisiones colectiva, permiten imaginar una democracia que se adapte al estilo de vida de los ciudadanos del siglo XXI.",
-    
-        "main_title_18": "el Miedo y la Bronca",
-        "subtitle_18": "Agustin Frizzera analiza las PASO de 2019 en Argentina.",
-    
+        "main_title_8": "Hearts and Minds",
+        "subtitle_8": "Tools and data to master the internet and promote positive, digital coexistence.",
+
+        "main_title_9": "Reflexicons:",
+        "subtitle_9": "Invitation to Reflection Messages.",
+
+        "main_title_10": "CASE: Vicente López' Participatory Budget",
+        "subtitle_10": "Participation and innovation that transforms the territory.",
+        
+        "main_title_11": "CASE: Open Laws",
+        "subtitle_11": "Innovation and Participation in the Chambers of Congress.",
+
+        "main_title_12": "Disobedient",
+        "subtitle_12": "Rules must be followed until we need to break them",
+        
+        "main_title_13": "Series: Politics Reclaimed",
+        "subtitle_13": "Many personalities... some interviews",
+
+        "main_title_14": "Politicians on Twitter:",
+        "subtitle_14": "repository with interactions of more than 500 users related to politics in Argentina.",
+
+        "main_title_15": "Common Causes",
+        "subtitle_15": "Because we will only be better when we can dream better.",
+
+        "main_title_16": "Digital Participants",
+        "subtitle_16": "How to render accounts on the Participates digital platform?",
+
+        "main_title_17": "TEDx Democracies and new technologies",
+        "subtitle_17": "Technology and collective decision-making allow us to imagine a democracy that adopts the lifestyle of the citizens of the 21st century.",
+        
+        "main_title_18": "Fear and Anger",
+        "subtitle_18": "Agustin Frizzera analyzes the 2019 PASO in Argentina.",
+
         "main_title_19": "Gatopardismo",
-        "subtitle_19": "Sobre el Diputado Garretón y la utilización de tecnología digital en el Congreso",
-        
-        "main_title_20": "MeRepresenta",
-        "subtitle_20": "Una herramienta para pensar tu voto \nConocé candidaturas, partidos, propuestas y mucho más.",
+        "subtitle_19": "Congressman Garretón and the use of digital technology in Congress.",
+
+        "main_title_20": "What Represents Me",
+        "subtitle_20": " A tool to think about your vote. \nLearn about candidates, parties, proposals and much more.",
+
+        "main_title_21": "Political Compass",
+        "subtitle_21": "In what ideology are you \"boxed in\"?",
+
+        "main_title_22": "ELECTION SERIES AND DEMOCRACY",
+        "subtitle_22": "4 Columns About the Elections, beyond the Conjuncture.",
     
-        "main_title_21": "Compás Político",
-        "subtitle_21": "¿En qué ideología estás \"encuadrado\"?",
-    
-        "main_title_22": "SERIE ELECCIONES Y DEMOCRACIA",
-        "subtitle_22": "4 columnas sobre las elecciones, mas allá de la coyuntura",
-    
-        "main_title_23": "¿Cómo hacer rendición de cuentas en la plataforma digital Sumen?",
-        "subtitle_23": "Creemos que es importante poder contar con una sociedad informada que se involucre y con un Estado transparente",
-    
-        "main_title_24": "¿Cómo hacer rendición de cuentas en la plataforma digital Partícipes?",
-        "subtitle_24": "Creemos que es importante poder contar con una sociedad informada que se involucre y con un Estado transparente",
-    
-        "main_title_25": "Somos Partícipes",
-        "subtitle_25": "Experiencias de Rendición de Cuentas, Monitoreo y Participación Ciudadana en Argentina",
-    
-        "main_title_26": "Datos en Fuga",
-        "subtitle_26": "Queremos que el Estado asegure estándares de ciberseguridad y que atienda a las alarmas que suenan por todos lados"
-        
+        "main_title_23": "How to ensure accountability using the digital platform, Sumen?",
+        "subtitle_23": "We believe that it is important to have an informed society that gets involved and a transparent State.",
+
+        "main_title_24": "How to ensure accountability using the digital platform Partícipes?",
+        "subtitle_24": "We believe that it is important to have an informed society that gets involved and a transparent State.",
+
+        "main_title_25": "We Are Participants",
+        "subtitle_25": "Experiences of Accountability and Citizen Participation and Monitoring in Argentina.",
+
+        "main_title_26": "Data On The Loose",
+        "subtitle_26": "We want the state to ensure cybersecurity standards and to attend to the alarms that sound everywhere."
       },
     "products": {
         "title_0": "DemocraciaOS",
