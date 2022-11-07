@@ -2,14 +2,15 @@ import React from "react";
 import { useIntl } from "gatsby-plugin-intl";
 import "./style.scss";
 
-const UsHeader = ({ data }) => {
+const UsHeader = ({ data , background}) => {
   const intl = useIntl();
+  console.log(background)
   return (
-    <section className="us-header has-background-black hero is-medium">
+    <section className={`us-header hero is-medium has-background-${background}`} >
       <div className="hero-body has-text-centered ">
         <div className="columns is-justify-content-center">
           <div className="column is-9">
-            <h1 className=" is-spaced has-text-green mb-5">
+            <h1 className=" is-spaced has-text-white mb-5">
               {intl.formatMessage({ id: data.title })}
             </h1>
             <br /><br />

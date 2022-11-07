@@ -17,7 +17,7 @@ const QuienesSomos = () => {
   return (
     <React.Fragment>
       <Layout>
-        <UsHeader data={dataUs} />
+        <UsHeader data={dataUs} background= {"verde"}/>
         <Division />        
         <Mision data={dataUs} />
         <Memories data={dataUs} />

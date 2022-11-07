@@ -7,6 +7,10 @@
       {
         "url": "https://twitter.com/agustinfrizzera",
         "icon": "tw"
+      },
+      {
+        "url": "https://www.linkedin.com/in/agustin-frizzera-a33a792a/",
+        "icon": "ln"
       }
     ],
     "id": "agustin"
@@ -54,6 +58,14 @@
       }
     ],
     "id": "esteban"
+  },
+  {
+    "title": "team.title_6",
+    "subtitle": "team.subtitle_6",
+    "description": "team.description_6",
+    "socialmedia": [
+    ],
+    "id": "alejandra"
   },
   {
     "title": "team.title_7",
@@ -126,6 +138,17 @@
     "id": "mau"
   },
   {
+    "title": "team.title_21",
+    "subtitle": "team.subtitle_21",
+    "socialmedia": [
+      {
+        "url": "https://www.linkedin.com/in/julia-ferrando-0aaa34237/",
+        "icon": "ln"
+      }
+    ],
+    "id": "julia"
+  },
+  {
     "title": "team.title_13",
     "subtitle": "team.subtitle_13",
     "socialmedia": [
@@ -148,17 +171,6 @@
     "id": "mariano"
   },
   {
-    "title": "team.title_15",
-    "subtitle": "team.subtitle_15",
-    "socialmedia": [
-      {
-        "url": "https://github.com/devhormiga",
-        "icon": "gh"
-      }
-    ],
-    "id": "diego"
-  },
-  {
     "title": "team.title_17",
     "subtitle": "team.subtitle_17",
     "socialmedia": [
@@ -179,14 +191,6 @@
       }
     ],
     "id": "pasutti"
-  },
-  {
-    "title": "team.title_19",
-    "subtitle": "team.subtitle_19",
-    "socialmedia": [
-      {}
-    ],
-    "id": "caro-avila"
   },
   {
     "title": "team.title_20",

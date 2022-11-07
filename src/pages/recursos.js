@@ -10,7 +10,7 @@ const Recursos = () => {
   return (
     <React.Fragment>
       <Layout>
-        <InternalPageHero data={dataResources} />
+        <InternalPageHero data={dataResources} background= {"lila"} />
         <Division />
         <ResourcesHeader data={dataResources} />
       </Layout>

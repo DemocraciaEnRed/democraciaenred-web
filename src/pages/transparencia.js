@@ -11,7 +11,7 @@ const Transparencia = () => {
   return (
     <React.Fragment>
       <Layout>
-        <InternalPageHero data={dataTransparency} />
+        <InternalPageHero data={dataTransparency} background= {"celeste"} />
         <Division />
         <Transparency data={dataTransparency} />
         <Balance /> 

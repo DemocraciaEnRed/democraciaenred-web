@@ -2,8 +2,9 @@
 
 .navbar {
     transition: background-color 0.3s ease;
-    position: absolute;
+    // position: absolute;
     width: 100%;
+    background-color: #000;
 }
 .navbar-item img{
     max-height: 3rem !important;
@@ -86,8 +87,10 @@
    
 @include desktop {
     .navbar {
-        margin-top: 1.5rem;
+        // margin-top: 1.5rem;
         justify-content: flex-end;
+        // top: -26px;
+
         .navbar-item {
             font-size: 18px;
         }
