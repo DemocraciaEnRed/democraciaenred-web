@@ -658,7 +658,16 @@
         },
         "chartsPie": {
             "income_title": "Revenues",
-            "outcome_title": "Expenses"
+            "outcome_title": "Expenses",
+            "labels": {
+                "services": "Services",
+                "donations": "Donations",
+                "europeanUnion": "European Union",
+                "fees": "Fees",
+                "officeExpenses": "Office expenses",
+                "taxes": "Taxes",
+                "designAndCommunication": "Design and communication"
+            }
         },
         "evolution": {
             "title": "Evolution of income and expenses",

@@ -10,11 +10,16 @@ export const Pie = ({ chartData }) => {
     datasets: chartData.datasets
   };
 
+  
   const label = (context) => {
+
    
-    let lbl = context.label+' '+ context.formattedValue+' ' + '%'
+    {intl.formatMessage({ id: "press.see_more" })}
+    let lbl = `${intl.formatMessage({id : context.label})}  ${context.formattedValue} %`
     return lbl
   }
+
+
   const chartOptions = { 
     plugins:{
       tooltip: {
@@ -31,7 +36,7 @@ export const Pie = ({ chartData }) => {
   
   return (
     <div>
-      <h1 className="has-text-centered mb-4 has-text-">{intl.formatMessage({ id:chartData.title})}</h1>
+      <h1 className="has-text-centered mb-4 has-text-black">{intl.formatMessage({ id:chartData.title})}</h1>
       <Grafico options={chartOptions}  data={chart} datasetIdKey="id" />
     </div>
   );

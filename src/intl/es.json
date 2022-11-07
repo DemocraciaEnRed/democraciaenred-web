@@ -700,7 +700,16 @@
     },
     "chartsPie": {
       "income_title": "Ingresos",
-      "outcome_title": "Gastos"
+      "outcome_title": "Gastos",
+      "labels": {
+        "services": "Servicios",
+        "donations": "Donaciones",
+        "europeanUnion": "Unión Europea",
+        "fees": "Honorarios",
+        "officeExpenses": "Gastos de oficina",
+        "taxes": "Impuestos",
+        "designAndCommunication": "Diseño y comunicación"
+      }
     },
     "evolution": {
       "title": "Evolución de ingresos y gastos",
