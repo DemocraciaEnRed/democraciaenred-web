@@ -666,11 +666,50 @@
         "button": "Meet us"
     },
     "transparency": {
+        "title": "Transparency",
         "subtitle": "Transparency",
-        "description_home": "We are an organization that promotes <b>transparency</b>. This is why <b>we publish our income and expenses</b>  - so that you can know how we generate funds and how we spend it.",
+        "description": "We are an organization that promotes <b>transparency</b>. This is why <b>we publish our income and expenses</b>  - so that you can know how we generate funds and how we spend it.",
+        "description_home": "We are an organization that promotes <b>openness</b> and <b>transparency</b>. That is why we <b>publish our income and expenses</b> so that you can know how our income is generated and what we spend it on.",
+        "download_balance": "We invite you to download and view the balance sheets of past years.",
+        "balance": {
+            "title": "Balance 2020",
+            "subtitle": "Who finances us? How and on what do we spend?"
+        },
         "chartsPie": {
             "income_title": "Revenues",
-            "outcome_title": "Expenses"
+            "outcome_title": "Expenses",
+            "labels": {
+                "services": "Services",
+                "donations": "Donations",
+                "europeanUnion": "European Union",
+                "fees": "Fees",
+                "officeExpenses": "Office expenses",
+                "taxes": "Taxes",
+                "designAndCommunication": "Design and communication"
+            }
+        },
+        "evolution": {
+            "title": "Evolution of income and expenses",
+            "labels": {
+                "label_1":"June 30, 2015",
+                "label_2":"June 30, 2016",
+                "label_3":"June 30, 2017",
+                "label_4":"June 30, 2018",
+                "label_5":"June 30, 2019",
+                "label_6":"June 30, 2020"
+            },
+            "incomesBar": {
+                "title":"Incomes by source of financing (fiscal year)",
+                "label_1": "Services",
+                "label_2":"Donations"
+            },
+            "outcomesBar": {
+                "title":"Expenditure by object of the fiscal year",
+                "label_1": "Design",
+                "label_2": "Taxes and interest",
+                "label_3": "Office expenses",
+                "label_4": "Fees"
+            }
         }
     },
     "livesH1": "#LIVES"
