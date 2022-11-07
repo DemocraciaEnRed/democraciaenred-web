@@ -5,8 +5,12 @@ import { useIntl} from "gatsby-plugin-intl";
 
 export const Pie = ({ chartData }) => {
   const intl = useIntl();
+
+  const labels = chartData.labels
+
+  const translatedLabels = labels.map(l => intl.formatMessage({ id: l }))
   const chart = {
-    labels: chartData.labels,
+    labels: translatedLabels,
     datasets: chartData.datasets
   };
 
