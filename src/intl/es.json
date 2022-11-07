@@ -692,6 +692,7 @@
     "subtitle": "Transparencia",
     "description_home": "Somos una organización que promueve la <b>apertura</b> y la <b>transparencia</b>.<br> Por eso <b>publicamos nuestros ingresos y egresos</b> para que conozcas cómo se generan nuestros ingresos y en qué lo gastamos.",
     "balance_button":"VER BALANCES COMPLETOS",
+    "download_balance": "Te invitamos a descargar y conocer los balances de años pasados",
     "link": "/transparencia",
     "balance": {
       "title": "Balance 2020",

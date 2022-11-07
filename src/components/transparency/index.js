@@ -10,22 +10,22 @@ export default function Transparency({ data }) {
   return (
     <div>
       <section className="section ">
-        <h1 className="is-spaced has-text-centered mb-2">
+        <h1 className="is-spaced has-text-centered mb-2 has-text-black">
           {intl.formatMessage({ id: data.balance.title })}
         </h1>
-        <h2 className="is-spaced has-text-centered mb-6">
+        <h2 className="is-spaced has-text-centered mb-6 has-text-black">
           {intl.formatMessage({ id: data.balance.subtitle })}
         </h2>
         <h2></h2>
         <div className="columns is-justify-content-center pb-6">
-          <div className="mx-6 pie-incomes-container mb-6">
+          <div className="mx-6 pie-incomes-container mb-6 has-text-black">
             <Pie chartData={data.chartPieIncomes} />
           </div>
           <div className="mx-6">
             <Pie chartData={data.chartPieOutcomes} />
           </div>
         </div>
-        <h1 className="is-spaced has-text-centered mb-2">
+        <h1 className="is-spaced has-text-centered mb-2 has-text-black">
           {intl.formatMessage({ id: data.evolution.title })}
         </h1>
         <div className="columns is-justify-content-center ">

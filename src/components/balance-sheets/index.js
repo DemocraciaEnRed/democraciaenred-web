@@ -24,12 +24,11 @@ export default ({data}) =>  {
     return (
         <section className="section">
             <div>
-                {/* hay que ponerlo en el archivo de traduccion (JSON) */}
-                <h1>
+                <h1 style={{color: 'black'}}>
                     Balances
                 </h1>
                 <p>
-                    Te invitamos a descargar y conocer los balances de años pasados 
+                    {intl.formatMessage({ id: "transparency.download_balance" })}
                 </p>
             </div>
             <div className="columns is-flex-desktop is-flex-wrap-wrap">
