@@ -21,14 +21,18 @@
     
   }
 }
-// .card .content {
-//   height: 107px !important;
-// }
+.card .content {
+  margin-bottom: 0px!important;
+  height: 107px !important;
+  padding: 10% 0%;;
+}
 .card h2{
   font-size: 18px;
+  z-index: 5000;
 }
 .media{
-  margin-bottom: 0.5rem;
+  margin-bottom: 0px !important;
+  min-height: 81px !important;
   .image {
     display: flex;
     justify-content: center;
@@ -47,6 +51,11 @@
   flex-direction:row;
   align-self: start;
  
+}
+.flex-container a {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
 }
 .btn-align{
  	display:inline;
