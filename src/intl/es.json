@@ -519,7 +519,8 @@
     "features_1_5": "Abrelatam",
 
     "description_1": "Conocé al equipo de Democracia en Red. ",
-    "lbl_button_1":"conocenos",
+    "lbl_button_1":"Conocenos",
+    "link_button_1":"/quienessomos",
   
 
     "title_2": "GOBIERNOS E INSTITUCIONES",
@@ -527,7 +528,7 @@
 
     "title_3": "VOS TAMBIEN SOS PARTE",
     "description_3": "Descubrí cómo sumarte y colaborar. ",
-    "lbl_button_3":"CONTACTANOS",
+    "lbl_button_3":"Contactanos",
     
  
 

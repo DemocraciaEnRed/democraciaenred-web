@@ -140,7 +140,7 @@ const updateArray= () => {
             <img
               src={images[intl.formatMessage({id: resource.id})]}
               width="100px"
-              alt={`Imagen del recurso ${resource.title}`}
+              alt={`Imagen del recurso ${intl.formatMessage({ id: resource.title })}`}
             />
           </figure>
           <div
@@ -162,9 +162,9 @@ const updateArray= () => {
         <a href={resource.link} target="_blank">
           <figure key={resource.id} className="image m-auto">
             <img
-              src={images[resource.id]}
+              src={images[intl.formatMessage({id: resource.id})]}
               width="100px"
-              alt={`Imagen del recurso ${resource.title}`}
+              alt={`Imagen del recurso ${intl.formatMessage({ id: resource.title })}`}
             />
           </figure>
           <div
