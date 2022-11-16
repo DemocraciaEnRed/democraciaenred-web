@@ -80,7 +80,7 @@ export default ({ data }) => {
                 className="button button-disabled-shadow has-no-background is-rounded is-medium is-black is-outlined is-uppercase is-inline-block"
                 to={data.link}
               >
-                {intl.formatMessage({ id: "see_more" })}
+                {intl.formatMessage({ id: "press.see_less" })}
               </Link>
             </div>
           )}
@@ -91,7 +91,7 @@ export default ({ data }) => {
                 style={{ fontSize: 20 }}
                 className="button button-disabled-shadow has-no-background is-rounded is-medium is-black is-outlined is-uppercase is-inline-block"
               >
-                {intl.formatMessage({ id: "see_more" })}
+                {intl.formatMessage({ id: "press.see_more" })}
               </PopupButton>
             </div>
           )}

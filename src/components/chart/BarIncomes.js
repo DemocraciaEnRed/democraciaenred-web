@@ -40,7 +40,7 @@ export const Bar = ({ chartData }) => {
   }
   return (
     <div className="my-6">
-      <h1 className="is-spaced has-text-centered mb-3">{intl.formatMessage({ id: chartData.incomesBar.title })}</h1>
+      <h1 className="is-spaced has-text-centered mb-3 has-text-black">{intl.formatMessage({ id: chartData.incomesBar.title })}</h1>
       <div className="is-relative canvas-container">
         <Grafico options={chartOptions} data={chart} datasetIdKey="id" />
       </div>

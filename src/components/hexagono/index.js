@@ -54,8 +54,7 @@ const hexagono = ({props, mobile}) => (
             </div>
                 {props.boton &&
             <div className="link">
-                <a href={props.boton.link}>{intl.formatMessage({ id: props.boton.label })}</a>
-                
+                <a href={intl.formatMessage({ id: props.boton.link })}>{intl.formatMessage({ id: props.boton.label })}</a>
         </div>
         }
         </div>

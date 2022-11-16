@@ -25,7 +25,7 @@ export default ({ data }) => {
                                 <p className="has-text-black is-spaced">{intl.formatMessage({id: data.description})}</p>
 
                                 <div className="button-container ">
-                                    <a className="button is-rounded is-medium is-inline-block mx-auto" href={data.link} target="_blank">{intl.formatMessage({ id: "see_more" })}</a>
+                                    <a className="button is-rounded is-medium is-inline-block mx-auto" href={data.link} target="_blank">{intl.formatMessage({ id: "press.see_more" })}</a>
                                 </div>
                             </div>
                         </div>

@@ -7,7 +7,7 @@
   "link": "/transparencia",
   "chartPieIncomes": {
     "title":"transparency.chartsPie.income_title",
-    "labels": ["Servicios", "Donaciones", "Avina", "OSF", "Unión Europea"],
+    "labels": ["transparency.chartsPie.labels.services", "transparency.chartsPie.labels.donations", "Avina", "OSF", "transparency.chartsPie.labels.europeanUnion"],
     "datasets": [
       {
         "type": "doughnut",
@@ -36,10 +36,10 @@
   "chartPieOutcomes": {
     "title":"transparency.chartsPie.outcome_title",
     "labels": [
-      "Honorarios",
-      "Gastos de Oficina",
-      "Impuestos",
-      "Diseño y Comunicación"
+      "transparency.chartsPie.labels.fees",
+      "transparency.chartsPie.labels.officeExpenses",
+      "transparency.chartsPie.labels.taxes",
+      "transparency.chartsPie.labels.designAndCommunication"
     ],
     "datasets": [
       {
