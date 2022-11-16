@@ -61,7 +61,7 @@ export default ({ data }) => {
                     </div>
                     <div className="flex-container">
                         <a 
-                            className="button button-disabled-shadow btn-align has-no-background is-rounded is-small  is-outlined is-uppercase is-inline-block mt-0" 
+                            className="button button-disabled-shadow btn-align has-no-background is-rounded is-small  is-outlined is-uppercase is-inline-block" 
                             href={data.link} target="_blank">
                             {intl.formatMessage({ id: "press.see_more" })}
                         </a>

@@ -73,7 +73,11 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+.julia-bg:before {
+  background:url(./assets/julia.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .hex-container-inner-2.agustin-bg:before {
   background:url(./assets/agustin.jpg);
   background-size: cover;
@@ -81,13 +85,13 @@
 }
 
 .florencia-dir-bg:before {
-  background:url(./assets/florencia-dir.jpg);
+  background:url(./assets/Flor.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .florencia-presi-bg:before {
-  background:url(./assets/florencia-presi.jpg);
+  background:url(./assets/Flor.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -105,11 +109,15 @@
 }
 
 .vale-bg:before {
-  background:url(./assets/vale.jpeg);
+  background:url(./assets/Vale.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+.alejandra-bg:before {
+  background:url(./assets/Ale.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .alvaro-bg:before {
   background:url(./assets/alvaro.jpg);
   background-size: cover;
@@ -126,12 +134,6 @@
 
 .juli-bg:before {
   background:url(./assets/juli.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.diego-bg:before {
-  background:url(./assets/diego.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -168,12 +170,6 @@
 
 .pasutti-bg:before {
   background:url(./assets/pasutti.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.caro-avila-bg:before {
-  background:url(./assets/caro-avila.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }

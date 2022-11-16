@@ -3,6 +3,9 @@
 .canvas-container{
     height: 500px;
 }
+.text-black{
+    color: #000 !important;
+}
 @include mobile{
     .canvas-container{
         height: 50vh;
