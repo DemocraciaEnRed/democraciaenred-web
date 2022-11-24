@@ -5,7 +5,7 @@ import { useIntl } from "gatsby-plugin-intl";
 // import sanmartin from "./assets/sanmartin.jpg";
 // import xr from "./assets/xr.jpg";
 // import sunchales_ciudad from "./assets/sunchales_ciudad.jpg";
-// import vicente_lopez from "./assets/vicente_lopez.jpg";
+import vicente_lopez from "./assets/vicente_lopez.png";
 // import extituto from "./assets/extituto.jpg";
 // import gob_mx from "./assets/gob_mx.jpg";
 // import san_lorenzo from "./assets/san_lorenzo.jpg";
@@ -23,10 +23,10 @@ import avina from "./assets/avina.png";
 import caf from "./assets/caf.png";
 import cippec from "./assets/cippec.png";
 import conocimiento_abierto from "./assets/conocimientoAbierto.png";
-import demolab from "./assets/demolab.png";
+// import demolab from "./assets/demolab.png";
 import directorio_legislativo from "./assets/directorioLegislativo.png"
-import ecohouse from "./assets/ecohouse.png"
-import facebook from "./assets/facebook.png"
+// import ecohouse from "./assets/ecohouse.png"
+// import facebook from "./assets/facebook.png"
 import fundacion_huesped from "./assets/fundacionHuesped.png"
 import fundeps from "./assets/fundeps.png"
 import gobierno_abierto from "./assets/gobiernoAbierto.png"
@@ -49,6 +49,9 @@ import redaccion from "./assets/redaccion.png"
 import sistemab from "./assets/sistemab.png"
 import twitter from "./assets/twitter.png"
 import via_libre from "./assets/viaLibre.png"
+import luminate from "./assets/luminate-logo.png"
+import ef from "./assets/ef.png"
+import ccij from "./assets/ccij.png"
 
 const WorkWith = () => {
   const intl = useIntl();
@@ -74,11 +77,11 @@ const WorkWith = () => {
     //   src: sunchales_ciudad,
     //   class: "",
     // },
-    // {
-    //   name: "Vicente López",
-    //   src: vicente_lopez,
-    //   class: "vicente-lopez",
-    // },
+    {
+      name: "Vicente López",
+      src: vicente_lopez,
+      class: "vicente-lopez",
+    },
     // {
     //   name: "Extituto Politica Abierta",
     //   src: extituto,
@@ -130,7 +133,7 @@ const WorkWith = () => {
       class: "",
     },
     {
-      name: "Observatorio de Justicia ACCIJ",
+      name: "Observatorio de Justicia ACIJ",
       src: acij,
       class: "",
     },
@@ -164,26 +167,26 @@ const WorkWith = () => {
       src: conocimiento_abierto,
       class: "",
     },
-    {
-      name: "DemoLab",
-      src: demolab,
-      class: "",
-    },
+    // {
+    //   name: "DemoLab",
+    //   src: demolab,
+    //   class: "",
+    // },
     {
       name: "Directorio LEgislativo",
       src: directorio_legislativo,
       class: "",
     },
-    {
-      name: "ecohouse",
-      src: ecohouse,
-      class: "contract",
-    },
-    {
-      name: "Facebook",
-      src: facebook,
-      class: "",
-    },
+    // {
+    //   name: "ecohouse",
+    //   src: ecohouse,
+    //   class: "contract",
+    // },
+    // {
+    //   name: "Facebook",
+    //   src: facebook,
+    //   class: "",
+    // },
     {
       name: "fundacion Huesped",
       src: fundacion_huesped,
@@ -290,8 +293,23 @@ const WorkWith = () => {
       class: "contract",
     },
     {
+      name: "CCIJ",
+      src: ccij,
+      class: "client-logo contract",
+    },
+    {
       name: "Via Libre",
       src: via_libre,
+      class: "",
+    },
+    {
+      name: "Luminate",
+      src: luminate,
+      class: "",
+    },
+    {
+      name: "Lumiefnate",
+      src: ef,
       class: "",
     },
   ];
