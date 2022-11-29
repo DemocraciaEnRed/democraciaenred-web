@@ -9,7 +9,7 @@ const Council =  ({staff}) =>  {
     return (
         <section id="team-slider" className="px-6-desktop contain-consejo pb-6 hero is-fullheight-deesktop is-large is-primary">
             {/* {intl.formatMessage({ id: title.slider_title})} */}
-            <h1 className="ml-6 pl-3 mb-0 mt-6 our-team title has-text-black">
+            <h1 className="ml-6 pl-5 mb-0 mt-6 our-team title has-text-black">
             {intl.formatMessage({id: "council.main_title"})}</h1>
             <div id="council" className="is-flex-desktop is-flex-direction-row is-align-content-center is-flex-wrap-wrap is-flex-grow-5">
                 {staff.map((team, index) => 
