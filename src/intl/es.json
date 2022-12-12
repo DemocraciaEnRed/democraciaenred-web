@@ -641,7 +641,15 @@
 
     "main_title_26": "Datos en Fuga",
     "subtitle_26": "Queremos que el Estado asegure estándares de ciberseguridad y que atienda a las alarmas que suenan por todos lados",
-    "img_26": "datosEnFuga"
+    "img_26": "datosEnFuga",
+
+    "main_title_27": "Protección de datos",
+    "subtitle_27": "Un análisis comparativo en 9 países",
+    "img_27": "proteccionDatos",
+
+    "main_title_28": "DemoNdial",
+    "subtitle_28": "El juego donde no tenés que entrenar para ganar la copa del mundo",
+    "img_28": "demondial"
   },
   "press": {
     "title": "Prensa",

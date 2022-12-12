@@ -45,9 +45,13 @@ import somosParticipes from "./assets/somosParticipes.png";
 import somosParticipes_en from "./assets/somosParticipes_en.png";
 import eleccionesDemocracia from "./assets/serie-elecciones-democracia.jpg";
 import eleccionesDemocracia_en from "./assets/serie-elecciones-democracia_en.png";
-import rendicionCuentasParticipes from "./assets/rendicion-cuentas-participes.png"
-import datosEnFuga from "./assets/datosEnFuga.png"
-import datosEnFuga_en from "./assets/datosEnFuga_en.png"
+import rendicionCuentasParticipes from "./assets/rendicion-cuentas-participes.png";
+import datosEnFuga from "./assets/datosEnFuga.png";
+import datosEnFuga_en from "./assets/datosEnFuga_en.png";
+import proteccionDatos from "./assets/proteccionDatos.png"
+import proteccionDatos_en from "./assets/proteccionDatos_en.png"
+import demondial from "./assets/demondial.png";
+import demondial_en from "./assets/demondial_en.png";
 
 const images = {
   desinformacion,
@@ -93,7 +97,11 @@ const images = {
   eleccionesDemocracia_en,
   rendicionCuentasParticipes,
   datosEnFuga,
-  datosEnFuga_en
+  datosEnFuga_en,
+  proteccionDatos,
+  proteccionDatos_en,
+  demondial,
+  demondial_en
 };
 
 const ResourcesMansonery = ({ resources, home, filter }) => {

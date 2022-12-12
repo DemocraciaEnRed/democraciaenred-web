@@ -116,7 +116,15 @@
 
         "main_title_26": "Data On The Loose",
         "subtitle_26": "We want the state to ensure cybersecurity standards and to attend to the alarms that sound everywhere.",
-        "img_26": "datosEnFuga_en"
+        "img_26": "datosEnFuga_en",
+
+        "main_title_27": "Data protection",
+        "subtitle_27": "A legal comparative study of 9 countries",
+        "img_27": "proteccionDatos_en",
+
+        "main_title_28": "DemoNdial",
+        "subtitle_28": "The game where you don't have to train to win the world cup",
+        "img_28": "demondial_en"
     },
     "products": {
         "title_0": "DemocraciaOS",
