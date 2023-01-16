@@ -241,7 +241,27 @@
             "color":"pink",
             "home": true,
             "type":"activismo"
-        }        
+        },
+        {
+            "title":"resources.main_title_27",
+            "subtitle":"resources.subtitle_27",
+            "link": "https://www.trust.org/publications/i/?id=679d53b3-9bfc-4cff-a434-3939c9732a47",
+            "id":"resources.img_27",
+            "color":"orange",
+            "home": true,
+            "type":"politica"
+        },
+        {
+            "title":"resources.main_title_28",
+            "subtitle":"resources.subtitle_28",
+            "link": "https://demondial.org.ar/",
+            "id":"resources.img_28",
+            "color":"blue",
+            "home": true,
+            "type":"politica"
+        }           
     ]
+    
+
     
 }
