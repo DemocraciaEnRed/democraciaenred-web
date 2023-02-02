@@ -57,24 +57,6 @@ export default (props) => {
         className={isActive ? "navbar-menu is-active" : "navbar-menu"}
       >
         <div className="navbar-start">
-          <div className="lang-switch">
-            <IntlContextConsumer>
-              {({ languages, language: currentLocale }) =>
-                languages.map((language) => (
-                  <button
-                    className="navbar-item navbar-item-lang"
-                    key={language}
-                    onClick={() => changeLocale(language)}
-                    style={{
-                      color: currentLocale === language ? `#CCCCCC` : `white`,
-                    }}
-                  >
-                    {languageName[language]}
-                  </button>
-                ))
-              }
-            </IntlContextConsumer>
-          </div>
           <Link
             className="navbar-item is-size-6 my-3 is-capitalized"
             onClick={() => setIsActive(false)}
@@ -148,6 +130,24 @@ export default (props) => {
           <p className="is-size-7 is-hidden-desktop has-text-white">
             {intl.formatMessage({ id: "footer.copyright_1" })}
           </p>
+          <div className="lang-switch">
+            <IntlContextConsumer>
+              {({ languages, language: currentLocale }) =>
+                languages.map((language) => (
+                  <button
+                    className="navbar-item navbar-item-lang"
+                    key={language}
+                    onClick={() => changeLocale(language)}
+                    style={{
+                      color: currentLocale === language ? `#CCCCCC` : `white`,
+                    }}
+                  >
+                    {languageName[language]}
+                  </button>
+                ))
+              }
+            </IntlContextConsumer>
+          </div>
         </div>
       </div>
     </nav>
