@@ -38,7 +38,7 @@ export default ({ slides }) => {
         {intl.formatMessage({ id: slides.title })}
       </h1>
       <div id="press-box" className=" level press-box ">
-        {slides.press.map((press, index) => (
+        {slides.press.reverse().map((press, index) => (
             <Press data={press} key={index} className=" pt-6" />
           ))}
       </div>
