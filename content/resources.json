@@ -158,7 +158,6 @@
             "link":"https://youtu.be/qJn3XVme-oQ",
             "id":"tedDemocracias",
             "color":"orange",
-            "home": true,
             "type":"participacion_ciudadana"
         },
         {
@@ -166,8 +165,7 @@
             "subtitle":"resources.subtitle_18",
             "link":"https://medium.com/multitudes/el-miedo-y-la-bronca-171914e124bc",
             "id":"resources.img_18",
-            "color":"blue", 
-            "home": true,         
+            "color":"blue",         
             "type":"politica"
         },
         {

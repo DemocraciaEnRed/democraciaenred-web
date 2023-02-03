@@ -4,21 +4,30 @@ $blue: #29abe2;
 $green: #6ed59f;
 $coral: #f09c77;
 
-.hero-slider-item {
+#hero-slider .hero-slider-item {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  height: 100vh;
+  height: calc(100vh - 120px);
+
+  @include touch {
+    height: calc(100vh - 104px);
+    min-height: auto;
+  }
+
   .hero-body {
     background-color: rgb(15 10 7 / 78%);
+
     @include touch {
-      height: 50vh;
+      height: calc(100vh - 104px);
     }
   }
+
   .slider-icon {
     display: inline-block;
     height: 70px;
   }
+
   .slider-image-description {
     font-size: $size-7;
     position: absolute;
@@ -29,9 +38,12 @@ $coral: #f09c77;
 }
 
 #hero-slider .hero.is-large .hero-body {
+padding: 10rem 6rem;
+
   @include touch {
     padding: 12rem 6rem;
   }
+
   @include mobile {
     padding: 1.5rem;
   }
@@ -42,6 +54,7 @@ $coral: #f09c77;
     color: #848181;
     opacity: 0.75;
   }
+
   &.slick-active button:before {
     color: white;
   }
@@ -50,9 +63,11 @@ $coral: #f09c77;
 .hero.is-fullheight.is-primary {
   background-image: none;
   background-color: transparent;
-  height: 100vh;
+  height: calc(100vh - 120px);
+  min-height: auto;
+
   @include touch {
-    height: 50vh;
+    height: calc(100vh - 104px);
     min-height: auto;
   }
 }
@@ -71,12 +86,12 @@ $coral: #f09c77;
 
 #hero-slider .slick-prev,
 #hero-slider .slick-next {
-  filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(59deg) brightness(97%)
-    contrast(102%);
+  filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(59deg) brightness(97%) contrast(102%);
 }
 
 #hero-slider .slick-next {
   right: 20px !important;
+
   @include mobile {
     display: none;
   }
@@ -84,6 +99,7 @@ $coral: #f09c77;
 
 #hero-slider .slick-prev {
   left: 20px !important;
+
   @include mobile {
     display: none;
   }
