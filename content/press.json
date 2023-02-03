@@ -112,6 +112,14 @@
             "link":"https://www.clarin.com/opinion/disonancia-cognitiva-entorno-siempre-razon_0_tfwwsQBSA.html",
             "logo":"clarin",
             "id":"clarin"
+        },
+        {
+            "name":"press.name_15",
+            "title":"press.title_15",
+            "subtitle":"press.subtitle_15",
+            "link":"https://tn.com.ar/tecno/novedades/2022/09/01/fuga-de-datos-personales-en-argentina-se-registraron-mas-de-14000-reportes-en-el-ultimo-ano/",
+            "logo":"tn",
+            "id":"tn"
         }
     ]
 }

@@ -122,7 +122,7 @@
         "subtitle_27": "A legal comparative study of 9 countries",
         "img_27": "proteccionDatos_en",
 
-        "main_title_28": "DemoNdial",
+        "main_title_28": "DemOndial",
         "subtitle_28": "The game where you don't have to train to win the world cup",
         "img_28": "demondial_en"
     },
@@ -560,6 +560,9 @@
         "title_14": "Cognitive dissonance: our environment is not always right",
         "name_14": "Clarín",
         "subtitle_14": "As we highlighted from the Hearts and Minds initiative, what has been described may sound familiar: it is a mechanism that prevails in our interactions and is present in the ecosystem of social networks, where tags are proudly exposed and the demand for immediacy hinders reflection.",
+        "title_15": "Personal data leakage in Argentina: more than 14,000 reports registered in the last year",
+        "name_15": "TN",
+        "subtitle_15": "The various leaks show that government systems are vulnerable and that people's private information is exposed to hacking.",
         "see_more": "See more",
         "see_less": "See less"
     },
