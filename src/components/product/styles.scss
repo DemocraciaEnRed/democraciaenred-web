@@ -11,17 +11,20 @@ $yellow:#F7EC86;
 .hero.product .hero-body{
     padding:0
 }
-.content-title {
-    width: 100%;
-}
+// .content-title {
+//     width: min-content;
+// }
+
 .title-product{
-    border-bottom: 3px solid #000
+    border-bottom: 3px solid #000;
 }
+
 .title-product figure{
     height: 90px !important;
     width: 90px !important;
-    margin-right:15px;
-    margin-left: 50px;
+    margin-right: 5%;
+    // margin-right:15px;
+    // margin-left: 50px;
 }
 .product {
     color: white;

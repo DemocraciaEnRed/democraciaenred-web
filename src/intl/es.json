@@ -8,7 +8,7 @@
     "image_description_2": "Foto: Mérida, Mexico",
     "subtitle_2": "Abrimos las instituciones públicas y la toma de decisiones a través de procesos participativos innovadores.",
 
-    "title_3": "Ocupar la politica",
+    "title_3": "Ocupar la política",
     "subtitle_3": " Buscamos recuperar la política incorporando a la ciudadanía en los procesos de toma de decisión.",
     "image_description_3": "Foto: Guillermo Batakis, Buenos Aires, Argentina"
   },
@@ -647,7 +647,7 @@
     "subtitle_27": "Un análisis comparativo en 9 países",
     "img_27": "proteccionDatos",
 
-    "main_title_28": "DemoNdial",
+    "main_title_28": "DemOndial",
     "subtitle_28": "El juego donde no tenés que entrenar para ganar la copa del mundo",
     "img_28": "demondial"
   },
@@ -708,6 +708,11 @@
     "name_14": "Clarín",
     "title_14": "Disonancia cognitiva: nuestro entorno no siempre tiene razón.",
     "subtitle_14": "Como señalamos desde la iniciativa Corazones y Mentes, lo descrito puede sonar familiar: es un mecanismo que predomina en nuestras interacciones y está presente en el ecosistema de las redes sociales, donde las etiquetas se exponen con orgullo y la demanda de inmediatez entorpece la reflexión.",
+
+    "name_15": "TN",
+    "title_15": "Fuga de datos personales en la Argentina: se registraron más de 14.000 reportes en el último año",
+    "subtitle_15": "Las diferentes filtraciones demuestran que los sistema del Estado son vulnerables y que la información privada de las personas se encuentra expuesta a hackeos.",
+
     "see_more": "Ver más",
     "see_less": "Ver menos"
   },

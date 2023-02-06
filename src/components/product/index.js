@@ -48,7 +48,7 @@ export default ({ data }) => {
           <div className="text-content">
             <div className="columns is-align-items-center is-flex-wrap-wrap">
               <div className="column is-half-desktop is-full">
-                <div className="is-flex title-product is-justify-content-space-evenly is-align-items-center mb-6">
+                <div className="is-flex title-product is-justify-content-center is-align-items-center mb-6 mx-auto">
                   <figure className="image is-96x96">
                     <img
                       src={`${icons[data.icon]}`}
