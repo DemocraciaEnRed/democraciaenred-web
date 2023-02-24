@@ -19,7 +19,7 @@ const Newsletter = ({ data }) => {
           <h2 className="has-text-white is-spaced mb-3">
             {intl.formatMessage({ id: data.description })}
           </h2>
-          <NewsletterTypeForm button={intl.formatMessage({ id: data.description })} TFid={data.tfid}/>
+          <NewsletterTypeForm button={intl.formatMessage({ id: data.button })} TFid={data.tfid}/>
         </div>
       </div>
       <hr className="coloured-divider-right" />
