@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Democracia en Red`,
-    description: `Abrimos las instituciones públicas y la toma de decisiones a través de procesos participativos innovadores.`,
+    description: `Creamos espacios de participación para la ciudadanía en la toma de decisiones públicas.`,
     author: `@DemocraciaEnRed`,
     siteUrl: `https://www.democraciaenred.org/`
   },

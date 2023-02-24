@@ -20,13 +20,14 @@ const SEO = ({ description, lang, meta, title }) => {
       `
     )
     const metaDescription = description || site.siteMetadata.description;
-    const metaTitle = title || site.siteMetadata.title;
+    const webTitle = site.siteMetadata.title;
+    const metaTitle = title || 'Democracia en Red | Partipación Ciudadana'
     return (
         <Helmet
             htmlAttributes={{
                 lang,
             }}
-            title={metaTitle}
+            title={webTitle}
             titleTemplate={`%s | ${metaTitle}`}
             meta={[
                 {
@@ -34,8 +35,13 @@ const SEO = ({ description, lang, meta, title }) => {
                     content: metaDescription,
                 },
                 {
+                    name:`keywords`,
+                    content: `Presupuesto Participativo, Consulta digital, Digital Participation Platforms, Innovacion Política, Elecciones, Derechos Digitales, Tecnología Cívica, Plataformas de participación ciudadana, Software libre para la participación ciudadana, Consul, Decidim, Citizenlab, AbreLatam, plataforma de participación ciudadana, rendición de cuentas, plan de metas, OGP, Alianza para el Gobierno Abierto, integridad, Florencia Caffarone, Don Powa, Agustin Frizzera, Presupuesto Participativo de Vicente López, Datos en Fuga`
+                },
+                {
                     property: `og:title`,
                     content: metaTitle,
+                    
                 },
                 {
                     property: `og:description`,
@@ -50,8 +56,24 @@ const SEO = ({ description, lang, meta, title }) => {
                     content: site.siteMetadata.siteUrl,
                 },
                 {
+                    property: `og:image`,
+                    content: `https://democraciaenred.org/der-share.png`,
+                },
+                {
+                    property: `og:image:url`,
+                    content: `https://democraciaenred.org/der-share.png`,
+                },
+                {
+                    property: `og:image:width`,
+                    content: `1200`,
+                },
+                {
+                    property: `og:image:height`,
+                    content: `628`,
+                },
+                {
                     name: `twitter:card`,
-                    content: `summary_large_image`,
+                    content: `https://democraciaenred.org/der-share.png`,
                 },
                 {
                     name: `twitter:creator`,
@@ -70,12 +92,8 @@ const SEO = ({ description, lang, meta, title }) => {
                     content: site.siteMetadata.siteUrl,
                 },
                 {
-                    name: `og:image`,
-                    content: `${site.siteMetadata.siteUrl}/der-share.png`,
-                },
-                {
                     name: `twitter:image`,
-                    content: `${site.siteMetadata.siteUrl}/der-share.png`,
+                    content: `https://democraciaenred.org/der-share.png`,
                 },
             ].concat(meta)}
         >
