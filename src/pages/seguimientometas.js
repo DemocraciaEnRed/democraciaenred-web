@@ -9,6 +9,7 @@ import productsSpecsData from "../../content/products-specs.json";
 import InstalationsSection from "../components/instalations-section";
 import instalationsData from "../../content/instalations.json";
 import Layout from "../components/layout";
+import SEO from "../components/seo";
 
 //Sets smooth scroll animation for anchor links
 if (typeof window !== "undefined") {
@@ -17,9 +18,12 @@ if (typeof window !== "undefined") {
 }
 
 const SeguimientoMetas = () => {
+  const title = "Seguimiento de metas";
+  const description = "Una herramienta para transparentar los compromisos del gobierno y su seguimiento.";
   return (
     <React.Fragment>
       <Layout>
+        <SEO title={title} description={description} />
         <ProductHeader data={productsData[2]} />
         <FeaturesSection data={FeaturesData[2]} />
 

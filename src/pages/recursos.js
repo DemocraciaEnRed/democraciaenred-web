@@ -8,8 +8,8 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 
 const Recursos = () => {
-  const title = "Recursos"
-  const description = "Conocé como participar de la toma de decisiones públicas."
+  const title = "Recursos";
+  const description = "Una caja de herramientas para implementar procesos de participación.";
   return (
     <React.Fragment>
       <Layout>

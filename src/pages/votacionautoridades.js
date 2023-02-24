@@ -24,9 +24,11 @@ if (typeof window !== "undefined") {
 }
 
 const VotacionAutoridades = () => {
+    const title = "Votación de autoridades";
+    const description = "Plataforma digital para la votación de autoridades en elecciones de democracia cotidiana.";
      return (
     <React.Fragment>
-        <SEO />
+        <SEO title={title} description={description} />
         <Navbar/>
         <ProductHeader data={productsData[4]}/>
         <FeaturesSection data={FeaturesData[4]}/>
