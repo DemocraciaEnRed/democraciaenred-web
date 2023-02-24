@@ -223,6 +223,11 @@
             "social": "Networks"
           }
     },
+    "newsletter": {
+        "title": "Newsletter",
+        "description": "If you want to know all the projects we do, see good memes and many jokes based on the series and movies that made us who we are, subscribe to our newsletter.",
+        "button": "Subscribe"
+    },
     "usPage": {
         "title": "About us",
         "subtitle": "An organization using technology to adapt democracy to the 21st century",

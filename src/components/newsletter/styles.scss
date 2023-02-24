@@ -1,0 +1,25 @@
+.bg-dark {
+    background-color: #1D1D1B !important;
+}
+
+.coloured-divider-left {
+    margin: 0;
+    width: 55vw;
+    background-image: linear-gradient(to left, #88CBFF 0%, #88CBFF 20%, #69D69D 20%, #69D69D 40%, #E7B4F1 40%, #E7B4F1 60%, #FF7990 60%, #FF7990 80%, #FF9B73 80%);
+    height: 10px;
+}
+
+.coloured-divider-right {
+    margin: 0;
+    width: 55vw;
+    background-image: linear-gradient(to left, #88CBFF 0%, #88CBFF 20%, #69D69D 20%, #69D69D 40%, #E7B4F1 40%, #E7B4F1 60%, #FF7990 60%, #FF7990 80%, #FF9B73 80%);
+    height: 10px;
+    position: relative;
+    left: 45%;
+}
+
+img{
+    display: block;
+    width: 80%;
+    margin: auto
+}
