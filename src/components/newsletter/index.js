@@ -1,7 +1,6 @@
 import React from "react";
-import { useIntl, Link } from "gatsby-plugin-intl";
+import { useIntl } from "gatsby-plugin-intl";
 import "./styles.scss";
-import preview from "./assets/newsletterPreview.png"
 import NewsletterTypeForm from "../newsletter-typeform";
 
 const Newsletter = ({ data }) => {
@@ -10,7 +9,7 @@ const Newsletter = ({ data }) => {
   return (
     <section id="newsletter" className="bg-dark py-2">
       <hr className="coloured-divider-left" />
-      <div className="columns mt-0 mx-0 section mb-0 pb-3 pt-4 newsletter-bg-position" style={{backgroundImage: {preview}}}>
+      <div className="columns mt-0 mx-0 section mb-0 pb-3 pt-4 newsletter-bg-position">
 
         <div className="column is-offset-one-quarter is-two-thirds">
           <h1 className="has-text-white is-spaced mb-3">
