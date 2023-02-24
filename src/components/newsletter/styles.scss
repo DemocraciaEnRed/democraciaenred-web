@@ -1,3 +1,5 @@
+@import "~bulma/sass/utilities/_all.sass";
+
 .bg-dark {
     background-color: #1D1D1B !important;
 }
@@ -18,8 +20,21 @@
     left: 45%;
 }
 
-img{
-    display: block;
-    width: 80%;
-    margin: auto
+.newsletter-bg-position {
+    background-position: 20%;
+    background-size: auto 80%;
+    background-repeat: no-repeat;
+    background-image: url(./assets/newsletterPreview.png);
+}
+
+@include until-widescreen {
+    .newsletter-bg-position {
+        background-position: 10%;
+    }
+}
+
+@include mobile {
+    .newsletter-bg-position {
+        background-image: none;
+    }
 }
