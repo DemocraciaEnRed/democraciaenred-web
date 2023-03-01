@@ -508,35 +508,24 @@
   "ecosystem": {
     "main_title": "Ecosistema",
 
-    "title_1": "QUIÉNES SOMOS",
+    "title_1": "Gobiernos e Instituciones",
     "features_1_1": "RINP",
     "features_1_2": "Red de Parlamento abierto",
     "features_1_3": "People Powered",
     "features_1_4": "Red de OSC para un Estado Abierto",
     "features_1_5": "Abrelatam",
 
-    "description_1": "Conocé al equipo de Democracia en Red. ",
-    "lbl_button_1":"Conocenos",
-    "link_button_1":"/quienessomos",
-  
+    "description_1": "Rosario, San Lorenzo, Vicente Lopez, Sunchales, Cámara Diputados Argentina, Concejo Bogota, Maipu, UBA, Santa lab, UNR, GCBA, Ecuador, Godoy Cruz.",  
 
-    "title_2": "GOBIERNOS E INSTITUCIONES",
-    "description_2": "Rosario , San Lorenzo , Vicente Lopez , Sunchales , Ecuador , Cámara Diputados Argentina , Concejo Bogota. Maipu , Godoy cruz , Santa lab , Universidad de Rosario, Gobierno de la Ciudad de Buenos Aires, Universidad de Buenos Aires.",
+    "title_2": "Financiadores",
+    "description_2": "Open Society Foundation, Luminate, BID, AVINA, UE, KAS, Y combinator, Fondo Altec / CLIP / FHHC, IFA, Tomson Reuters, FES, CAF, Google, Microsoft, PERFIT, SLACK.",
 
-    "title_3": "VOS TAMBIEN SOS PARTE",
-    "description_3": "Descubrí cómo sumarte y colaborar. ",
-    "lbl_button_3":"Contactanos",
+    "title_3": "Redes & Comunidades",
+    "description_3": "Abrelatam, Red de Parlamento abierto, Red de OSC para un estado abierto, People Powered, RINP.",
     
- 
+    "title_4": "Organizaciones y Movimientos",
+    "description_4": "XR, Extituto, Artemisas, ODIA, ART 41, Change, ACIJ, Directorio Legislativo, Acción Colectiva, ADS, Virtuagora, Conocimiento Abierto, Nave, Nuestra Córdoba, Nuestra Mendoza, Fundación Huésped, Activismo Digital, Fundeps, Estamos Listas."
 
-    "title_4": "FINANCIADORES",
-    "description_4": "Open Society Foundation, Luminate, BID, AVINA, UE, KAS, Y combinator, Fondo Altec  / CLIP / FHHC, IFA, Tomson Reuters, FES, CAF, Google, Microsoft, PERFIT, SLACK.",
-
-    "title_5": "ORGANIZACIONES Y MOVIMIENTOS",
-    "description_5": "XR, Extituto, Artemisas, ODIA, ART 41, Change, ACIJ, Directorio Legislativo, ACCION COLECTIVA, ADS, Virtuagora, Conocimiento Abierto,  Nave,  Nuestra Córdoba, Nuestra Mendoza, Fundacion Huesped, Activismo Digital, Fundeps, Estamos Listas, Minu, Sumando, Observatorio Red,  RedAccion, Update",
-
-    "title_6": "REDES & COMUNIDADES:",
-    "description_6": "Red de OSC para un estado abierto, Red de Parlamento abierto, People powered, Abrelatam,RINP"
   },
   "resources": {
     "title": "Recursos",

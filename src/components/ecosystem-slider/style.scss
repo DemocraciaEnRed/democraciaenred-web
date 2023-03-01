@@ -24,15 +24,14 @@
     max-width: 500px;
     min-height: 800px;
     margin: 120px auto;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
 }
 .circle-container {
-    position: relative;
     width: 20em;
     height: 20em;
     max-height: 20rem;
-    padding: 2.8em;
-  
-    border-radius: 50%;
     margin: 1.75em auto ;
 }
 
@@ -42,6 +41,7 @@
         max-width: 500px;
         min-height: 800px;
         margin: auto;
+        justify-content: center;
     }
     .circle-container {
         width: 20em;

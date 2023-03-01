@@ -50,18 +50,11 @@
 // #hexagono:hover .contenido{
 //     visibility: visible !important;
 // }
-.contenido .hexa-label{
-    position: absolute;
-    top: 0em;
-    background-color: inherit;
-    color: #000;
-    padding: 10px;
-}
 .contenido .texto{
 
     color:#000;
     min-height: 135px;
-    max-height: 135px;
+    max-height: 300px;
     overflow: auto;
     text-align: center;
     padding: 5px;
@@ -71,7 +64,6 @@
     display: flex;
     align-items: center;
     color:#000;
-    min-height: 135px;
     max-height: 135px;
     overflow: auto;
     text-align: center;
@@ -121,11 +113,4 @@
     // #hexagono:hover .contenido{
     //     visibility: visible !important;
     // }
-    .contenido .hexa-label{
-        position: absolute;
-        top: 0em;
-        background-color: inherit;
-        color: #000;
-        padding: 10px;
-    }
 }

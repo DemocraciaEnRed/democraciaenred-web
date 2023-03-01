@@ -45,7 +45,13 @@ export default ({ slides }) => {
       <div className="is-hidden-mobile section div-circle">
         <div className="circle-container">
           
-          {slides.ecosystem.map((ecosystem, index) => (
+          {slides.ecosystem.slice(0, 2).map((ecosystem, index) => (
+              <Hexagono props={ecosystem} mobile={false} key={index}/>
+            ))}
+        </div>
+        <div className="circle-container">
+          
+          {slides.ecosystem.slice(2, 4).map((ecosystem, index) => (
               <Hexagono props={ecosystem} mobile={false} key={index}/>
             ))}
         </div>
