@@ -107,3 +107,16 @@
     
   }
 }
+
+@media screen and (max-width: 375px) {
+  .media {
+    h2 {
+      font-size: 14px;
+    }
+  }
+  .content {
+    p {
+      font-size: 12px;
+    }
+  }
+}

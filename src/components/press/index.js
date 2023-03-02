@@ -48,14 +48,14 @@ export default ({ data }) => {
                             </figure>
                         </div>
                         <div className="media-content">
-                            <h2 className="is-4 has-text-black">
+                            <h2 className="has-text-black">
                             {intl.formatMessage({id: data.title})}
                             </h2>
                         </div>
                     </div>
 
                     <div className="content">
-                    <p className=" is-4 has-text-black mt-0">
+                    <p className="has-text-black mt-0">
                         {data.subtitle?`${intl.formatMessage({id: data.subtitle}).substring(0,80)}...`:''}</p>
 
                     </div>
