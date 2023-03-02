@@ -13,15 +13,12 @@ const DemocracyosProduct = ({ data, otherProducts }) => {
       };
 
     return (
-        <section
-            id={data.id}
-            className={`hero section product product-${data.color} first-slide`}
-        >
+        <section id={data.id} className={`hero section product product-${data.color} first-slide`}>
             <div className="hero-body">
-                <div className="container-fluid">
+                <div className="container">
                     <div className="text-content">
                         <div className="columns is-align-items-center is-flex-wrap-wrap">
-                            <div className="column is-full">
+                            <div className="column">
                                 <div className="is-flex title-product is-align-items-center mb-5 mx-auto">
                                     <div className="content-title">
                                         <h1 className="has-text-black is-spaced">
@@ -35,14 +32,14 @@ const DemocracyosProduct = ({ data, otherProducts }) => {
                                 <p className="subtitle has-text-black is-spaced">
                                     {intl.formatMessage({ id: data.first_slide_description_2 })}
                                 </p>
-                                <div className='columns first-slide-buttons-array is-mobile is-centered is-multiline is-8'>
+                                <div className='columns first-slide-buttons-array is-mobile is-centered is-multiline'>
                                     {otherProducts.map(product => {
                                         return(
                                             <ProductButtons data={product}/>
                                         )
                                     })}
                                 </div>
-                                <a className="button is-rounded is-medium" href={data.external_link} target="_blank">
+                                <a className="button is-rounded is-medium custom-button" href={data.external_link} target="_blank">
                                     {intl.formatMessage({ id: data.first_slide_see_more })}
                                 </a>
                             </div>

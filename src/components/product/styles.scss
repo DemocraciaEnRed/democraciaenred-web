@@ -20,35 +20,6 @@ $yellow: #F7EC86;
     border-bottom: 3px solid #000;
 }
 
-.first-slide {
-    .title-product {
-        border-bottom: 0px solid #000;
-
-        .content-title :after {
-            display: block;
-            content: " ";
-            height: 3px;
-            margin: 1rem 0;
-            width: 35px;
-            background-color: #000;
-        }
-    }
-
-    .button-shadow {
-        box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.35), inset 2px 2px 4px rgba(255, 255, 255, 0.25);
-    }
-
-    .first-slide-buttons-array{
-        margin: 8vh auto;
-        p{
-            width: min-content;
-        }
-        figure{
-            border-radius: 100%;
-        }
-    }
-}
-
 .title-product figure {
     height: 90px !important;
     width: 90px !important;
@@ -121,6 +92,41 @@ $yellow: #F7EC86;
 
 }
 
+.first-slide {
+    .title-product {
+        border-bottom: 0px solid #000;
+
+        .content-title :after {
+            display: block;
+            content: " ";
+            height: 3px;
+            margin: 1rem 0;
+            width: 35px;
+            background-color: #000;
+        }
+    }
+
+    .button-shadow {
+        box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.35), inset 2px 2px 4px rgba(255, 255, 255, 0.25);
+    }
+
+    .first-slide-buttons-array{
+        margin: 8vh auto;
+        p{
+            width: min-content;
+        }
+        figure{
+            border-radius: 100%;
+        }
+    }
+
+    .button.custom-button{
+        margin-right: 0;
+        white-space: initial;
+        font-size: 1rem;
+    }
+}
+
 @include desktop {
     .product {
         .text-content {
@@ -166,6 +172,16 @@ $yellow: #F7EC86;
     .button-container {
         .button {
             margin-bottom: 0.5em;
+        }
+    }
+
+    .first-slide {
+        .button.custom-button{
+            margin-right: 0;
+            white-space: initial;
+            font-size: 1rem;
+            margin: 0 auto;
+            margin-bottom: 2vh;
         }
     }
 }

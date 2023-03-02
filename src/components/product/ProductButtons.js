@@ -17,9 +17,9 @@ const ProductButtons = ({ data }) => {
         seguimiento_metas: seguimiento_metas_icon,
     };
     return (
-        <div className="column is-3-desktop is-5-touch p-5">
+        <div className="column is-3-desktop is-5-touch">
             <Link to={data.link}>
-                <figure className={`image is-96x96 m-auto product-${data.color} p-2 button-shadow`}>
+                <figure className={`image is-96x96 m-auto product-${data.color} button-shadow`}>
                     <img
                         src={`${icons[data.icon]}`}
                         alt=""
