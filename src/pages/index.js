@@ -4,6 +4,7 @@ import SocialMediaNavbar from "../components/social-media-navbar";
 import HeroSlider from "../components/hero-slider";
 import heroSliderData from "../../content/hero-slider.json";
 import productsData from "../../content/products.json";
+import dcosData from "../../content/dcOS.json";
 import socialMedia from "../../content/social-media-navbar.json";
 import ProductsSlider from "../components/products-slider";
 import LivesSlider from "../components/lives-slider";
@@ -39,7 +40,7 @@ const IndexPage =()=>{
         <Division />
         <SocialMediaNavbar socialMedia={socialMedia} />
         <Resources resources={dataResources} />
-        <ProductsSlider slides={productsData} />
+        <ProductsSlider firstSlide={dcosData} slides={productsData} />
         <EcosystemSlider slides={ecosystemData} />
         <LivesSlider slides={livesData} />
         <UsSection data={dataUs} />

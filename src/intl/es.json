@@ -13,9 +13,14 @@
     "image_description_3": "Foto: Guillermo Batakis, Buenos Aires, Argentina"
   },
   "products": {
+    "first_slide_title":"Nuestros productos",
+    "first_slide_description_1":"Basados en nuestra tecnologia de DemocraciaOS",
+    "first_slide_description_2":"Ofrecemos soluciones para gobiernos locales y nacionales, poderes legislativos, organismos descentralizados, partidos políticos, organizaciones de la sociedad civil y otras instituciones.",
+    "first_slide_see_more":"Conocé más sobre democraciaOS",
+
     "title_0": "DemocraciaOS",
     "description_0": "Ofrecemos soluciones para gobiernos locales y nacionales, poderes legislativos, organismos descentralizados, partidos políticos, organizaciones de la sociedad civil y otras instituciones.",
-
+  
     "title_1": "Presupuesto Participativo",
     "subtitle_1": "Plataforma digital que permite la gestión integral de Presupuestos Participativos, generando instancias de diálogo entre la ciudadanía y los gobiernos.",
     "description_1": "Plataforma digital que permite la gestión integral de Presupuestos Participativos, generando instancias de diálogo entre la ciudadanía y los gobiernos.\nOfrecemos soluciones para gobiernos locales y nacionales, poderes legislativos, organismos descentralizados, partidos politicos, organizaciones de la sociedad civil y otras instituciones.",
@@ -30,7 +35,7 @@
     "title_2": "Consultas Digitales",
     "subtitle_2": "\n Plataforma digital de consulta, diálogo y debate que conecta al gobierno con la comunidad.",
     "description_2": "Busca favorecer la participación, el debate y la interacción entre entidades y personas sobre diversas temáticas.\nOfrecemos soluciones para gobiernos locales y nacionales, poderes legislativos, organismos descentralizados, partidos politicos, organizaciones de la sociedad civil y otras instituciones.",
-    "link_2": "https://democraciaos.org/es/consultadigital\nOfrecemos soluciones para gobiernos locales y nacionales, poderes legislativos, organismos descentralizados, partidos politicos, organizaciones de la sociedad civil y otras instituciones.",
+    "link_2": "https://democraciaos.org/es/consultadigital",
     "features_2_1": "Alta de consultas",
     "features_2_2": "Alta de propuestas ciudadanas",
     "features_2_3": "Comentarios",

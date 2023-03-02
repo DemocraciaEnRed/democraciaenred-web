@@ -48,7 +48,7 @@ export default ({ data }) => {
           <div className="text-content">
             <div className="columns is-align-items-center is-flex-wrap-wrap">
               <div className="column is-half-desktop is-full">
-                <div className="is-flex title-product is-justify-content-center is-align-items-center mb-6 mx-auto">
+                <div className="is-flex title-product is-align-items-center mb-6 mx-auto">
                   <figure className="image is-96x96">
                     <img
                       src={`${icons[data.icon]}`}
@@ -93,12 +93,9 @@ export default ({ data }) => {
                     >
                       {intl.formatMessage({ id: "implementation" })}
                     </PopupButton>
-                    <Link
-                      className="button is-rounded is-medium"
-                      to={data.link}
-                    >
+                    <a className="button is-rounded is-medium" href={intl.formatMessage({ id: `${data.doslink}` })} target="_blank">
                       {intl.formatMessage({ id: "press.see_more" })}
-                    </Link>
+                    </a>
                   </div>
                 )}
               </div>

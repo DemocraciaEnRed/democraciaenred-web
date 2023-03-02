@@ -127,6 +127,11 @@
         "img_28": "demondial_en"
     },
     "products": {
+        "first_slide_title":"Our products",
+        "first_slide_description_1":"Based on our DemocracyOS technology",
+        "first_slide_description_2":"We offer solutions for local and national governments, legislatures, decentralised bodies, political parties, civil society organisations and other institutions.",
+        "first_slide_see_more":"Learn more about democracyOS",
+
         "title_0": "DemocraciaOS",
         "description_0": "We offer solutions to local and national governments, legislative branches, decentralized agencies, political parties, civil society organizations, and other institutions.",
         "title_1":"Participatory Budget",
