@@ -91,16 +91,6 @@
     z-index: 2000;
 }
 
-#hexagon:hover{
-    z-index: 5000;
-}
-.deg0 { transform: translate(11em, -15em) ; }/* 12em = 1/2 anchura del contenedor */
-.deg45 { transform: translate(-1.5em, -12em); }
-.deg135 { transform: translate(11em, -9em); }
-.deg180 { transform:translate(-1em, -13em); }
-.deg225 { transform: translate(-14em, -28em) ;}
-.deg315 { transform: rotate(344deg) translate(-15em) rotate(16deg); }
-
 
 @include mobile {
     .contenido {

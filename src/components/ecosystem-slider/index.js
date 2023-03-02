@@ -42,30 +42,29 @@ export default ({ slides }) => {
        
       </div> */}
       
-      <div className="is-hidden-mobile section div-circle">
+      <div className="section div-circle">
         <div className="circle-container">
           
           {slides.ecosystem.slice(0, 2).map((ecosystem, index) => (
-              <Hexagono props={ecosystem} mobile={false} key={index}/>
+              <Hexagono props={ecosystem} key={index}/>
             ))}
         </div>
-        <div className="circle-container">
+        <div className="circle-container margintop">
           
           {slides.ecosystem.slice(2, 4).map((ecosystem, index) => (
-              <Hexagono props={ecosystem} mobile={false} key={index}/>
+              <Hexagono props={ecosystem} key={index}/>
             ))}
         </div>
       </div>
       <div>
-        
       </div>
-      <div id="ecosystem-slider" className="is-hidden-desktop">
+      {/* <div id="ecosystem-slider" className="is-hidden-desktop">
         <Slider {...sliderSettings}>
           {slides.ecosystem.map((ecosystem, index) => (
             <Hexagono props={ecosystem} mobile={true} key={index}/>
           ))}
         </Slider>
-      </div>
+      </div> */}
     </section>
   );
 };

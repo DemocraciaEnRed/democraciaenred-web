@@ -3,9 +3,12 @@ import "./style.scss";
 import styled from 'styled-components';
 import { useIntl } from "gatsby-plugin-intl";
 
-let Hexa = ''
+let Hexa = '';
 let intl = '';
-const hexagono = ({props, mobile}) => (
+let Red = '';
+
+
+const hexagono = ({props}) => (
     intl = useIntl(),
     
     // faltaria poder recibir las dimensiones de manera dinamica por ahora se labu
@@ -16,24 +19,51 @@ const hexagono = ({props, mobile}) => (
     max-height: 350px;
     background: ${props.styles.color};
     position: relative;
-    clip-path: circle(50%);
+    clip-path: circle(45%);
     display: flex;
     align-items: center;
     align-contenter: center;
     justify-content: center;
     flex-direction: column;
     margin-bottom: 50px;
+    padding: 20px;
+   `,
+
+   Red = styled.div`
+    height: 250px;
+    width: 250px;
+    background: ${props.styles.color};
+    position: relative;
+    clip-path: circle(50%);
+    display: flex;
+    align-items: center;
+    align-contenter: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding: 20px;
+    white-space: break-word;
+    font-size: 12px;
    `,
   
-    <Hexa id={intl.formatMessage({ id: props.title })} className={ mobile ? '' : props.styles.position} >
-
-        <div className="contenido">
-            <p><b style={{color: 'black'}}>{intl.formatMessage({ id: props.title })}</b></p>
-            <div  className={props.styles.verticalCenter ? 'vertical-center' : 'texto'}>
-                {intl.formatMessage({ id: props.texto })}
+   <>
+    <Hexa id={intl.formatMessage({ id: props.title })} className='is-hidden-mobile'>
+            <div className="contenido">
+                <p><b style={{color: 'black'}}>{intl.formatMessage({ id: props.title })}</b></p>
+                <div  className={props.styles.verticalCenter ? 'vertical-center' : 'texto'}>
+                    {intl.formatMessage({ id: props.texto })}
+                </div>
             </div>
-        </div>
     </Hexa>
+    <Red id={intl.formatMessage({ id: props.title })} className='is-hidden-desktop' >
+            <div className="contenido">
+                <p><b style={{color: 'black'}}>{intl.formatMessage({ id: props.title })}</b></p>
+                <div  className={props.styles.verticalCenter ? 'vertical-center' : 'texto'}>
+                    {intl.formatMessage({ id: props.texto })}
+                </div>
+            </div>
+    </Red>
+   </>
 
 
 )
