@@ -15,6 +15,8 @@ import teamData from "../../content/team.json";
 import ecosystemData from "../../content/hexaEcosystem.json";
 import EcosystemSlider from "../components/ecosystem-slider";
 // import EcosystemAnimated from "../components/ecosystrem-animated"
+import Newsletter from "../components/newsletter";
+import newsletterData from "../../content/newsletter.json"
 import Resources from "../components/resources-section";
 import dataResources from "../../content/resources.json";
 import Division from "../components/division";
@@ -42,6 +44,7 @@ const IndexPage =()=>{
         <Resources resources={dataResources} />
         <ProductsSlider firstSlide={dcosData} slides={productsData} />
         <EcosystemSlider slides={ecosystemData} />
+        <Newsletter data={newsletterData}/>
         <LivesSlider slides={livesData} />
         <UsSection data={dataUs} />
         <TeamSlider slides={teamData} title={dataUs} />

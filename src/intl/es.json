@@ -118,6 +118,11 @@
       "social": "Redes"
     }
   },
+  "newsletter":{
+    "title": "Newsletter",
+    "description": "Si querés conocer todos los proyectos que llevamos a cabo, ver buenos memes y muchos chistes basados en las series y películas que nos hicieron quienes somos, suscribite a nuestro newsletter.",
+    "button": "Subscribirme"
+  },
   "usPage": {
     "title": "Conocenos",
     "subtitle": "Una organización que usa la tecnología para adaptar la democracia al siglo XXI",
