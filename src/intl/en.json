@@ -727,5 +727,9 @@
             }
         }
     },
-    "livesH1": "#LIVES"
+    "livesH1": "#LIVES",
+
+    "title_def":"Datos en Fuga",
+    "subtitle_def": "We create citizen participation solutions with governments and activists to strengthen democracy.",
+    "button_def":"Learn about the project"
 }
