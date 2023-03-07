@@ -25,10 +25,11 @@ if (typeof window !== "undefined") {
 const ConsultaDigital = () => {
   const title = "Consulta Digital";
   const description = "Una herramienta para que los usuarios comenten, voten y jerarquicen opiniones en temas públicos.";
+  const robot = "noindex"
   return (
     <React.Fragment>
       <Layout>
-        <SEO title={title} description={description} />
+        <SEO title={title} description={description} robot={robot} />
 
         <ProductHeader data={productsData[1]} />
         <FeaturesSection data={FeaturesData[1]} />

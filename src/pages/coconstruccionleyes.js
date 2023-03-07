@@ -25,10 +25,11 @@ if (typeof window !== "undefined") {
 const CoConstruccionLeyes = () => {
   const title = "Co-construcción de leyes";
   const description = "Una herramienta para que la ciudadanía realice aportes en la elaboración de leyes.";
+  const robot = "noindex"
   return (
     <React.Fragment>
       <Layout>
-        <SEO title={title} description={description} />
+        <SEO title={title} description={description} robot={robot} />
         <ProductHeader data={productsData[3]} />
         <FeaturesSection data={FeaturesData[3]} />
 

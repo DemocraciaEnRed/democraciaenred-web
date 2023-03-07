@@ -8,6 +8,7 @@ const datosEnFuga = () => {
   const intl = useIntl();
   const title = "Datos en Fuga";
   const description = "Necesitamos que el Estado mejore los estándares de ciberseguridad.";
+  const robot = "noindex";
   return (
     <Layout>
       <SEO title={title} description={description} />

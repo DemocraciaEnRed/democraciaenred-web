@@ -3,7 +3,9 @@ module.exports = {
     title: `Democracia en Red`,
     description: `Creamos espacios de participación para la ciudadanía en la toma de decisiones públicas.`,
     author: `@DemocraciaEnRed`,
-    siteUrl: `https://www.democraciaenred.org/`
+    publisher: `@DemocraciaEnRed`,
+    siteUrl: `https://www.democraciaenred.org/`,
+    robot: `all`
   },
   plugins: [
     `gatsby-plugin-styled-components`,

@@ -25,10 +25,11 @@ if (typeof window !== "undefined") {
 const PresupuestoParticipativo = () => {
   const title = "Presupuesto Participativo";
   const description = "Descubrí cómo implementar la herramienta de participación con más aplicaciones en LATAM.";
+  const robot = "noindex"
   return (
     <React.Fragment>
       <Layout>
-        <SEO title={title} description={description} />
+        <SEO title={title} description={description} robot={robot} />
 
         <ProductHeader data={productsData[0]} />
         <FeaturesSection data={FeaturesData[0]} />

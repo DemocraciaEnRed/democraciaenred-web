@@ -4,7 +4,7 @@ import Helmet from "react-helmet";
 import { useStaticQuery, graphql } from "gatsby";
 import favicon from './assets/favicon.png'
 
-const SEO = ({ description, lang, meta, title }) => {
+const SEO = ({ description, lang, meta, title, robot }) => {
     const { site } = useStaticQuery(
         graphql`
         query {
@@ -13,7 +13,9 @@ const SEO = ({ description, lang, meta, title }) => {
               title
               description
               author
+              publisher
               siteUrl
+              robot
             }
           }
         }
@@ -22,6 +24,9 @@ const SEO = ({ description, lang, meta, title }) => {
     const metaDescription = description || site.siteMetadata.description;
     const webTitle = site.siteMetadata.title;
     const metaTitle = title || 'Democracia en Red | Partipación Ciudadana'
+    const authorName = site.siteMetadata.author
+    const publisherName = site.siteMetadata.publisher
+    const googleRobot = site.siteMetadata.robot
     return (
         <Helmet
             htmlAttributes={{
@@ -39,9 +44,20 @@ const SEO = ({ description, lang, meta, title }) => {
                     content: `Presupuesto Participativo, Consulta digital, Digital Participation Platforms, Innovacion Política, Elecciones, Derechos Digitales, Tecnología Cívica, Plataformas de participación ciudadana, Software libre para la participación ciudadana, Consul, Decidim, Citizenlab, AbreLatam, plataforma de participación ciudadana, rendición de cuentas, plan de metas, OGP, Alianza para el Gobierno Abierto, integridad, Florencia Caffarone, Don Powa, Agustin Frizzera, Presupuesto Participativo de Vicente López, Datos en Fuga`
                 },
                 {
+                    name:`author`,
+                    content: authorName
+                },
+                {
+                    name:`publisher`,
+                    content: publisherName
+                },
+                {
+                    name:`robots`,
+                    content: robot || googleRobot 
+                },
+                {
                     property: `og:title`,
                     content: metaTitle,
-                    
                 },
                 {
                     property: `og:description`,

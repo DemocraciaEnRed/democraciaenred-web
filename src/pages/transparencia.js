@@ -11,10 +11,11 @@ import SEO from "../components/seo";
 const Transparencia = () => {
   const title = "Transparencia";
   const description = "Conocé cómo se generan nuestros ingresos y cómo los gastamos.";
+  const robot = "noindex"
   return (
     <React.Fragment>
       <Layout>
-        <SEO title={title} description={description} />
+        <SEO title={title} description={description} robot={robot} />
         <InternalPageHero data={dataTransparency} background= {"celeste"} />
         <Division />
         <Transparency data={dataTransparency} />

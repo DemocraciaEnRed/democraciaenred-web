@@ -20,10 +20,11 @@ if (typeof window !== "undefined") {
 const SeguimientoMetas = () => {
   const title = "Seguimiento de metas";
   const description = "Una herramienta para transparentar los compromisos del gobierno y su seguimiento.";
+  const robot = "noindex"
   return (
     <React.Fragment>
       <Layout>
-        <SEO title={title} description={description} />
+        <SEO title={title} description={description} robot={robot} />
         <ProductHeader data={productsData[2]} />
         <FeaturesSection data={FeaturesData[2]} />
 
