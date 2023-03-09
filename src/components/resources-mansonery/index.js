@@ -16,7 +16,7 @@ import en_cajaHerramientasConsulta from "./assets/ch-consulta-ciudadana_en.png";
 import presupuestoParticipativo from "./assets/presupuesto-participativo.jpg";
 import presupuestoParticipativoInstitucionesEducativas from "./assets/UNR.jpg"
 import en_presupuestoParticipativoInstitucionesEducativas from "./assets/UNR_en.png"
-import corazonesymentes from "./assets/corazonesymentes.jpg";
+import corazonesymentes from "./assets/corazonesymentes.png";
 import en_corazonesymentes from "./assets/en_corazonesymentes.png";
 import refexicons from "./assets/refexicons.jpg";
 import en_refexicons from "./assets/en_refexicons.png";
@@ -33,7 +33,7 @@ import causasComunes_en from "./assets/causas-comunes_en.png";
 import participes from "./assets/participes.png";
 import miedoBronca from "./assets/miedo-bronca.jpg";
 import miedoBronca_en from "./assets/miedo-bronca_en.png";
-import compasPolitico from "./assets/compas_politico.jpg";
+import compasPolitico from "./assets/compas_politico.png";
 import compasPolitico_en from "./assets/compas_politico_en.png";
 import meRepresenta from "./assets/me_representa.jpg";
 import meRepresenta_en from "./assets/me_representa_en.png";

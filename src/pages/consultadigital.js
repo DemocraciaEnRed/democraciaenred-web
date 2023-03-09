@@ -14,6 +14,8 @@ import InstalationsSection from "../components/instalations-section";
 import instalationsData from "../../content/instalations.json";
 import Layout from "../components/layout";
 
+import SEO from "../components/seo";
+
 //Sets smooth scroll animation for anchor links
 if (typeof window !== "undefined") {
   const SmoothScroll = require("smooth-scroll");
@@ -21,9 +23,14 @@ if (typeof window !== "undefined") {
 }
 
 const ConsultaDigital = () => {
+  const title = "Consulta Digital";
+  const description = "Una herramienta para que los usuarios comenten, voten y jerarquicen opiniones en temas públicos.";
+  const robot = "noindex"
   return (
     <React.Fragment>
       <Layout>
+        <SEO title={title} description={description} robot={robot} />
+
         <ProductHeader data={productsData[1]} />
         <FeaturesSection data={FeaturesData[1]} />
 

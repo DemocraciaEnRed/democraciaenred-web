@@ -13,9 +13,14 @@
     "image_description_3": "Foto: Guillermo Batakis, Buenos Aires, Argentina"
   },
   "products": {
+    "first_slide_title":"Nuestros productos",
+    "first_slide_description_1":"Basados en nuestra tecnologia de DemocraciaOS",
+    "first_slide_description_2":"Ofrecemos soluciones para gobiernos locales y nacionales, poderes legislativos, organismos descentralizados, partidos políticos, organizaciones de la sociedad civil y otras instituciones.",
+    "first_slide_see_more":"Conocé más sobre democraciaOS",
+
     "title_0": "DemocraciaOS",
     "description_0": "Ofrecemos soluciones para gobiernos locales y nacionales, poderes legislativos, organismos descentralizados, partidos políticos, organizaciones de la sociedad civil y otras instituciones.",
-
+  
     "title_1": "Presupuesto Participativo",
     "subtitle_1": "Plataforma digital que permite la gestión integral de Presupuestos Participativos, generando instancias de diálogo entre la ciudadanía y los gobiernos.",
     "description_1": "Plataforma digital que permite la gestión integral de Presupuestos Participativos, generando instancias de diálogo entre la ciudadanía y los gobiernos.\nOfrecemos soluciones para gobiernos locales y nacionales, poderes legislativos, organismos descentralizados, partidos politicos, organizaciones de la sociedad civil y otras instituciones.",
@@ -30,7 +35,7 @@
     "title_2": "Consultas Digitales",
     "subtitle_2": "\n Plataforma digital de consulta, diálogo y debate que conecta al gobierno con la comunidad.",
     "description_2": "Busca favorecer la participación, el debate y la interacción entre entidades y personas sobre diversas temáticas.\nOfrecemos soluciones para gobiernos locales y nacionales, poderes legislativos, organismos descentralizados, partidos politicos, organizaciones de la sociedad civil y otras instituciones.",
-    "link_2": "https://democraciaos.org/es/consultadigital\nOfrecemos soluciones para gobiernos locales y nacionales, poderes legislativos, organismos descentralizados, partidos politicos, organizaciones de la sociedad civil y otras instituciones.",
+    "link_2": "https://democraciaos.org/es/consultadigital",
     "features_2_1": "Alta de consultas",
     "features_2_2": "Alta de propuestas ciudadanas",
     "features_2_3": "Comentarios",
@@ -513,35 +518,24 @@
   "ecosystem": {
     "main_title": "Ecosistema",
 
-    "title_1": "QUIÉNES SOMOS",
+    "title_1": "Gobiernos e Instituciones",
     "features_1_1": "RINP",
     "features_1_2": "Red de Parlamento abierto",
     "features_1_3": "People Powered",
     "features_1_4": "Red de OSC para un Estado Abierto",
     "features_1_5": "Abrelatam",
 
-    "description_1": "Conocé al equipo de Democracia en Red. ",
-    "lbl_button_1":"Conocenos",
-    "link_button_1":"/quienessomos",
-  
+    "description_1": "Rosario, San Lorenzo, Vicente Lopez, Sunchales, Cámara Diputados Argentina, Concejo Bogota, Maipu, UBA, Santa lab, UNR, GCBA, Ecuador, Godoy Cruz.",  
 
-    "title_2": "GOBIERNOS E INSTITUCIONES",
-    "description_2": "Rosario , San Lorenzo , Vicente Lopez , Sunchales , Ecuador , Cámara Diputados Argentina , Concejo Bogota. Maipu , Godoy cruz , Santa lab , Universidad de Rosario, Gobierno de la Ciudad de Buenos Aires, Universidad de Buenos Aires.",
+    "title_2": "Financiadores",
+    "description_2": "Open Society Foundation, Luminate, BID, AVINA, UE, KAS, Y combinator, Fondo Altec / CLIP / FHHC, IFA, Tomson Reuters, FES, CAF, Google, Microsoft, PERFIT, SLACK.",
 
-    "title_3": "VOS TAMBIEN SOS PARTE",
-    "description_3": "Descubrí cómo sumarte y colaborar. ",
-    "lbl_button_3":"Contactanos",
+    "title_3": "Redes & Comunidades",
+    "description_3": "Abrelatam, Red de Parlamento abierto, Red de OSC para un estado abierto, People Powered, RINP.",
     
- 
+    "title_4": "Organizaciones y Movimientos",
+    "description_4": "XR, Extituto, Artemisas, ODIA, ART 41, Change, ACIJ, Directorio Legislativo, Acción Colectiva, ADS, Virtuagora, Conocimiento Abierto, Nave, Nuestra Córdoba, Nuestra Mendoza, Fundación Huésped, Activismo Digital, Fundeps, Estamos Listas."
 
-    "title_4": "FINANCIADORES",
-    "description_4": "Open Society Foundation, Luminate, BID, AVINA, UE, KAS, Y combinator, Fondo Altec  / CLIP / FHHC, IFA, Tomson Reuters, FES, CAF, Google, Microsoft, PERFIT, SLACK.",
-
-    "title_5": "ORGANIZACIONES Y MOVIMIENTOS",
-    "description_5": "XR, Extituto, Artemisas, ODIA, ART 41, Change, ACIJ, Directorio Legislativo, ACCION COLECTIVA, ADS, Virtuagora, Conocimiento Abierto,  Nave,  Nuestra Córdoba, Nuestra Mendoza, Fundacion Huesped, Activismo Digital, Fundeps, Estamos Listas, Minu, Sumando, Observatorio Red,  RedAccion, Update",
-
-    "title_6": "REDES & COMUNIDADES:",
-    "description_6": "Red de OSC para un estado abierto, Red de Parlamento abierto, People powered, Abrelatam,RINP"
   },
   "resources": {
     "title": "Recursos",
@@ -784,5 +778,9 @@
   "ecosistema": "Ecosistema",
   "work_with": "Trabajamos con",
   "claim": "“Hoy, las ideas se diseminan con mucha facilidad. Nuestra capacidad milenaria de compartir historias y experiencias anidó en internet, formando una red de conocimientos para evolucionar. Nuestro sistema de gobierno, sin embargo, ha evolucionado poco y continúa reservando la potestad de decidir en 'especialistas', como hace dos siglos atrás. El saber del representante sigue siendo necesario pero debe ser permeable a la sabiduría colectiva. La política no puede ser el monopolio del poder sino que deberia ser la habilidad de tramitar poderes repartidos”",
-  "livesH1": "#VIVOS"
+  "livesH1": "#VIVOS",
+  
+  "title_def":"Datos en Fuga",
+  "subtitle_def": "Creamos soluciones de participación ciudadana con gobiernos y activistas para fortalecer la democracia.",
+  "button_def":"Conocé el proyecto"
 }

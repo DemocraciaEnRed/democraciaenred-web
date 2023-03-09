@@ -127,6 +127,11 @@
         "img_28": "demondial_en"
     },
     "products": {
+        "first_slide_title":"Our products",
+        "first_slide_description_1":"Based on our DemocracyOS technology",
+        "first_slide_description_2":"We offer solutions for local and national governments, legislatures, decentralised bodies, political parties, civil society organisations and other institutions.",
+        "first_slide_see_more":"Learn more about democracyOS",
+
         "title_0": "DemocraciaOS",
         "description_0": "We offer solutions to local and national governments, legislative branches, decentralized agencies, political parties, civil society organizations, and other institutions.",
         "title_1":"Participatory Budget",
@@ -659,21 +664,14 @@
       },
     "ecosystem": {
         "main_title": "Ecosystem",
-        "title_1": "WHO WE ARE",
-        "title_2": "GOVERNMENTS AND INSTITUTIONS",
-        "description_1": "Meet the Democracia en Red team",
-        "lbl_button_1": "Meet us",
-        "link_button_1":"/en/quienessomos",
-        "description_2": "Rosario , San Lorenzo , Vicente Lopez , Sunchales , Ecuador , Cámara Diputados Argentina , Concejo Bogota. Maipu , Godoy cruz , Santa lab , Universidad de Rosario, Gobierno de la Ciudad de Buenos Aires, Universidad de Buenos Aires.",
-        "title_3": "YOU ARE ALSO PART OF IT",
-        "description_3": "Find out how to join and collaborate.",
-        "lbl_button_3": "Contact us",
-        "title_4": "FINANCERS",
-        "description_4": "Open Society Foundation, Luminate, BID, AVINA, UE, KAS, Y combinator, Fondo Altec  / CLIP / FHHC, IFA, Tomson Reuters, FES, CAF, Google, Microsoft, PERFIT, SLACK.",
-        "title_5": "ORGANIZATIONS AND MOVEMENTS",
-        "description_5": "XR, Extituto, Artemisas, ODIA, ART 41, Change, ACIJ, Directorio Legislativo, ACCION COLECTIVA, ADS, Virtuagora, Conocimiento Abierto,  Nave,  Nuestra Córdoba, Nuestra Mendoza, Fundacion Huesped, Activismo Digital, Fundeps, Estamos Listas, Minu, Sumando, Observatorio Red,  RedAccion, Update",
-        "title_6": "NETWORKS & COMMUNITIES",
-        "description_6": "CSO Network for an Open State, Open Parliament Network, People powered, Abrelatam, RINP"
+        "title_1": "Governments and Institutions",
+        "title_2": "Funders",
+        "description_1": "Rosario, San Lorenzo, Vicente Lopez, Sunchales, Cámara Diputados Argentina, Concejo Bogota, Maipu, UBA, Santa lab, UNR, GCBA, Ecuador, Godoy Cruz.",
+        "description_2": "Open Society Foundation, Luminate, BID, AVINA, UE, KAS, Y combinator, Fondo Altec / CLIP / FHHC, IFA, Tomson Reuters, FES, CAF, Google, Microsoft, PERFIT, SLACK.",
+        "title_3": "Networks & Communities",
+        "description_3": "Abrelatam, Red de Parlamento abierto, Red de OSC para un estado abierto, People Powered, RINP.",
+        "title_4": "Organizations and Movements",
+        "description_4": "XR, Extituto, Artemisas, ODIA, ART 41, Change, ACIJ, Directorio Legislativo, Acción Colectiva, ADS, Virtuagora, Conocimiento Abierto, Nave, Nuestra Córdoba, Nuestra Mendoza, Fundación Huésped, Activismo Digital, Fundeps, Estamos Listas."
     },
     "usSection": {
         "title": "Who we are",
@@ -729,5 +727,9 @@
             }
         }
     },
-    "livesH1": "#LIVES"
+    "livesH1": "#LIVES",
+
+    "title_def":"Datos en Fuga",
+    "subtitle_def": "We create citizen participation solutions with governments and activists to strengthen democracy.",
+    "button_def":"Learn about the project"
 }

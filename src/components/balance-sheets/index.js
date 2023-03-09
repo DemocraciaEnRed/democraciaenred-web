@@ -32,58 +32,66 @@ export default ({data}) =>  {
                 </p>
             </div>
             <div className="columns is-flex-desktop is-flex-wrap-wrap">
-                <div className="column is-one-quarter is-full-mobile balance">
+
+                <div className="column is-one-fifth is-full-mobile balance">
+                    <div className="above ">
+                        <img className="imgres" src={images.rosa}></img>
+                        <a href="https://drive.google.com/file/d/1DCG0fPdHM1OoHPh2BrMJ2oZRJ4bYBIV3/view" target="_blank" className="anio">2022</a>
+                    </div>
+                </div>
+                
+                <div className="column is-one-fifth is-full-mobile balance">
                     <div className="above ">
                         <img className="imgres" src={images.violeta}></img>
-                        <a href="https://drive.google.com/drive/folders/1TD-81Yo7G1fdqEZMHex3mRwM-AqTXUWa" className="anio">2021</a>
+                        <a href="https://drive.google.com/file/d/1N4o8yq5wxWwhtDZqNwgQ1d9QeAX63Sig/view" target="_blank" className="anio">2021</a>
                     </div>
                 </div>
-                <div className="column is-one-quarter is-half-mobile balance">
+                <div className="column is-one-fifth is-half-mobile balance">
                     <div className="above  ">
                         <img className="image imgres" src={images.celeste}></img>
-                        <a href="https://drive.google.com/drive/folders/1TD-81Yo7G1fdqEZMHex3mRwM-AqTXUWa" className="anio">2020</a>
+                        <a href="https://drive.google.com/file/d/1-4SO0ho2c30xg5c4fAoPaXRhHt38demH/view" target="_blank" className="anio">2020</a>
                     </div>
                 </div>
-                <div className="column is-one-quarter is-half-mobile balance ">
+                <div className="column is-one-fifth is-half-mobile balance ">
                     <div className="above ">
                         <img className="image imgres" src={images.verde}></img>
-                        <a href="https://drive.google.com/drive/folders/1TD-81Yo7G1fdqEZMHex3mRwM-AqTXUWa" className="anio">2019</a>
+                        <a href="https://drive.google.com/file/d/1TT7Q0dtVwumryXkGmj_m2LvcClv4Hqb2/view" target="_blank" className="anio">2019</a>
                     </div>
                 </div>
-                <div className="column is-one-quarter is-one-third-mobile balance ">
+                <div className="column is-one-fifth is-one-third-mobile balance ">
                     <div className="above ">
                         <img className="image imgres" src={images.amarillo}></img>
-                        <a href="https://drive.google.com/drive/folders/1TD-81Yo7G1fdqEZMHex3mRwM-AqTXUWa" className="anio">2018</a>
+                        <a href="https://drive.google.com/file/d/11JP2vbRm_D741G_vmXdHvFATspygVXVS/view" target="_blank" className="anio">2018</a>
                     </div>
                 </div>
                 <div className="column is-one-fifth is-one-third-mobile balance ">
                     <div className="above " >
                         <img className="image imgres" src={images.naranja}></img>
-                        <a href="https://drive.google.com/drive/folders/1TD-81Yo7G1fdqEZMHex3mRwM-AqTXUWa" className="anio">2017</a>
+                        <a href="https://drive.google.com/file/d/1PPCbWGYtcIxoenCZcUzbTe1v6phbyitU/view" target="_blank" className="anio">2017</a>
                     </div>
                 </div>
                 <div className="column is-one-fifth is-one-third-mobile balance ">
                     <div className="above ">
                         <img className="image imgres" src={images.rosa}></img>
-                        <a href="https://drive.google.com/drive/folders/1TD-81Yo7G1fdqEZMHex3mRwM-AqTXUWa" className="anio">2016</a>
+                        <a href="https://drive.google.com/file/d/1-LWAWjFnVnMFR7ymEnRbPr1wr7GW2d2B/view" target="_blank" className="anio">2016</a>
                     </div>
                 </div>
                 <div className="column is-one-fifth is-half-mobile balance ">
                     <div className="above ">
                         <img className="image imgres" src={images.violeta}></img>
-                        <a href="https://drive.google.com/drive/folders/1TD-81Yo7G1fdqEZMHex3mRwM-AqTXUWa" className="anio">2015</a>
+                        <a href="https://drive.google.com/file/d/1tLlkzAH2QdKlnW0tYB1JTPMuYzyOFrMx/view" target="_blank" className="anio">2015</a>
                     </div>
                 </div>
                 <div className="column is-one-fifth is-half-mobile balance ">
                     <div className="above ">
                         <img className="image imgres" src={images.celeste}></img>
-                        <a href="https://drive.google.com/drive/folders/1TD-81Yo7G1fdqEZMHex3mRwM-AqTXUWa" className="anio" download>2014</a>
+                        <a href="https://drive.google.com/file/d/1ajjvH11UcC7OBC5mjXndMvKgWpe0AQrR/view" target="_blank" className="anio" download>2014</a>
                     </div>
                 </div>
                 <div className="column is-one-fifth is-full-mobile balance ">
                     <div className="above ">
                         <img className="image imgres" src={images.verde}></img>
-                        <a href="https://drive.google.com/drive/folders/1TD-81Yo7G1fdqEZMHex3mRwM-AqTXUWa" className="anio" download>2013</a>
+                        <a href="https://drive.google.com/file/d/11s7tYeeZ-NAiwqCOj5PpjjZ6VZ2FlCt5/view" target="_blank" className="anio" download>2013</a>
                     </div>
                 </div>
             </div>

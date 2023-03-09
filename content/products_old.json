@@ -1,5 +1,16 @@
 [
     {
+        "title":"products.title_0",
+        "subtitle":"products.subtitle_0",
+        "description": "products.description_0",
+        "external_link": "https://democraciaos.org/es/",
+        "color": "yellow",
+        "icon": "democracia_os",
+        "image": "democracia_os",
+        "id": "democracia_os"
+        
+    },
+    {
         "title":"products.title_1",
         "subtitle":"products.subtitle_1",
         "description": "products.description_1",
@@ -15,8 +26,8 @@
         "color": "pink",
         "icon": "presupuesto_participativo",
         "image": "presupuesto_participativo",
-        "id": "presupuesto_participativo",
-        "doslink": "products.link_1"
+        "id": "presupuesto_participativo"
+        
     },
     {
         "title":"products.title_2",
@@ -34,8 +45,7 @@
         "color": "green",
         "icon": "consulta_publica",
         "image": "consulta_publica",
-        "id": "consulta_publica",
-        "doslink": "products.link_2"
+        "id": "consulta_publica"
     },
     {
         "title":"products.title_3",
@@ -51,8 +61,7 @@
         "color": "blue",
         "icon": "co_construccion",
         "image": "co_construccion",
-        "id": "co-construccion_leyes",
-        "doslink": "products.link_3"
+        "id": "co-construccion_leyes"
     },
     {
         "title":"products.title_4",
@@ -67,7 +76,24 @@
         "color": "purple",
         "icon": "seguimiento_metas",
         "image": "seguimiento_metas",
-        "id": "seguimiento_metas",
-        "doslink": "products.link_4"
-    }
+        "id": "seguimiento_metas"
+    },
+    {
+        "title":"products.title_5",
+        "subtitle":"products.subtitle_5",
+        "description": "products.description_5",
+        "link": "/votacionautoridades",
+        "features": [
+            "products.features_5_1",
+            "products.features_5_2",
+            "products.features_5_3",
+            "products.features_5_4",
+            "products.features_5_5",
+            "products.features_5_6"
+        ],
+        "color": "coral",
+        "icon": "votacion_autoridades",
+        "image": "votacion_autoridades",
+        "id": "votacion_autoridades"
+    } 
 ]

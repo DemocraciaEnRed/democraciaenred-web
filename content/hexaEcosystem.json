@@ -4,22 +4,16 @@
        { 
            "title": "ecosystem.title_1",
             "styles": { 
-              "color":"#69D69Da3",
-               "position": "deg315",
+              "color":"#88CBFFa3",
                "verticalCenter": true,
                "lbl_position": "translate(-14em, -0em)"
            },
-            "texto": "ecosystem.description_1",
-            "boton": {
-              "label": "ecosystem.lbl_button_1",
-              "link":  "ecosystem.link_button_1"
-            }
+            "texto": "ecosystem.description_1"
         },
         { 
             "title": "ecosystem.title_2",
              "styles": {
-               "color":"#88CBFFa3",
-               "position": "deg45",
+               "color":"#FF7990a3",
                "lbl_position": "translate(0em, -10em)"
             },
              "texto": "ecosystem.description_2"
@@ -27,45 +21,19 @@
          { 
             "title": "ecosystem.title_3",
              "styles": {
-               "color":"#BB86FCa3",
-               "position": "deg0",
+               "color":"#EBC3F3",
                "verticalCenter": true,
                "lbl_position": "translate(17em, 0em)"
             },
-             "texto": "ecosystem.description_3",
-             "boton": {
-               "label": "ecosystem.lbl_button_3",
-               "link":  "https://preguntarparaacordar.typeform.com/to/ZLAPxAhj"
-             }
+             "texto": "ecosystem.description_3"
          },
          { 
             "title": "ecosystem.title_4",
              "styles": {
-               "color":"#FF7990a3",
-               "position": "deg135",
+               "color":"#69D69Da3",
                "lbl_position": "translate(14em, 3em)"
             },
              "texto": "ecosystem.description_4"
-         },
-         { 
-            "title": "ecosystem.title_5",
-             "styles": {
-               "color":"#FF9B73a3",
-               "position": "deg180",
-               "lbl_position": "translate(0em, 14em)"
-            },
-             "texto": "ecosystem.description_5"
-         },
-         { 
-            "title": "ecosystem.title_6",
-             "styles": {
-               "color":"#F7EC86a3",
-               "position": "deg225",
-               "verticalCenter": true,
-               "lbl_position": "translate(-17em, 3em)"
-
-            },
-             "texto": "ecosystem.description_6"
          }
     ]
 }

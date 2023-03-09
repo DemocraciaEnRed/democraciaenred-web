@@ -13,10 +13,15 @@ import dataUs from "../../content/us.json";
 import Division from "../components/division";
 // import Balance from "../components/balance-sheets";
 import Council from "../components/council";
+import SEO from "../components/seo";
 const QuienesSomos = () => {
+  const title = "Quiénes somos";
+  const description = "Somos una organización de la sociedad civil que abre la toma de decisiones públicas.";
+  const robot = "noindex"
   return (
     <React.Fragment>
       <Layout>
+        <SEO title={title} description={description} robot={robot} />
         <UsHeader data={dataUs} background= {"verde"}/>
         <Division />        
         <Mision data={dataUs} />
