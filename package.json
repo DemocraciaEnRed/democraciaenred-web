@@ -8,9 +8,9 @@
     "gatsby"
   ],
   "scripts": {
-    "develop": "set GATSBY_ENV=development && gatsby develop",
+    "develop": "gatsby develop",
     "start": "gatsby develop",
-    "build": "set GATSBY_ENV=production && gatsby build.",
+    "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
