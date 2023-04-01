@@ -13,10 +13,10 @@ const hexagono = ({props}) => (
     
     // faltaria poder recibir las dimensiones de manera dinamica por ahora se labu
     Hexa = styled.div`
-    height: 350px;
-    max-width: 350px;
-    min-width: 350px;
-    max-height: 350px;
+    height: 370px;
+    max-width: 450px;
+    min-width: 450px;
+    max-height: 450px;
     background: ${props.styles.color};
     position: relative;
     clip-path: circle(45%);
@@ -25,8 +25,8 @@ const hexagono = ({props}) => (
     align-contenter: center;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 50px;
-    padding: 20px;
+    margin-bottom: 40px;
+    padding: 60px;
    `,
 
    Red = styled.div`
