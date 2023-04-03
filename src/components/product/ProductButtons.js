@@ -16,7 +16,7 @@ const ProductButtons = ({ data, sliderRef }) => {
         presupuesto_participativo: presupuesto_participativo_icon,
         seguimiento_metas: seguimiento_metas_icon,
     };
-    console.log(sliderRef)
+
     return (
         <div className="column is-3-desktop is-5-touch">
             <div class="is-clickable" onClick={()=>sliderRef.current.slickGoTo(data.slideNum)}>
