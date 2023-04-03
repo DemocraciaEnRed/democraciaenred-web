@@ -1,13 +1,13 @@
 import React from 'react'
 import { useIntl, Link } from 'gatsby-plugin-intl';
-
+// import Slider from 'react-slick';
 import presupuesto_participativo_icon from "./assets/Icono_PresupuestoParticipativo.png";
 import co_construccion_icon from "./assets/Icono_CoConstrusccionLeyes.png";
 import consulta_publica_icon from "./assets/Icono_ConsultasDigitales.png";
 import seguimiento_metas_icon from "./assets/Icono_SeguimientoMetas.png";
 
 
-const ProductButtons = ({ data }) => {
+const ProductButtons = ({ data, sliderRef }) => {
     const intl = useIntl()
 
     const icons = {
@@ -16,9 +16,10 @@ const ProductButtons = ({ data }) => {
         presupuesto_participativo: presupuesto_participativo_icon,
         seguimiento_metas: seguimiento_metas_icon,
     };
+    console.log(sliderRef)
     return (
         <div className="column is-3-desktop is-5-touch">
-            <Link to={data.link}>
+            <div class="is-clickable" onClick={()=>sliderRef.current.slickGoTo(data.slideNum)}>
                 <figure className={`image is-96x96 m-auto product-${data.color} button-shadow`}>
                     <img
                         src={`${icons[data.icon]}`}
@@ -26,7 +27,7 @@ const ProductButtons = ({ data }) => {
                         className={`${data.icon}`}
                     />
                 </figure>
-            </Link>
+            </div>
             <p className="has-text-black is-spaced has-text-centered mt-4 mx-auto">
                 {intl.formatMessage({ id: data.title })}
             </p>
