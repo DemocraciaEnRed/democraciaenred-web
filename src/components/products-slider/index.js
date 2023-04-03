@@ -9,9 +9,9 @@ import Product from "../product";
 
 export default ({ firstSlide, slides }) => {
   const intl = useIntl();
-  // const [slideIndex, setSlideIndex] = useState(0)
-  let sliderRef = useRef(null)
 
+  let sliderRef = useRef(null)
+  
   return (
     <section id="slider-product" className="hero is-fullheight is-large is-primary is-bold has-background-dark products-slider">
       <Slider ref={sliderRef} {...sliderSettings}>
