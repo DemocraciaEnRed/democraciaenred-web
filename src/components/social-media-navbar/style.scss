@@ -4,6 +4,8 @@
     position:absolute;
     bottom:0;
     width: 100%;
+    margin-bottom: 5vh; // equal to divider height
+    padding-bottom: 1.7rem; //slightly less than slider dots position
     // @include touch{
     //     bottom:50vh
     // }
