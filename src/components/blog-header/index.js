@@ -9,19 +9,19 @@ const BlogHeader = ({ data, posts, authors }) => {
   return (
     <section id="blog">
       <div className="columns bg-dark mx-0 mt-0 section mb-0 pb-6">
-        <div className="column ">
-          <h1 className="is-spaced mb-6 is-size-1">
-            {/* {intl.formatMessage({ id: data.subtitle })} */}
-            conoce nuestras...
+        <div className="column">
+          <h1 className="is-spaced mb-2 is-size-1">
+            {intl.formatMessage({ id: data.subtitle })}
           </h1>
-          <div class="field mb-5">
+          <div class="field mb-6">
             <p class="control has-icons-right">
-              <input class="input pl-5 " type="text" placeholder="Ingresa el nombre o apellido del Autor o Autora" />
+              <input class="input pl-5 " type="text" placeholder={intl.formatMessage({ id: data.searchBar })} />
               <span class="icon is-right">
                 <i class="fas fa-search" aria-hidden="true"></i>
               </span>
             </p>
           </div>
+          <p className="is-size-3 has-text-white mb-4">{intl.formatMessage({ id: data.filterText })}</p>
           {data.filter.map((filter, index) => (
             <button
               key={index}
