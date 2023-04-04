@@ -15,7 +15,7 @@ const Storyblok = new StoryblokClient({
 
 const Blog = () => {
 
-  const title = "Blog";
+  const title = "Democracia en Red | Blog";
   const description = "Conocé nuestras novedades";
   const robot = "noindex"
 
@@ -47,12 +47,9 @@ const Blog = () => {
 
   }, [])
 
-
-
-
   return (
     <React.Fragment>
-      <Layout>
+      <Layout style={{margin: 50}}>
         <SEO title={title} description={description} robot={robot} />
         <InternalPageHero data={dataBlog} background= {"pink"} />
         <Division />
