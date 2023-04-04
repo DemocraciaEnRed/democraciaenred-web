@@ -6,6 +6,21 @@ import BlogCards from '../blog-cards';
 const BlogHeader = ({ data, posts, authors }) => {
   const intl = useIntl();
   const [filter, setFilter] = useState("all");
+  const [authorSearch, setauthorSearch] = useState([]);
+
+  const filterSearchBar = (e) => {
+    const searchValue = e.target.value
+    const valueUpperCase = searchValue.charAt(0).toUpperCase() + searchValue.slice(1);
+    const filteredPosts = authors.filter((author) => {
+      return (
+        author.name.includes(valueUpperCase)
+      );
+    });
+    setauthorSearch(filteredPosts);
+    console.log(valueUpperCase)
+    console.log(filteredPosts);
+  }
+
   return (
     <section id="blog">
       <div className="columns bg-dark mx-0 mt-0 section mb-0 pb-6">
@@ -15,7 +30,7 @@ const BlogHeader = ({ data, posts, authors }) => {
           </h1>
           <div class="field mb-6">
             <p class="control has-icons-right">
-              <input class="input pl-5 " type="text" placeholder={intl.formatMessage({ id: data.searchBar })} />
+              <input class="input pl-5 " type="text" placeholder={intl.formatMessage({ id: data.searchBar })} onChange={filterSearchBar} />
               <span class="icon is-right">
                 <i class="fas fa-search" aria-hidden="true"></i>
               </span>
@@ -36,7 +51,14 @@ const BlogHeader = ({ data, posts, authors }) => {
       <div className='container py-5'>
         <div className='columns'>
           {
+            filter === "all" ?
             posts.map((post, index) => {
+              return (
+                  <BlogCards post={post} index={index} authors={authors} />
+              )
+            })
+            :
+            posts.filter(post => post.tag_list.includes(filter)).map((post, index) => {
               return (
                   <BlogCards post={post} index={index} authors={authors} />
               )

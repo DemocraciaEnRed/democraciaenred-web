@@ -30,7 +30,7 @@
         },
         {
             "name":"blog.filters.filter7",
-            "id":"participatoryBudget"
+            "id":"Presupuesto Participativo"
         },
         {
             "name":"blog.filters.filter8",
@@ -50,7 +50,7 @@
         },
         {
             "name":"blog.filters.filter12",
-            "id":"ux"
+            "id":"UX"
         }
     ],
     "link":"/blog"
