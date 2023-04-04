@@ -1,41 +1,65 @@
 import React, { useEffect, useState } from 'react'
 import StoryblokClient from "storyblok-js-client";
 
+import dataBlog from '../../content/blog.json';
+
+import Layout from '../components/layout';
+import SEO from '../components/seo';
+import Division from '../components/division';
+import InternalPageHero from '../components/internal-page-hero';
+import BlogHeader from '../components/blog-header';
 const Storyblok = new StoryblokClient({
   accessToken: process.env.STORYBLOK_TOKEN,
-  region: "us"
+  region: process.env.STORYBLOK_REGION
 });
 
-const blog = () => {
+const Blog = () => {
+
+  const title = "Blog";
+  const description = "Conocé nuestras novedades";
+  const robot = "noindex"
 
   const [data, setData] = useState([])
+  const [authors, setAuthors] = useState([])
 
   useEffect(() => {
     Storyblok.get(`cdn/stories`, {
-      version: 'draft',
+      version: process.env.STORYBLOK_VERSION,
+      starts_with: 'blog/'
     })
     .then((response) => {
-      // console.log(response.data.stories)
       setData(response.data.stories)
     })
     .catch((error) => {
       console.log(error)
     })
+
+    Storyblok.get(`cdn/stories`, {
+      version: process.env.STORYBLOK_VERSION,
+      starts_with: 'authors/'
+    })
+    .then((res) => {
+      setAuthors(res.data.stories)
+    })
+    .catch((err) => {
+      console.log(err)
+    })
+
   }, [])
 
+
+
+
   return (
-      <div>
-        {data.map((d) => (
-          <div key={d.id}>
-            <h4>{d.name}</h4>
-            <br />
-            <h3>{d.description}</h3>
-            <br />
-            <p>{d.content.bodymd}</p>
-          </div>
-        ))}
-      </div>
+    <React.Fragment>
+      <Layout>
+        <SEO title={title} description={description} robot={robot} />
+        <InternalPageHero data={dataBlog} background= {"pink"} />
+        <Division />
+        <BlogHeader data={dataBlog} posts={data} authors={authors} />
+      </Layout>
+  </React.Fragment>   
   )
 }
 
-export default blog
+export default Blog

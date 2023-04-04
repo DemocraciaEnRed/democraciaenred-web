@@ -765,6 +765,9 @@
       }
     }
   },
+  "blog": {
+    "title": "BLOG"
+  },
 
   "requirements": "Requisitos",
   "features": "Características",

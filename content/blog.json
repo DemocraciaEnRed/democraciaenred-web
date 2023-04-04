@@ -1,0 +1,26 @@
+{
+    "title":"blog.title",
+    "subtitle":"Conoce nuestras novedades",
+    "searchBar":"Ingresa el nombre o apellido del Autor o Autora",
+    "filterText":"Filtra por tema",
+    "filter":[
+        {
+            "name":"todo",
+            "id":"all"
+        },
+        {
+            "name":"Manuales",
+            "id":"Manuales"
+        },
+        {
+            "name":"Implementaciones",
+            "id":"Implementaciones"
+        },
+        {
+            "name":"Coyuntura",
+            "id":"Coyuntura"
+        }
+       
+    ],
+    "link":"/blog"
+}

@@ -727,6 +727,9 @@
             }
         }
     },
+    "blog": {
+        "title": "BLOG"
+    },
     "livesH1": "#LIVES",
 
     "title_def":"Datos en Fuga",
