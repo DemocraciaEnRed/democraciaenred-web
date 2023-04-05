@@ -46,7 +46,7 @@ const BlogCards = ({ post, authors }) => {
               {dateParse(post.published_at)}
             </div>
             <div className="content p-0">
-              <p className="has-text-weight-bold">{post.name}</p>
+              <p className="has-text-weight-bold">{post.content.title}</p>
               <p>{textClamp(post.content.description)}</p>
               {post.tag_list.length > 0 ? post.tag_list.map((tag, index) => (
                 <span key={index} class="tag is-rounded has-text-black has-background-grey-lighter px-2 mx-1 my-1">
