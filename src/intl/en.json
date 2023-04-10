@@ -577,7 +577,7 @@
         "see_less": "See less"
     },
     "lives": {
-        "title_1": "POLITICXS EN TWITTER",
+        "title_1": "POLITICS ON TWITTER",
         "description_1": "Politics on Twitter is a repository with interactions of more than 500 users related to politics in Argentina. We make this ATLAS available the community with free and reusable data, to facilitate the production of knowledge. We invite you to learn more at our launch event!",
         "subtitle_1": "",
         "title_2": "Incubator for Ciudades Comunes",
@@ -635,33 +635,33 @@
         "title_14": "Mariano Heller",
         "subtitle_14": "Head of the Board of Directors "
     },
+
     "council": {
         "main_title": "Advisory Council",
-        "title_1": "DARDO CEBALLOS",
-        "subtitle_1": "Innovation and digital transformation strategies applied to public sector and policy innovation.",
+        "title_1": "MÓNICA VILLEGAS",
+        "subtitle_1": "Public leadership, citizen participation and cities.",
         "description_1": "COMPLETAR",
-    
-        "title_2": "JUAN CRUZ ZORZOLI",
-        "subtitle_2": "Sustainable and Regenerative Development / Participatory Planning and Communication / Environmental Education / Paradigm Shift.",
+
+        "title_2": "DARDO CEBALLOS",
+        "subtitle_2": "Innovation and digital transformation strategies applied to public sector and policy innovation.",
         "description_2": "COMPLETAR",
-    
-        "title_3": "MARTÍN GALANTERNIK",
-        "subtitle_3": "Participatory programs of civic education, promotion of rights and education and Road Safety.",
+
+        "title_3": "YANINA WELP",
+        "subtitle_3": "Research and editorial coordination with focus on political participation, Albert Hirschman Centre on Democracy.",
         "description_3": "COMPLETAR",
-    
-        "title_4": "MÓNICA VILLEGAS",
-        "subtitle_4": "Public leadership, citizen participation and cities.",
+        
+        "title_4": "JUAN CRUZ ZORZOLI",
+        "subtitle_4": "Sustainable and Regenerative Development / Participatory Planning and Communication / Environmental Education / Paradigm Shift.",
         "description_4": "COMPLETAR",
-    
-        "title_5": "YANINA WELP",
-        "subtitle_5": "Research and editorial coordination with focus on political participation, Albert Hirschman Centre on Democracy.",
+        
+        "title_5": "NATALIA CARFI",
+        "subtitle_5": "Design and implementation of Open Government public policies and open data.",
         "description_5": "COMPLETAR",
     
-        "title_6": "NATALIA CARFI",
-        "subtitle_6": "Design and implementation of Open Government public policies and open data.",
-        "description_6": "COMPLETAR"
-    
-      },
+        "title_6": "MARTÍN GALANTERNIK",
+        "subtitle_6": "Participatory programs of civic education, promotion of rights and education and Road Safety.",
+        "description_6": "COMPLETAR" 
+    },
     "ecosystem": {
         "main_title": "Ecosystem",
         "title_1": "Governments and Institutions",

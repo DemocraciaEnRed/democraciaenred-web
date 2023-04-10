@@ -1,5 +1,9 @@
 @import "~bulma/sass/utilities/_all.sass";
 
+.modifier {
+    padding: 0 4em;
+}
+
 .ecosystem-slider{
     background: #E3E3E3E3 !important;
     position:relative
@@ -23,8 +27,8 @@
 .div-circle{
     margin-top: 10vh;
     max-width: 500px;
-    min-height: 800px;
-    margin: 120px auto;
+    min-height: 1000px;
+    margin: auto auto;
     display: flex;
     gap: 100px;
     justify-content: center;
@@ -57,7 +61,7 @@
         width: 20em;
         height: 20em;
         max-height: 20rem;
-        padding: 2.8em;
+        padding: 0 2.8em;
     
         border-radius: 50%;
         margin: 1.75em auto ;

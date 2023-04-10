@@ -23,7 +23,7 @@
   
     "title_1": "Presupuesto Participativo",
     "subtitle_1": "Plataforma digital que permite la gestión integral de Presupuestos Participativos, generando instancias de diálogo entre la ciudadanía y los gobiernos.",
-    "description_1": "Plataforma digital que permite la gestión integral de Presupuestos Participativos, generando instancias de diálogo entre la ciudadanía y los gobiernos.\nOfrecemos soluciones para gobiernos locales y nacionales, poderes legislativos, organismos descentralizados, partidos politicos, organizaciones de la sociedad civil y otras instituciones.",
+    "description_1": "Plataforma digital que permite la gestión integral de Presupuestos Participativos, generando instancias de diálogo entre la ciudadanía y los gobiernos.",
     "link_1": "https://democraciaos.org/es/presupuestoparticipativo",
     "features_1_1": "Alta de propuestas",
     "features_1_2": "Factibilidad de propuestas",
@@ -34,7 +34,7 @@
 
     "title_2": "Consultas Digitales",
     "subtitle_2": "\n Plataforma digital de consulta, diálogo y debate que conecta al gobierno con la comunidad.",
-    "description_2": "Busca favorecer la participación, el debate y la interacción entre entidades y personas sobre diversas temáticas.\nOfrecemos soluciones para gobiernos locales y nacionales, poderes legislativos, organismos descentralizados, partidos politicos, organizaciones de la sociedad civil y otras instituciones.",
+    "description_2": "Busca favorecer la participación, el debate y la interacción entre entidades y personas sobre diversas temáticas.",
     "link_2": "https://democraciaos.org/es/consultadigital",
     "features_2_1": "Alta de consultas",
     "features_2_2": "Alta de propuestas ciudadanas",
@@ -45,7 +45,7 @@
 
     "title_3": "Co-construcción de leyes",
     "subtitle_3": "\nPlataforma digital de elaboración colaborativa de normas entre representantes y ciudadanía.",
-    "description_3": "Plataforma digital de elaboración colaborativa de normas entre representantes y ciudadanía.\nOfrecemos soluciones para gobiernos locales y nacionales, poderes legislativos, organismos descentralizados, partidos politicos, organizaciones de la sociedad civil y otras instituciones.",
+    "description_3": "Plataforma digital de elaboración colaborativa de normas entre representantes y ciudadanía.",
     "link_3": "https://democraciaos.org/es/coconstruccionleyes",
     "features_3_1": "Alta de proyectos de ley",
     "features_3_2": "Comentarios",
@@ -54,7 +54,7 @@
 
     "title_4": "Seguimiento de metas",
     "subtitle_4": "Plataforma digital que permite la publicacion de metas y compromisos de gobierno facilitando el seguimiento ciudadano.",
-    "description_4": "Plataforma digital que permite la publicacion de metas y compromisos de gobierno facilitando el seguimiento ciudadano.\nOfrecemos soluciones para gobiernos locales y nacionales, poderes legislativos, organismos descentralizados, partidos politicos, organizaciones de la sociedad civil y otras instituciones.",
+    "description_4": "Plataforma digital que permite la publicacion de metas y compromisos de gobierno facilitando el seguimiento ciudadano.",
     "link_4": "https://democraciaos.org/es/seguimientometas",
     "features_4_1": "Alta de objetivos y metas",
     "features_4_2": "Reportes de actualización de metas georreferenciables",
@@ -62,7 +62,7 @@
 
     "title_5": "Votación de autoridades",
     "subtitle_5": "\n Plataforma digital para votación de autoridades en procesos electorales de democracias cotidianas.",
-    "description_5": "Plataforma digital para votación de autoridades en instituciones y organizaciones.\nOfrecemos soluciones para gobiernos locales y nacionales, poderes legislativos, organismos descentralizados, partidos politicos, organizaciones de la sociedad civil y otras instituciones.",
+    "description_5": "Plataforma digital para votación de autoridades en instituciones y organizaciones.",
     "link_5": "https://democraciaos.org/es/votacionautoridades",
     "features_5_1": "Alta de candidaturas",
     "features_5_2": "Alta de padrón",
@@ -404,7 +404,7 @@
     "img_6": "img_5_6_es"
   },
   "lives": {
-    "title_1": "POLITICXS EN TWITTER",
+    "title_1": "POLÍTICXS EN TWITTER",
     "subtitle_1": "",
     "description_1": "Políticxs en Twitter es un repositorio con interacciones de más de 500 usuarios relacionados con la política en Argentina. Ponemos a disposición de la comunidad este ATLAS con datos libres y reutilizables, para facilitar la producción de conocimiento. Te invitamos a conocer más en el evento que hicimos de lanzamiento!",
 
@@ -490,28 +490,28 @@
   },
   "council": {
     "main_title": "Consejo Asesor",
-    "title_1": "DARDO CEBALLOS",
-    "subtitle_1": "Estrategias de innovación y  transformación digital aplicadas al sector público y la innovación política. ",
+    "title_1": "MÓNICA VILLEGAS",
+    "subtitle_1": " Liderazgo Público, participación ciudadana y ciudades. ",
     "description_1": "COMPLETAR",
 
-    "title_2": "JUAN CRUZ ZORZOLI",
-    "subtitle_2": "Desarrollo Sostenible y Regenerativo / Planificación y Comunicación Participativa / Educación Ambiental / Cambio de Paradigma. ",
+    "title_2": "DARDO CEBALLOS",
+    "subtitle_2": "Estrategias de innovación y  transformación digital aplicadas al sector público y la innovación política. ",
     "description_2": "COMPLETAR",
 
-    "title_3": "MARTÍN GALANTERNIK",
-    "subtitle_3": " Programas participativos de educación cívica, de promoción de derechos y de educación y seguridad Vial.  ",
+    "title_3": "YANINA WELP",
+    "subtitle_3": "Investigación y coordinación editorial con foco en participación política, Albert Hirschman Centre on Democracy.",
     "description_3": "COMPLETAR",
 
-    "title_4": "MÓNICA VILLEGAS",
-    "subtitle_4": " Liderazgo Público, participación ciudadana y ciudades. ",
+    "title_4": "JUAN CRUZ ZORZOLI",
+    "subtitle_4": "Desarrollo Sostenible y Regenerativo / Planificación y Comunicación Participativa / Educación Ambiental / Cambio de Paradigma. ",
     "description_4": "COMPLETAR",
 
-    "title_5": "YANINA WELP",
-    "subtitle_5": "Investigación y coordinación editorial con foco en participación política, Albert Hirschman Centre on Democracy.",
+    "title_5": "NATALIA CARFI",
+    "subtitle_5": "  Diseño e implementación de políticas públicas de  Gobierno Abiertos y datos abiertos. ",
     "description_5": "COMPLETAR",
 
-    "title_6": "NATALIA CARFI",
-    "subtitle_6": "  Diseño e implementación de políticas públicas de  Gobierno Abiertos y datos abiertos. ",
+    "title_6": "MARTÍN GALANTERNIK",
+    "subtitle_6": " Programas participativos de educación cívica, de promoción de derechos y de educación y seguridad Vial.  ",
     "description_6": "COMPLETAR"
 
   },

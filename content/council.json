@@ -5,11 +5,11 @@
         "description": "council.description_1",
         "socialmedia": [
           {
-            "url": "https://www.linkedin.com/in/dardoceballos/",
+            "url": "https://www.linkedin.com/in/m%C3%B3nica-villegas-carrasquilla-444537178/",
             "icon": "ln"
           }
         ],
-        "id": "dardo"
+        "id": "monica"
       },
     {
       "title": "council.title_2",
@@ -17,40 +17,16 @@
       "description": "council.description_2",
       "socialmedia": [
         {
-          "url": "https://www.linkedin.com/in/juan-cruz-zorzoli-588408a/",
+          "url": "https://www.linkedin.com/in/dardoceballos/",
           "icon": "ln"
         }
       ],
-      "id": "juan"
+      "id": "dardo"
     },
     {
       "title": "council.title_3",
       "subtitle": "council.subtitle_3",
       "description": "council.description_3",
-      "socialmedia": [
-        {
-          "url": "https://www.linkedin.com/in/mgalanternik/",
-          "icon": "ln"
-        }
-      ],
-      "id": "martin"
-    },
-    {
-      "title": "council.title_4",
-      "subtitle": "council.subtitle_4",
-      "description": "council.description_4",
-      "socialmedia": [
-        {
-          "url": "https://www.linkedin.com/in/m%C3%B3nica-villegas-carrasquilla-444537178/",
-          "icon": "ln"
-        }
-      ],
-      "id": "monica"
-    },
-    {
-      "title": "council.title_5",
-      "subtitle": "council.subtitle_5",
-      "description": "council.description_5",
       "socialmedia": [
         {
           "url": "https://www.linkedin.com/in/yanina-welp-b2870a/",
@@ -60,8 +36,21 @@
       "id": "yanina"
     },
     {
-      "title": "council.title_6",
-      "subtitle": "council.subtitle_6",
+      "title": "council.title_4",
+      "subtitle": "council.subtitle_4",
+      "description": "council.description_4",
+      "socialmedia": [
+        {
+          "url": "https://www.linkedin.com/in/juan-cruz-zorzoli-588408a/",
+          "icon": "ln"
+        }
+      ],
+      "id": "juan"
+    },
+    {
+      "title": "council.title_5",
+      "subtitle": "council.subtitle_5",
+      "description": "council.description_5",
       "socialmedia": [
         {
           "url": "https://www.linkedin.com/in/natalia-carfi-8683029/",
@@ -69,5 +58,16 @@
         }
       ],
       "id": "natalia"
+    },
+    {
+      "title": "council.title_6",
+      "subtitle": "council.subtitle_6",
+      "socialmedia": [
+        {
+          "url": "https://www.linkedin.com/in/mgalanternik/",
+          "icon": "ln"
+        }
+      ],
+      "id": "martin"
     }
 ]
