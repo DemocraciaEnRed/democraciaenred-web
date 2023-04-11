@@ -49,7 +49,7 @@ const BlogCards = ({ post, authors }) => {
               <p className="has-text-weight-bold">{post.content.title}</p>
               <p>{textClamp(post.content.description)}</p>
               {post.tag_list.length > 0 ? post.tag_list.map((tag, index) => (
-                <span key={index} class="tag is-rounded has-text-black has-background-grey-lighter px-2 mx-1 my-1">
+                <span key={index} className="tag is-rounded has-text-black has-background-grey-lighter px-2 mx-1 my-1">
                   {tag}
                 </span>
               )) : ''}

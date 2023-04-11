@@ -28,11 +28,11 @@ const BlogHeader = ({ data, posts, authors }) => {
           <h1 className="is-spaced mb-2 is-size-1">
             {intl.formatMessage({ id: data.subtitle })}
           </h1>
-          <div class="field mb-6">
-            <p class="control has-icons-right">
-              <input class="input pl-5 " type="text" placeholder={intl.formatMessage({ id: data.searchBar })} onChange={filterSearchBar} />
-              <span class="icon is-right">
-                <i class="fas fa-search" aria-hidden="true"></i>
+          <div className="field mb-6">
+            <p className="control has-icons-right">
+              <input className="input pl-5 " type="text" placeholder={intl.formatMessage({ id: data.searchBar })} onChange={filterSearchBar} />
+              <span className="icon is-right">
+                <i className="fas fa-search" aria-hidden="true"></i>
               </span>
             </p>
           </div>
@@ -54,13 +54,13 @@ const BlogHeader = ({ data, posts, authors }) => {
             filter === "all" ?
             posts.map((post, index) => {
               return (
-                  <BlogCards post={post} index={index} authors={authors} />
+                  <BlogCards post={post} key={index} authors={authors} />
               )
             })
             :
             posts.filter(post => post.tag_list.includes(filter)).map((post, index) => {
               return (
-                  <BlogCards post={post} index={index} authors={authors} />
+                  <BlogCards post={post} key={index} authors={authors} />
               )
             })
           }
