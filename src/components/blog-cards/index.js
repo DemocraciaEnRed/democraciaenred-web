@@ -31,7 +31,7 @@ const BlogCards = ({ post, authors }) => {
   
   return (
     <>
-      <div className='column is-one-third'>
+      <div className='column is-one-quarter'>
         <div className="card">
           <div className="card-image">
             <figure className='image is-16by9 backgroundImage' style={{ backgroundImage: post.content.banner.filename ? `url(${post.content.banner.filename})` : `url(https://democraciaenred.org/der-share.png)` }} >

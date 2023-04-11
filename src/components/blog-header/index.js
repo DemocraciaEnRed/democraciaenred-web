@@ -49,7 +49,7 @@ const BlogHeader = ({ data, posts, authors }) => {
         </div>
       </div>
       <div className='container py-5'>
-        <div className='columns'>
+        <div className='columns is-multiline'>
           {
             filter === "all" ?
             posts.map((post, index) => {
