@@ -1,5 +1,6 @@
 import React from 'react'
 import './style.scss'
+import { Link } from 'gatsby'
 
 const BlogCards = ({ post, authors }) => {
 
@@ -30,8 +31,8 @@ const BlogCards = ({ post, authors }) => {
   }
   
   return (
-    <>
-      <div className='column is-one-quarter'>
+    <div className='column is-one-quarter'>
+      <Link to={`/${post.full_slug}`}>
         <div className="card">
           <div className="card-image">
             <figure className='image is-16by9 backgroundImage' style={{ backgroundImage: post.content.banner.filename ? `url(${post.content.banner.filename})` : `url(https://democraciaenred.org/der-share.png)` }} >
@@ -57,8 +58,8 @@ const BlogCards = ({ post, authors }) => {
             </div>
           </div>
         </div>
-      </div>
-    </>
+      </Link>
+    </div>
   )
 }
 
