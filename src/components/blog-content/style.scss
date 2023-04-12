@@ -1,12 +1,16 @@
+@import "~bulma/sass/utilities/_all.sass";
+
 .blogContent {
   // background-color: #262626;
   background-color: #E8E8E8;
+
   .post-banner {
     width: 100%;
     height: 250px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
     .post-banner-overlay {
       display: flex;
       align-items: center;
@@ -14,30 +18,81 @@
       height: 50px;
       background-color: rgb(103 103 103 / 80%);
       color: #000;
+
       .breadcrumb a {
         color: #fff;
       }
     }
   }
-  .blog-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+
+  .post-body {
+    img {
+      max-width: 100%;
+    }
+
+    p {
+      margin-bottom: 8px;
+    }
+
+    h1,
+    h2 {
+      margin-bottom: 16px;
+    }
+
+    ul {
+      margin-bottom: 8px;
+
+      li {
+        list-style: disc;
+        margin-left: 35px;
+      }
+    }
+
+    a {
+      color: #69D69D;
+      text-decoration: underline;
+    }
+
+    blockquote {
+      background: transparent;
+      border-left: 5px solid #69D69D;
+      padding-left: 10px;
+      margin-bottom: 16px;
+      margin-top: 16px;
+
+      p {
+        font-size: 100%;
+        font-style: italic;
+        vertical-align: baseline;
+      }
+    }
   }
-  .post-content {
-    width: 80%;
+
+  .post-info-column{
+    .tags-wrapper {
+      justify-content: flex-end;
+    }
   }
-  .post-info {
-    width: 20%;
+
+  .tag {
+    width: fit-content;
   }
+
   & h1 {
     color: #000;
   }
 }
 
-@media screen and (max-width:768px) {
-  .blog-container {
-    flex-direction: column-reverse !important; 
+@include mobile {
+  .blogContent {
+    .post-columns {
+      flex-direction: column-reverse;
+    }
+    .post-info-column{
+      text-align: left !important;
+      .tags-wrapper {
+        justify-content: flex-start;
+      }
+    }
   }
 }
