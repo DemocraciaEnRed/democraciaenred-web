@@ -3,55 +3,5 @@
     "subtitle":"blog.subtitle",
     "searchBar":"blog.searchBar",
     "filterText":"blog.filterText",
-    "filter":[
-        {
-            "name":"blog.filters.filter1",
-            "id":"all"
-        },
-        {
-            "name":"blog.filters.filter2",
-            "id":"manuals"
-        },
-        {
-            "name":"blog.filters.filter3",
-            "id":"implementations"
-        },
-        {
-            "name":"blog.filters.filter4",
-            "id":"situation"
-        },
-        {
-            "name":"blog.filters.filter5",
-            "id":"technology"
-        },
-        {
-            "name":"blog.filters.filter6",
-            "id":"cybersecurity"
-        },
-        {
-            "name":"blog.filters.filter7",
-            "id":"Presupuesto Participativo"
-        },
-        {
-            "name":"blog.filters.filter8",
-            "id":"digitalConsultations"
-        },
-        {
-            "name":"blog.filters.filter9",
-            "id":"downloadable"
-        },
-        {
-            "name":"blog.filters.filter10",
-            "id":"publicConsultation"
-        },
-        {
-            "name":"blog.filters.filter11",
-            "id":"policy"
-        },
-        {
-            "name":"blog.filters.filter12",
-            "id":"UX"
-        }
-    ],
     "link":"/blog"
 }

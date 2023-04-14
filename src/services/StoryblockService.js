@@ -1,6 +1,6 @@
 import StoryblokClient from "storyblok-js-client";
 
-const StoryblockService = () => {
+export const StoryblockService = () => {
 
     if (typeof StoryblokInstance !== "object") {
         const StoryblokInstance = new StoryblokClient({
@@ -12,5 +12,3 @@ const StoryblockService = () => {
         return StoryblokInstance;
     }
 }
-
-export default StoryblockService;

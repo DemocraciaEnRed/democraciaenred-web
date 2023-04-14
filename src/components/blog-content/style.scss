@@ -86,7 +86,7 @@
 @include mobile {
   .blogContent {
     .post-columns {
-      flex-direction: column-reverse;
+      // flex-direction: column-reverse;
     }
     .post-info-column{
       text-align: left !important;
@@ -96,3 +96,11 @@
     }
   }
 }
+
+// @media screen and (max-width: 400px) {
+//   .modifierMobile {
+//     flex-direction: column !important;
+//   }
+// }
+
+

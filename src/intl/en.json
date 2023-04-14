@@ -730,22 +730,7 @@
     "blog": {
         "title": "BLOG",
         "subtitle": "Get to know our news",
-        "searchBar":"Enter the Author's first or last name",
-        "filterText":"Filter by topic",
-            "filters": {
-                "filter1": "All",
-                "filter2": "Manuals",
-                "filter3": "Implementations",
-                "filter4": "Current Events",
-                "filter5": "Technology",
-                "filter6": "Cybersecurity",
-                "filter7": "Participatory Budget",
-                "filter8": "Digital Consultations",
-                "filter9": "Downloadable",
-                "filter10": "Public Consultation",
-                "filter11": "Policy",
-                "filter12": "UX"
-            }   
+        "searchBar":"Enter the Author's first or last name"
     },
     "livesH1": "#LIVES",
 

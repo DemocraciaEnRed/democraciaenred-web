@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import StoryblockService from "../../services/StoryblockService";
+import { StoryblockService } from "../../services/StoryblockService";
 import { navigate } from "gatsby-plugin-intl";
 import Layout from "../../components/layout";
 import BlogContent from "../../components/blog-content";

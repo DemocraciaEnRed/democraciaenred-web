@@ -769,21 +769,7 @@
     "title": "BLOG",
     "subtitle": "Conoce nuestras novedades",
     "searchBar":"Ingresa el nombre o apellido del Autor o Autora",
-    "filterText":"Filtra por tema",
-    "filters": {
-      "filter1":"Todos",
-      "filter2":"Manuales",
-      "filter3":"Implementaciones",
-      "filter4":"Coyuntura",
-      "filter5":"Tecnología",
-      "filter6":"Ciberseguridad",
-      "filter7":"Presupuesto Participativo",
-      "filter8":"Consultas Digitales",
-      "filter9":"Descargables",
-      "filter10":"Consulta Pública",
-      "filter11":"Política",
-      "filter12":"UX"
-    }
+    "filterText":"Filtra por tema"
   },
 
   "requirements": "Requisitos",
