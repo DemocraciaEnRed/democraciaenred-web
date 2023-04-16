@@ -6,9 +6,9 @@ export const getStories = () =>{
     storyblokInstance.get('cdn/stories/',{
         "starts_with": "blog/",
         "version": process.env.STORYBLOK_VERSION,
-        "resolve_relations": "author"
+        "resolve_relations": ["post.author"]
       })
-      .then(response => response.data)
+      .then(response => console.log(response.data))
       .catch(error => { 
         console.log(error)
       })
@@ -18,7 +18,7 @@ export const getStoriesByTags = (tag) =>{
     const options = {
     "starts_with": "blog/",
     "version": process.env.STORYBLOK_VERSION,
-    "resolve_relations": "author",
+    "resolve_relations": ["post.author"],
     "filter_query": {
         "tag_list": {
                 "all_in_array":`${tag}`

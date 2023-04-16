@@ -30,10 +30,8 @@ const BlogContent = ({ post }) => {
     return ''
   }
   const currentAuthor = findAuthor()
-  console.log(currentAuthor)
 
   if (Object.keys(post).length > 0) {
-    console.log(authors)
     return (
       <section className="blogContent">
         <div

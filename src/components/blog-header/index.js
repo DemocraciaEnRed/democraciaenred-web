@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react'
 import { useIntl } from 'gatsby-plugin-intl';
 import "./style.scss"
 import BlogCards from '../blog-cards';
-// import { getStoriesByAuthor } from '../../controllers/StoryblokController';
+import { getStories } from '../../controllers/StoryblokController';
 
 const BlogHeader = ({ data, posts, authors, tags }) => {
   const intl = useIntl();
@@ -11,12 +11,10 @@ const BlogHeader = ({ data, posts, authors, tags }) => {
   const [showPosts, setShowPosts] = useState([]);
   const inputSearch = useRef('')
 
-// getStoriesByAuthor('Nico')
+getStories()
 
 useEffect(() => {
   setShowPosts(filterPosts())
-  console.log('showPosts');
-  console.log(authorSearch)
 }, [authorSearch, filter, posts])
 
 const filterSearchBar = (e) => {
@@ -41,13 +39,13 @@ const filterPosts = () => {
   }
 
   if (authorSearch.length > 0 && filter === 'todos') {
-    const postsByAuthor = posts.filter((post) => authorSearch.includes(post.content.author))
+    const postsByAuthor = posts.filter((post) => authorSearch.includes(post.content.author.uuid))
     return postsByAuthor
   }
 
   if (authorSearch.length > 0 && filter !== 'todos') {
     const postsByAuthorAndFilters = posts.filter((post) => {
-      const author = authors.find((author) => author.uuid === post.content.author);
+      const author = authors.find((author) => author.uuid === post.content.author.uuid);
       return authorSearch.includes(author.uuid) && post.tag_list.includes(filter)
     });
     return postsByAuthorAndFilters

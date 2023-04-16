@@ -8,7 +8,7 @@ const BlogCards = ({ post, authors }) => {
 
   const findAuthor = () => {
     if (authors.length > 0) {
-      const author = authors.find((author) => author.uuid === post.content.author)
+      const author = authors.find((author) => author.uuid === post.content.author.uuid)
       return (
         <p>{author.name}</p>
       )

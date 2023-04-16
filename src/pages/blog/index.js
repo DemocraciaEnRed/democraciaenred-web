@@ -23,11 +23,11 @@ const Blog = () => {
   useEffect(() => {
     storyblokInstance.get(`cdn/stories`, {
       version: process.env.STORYBLOK_VERSION,
-      starts_with: 'blog/'
+      starts_with: 'blog/',
+      resolve_relations:['post.author']
     })
     .then((response) => {
       setData(response.data.stories)
-      console.log(response.data.stories)
     })
     .catch((error) => {
       console.log(error)
@@ -51,7 +51,6 @@ const Blog = () => {
     })
     .then((res) => {
       setTags(res.data.tags)
-      console.log(res.data.tags)
     })
     .catch((err) => {
       console.log(err)

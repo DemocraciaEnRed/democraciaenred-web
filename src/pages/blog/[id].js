@@ -15,7 +15,6 @@ const BlogView = (param) => {
       })
       .then((response) => {
         setPost(response.data.story);
-        console.log(response.data.story.content.title);
       })
       .catch((error) => {
         console.log(error);
