@@ -15,7 +15,7 @@ const BlogCards = ({ post, authors }) => {
     }
     return ''
   }
-
+  
   return (
     <div className='column is-one-third'>
       <Link to={`/${post.full_slug}`}>

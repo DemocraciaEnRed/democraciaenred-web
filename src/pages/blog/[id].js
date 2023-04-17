@@ -12,6 +12,7 @@ const BlogView = (param) => {
     storyblockInstance
       .get(`cdn/stories/${param.uri}`, {
         version: process.env.STORYBLOK_VERSION,
+        resolve_relations:['post.author']     
       })
       .then((response) => {
         setPost(response.data.story);

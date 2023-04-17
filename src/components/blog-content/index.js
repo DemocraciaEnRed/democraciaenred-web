@@ -3,35 +3,11 @@ import { Micromark as mdTransformer } from "../../utils/micromark";
 import { dateParse } from "../../utils/DateParse";
 import { StoryblockService } from '../../services/StoryblockService';
 import "./style.scss";
+import FeaturedPosts from "./featured-posts";
 
 const BlogContent = ({ post }) => {
-
-  const [authors, setAuthors] = useState([])
-  const storyblokInstance = StoryblockService()
-
-  useEffect(() => {
-    storyblokInstance.get(`cdn/stories`, {
-      version: process.env.STORYBLOK_VERSION,
-      starts_with: 'authors/'
-    })
-      .then((res) => {
-        setAuthors(res.data.stories)
-      })
-      .catch((err) => {
-        console.log(err)
-      })
-  }, [])
-
-  const findAuthor = () => {
-    if (authors.length > 0) {
-      const author = authors.find((author) => author.uuid === post.content.author)
-      return author
-    }
-    return ''
-  }
-  const currentAuthor = findAuthor()
-
   if (Object.keys(post).length > 0) {
+    const author = post.content.author;
     return (
       <section className="blogContent">
         <div
@@ -67,10 +43,10 @@ const BlogContent = ({ post }) => {
                 <div className="is-flex is-flex-direction-row is-align-items-center is-justify-content-space-between is-flex-wrap-wrap">
                   <div className="is-flex is-flex-direction-row">
                     <figure className="image is-96x96 pr-4">
-                      <img className="is-rounded" src={currentAuthor.content?.photo?.filename ? currentAuthor.content.photo.filename : `https://democraciaenred.org/der-share.png`} />
+                      <img className="is-rounded" src={author.content?.photo?.filename ? author.content.photo.filename : `https://democraciaenred.org/der-share.png`} />
                     </figure>
                     <div className="is-flex is-flex-direction-column is-justify-content-center">
-                      <p>{currentAuthor.name}</p>
+                      <p>{author.name}</p>
                       <p>{dateParse(post.published_at)}</p>
                     </div>
                   </div>
@@ -109,20 +85,21 @@ const BlogContent = ({ post }) => {
                 <div className="columns is-multiline has-text-right post-info-column">
                   <div className="column is-full-tablet">
                     <figure className="image is-128x128 ml-auto mb-3">
-                      <img className="is-rounded" src={currentAuthor.content?.photo?.filename ? currentAuthor.content.photo.filename : `https://democraciaenred.org/der-share.png`} />
+                      <img className="is-rounded" src={author.content?.photo?.filename ? author.content.photo.filename : `https://democraciaenred.org/der-share.png`} />
                     </figure>
-                    <b>{currentAuthor.name}</b>
-                    <p className="pb-2">{currentAuthor.content?.role}</p>
-                    {currentAuthor.content?.linkedin ? <a href={currentAuthor.content.linkedin} style={{ color: '#0077b5' }} target="_blank" ><i className="fab fa-linkedin fa-2x mx-1" /></a> : ''}
-                    {currentAuthor.content?.twitter ? <a href={currentAuthor.content.twitter} target="_blank" ><i className="fab fa-twitter fa-2x mx-1" /></a> : ''}
+                    <b>{author.name}</b>
+                    <p className="pb-2">{author.content?.role}</p>
+                    {author.content?.linkedin ? <a href={author.content.linkedin} style={{ color: '#0077b5' }} target="_blank" ><i className="fab fa-linkedin fa-2x mx-1" /></a> : ''}
+                    {author.content?.twitter ? <a href={author.content.twitter} target="_blank" ><i className="fab fa-twitter fa-2x mx-1" /></a> : ''}
                   </div>
                   <div className="column is-full-tablet">
-                    <p>{currentAuthor.content?.bio}</p>
+                    <p>{author.content?.bio}</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+        <FeaturedPosts uidPost={post.content._uid} tags={post.tag_list}/>
         </div>
       </section>
     );
