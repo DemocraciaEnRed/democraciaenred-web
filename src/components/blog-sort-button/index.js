@@ -1,16 +1,13 @@
 import React, { useState } from 'react'
-import { dateParse } from '../../utils/DateParse'
 import BlogCards from '../blog-cards'
 
-const SortButton = ({ posts, authors }) => {
-  const [sortCriteria, setSortCriteria] = useState('name')
+const SortButton = ({ posts }) => {
+  const [sortCriteria, setSortCriteria] = useState('')
   const [sortOrders, setSortOrders] = useState({
     name: 'asc',
     author: 'asc',
     date: 'asc',
   })
-
-  console.log(posts)
 
   function handleSort(criteria) {
     if (criteria === sortCriteria) {
@@ -22,10 +19,10 @@ const SortButton = ({ posts, authors }) => {
     } else {
       // if a new sorting criterion is clicked, set the new criterion and the ascending direction
       setSortCriteria(criteria)
-    setSortOrders(prevOrders => ({
-      ...prevOrders,
-      [criteria]: 'asc'
-    }))
+      setSortOrders(prevOrders => ({
+        ...prevOrders,
+        [criteria]: 'asc'
+      }))
     }
   }
 
@@ -34,16 +31,13 @@ const SortButton = ({ posts, authors }) => {
     switch (sortCriteria) {
       case 'name':
         return direction * a.name.localeCompare(b.name)
+      case 'author':
+        return direction * a.content.author.name.localeCompare(b.content.author.name)
       case 'date':
         return direction * (new Date(a.published_at) - new Date(b.published_at))
       default:
         return 0
     }
-  })
-
-  const sortedDataAuthors = [...authors].sort((a, b) => {
-    const direction = sortOrders[sortCriteria] === 'asc' ? 1 : -1
-    if (sortCriteria === 'author') return direction * a.name.localeCompare(b.author)
   })
 
   // for toggle the bulma dropdown button
@@ -53,7 +47,7 @@ const SortButton = ({ posts, authors }) => {
   }
 
   return (
-    <div className="is-flex is-justify-content-flex-end">
+    <div className="">
       <div className={`dropdown` + (toggle === false ? "" : " is-active")}>
         <div className="dropdown-trigger">
           <button className="button" aria-haspopup="true" aria-controls="dropdown-menu" onClick={() => handleToggle()} style={{ backgroundColor: '#ff000000', color: '#fff', border: 'none', borderBottom: '1px solid #D7D7D7', boxShadow: 'none', borderRadius: 0 }} >
@@ -67,19 +61,24 @@ const SortButton = ({ posts, authors }) => {
           <div className="dropdown-content">
             <hr class="dropdown-divider" />
             <a className={`dropdown-item ${sortCriteria === 'name' ? 'is-active' : ''}`} onClick={() => handleSort('name')} style={{ userSelect: 'none' }}>
-              Ordenar por nombre {sortOrders.name === 'asc' ? 'ascendente' : 'descendente'}
+              Ordenar por nombre {sortOrders.name === 'asc' ? 'descendente' : 'ascendente'}
             </a>
             <a className={`dropdown-item ${sortCriteria === 'author' ? 'is-active' : ''}`} onClick={() => handleSort('author')} style={{ userSelect: 'none' }}>
-              Ordenar por autor {sortOrders.author === 'asc' ? 'ascendente' : 'descendente'}
+              Ordenar por autor {sortOrders.author === 'asc' ? 'descendente' : 'ascendente'}
             </a>
             <a className={`dropdown-item ${sortCriteria === 'date' ? 'is-active' : ''}`} onClick={() => handleSort('date')} style={{ userSelect: 'none' }}>
-              Ordenar por fecha {sortOrders.date === 'asc' ? 'ascendente' : 'descendente'}
+              Ordenar por fecha {sortOrders.date === 'asc' ? 'descendente' : 'ascendente'}
             </a>
           </div>
         </div>
       </div>
+      <div className='columns is-multiline'>
+        {sortedDataPosts.map((post, index) => (
+          <BlogCards key={index} post={post} />
+        ))}
+      </div>
     </div>
-    )
+  )
 }
 
 export default SortButton

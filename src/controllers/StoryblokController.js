@@ -46,7 +46,6 @@ export const getFeaturedPosts = async (tags, uid, page) => {
 
    return await storyblokInstance.get('cdn/stories/', { ...options })
         .then(response => {
-            console.log(response.data.stories)
             return response.data.stories
         })
         .catch(error => {
@@ -70,6 +69,37 @@ export const getStoriesByTags = async (tags) => {
         .catch(error => {
             console.log(error)
         })
+}
+
+export const getCombinedFilterStories = async (query, tags)=>{
+
+    if (tags.includes("todos")) {tags = '*'}
+    if (query === '') {query = '*'}
+
+    console.log(tags);
+    console.log(query);
+
+    const options = {
+        "starts_with": "blog/",
+        "version": process.env.STORYBLOK_VERSION,
+        "resolve_relations": ["post.author"],
+        "with_tag": tags,
+        "filter_query": {
+            "post.author": {
+                "name": {
+                    "like": query
+                }
+            }
+        }
+    }
+    return await storyblokInstance.get('cdn/stories/', { ...options })
+    .then(response => {
+        console.log(response.data.stories)
+        return response.data.stories
+    })
+    .catch(error => {
+        console.log(error)
+    })
 }
 
 // export const getStoriesByAuthor = (authorQuery) => {

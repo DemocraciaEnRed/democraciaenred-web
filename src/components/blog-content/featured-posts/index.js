@@ -4,18 +4,12 @@ import BlogCards from '../../blog-cards'
 
 const FeaturedPosts = ({ tags, uidPost }) => {
     const [posts, setPosts] = useState([])
-    const [authors, setAuthors] = useState([])
-    useEffect(() => {
 
+    useEffect(() => {
         getFeaturedPosts(tags, uidPost, 1)
             .then(res => {
-                console.log(res)
                 setPosts(res)
             })
-            .catch(err => console.log(err))
-
-        getAuthors()
-            .then(res => setAuthors(res))
             .catch(err => console.log(err))
     }, [])
     return (
@@ -23,7 +17,7 @@ const FeaturedPosts = ({ tags, uidPost }) => {
             <h3 className='is-size-3 has-text-centered mb-5'>Articulos relacionados</h3>
             <div className='columns is-multiline'>
                 {posts.length > 0 ?
-                    posts.map((post, index) => <BlogCards post={post} key={index} authors={authors} />) :
+                    posts.map((post, index) => <BlogCards post={post} key={index}/>) :
                     <h2>Sin resultados</h2>
                 }
             </div>

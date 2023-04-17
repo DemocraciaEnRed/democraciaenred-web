@@ -21,52 +21,60 @@ const Blog = () => {
   const [tags, setTags] = useState([])
 
   useEffect(() => {
+
+    const controller = new AbortController();
+
     storyblokInstance.get(`cdn/stories`, {
       version: process.env.STORYBLOK_VERSION,
       starts_with: 'blog/',
-      resolve_relations:['post.author']
+      resolve_relations: ['post.author']
     })
-    .then((response) => {
-      setData(response.data.stories)
-    })
-    .catch((error) => {
-      console.log(error)
-    })
+      .then((response) => {
+        setData(response.data.stories)
+      })
+      .catch((error) => {
+        console.log(error)
+      })
 
 
     storyblokInstance.get(`cdn/stories`, {
       version: process.env.STORYBLOK_VERSION,
       starts_with: 'authors/'
     })
-    .then((res) => {
-      setAuthors(res.data.stories)
-    })
-    .catch((err) => {
-      console.log(err)
-    })
+      .then((res) => {
+        setAuthors(res.data.stories)
+      })
+      .catch((err) => {
+        console.log(err)
+      })
 
     storyblokInstance.get(`cdn/tags`, {
       version: process.env.STORYBLOK_VERSION,
       starts_with: 'blog/'
     })
-    .then((res) => {
-      setTags(res.data.tags)
-    })
-    .catch((err) => {
-      console.log(err)
-    })
+      .then((res) => {
+        setTags(res.data.tags)
+      })
+      .catch((err) => {
+        console.log(err)
+      })
+
+    return () => {
+      controller.abort();
+    };
+
 
   }, [])
 
   return (
     <React.Fragment>
-      <Layout style={{margin: 50}}>
+      <Layout style={{ margin: 50 }}>
         <SEO title={title} description={description} robot={robot} />
-        <InternalPageHero data={dataBlog} background= {"pink"} />
+        <InternalPageHero data={dataBlog} background={"pink"} />
         <Division />
         <BlogHeader data={dataBlog} posts={data} authors={authors} tags={tags} />
       </Layout>
-  </React.Fragment>   
+    </React.Fragment>
   )
 }
 

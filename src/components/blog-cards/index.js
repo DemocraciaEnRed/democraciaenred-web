@@ -4,18 +4,8 @@ import { Link } from 'gatsby'
 import { dateParse } from '../../utils/DateParse'
 import { textClamp } from '../../utils/TextClamp'
 
-const BlogCards = ({ post, authors }) => {
+const BlogCards = ({ post }) => {
 
-  const findAuthor = () => {
-    if (authors.length > 0) {
-      const author = authors.find((author) => author.uuid === post.content.author.uuid)
-      return (
-        <p>{author.name}</p>
-      )
-    }
-    return ''
-  }
-  
   return (
     <div className='column is-one-third'>
       <Link to={`/${post.full_slug}`}>
@@ -27,7 +17,7 @@ const BlogCards = ({ post, authors }) => {
           <div className="card-content">
             <div className="is-flex is-align-center mb-3">
               <div className="media-content">
-                {findAuthor()}
+                {post.content.author.name}
               </div>
               {dateParse(post.published_at)}
             </div>
