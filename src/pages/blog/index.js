@@ -29,7 +29,7 @@ const Blog = () => {
     .catch((error) => {console.log(error)})
 
     getTags()
-    .then((res) => {setTags(res.data.tags)})
+    .then((res) => {setTags(res)})
     .catch((err) => {console.log(err)})
 
     return () => {

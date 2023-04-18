@@ -70,6 +70,29 @@ export const getFeaturedPosts = async (tags, uid, page) => {
         })
 }
 
+export const getSuggestedPosts = async (uid, page) => {
+    const options = {
+        "starts_with": "blog/",
+        "version": process.env.STORYBLOK_VERSION,
+        "page": page,
+        "per_page": 20,
+        "filter_query": {
+            "_uid": {
+                "not_in": uid
+            }
+        }
+    }
+
+    return await storyblokInstance.get('cdn/stories/', { ...options })
+        .then(response => {
+            console.log(response)
+            return response.data.stories
+        })
+        .catch(error => {
+            console.log(error)
+        })
+}
+
 ///functions yet to be implemented
 export const getStoriesByTags = async (tags) => {
     const options = {
@@ -106,9 +129,12 @@ export const getCombinedFilterStories = async (query, tags) => {
             }
         }
     }
-    return await storyblokInstance.get('cdn/stories/', { ...options })
+    return await storyblokInstance.get('cdn/stories/', { ...options, headers: { 'Access-Control-Allow-Origin': '*', "Accept": "application/json", "Content-Type": "application/json", "Access-Control-Allow-Headers": "Accept"
+} })
         .then(response => {
-            console.log(response.data.stories)
+            const a = response
+            const b = a.json()
+            console.log(b)
             return response.data.stories
         })
         .catch(error => {

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Micromark as mdTransformer } from "../../utils/micromark";
 import { dateParse } from "../../utils/DateParse";
-import { StoryblockService } from '../../services/StoryblockService';
 import "./style.scss";
 import FeaturedPosts from "./featured-posts";
 
@@ -99,7 +98,7 @@ const BlogContent = ({ post }) => {
               </div>
             </div>
           </div>
-        <FeaturedPosts uidPost={post.content._uid} tags={post.tag_list}/>
+        <FeaturedPosts uidPost={post.content._uid} tags={post.tag_list} />
         </div>
       </section>
     );
