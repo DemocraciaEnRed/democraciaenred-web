@@ -8,13 +8,13 @@ export const getStories = async () => {
         "version": process.env.STORYBLOK_VERSION,
         "resolve_relations": ["post.author"]
     })
-        .then(response => console.log(response.data))
+        .then(response => response.data.stories)
         .catch(error => {
             console.log(error)
         })
 }
-
 export const getAuthors = async () => {
+
     return await storyblokInstance.get('cdn/stories/', {
         "starts_with": "authors/",
         "version": process.env.STORYBLOK_VERSION,
@@ -26,9 +26,26 @@ export const getAuthors = async () => {
         .catch(error => {
             console.log(error)
         })
-    
 }
+export const getTags = async () => {
+    return await storyblokInstance.get(`cdn/tags`, {
+        version: process.env.STORYBLOK_VERSION,
+        starts_with: 'blog/'
+    })
+        .then((res) => res.data.tags)
+        .catch((err) => {
+            console.log(err)
+        })
 
+}
+export const getStoryByFullSlug = async (fullSlug) => {
+    return await storyblokInstance.get(`cdn/stories/${fullSlug}`, {
+        "version": process.env.STORYBLOK_VERSION,
+        "resolve_relations": ["post.author"]
+    })
+        .then((response) => { return response.data.story })
+        .catch((error) => { console.log(error); })
+}
 export const getFeaturedPosts = async (tags, uid, page) => {
     const options = {
         "starts_with": "blog/",
@@ -39,12 +56,12 @@ export const getFeaturedPosts = async (tags, uid, page) => {
         "with_tag": tags,
         "filter_query": {
             "_uid": {
-              "not_in": uid
+                "not_in": uid
             }
-          }
+        }
     }
 
-   return await storyblokInstance.get('cdn/stories/', { ...options })
+    return await storyblokInstance.get('cdn/stories/', { ...options })
         .then(response => {
             return response.data.stories
         })
@@ -53,6 +70,7 @@ export const getFeaturedPosts = async (tags, uid, page) => {
         })
 }
 
+///functions yet to be implemented
 export const getStoriesByTags = async (tags) => {
     const options = {
         "starts_with": "blog/",
@@ -61,7 +79,7 @@ export const getStoriesByTags = async (tags) => {
         "with_tag": tags
     }
 
-   return await storyblokInstance.get('cdn/stories/', { ...options })
+    return await storyblokInstance.get('cdn/stories/', { ...options })
         .then(response => {
             console.log(response.data.stories)
             return response.data.stories
@@ -70,14 +88,10 @@ export const getStoriesByTags = async (tags) => {
             console.log(error)
         })
 }
+export const getCombinedFilterStories = async (query, tags) => {
 
-export const getCombinedFilterStories = async (query, tags)=>{
-
-    if (tags.includes("todos")) {tags = '*'}
-    if (query === '') {query = '*'}
-
-    console.log(tags);
-    console.log(query);
+    if (tags.includes("todos")) { tags = '*' }
+    if (query === '') { query = '*' }
 
     const options = {
         "starts_with": "blog/",
@@ -93,24 +107,11 @@ export const getCombinedFilterStories = async (query, tags)=>{
         }
     }
     return await storyblokInstance.get('cdn/stories/', { ...options })
-    .then(response => {
-        console.log(response.data.stories)
-        return response.data.stories
-    })
-    .catch(error => {
-        console.log(error)
-    })
+        .then(response => {
+            console.log(response.data.stories)
+            return response.data.stories
+        })
+        .catch(error => {
+            console.log(error)
+        })
 }
-
-// export const getStoriesByAuthor = (authorQuery) => {
-//     let authors = [];
-//     const options1 = {
-//         "starts_with": "authors/",
-//         "version": process.env.STORYBLOK_VERSION,
-//     }
-//     storyblokInstance.get('cdn/stories/', { ...options1 })
-//         .then(response => console.log(response.data))
-//         .catch(error => {
-//             console.log(error)
-//         })
-// }

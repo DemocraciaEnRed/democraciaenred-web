@@ -1,27 +1,24 @@
 import React, { useState, useEffect } from "react";
-import { StoryblockService } from "../../services/StoryblockService";
 import { navigate } from "gatsby-plugin-intl";
 import Layout from "../../components/layout";
 import BlogContent from "../../components/blog-content";
+import { getStoryByFullSlug } from "../../controllers/StoryblokController";
 
 const BlogView = (param) => {
   const [post, setPost] = useState({});
-  const storyblockInstance = StoryblockService();
 
   useEffect(() => {
-    storyblockInstance
-      .get(`cdn/stories/${param.uri}`, {
-        version: process.env.STORYBLOK_VERSION,
-        resolve_relations:['post.author']     
-      })
+
+    getStoryByFullSlug(param.uri)
       .then((response) => {
-        setPost(response.data.story);
+        setPost(response);
       })
       .catch((error) => {
         console.log(error);
         navigate(`/404`);
       });
-  }, []);
+
+  }, [param]);
 
   if (Object.keys(post).length > 0) {
     return (

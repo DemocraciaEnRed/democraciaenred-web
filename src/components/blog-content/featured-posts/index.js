@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { getStoriesByTags, getAuthors, getFeaturedPosts } from '../../../controllers/StoryblokController'
+import { getFeaturedPosts } from '../../../controllers/StoryblokController'
 import BlogCards from '../../blog-cards'
 
 const FeaturedPosts = ({ tags, uidPost }) => {
@@ -17,7 +17,7 @@ const FeaturedPosts = ({ tags, uidPost }) => {
             <h3 className='is-size-3 has-text-centered mb-5'>Articulos relacionados</h3>
             <div className='columns is-multiline'>
                 {posts.length > 0 ?
-                    posts.map((post, index) => <BlogCards post={post} key={index}/>) :
+                    posts.map((post, index) => <BlogCards post={post} key={index} />) :
                     <h2>Sin resultados</h2>
                 }
             </div>
