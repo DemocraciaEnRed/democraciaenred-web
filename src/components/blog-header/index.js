@@ -117,7 +117,7 @@ const BlogHeader = ({ data, posts, tags }) => {
         </div>
       </div>
       <div className='container py-5'>
-        {showPosts.length > 0 ?<SortButton posts={showPosts} /> : <h1>No hay posts para tu busqueda</h1>}
+        {showPosts.length > 0 ?<SortButton posts={showPosts} /> : <h1 className="has-text-centered">No hay posts para tu busqueda</h1>}
       </div>
     </section>
   )
