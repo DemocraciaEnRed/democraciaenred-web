@@ -74,8 +74,9 @@ export const getSuggestedPosts = async (uid, page) => {
     const options = {
         "starts_with": "blog/",
         "version": process.env.STORYBLOK_VERSION,
+        "resolve_relations": ["post.author"],
         "page": page,
-        "per_page": 20,
+        "per_page": 25,
         "filter_query": {
             "_uid": {
                 "not_in": uid
@@ -85,7 +86,6 @@ export const getSuggestedPosts = async (uid, page) => {
 
     return await storyblokInstance.get('cdn/stories/', { ...options })
         .then(response => {
-            console.log(response)
             return response.data.stories
         })
         .catch(error => {
@@ -129,12 +129,9 @@ export const getCombinedFilterStories = async (query, tags) => {
             }
         }
     }
-    return await storyblokInstance.get('cdn/stories/', { ...options, headers: { 'Access-Control-Allow-Origin': '*', "Accept": "application/json", "Content-Type": "application/json", "Access-Control-Allow-Headers": "Accept"
-} })
+    return await storyblokInstance.get('cdn/stories/', { ...options })
         .then(response => {
-            const a = response
-            const b = a.json()
-            console.log(b)
+            console.log(response.data.stories)
             return response.data.stories
         })
         .catch(error => {
