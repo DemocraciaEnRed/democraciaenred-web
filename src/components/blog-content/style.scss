@@ -4,6 +4,10 @@
   // background-color: #262626;
   background-color: #E8E8E8;
 
+  .author-image {
+    margin-left: auto;
+  }
+
   .post-banner {
     width: 100%;
     height: 250px;
@@ -85,8 +89,8 @@
 
 @include mobile {
   .blogContent {
-    .post-columns {
-      // flex-direction: column-reverse;
+    .author-image {
+      margin-left: 0;
     }
     .post-info-column{
       text-align: left !important;
@@ -96,11 +100,3 @@
     }
   }
 }
-
-// @media screen and (max-width: 400px) {
-//   .modifierMobile {
-//     flex-direction: column !important;
-//   }
-// }
-
-

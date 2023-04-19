@@ -84,7 +84,7 @@ const BlogContent = ({ post }) => {
               <div className="column is-12-touch is-3-desktop">
                 <div className="columns is-multiline has-text-right post-info-column">
                   <div className="column is-full-tablet">
-                    <figure className="image is-128x128 ml-auto mb-3">
+                    <figure className="image is-128x128 mb-3 author-image">
                       <img className="is-rounded" src={author.content?.photo?.filename ? author.content.photo.filename : `https://democraciaenred.org/der-share.png`} />
                     </figure>
                     <b>{author.name}</b>
