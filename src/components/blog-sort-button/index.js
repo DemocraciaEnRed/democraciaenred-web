@@ -62,7 +62,7 @@ const SortButton = ({ posts }) => {
         </div>
         <div className="dropdown-menu" id="dropdown-menu" role="menu">
           <div className="dropdown-content">
-            <hr class="dropdown-divider" />
+            <hr className="dropdown-divider" />
             <a className={`dropdown-item ${sortCriteria === 'name' ? 'is-active' : ''}`} onClick={() => handleSort('name')} style={{ userSelect: 'none' }}>
               Ordenar por nombre {sortOrders.name === 'asc' ? 'descendente' : 'ascendente'}
             </a>

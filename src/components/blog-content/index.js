@@ -19,14 +19,14 @@ const BlogContent = ({ post }) => {
         >
           <div className="post-banner-overlay">
             <nav
-              class="breadcrumb has-succeeds-separator"
+              className="breadcrumb has-succeeds-separator"
               aria-label="breadcrumbs"
             >
               <ul>
                 <li>
                   <a href="/blog">Blog</a>
                 </li>
-                <li class="is-active">
+                <li className="is-active">
                   <a href="#" aria-current="page">
                     {post.content.title}
                   </a>
