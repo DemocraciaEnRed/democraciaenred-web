@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Micromark as mdTransformer } from "../../utils/micromark";
+import { Micromark as mdTransformer } from "../../utils/Micromark"
 import { dateParse } from "../../utils/DateParse";
 import "./style.scss";
 import FeaturedPosts from "./featured-posts";
