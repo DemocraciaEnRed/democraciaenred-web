@@ -82,19 +82,15 @@ const BlogContent = ({ post }) => {
                 )}
               </div>
               <div className="column is-12-touch is-3-desktop">
-                <div className="columns is-multiline has-text-right post-info-column">
-                  <div className="column is-full-tablet">
-                    <figure className="image is-128x128 mb-3 author-image">
-                      <img className="is-rounded" src={author.content?.photo?.filename ? author.content.photo.filename : `https://democraciaenred.org/der-share.png`} />
-                    </figure>
-                    <b>{author.name}</b>
-                    <p className="pb-2">{author.content?.role}</p>
-                    {author.content?.linkedin ? <a href={author.content.linkedin} style={{ color: '#0077b5' }} target="_blank" ><i className="fab fa-linkedin fa-2x mx-1" /></a> : ''}
-                    {author.content?.twitter ? <a href={author.content.twitter} target="_blank" ><i className="fab fa-twitter fa-2x mx-1" /></a> : ''}
-                  </div>
-                  <div className="column is-full-tablet">
-                    <p>{author.content?.bio}</p>
-                  </div>
+                <figure className="image is-128x128 mb-3 author-image">
+                  <img className="is-rounded" src={author.content?.photo?.filename ? author.content.photo.filename : `https://democraciaenred.org/der-share.png`} />
+                </figure>
+                <b>{author.name}</b>
+                <p className="pb-2">{author.content?.role}</p>
+                {author.content?.linkedin ? <a href={author.content.linkedin} style={{ color: '#0077b5' }} target="_blank" ><i className="fab fa-linkedin fa-2x mx-1" /></a> : ''}
+                {author.content?.twitter ? <a href={author.content.twitter} target="_blank" ><i className="fab fa-twitter fa-2x mx-1" /></a> : ''}
+                <div className="is-full-tablet mt-4">
+                  <p>{author.content?.bio}</p>
                 </div>
               </div>
             </div>
