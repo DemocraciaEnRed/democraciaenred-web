@@ -772,7 +772,9 @@
     "title": "BLOG",
     "subtitle": "Conoce nuestras novedades",
     "searchBar":"Ingresa el nombre o apellido del Autor o Autora",
-    "filterText":"Filtra por tema"
+    "filterText":"Filtrar por tema",
+    "filterButton": "Ordenar por",
+    "notFoundPosts": "No se encontraron posts para tu búsqueda"
   },
 
   "requirements": "Requisitos",

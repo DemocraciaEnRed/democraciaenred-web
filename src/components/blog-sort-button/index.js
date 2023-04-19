@@ -1,7 +1,10 @@
 import React, { useState } from 'react'
+import data from "../../../content/blog.json"
+import { useIntl } from 'gatsby-plugin-intl';
 import BlogCards from '../blog-cards'
 
 const SortButton = ({ posts }) => {
+  const intl = useIntl();
   const [sortCriteria, setSortCriteria] = useState('')
   const [sortOrders, setSortOrders] = useState({
     name: 'asc',
@@ -51,7 +54,7 @@ const SortButton = ({ posts }) => {
       <div className={`dropdown` + (toggle === false ? "" : " is-active")}>
         <div className="dropdown-trigger">
           <button className="button" aria-haspopup="true" aria-controls="dropdown-menu" onClick={() => handleToggle()} style={{ backgroundColor: '#ff000000', color: '#fff', border: 'none', borderBottom: '1px solid #D7D7D7', boxShadow: 'none', borderRadius: 0 }} >
-            <span>Ordenar por</span>
+            <span>{intl.formatMessage({ id: data.filterButton })}</span>
             <span className="icon is-small">
               <i className="fas fa-angle-down" aria-hidden="true" style={{ color: '#F7EC86' }}></i>
             </span>
@@ -59,7 +62,7 @@ const SortButton = ({ posts }) => {
         </div>
         <div className="dropdown-menu" id="dropdown-menu" role="menu">
           <div className="dropdown-content">
-            <hr class="dropdown-divider" />
+            <hr className="dropdown-divider" />
             <a className={`dropdown-item ${sortCriteria === 'name' ? 'is-active' : ''}`} onClick={() => handleSort('name')} style={{ userSelect: 'none' }}>
               Ordenar por nombre {sortOrders.name === 'asc' ? 'descendente' : 'ascendente'}
             </a>

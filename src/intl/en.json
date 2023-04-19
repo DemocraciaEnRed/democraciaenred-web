@@ -732,7 +732,10 @@
     "blog": {
         "title": "BLOG",
         "subtitle": "Get to know our news",
-        "searchBar":"Enter the Author's first or last name"
+        "searchBar":"Enter the Author's first or last name",
+        "filterText":"Filter by topic",
+        "filterButton": "Sort by",
+        "notFoundPosts": "No posts found for your search"
     },
     "livesH1": "#LIVES",
 

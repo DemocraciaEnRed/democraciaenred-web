@@ -3,5 +3,7 @@
     "subtitle":"blog.subtitle",
     "searchBar":"blog.searchBar",
     "filterText":"blog.filterText",
+    "filterButton":"blog.filterButton",
+    "notFoundPosts": "blog.notFoundPosts",
     "link":"/blog"
 }
