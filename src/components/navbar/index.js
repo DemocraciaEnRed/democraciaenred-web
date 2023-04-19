@@ -119,7 +119,7 @@ export default (props) => {
           >
             {intl.formatMessage({ id: "contact" })}
           </PopupButton>
-          <div className="my-6 is-flex is-justify-content-space-between mr-2">
+          <div className="my-3 is-flex is-justify-content-space-between mr-2">
             {socialMedia.map((media, index) => (
             <a
               className="navbar-item is-hidden-desktop is-inline-block p-0"

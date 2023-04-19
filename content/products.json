@@ -16,7 +16,8 @@
         "icon": "presupuesto_participativo",
         "image": "presupuesto_participativo",
         "id": "presupuesto_participativo",
-        "doslink": "products.link_1"
+        "doslink": "products.link_1",
+        "slideNum":1
     },
     {
         "title":"products.title_2",
@@ -35,7 +36,8 @@
         "icon": "consulta_publica",
         "image": "consulta_publica",
         "id": "consulta_publica",
-        "doslink": "products.link_2"
+        "doslink": "products.link_2",
+        "slideNum":2
     },
     {
         "title":"products.title_3",
@@ -52,7 +54,8 @@
         "icon": "co_construccion",
         "image": "co_construccion",
         "id": "co-construccion_leyes",
-        "doslink": "products.link_3"
+        "doslink": "products.link_3",
+        "slideNum":3
     },
     {
         "title":"products.title_4",
@@ -68,6 +71,7 @@
         "icon": "seguimiento_metas",
         "image": "seguimiento_metas",
         "id": "seguimiento_metas",
-        "doslink": "products.link_4"
+        "doslink": "products.link_4",
+        "slideNum":4
     }
 ]

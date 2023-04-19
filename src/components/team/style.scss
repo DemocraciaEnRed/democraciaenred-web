@@ -63,7 +63,7 @@
 
 // Backgrtound Hexágono
 .team-bg:before{
-  background:url(./assets/team.jpeg);
+  background:url(./assets/team.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -159,6 +159,12 @@
 
 .mariano-bg:before {
   background:url(./assets/mariano.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.florencia-comis-bg:before {
+  background:url(./assets/florencia-comis.png);
   background-size: cover;
   background-repeat: no-repeat;
 }

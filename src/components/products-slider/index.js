@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import Slider from "react-slick";
 import { useIntl } from "gatsby-plugin-intl";
 import "./style.scss";
@@ -10,10 +10,12 @@ import Product from "../product";
 export default ({ firstSlide, slides }) => {
   const intl = useIntl();
 
+  let sliderRef = useRef(null)
+  
   return (
     <section id="slider-product" className="hero is-fullheight is-large is-primary is-bold has-background-dark products-slider">
-      <Slider {...sliderSettings}>
-        <DemocracyosProduct data={firstSlide} otherProducts={slides} />
+      <Slider ref={sliderRef} {...sliderSettings}>
+        <DemocracyosProduct data={firstSlide} otherProducts={slides} sliderRef={sliderRef}/>
         {slides.map((product, index) => (
           <Product data={product} key={index} />
         ))}

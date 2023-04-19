@@ -5,7 +5,7 @@ import ProductButtons from './ProductButtons';
 
 import democracia_os_icon from "./assets/Icono_DemocraciaOS.png";
 
-const DemocracyosProduct = ({ data, otherProducts }) => {
+const DemocracyosProduct = ({ data, otherProducts, sliderRef }) => {
     const intl = useIntl();
 
     const icons = {
@@ -35,7 +35,7 @@ const DemocracyosProduct = ({ data, otherProducts }) => {
                                 <div className='columns first-slide-buttons-array is-mobile is-centered is-multiline'>
                                     {otherProducts.map(product => {
                                         return(
-                                            <ProductButtons data={product}/>
+                                            <ProductButtons data={product} sliderRef={sliderRef}/>
                                         )
                                     })}
                                 </div>
