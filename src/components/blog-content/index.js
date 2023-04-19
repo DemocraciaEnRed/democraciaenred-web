@@ -38,10 +38,10 @@ const BlogContent = ({ post }) => {
         <div className="section is-small">
           <div className="container">
             <div className="columns post-columns is-multiline">
-              <div className="column is-three-quarters-tablet is-four-fifths-desktop">
+              <div className="column is-12-touch is-9-desktop">
                 <div className="is-flex is-flex-direction-row is-align-items-center is-justify-content-space-between is-flex-wrap-wrap">
                   <div className="is-flex is-flex-direction-row">
-                    <figure className="image is-96x96 pr-4">
+                    <figure className="image is-64x64 mr-4">
                       <img className="is-rounded" src={author.content?.photo?.filename ? author.content.photo.filename : `https://democraciaenred.org/der-share.png`} />
                     </figure>
                     <div className="is-flex is-flex-direction-column is-justify-content-center">
@@ -66,8 +66,9 @@ const BlogContent = ({ post }) => {
                       ""}
                   </div>
                 </div>
-                <h1 className="pb-4 pt-4">{post.content.title}</h1>
-                <h2 className="pb-4 has-text-black">{post.content.description}</h2>
+                <h1 className="title is-1 is-size-3-touch has-text-weight-bold pt-4">{post.content.title}</h1>
+                <h2 className="pb-4 is-italic has-text-black">{post.content.description}</h2>
+                <hr />
                 {post.content.bodymd ? (
                   <article
                     className="post-body"
@@ -80,7 +81,7 @@ const BlogContent = ({ post }) => {
                   "Contenido en desarrollo..."
                 )}
               </div>
-              <div className="column is-one-third-tablet is-one-fifth-desktop">
+              <div className="column is-12-touch is-3-desktop">
                 <div className="columns is-multiline has-text-right post-info-column">
                   <div className="column is-full-tablet">
                     <figure className="image is-128x128 ml-auto mb-3">
