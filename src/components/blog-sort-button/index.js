@@ -50,7 +50,7 @@ const SortButton = ({ posts }) => {
   }
 
   return (
-    <div className="">
+    <>
       <div className={`dropdown` + (toggle === false ? "" : " is-active")}>
         <div className="dropdown-trigger">
           <button className="button" aria-haspopup="true" aria-controls="dropdown-menu" onClick={() => handleToggle()} style={{ backgroundColor: '#ff000000', color: '#fff', border: 'none', borderBottom: '1px solid #D7D7D7', boxShadow: 'none', borderRadius: 0 }} >
@@ -80,7 +80,7 @@ const SortButton = ({ posts }) => {
           <BlogCards key={index} post={post} />
         ))}
       </div>
-    </div>
+    </>
   )
 }
 

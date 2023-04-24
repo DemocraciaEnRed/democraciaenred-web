@@ -87,12 +87,12 @@ const BlogHeader = ({ data, posts, tags }) => {
             </p>
           </div>
           <p className="is-size-3 has-text-white mb-4">{intl.formatMessage({ id: data.filterText })}</p>
-          <button className='m-1 button button-disabled-shadow has-no-background is-rounded is-small is-warning is-outlined is-uppercase is-inline-block' onClick={() => [setFilter([]), setSelectedButton([])]} >TODOS</button>
+          <button className={`m-1 button button-disabled-shadow has-no-background is-rounded is-small is-warning is-outlined is-uppercase is-inline-block ${selectedButton.length === 0 ? 'activeButton' : 'inactiveButton'}`} onClick={() => [setFilter([]), setSelectedButton([])]}>TODOS</button>
           {tags.map((tag, index) => (
             <button
               key={index}
               onClick={() => [handleTags(tag.name), handleSelectedButton(index)]}
-              className={`m-1 button button-disabled-shadow has-no-background is-rounded is-small is-warning is-outlined is-uppercase is-inline-block ${selectedButton.includes(index) ? 'activeButton' : ''}`}
+              className={`m-1 button button-disabled-shadow has-no-background is-rounded is-small is-warning is-outlined is-uppercase is-inline-block ${selectedButton.includes(index) ? 'activeButton' : 'inactiveButton'}`}
             >
               {tag.name}
             </button>
