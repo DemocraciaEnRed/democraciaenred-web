@@ -171,6 +171,17 @@
     "id": "mariano"
   },
   {
+    "title": "team.title_15",
+    "subtitle": "team.subtitle_15",
+    "socialmedia": [
+      {
+        "url": "https://www.linkedin.com/in/florenciaprimatesta",
+        "icon": "ln"
+      }
+    ],
+    "id": "florencia-comis"
+  },
+  {
     "title": "team.title_17",
     "subtitle": "team.subtitle_17",
     "socialmedia": [
