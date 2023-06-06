@@ -52,6 +52,8 @@ import proteccionDatos from "./assets/proteccionDatos.png"
 import proteccionDatos_en from "./assets/proteccionDatos_en.png"
 import demondial from "./assets/demondial.png";
 import demondial_en from "./assets/demondial_en.png";
+import memes from "./assets/memes.jpg";
+import memes_en from "./assets/memes_en.jpg";
 
 const images = {
   desinformacion,
@@ -101,7 +103,9 @@ const images = {
   proteccionDatos,
   proteccionDatos_en,
   demondial,
-  demondial_en
+  demondial_en,
+  memes,
+  memes_en  
 };
 
 const ResourcesMansonery = ({ resources, home, filter }) => {

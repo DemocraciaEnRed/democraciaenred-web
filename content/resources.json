@@ -257,7 +257,16 @@
             "color":"blue",
             "home": true,
             "type":"politica"
-        }           
+        },
+        {
+            "title":"resources.main_title_29",
+            "subtitle":"resources.subtitle_29",
+            "link": "/assets/ebooks/230605_DER_ReirParaNoLlorar.pdf",
+            "id":"resources.img_29",
+            "color":"yellow",
+            "home": true,
+            "type":"politica"
+        }                   
     ]
     
 

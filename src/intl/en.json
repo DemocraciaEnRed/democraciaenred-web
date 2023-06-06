@@ -124,7 +124,12 @@
 
         "main_title_28": "DemOndial",
         "subtitle_28": "The game where you don't have to train to win the world cup",
-        "img_28": "demondial_en"
+        "img_28": "demondial_en",
+
+
+        "main_title_29": "Laugh to keep from crying",
+        "subtitle_29": "The use of memes, does it add or subtract from political debate?",
+        "img_29": "memes_en"        
     },
     "products": {
         "first_slide_title":"Our products",
