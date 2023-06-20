@@ -21,12 +21,12 @@
     "description": "team.description_3",
     "socialmedia": [
       {
-        "url": "www.linkedin.com/in/florenciacaffarone",
-        "icon": "ln"
-      },
-      {
         "url": "https://twitter.com/pitucaffarone",
         "icon": "tw"
+      },
+      {
+        "url": "www.linkedin.com/in/florenciacaffarone",
+        "icon": "ln"
       }
     ],
     "id": "florencia-dir"
@@ -37,12 +37,12 @@
     "description": "team.description_4",
     "socialmedia": [
       {
-        "url": "https://www.linkedin.com/in/don-powa-59290473/",
-        "icon": "ln"
-      },
-      {
         "url": "https://twitter.com/donpowa",
         "icon": "tw"
+      },
+      {
+        "url": "https://www.linkedin.com/in/don-powa-59290473/",
+        "icon": "ln"
       }
     ],
     "id": "powa"
