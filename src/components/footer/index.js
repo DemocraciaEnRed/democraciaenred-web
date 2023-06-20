@@ -38,7 +38,7 @@ export default () => {
                 <Link
                   className="navbar-item pl-0 ml-0"
                   // onClick={() => setIsActive(false)}
-                  to="/quienessomos"
+                  to="/conocenos"
                   data-target="nosotros"
                 >
                   {intl.formatMessage({ id: "us" })}

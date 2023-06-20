@@ -60,7 +60,7 @@ export default (props) => {
           <Link
             className="navbar-item is-size-6 my-3 is-capitalized"
             onClick={() => setIsActive(false)}
-            to="/quienessomos"
+            to="/conocenos"
             data-target="nosotros"
           >
             {intl.formatMessage({ id: "us" })}

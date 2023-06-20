@@ -14,8 +14,8 @@ import Division from "../components/division";
 // import Balance from "../components/balance-sheets";
 import Council from "../components/council";
 import SEO from "../components/seo";
-const QuienesSomos = () => {
-  const title = "Quiénes somos";
+const Conocenos = () => {
+  const title = "Conocenos";
   const description = "Somos una organización de la sociedad civil que abre la toma de decisiones públicas.";
   const robot = "noindex"
   return (
@@ -36,4 +36,4 @@ const QuienesSomos = () => {
   );
 };
 
-export default QuienesSomos;
+export default Conocenos;
