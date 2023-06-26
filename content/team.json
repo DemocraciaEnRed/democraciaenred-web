@@ -127,17 +127,6 @@
     "id": "florencia-presi"
   },
   {
-    "title": "team.title_12",
-    "subtitle": "team.subtitle_12",
-    "socialmedia": [
-      {
-        "url": "https://www.instagram.com/salernomau",
-        "icon": "ig"
-      }
-    ],
-    "id": "mau"
-  },
-  {
     "title": "team.title_21",
     "subtitle": "team.subtitle_21",
     "socialmedia": [
@@ -217,5 +206,22 @@
       } 
     ],
     "id": "pano"
+  },
+  {
+    "title": "team.title_23",
+    "subtitle": "team.subtitle_23",
+    "socialmedia": [
+      {
+        "url": "https://www.github.com/nicoc0",
+        "icon": "gh"
+      }
+    ],
+    "id": "nicoconfa"
+  },
+  {
+    "title": "team.title_24",
+    "subtitle": "team.subtitle_24",
+    "socialmedia": [],
+    "id": "gerarodriguez"
   }
 ]
