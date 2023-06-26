@@ -125,7 +125,7 @@ const ResourcesMansonery = ({ resources, home, filter }) => {
     let resourcesArray = resources.resources.filter(
       (resource) => resource.type === filter
     );
-    // console.log(resourcesArray)
+  
       if (filter == 'all'){
         resourcesArray = resourcesArray.concat(
           resources.resources
@@ -133,7 +133,6 @@ const ResourcesMansonery = ({ resources, home, filter }) => {
             .map((resource) => resource)
         );
       }
-    // console.log("resources \n", resourcesArray)
     return resourcesArray.reverse()
   };
   useEffect(() => {
