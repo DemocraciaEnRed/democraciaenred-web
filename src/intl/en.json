@@ -124,7 +124,12 @@
 
         "main_title_28": "DemOndial",
         "subtitle_28": "The game where you don't have to train to win the world cup",
-        "img_28": "demondial_en"
+        "img_28": "demondial_en",
+
+
+        "main_title_29": "Laugh to keep from crying",
+        "subtitle_29": "The use of memes, does it add or subtract from political debate?",
+        "img_29": "memes_en"        
     },
     "products": {
         "first_slide_title":"Our products",
@@ -193,7 +198,7 @@
         "description_2": "Our software team carry out the installation of the platform on your server.",
         "requirements_2_1": "Complete our requirement form",
         "requirements_2_2": "Management team.",
-        "requirements_2_3": "Standard budget: USD 2.500",
+        "requirements_2_3": "Price: Request a quote",
         "button_text_2": "Contact us",
         "button_link_2": "https://preguntarparaacordar.typeform.com/to/CfkWqm",
         "title_3": "Custom installation",
@@ -601,11 +606,11 @@
     },
     "team": {
         "title_2": "Agustin Frizzera",
-        "subtitle_2": "Executive Director",
+        "subtitle_2": "Board of Directors",
         "title_3": "Florencia  Caffarone",
-        "subtitle_3": "General Director",
+        "subtitle_3": "Co-director",
         "title_4": "Don Powa",
-        "subtitle_4": "Project Developer",
+        "subtitle_4": "Co-director",
         "title_6":"Alejandra Gonzalez",
         "subtitle_6": "Communications",
         "title_10": "Valeria Liciaini",
@@ -614,18 +619,16 @@
         "subtitle_7": "Project Manager",
         "title_17": "Cecilia Ibarra",
         "subtitle_17": "Project Manager",
-        "title_12": "Mauro  Salerno",
-        "subtitle_12": "Graphic Designer",
         "title_21": "Julia Ferrando",
         "subtitle_21": "Graphic Designer",
         "title_18": "Federico  Pasutti",
         "subtitle_18": "UX and UI Designer",
         "title_8": "Guillermo Croppi",
-        "subtitle_8": "Developer",
+        "subtitle_8": "Systems Engineer",
         "title_13": "Nicole Alonso",
         "subtitle_13": "Community Manager",
         "title_20": "Mariano Valdez",
-        "subtitle_20": "Developer",
+        "subtitle_20": "Development Coordinator",
         "title_9": "Alvaro Araujo",
         "subtitle_9": "Operations",
         "title_5": "Esteban Brenman",
@@ -635,7 +638,15 @@
         "title_14": "Mariano Heller",
         "subtitle_14": "Board of Directors",
         "title_15": "Florencia Primatesta",
-        "subtitle_15": "Board of Directors"
+        "subtitle_15": "Board of Directors",
+        "title_22": "Cristian Valdez",
+        "subtitle_22": "Web Developer",
+        "title_23": "Nicolás Confalonieri",
+        "subtitle_23": "Web Developer",
+        "title_24": "Gerardo Rodríguez",
+        "subtitle_24": "External collaborator",
+        "title_25": "Jennifer Perkes",
+        "subtitle_25": "Editor"
     },
 
     "council": {

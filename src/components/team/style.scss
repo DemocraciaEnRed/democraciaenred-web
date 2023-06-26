@@ -68,12 +68,6 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-
-.mau-bg:before {
-  background:url(./assets/mau.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 .julia-bg:before {
   background:url(./assets/julia.png);
   background-size: cover;
@@ -183,6 +177,18 @@
 
 .pano-bg:before {
   background:url(./assets/pano.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nicoconfa-bg:before {
+  background:url(./assets/nicoconfa.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.gerarodriguez-bg:before {
+  background:url(./assets/gerarodriguez.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
