@@ -42,7 +42,7 @@ const BlogContent = ({ post }) => {
                 <div className="is-flex is-flex-direction-row is-align-items-center is-justify-content-space-between is-flex-wrap-wrap">
                   <div className="is-flex is-flex-direction-row">
                     {
-                      post.content.author.length > 1 ? post.content.author.map((author, index) => (
+                      Array.isArray(post.content.author) ? post.content.author.map((author, index) => (
                         <figure className="image is-64x64 mr-4" key={index}>
                           <img className="is-rounded" src={author.content?.photo?.filename ? author.content.photo.filename : `https://democraciaenred.org/der-share.png`} alt={author.name} />
                         </figure>
@@ -52,7 +52,8 @@ const BlogContent = ({ post }) => {
                         </figure>
                     }
                     <div className="is-flex is-flex-direction-column is-justify-content-center">
-                      {post.content.author.length > 1 ? post.content.author.map((author, index) => (
+                      {
+                      Array.isArray(post.content.author) ? post.content.author.map((author, index) => (
                         <div key={index}>
                           <b>{author.name}</b>
                         </div>
@@ -98,7 +99,7 @@ const BlogContent = ({ post }) => {
               </div>
               <div className="column is-12-touch is-3-desktop">
                 {
-                  post.content.author.length > 1 ? post.content.author.map((author, index) => (
+                  Array.isArray(post.content.author) ? post.content.author.map((author, index) => (
                     <div style={{marginBottom: 15}} key={index}>
                       <figure className="image is-128x128 mb-3 author-image">
                         <img className="is-rounded" src={author.content?.photo?.filename ? author.content.photo.filename : `https://democraciaenred.org/der-share.png`} />
