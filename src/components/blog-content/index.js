@@ -5,7 +5,6 @@ import "./style.scss";
 import FeaturedPosts from "./featured-posts";
 
 const BlogContent = ({ post }) => {
-  console.log(post)
   if (Object.keys(post).length > 0) {
     return (
       <section className="blogContent">
