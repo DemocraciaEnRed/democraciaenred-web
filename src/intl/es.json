@@ -3,24 +3,20 @@
     "title_1": "Democratizar la democracia",
     "subtitle_1": "Creamos soluciones de participación ciudadana con gobiernos y activistas para fortalecer la democracia.",
     "image_description_1": "Foto: São Paulo, Brasil",
-
     "title_2": "Redistribuir el poder",
     "image_description_2": "Foto: Mérida, Mexico",
     "subtitle_2": "Abrimos las instituciones públicas y la toma de decisiones a través de procesos participativos innovadores.",
-
     "title_3": "Ocupar la política",
     "subtitle_3": " Buscamos recuperar la política incorporando a la ciudadanía en los procesos de toma de decisión.",
     "image_description_3": "Foto: Guillermo Batakis, Buenos Aires, Argentina"
   },
   "products": {
-    "first_slide_title":"Nuestros productos",
-    "first_slide_description_1":"Basados en nuestra tecnologia de DemocraciaOS",
-    "first_slide_description_2":"Ofrecemos soluciones para gobiernos locales y nacionales, poderes legislativos, organismos descentralizados, partidos políticos, organizaciones de la sociedad civil y otras instituciones.",
-    "first_slide_see_more":"Conocé más sobre democraciaOS",
-
+    "first_slide_title": "Nuestros productos",
+    "first_slide_description_1": "Basados en nuestra tecnologia de DemocraciaOS",
+    "first_slide_description_2": "Ofrecemos soluciones para gobiernos locales y nacionales, poderes legislativos, organismos descentralizados, partidos políticos, organizaciones de la sociedad civil y otras instituciones.",
+    "first_slide_see_more": "Conocé más sobre democraciaOS",
     "title_0": "DemocraciaOS",
     "description_0": "Ofrecemos soluciones para gobiernos locales y nacionales, poderes legislativos, organismos descentralizados, partidos políticos, organizaciones de la sociedad civil y otras instituciones.",
-  
     "title_1": "Presupuesto Participativo",
     "subtitle_1": "Plataforma digital que permite la gestión integral de Presupuestos Participativos, generando instancias de diálogo entre la ciudadanía y los gobiernos.",
     "description_1": "Plataforma digital que permite la gestión integral de Presupuestos Participativos, generando instancias de diálogo entre la ciudadanía y los gobiernos.",
@@ -31,7 +27,6 @@
     "features_1_4": "Seguimiento de proyectos",
     "features_1_5": "Comentarios",
     "features_1_6": "Votación",
-
     "title_2": "Consultas Digitales",
     "subtitle_2": "\n Plataforma digital de consulta, diálogo y debate que conecta al gobierno con la comunidad.",
     "description_2": "Busca favorecer la participación, el debate y la interacción entre entidades y personas sobre diversas temáticas.",
@@ -42,7 +37,6 @@
     "features_2_4": "Votación",
     "features_2_5": "Encuestas",
     "features_2_6": "Priorización",
-
     "title_3": "Co-construcción de leyes",
     "subtitle_3": "\nPlataforma digital de elaboración colaborativa de normas entre representantes y ciudadanía.",
     "description_3": "Plataforma digital de elaboración colaborativa de normas entre representantes y ciudadanía.",
@@ -51,7 +45,6 @@
     "features_3_2": "Comentarios",
     "features_3_3": "Sugerencias",
     "features_3_4": "Seguimiento de proyectos",
-
     "title_4": "Seguimiento de metas",
     "subtitle_4": "Plataforma digital que permite la publicacion de metas y compromisos de gobierno facilitando el seguimiento ciudadano.",
     "description_4": "Plataforma digital que permite la publicacion de metas y compromisos de gobierno facilitando el seguimiento ciudadano.",
@@ -59,7 +52,6 @@
     "features_4_1": "Alta de objetivos y metas",
     "features_4_2": "Reportes de actualización de metas georreferenciables",
     "features_4_3": "Validación y comentarios ciudadanos",
-
     "title_5": "Votación de autoridades",
     "subtitle_5": "\n Plataforma digital para votación de autoridades en procesos electorales de democracias cotidianas.",
     "description_5": "Plataforma digital para votación de autoridades en instituciones y organizaciones.",
@@ -118,7 +110,7 @@
       "social": "Redes"
     }
   },
-  "newsletter":{
+  "newsletter": {
     "title": "Newsletter",
     "description": "Si querés conocer todos los proyectos que llevamos a cabo, ver buenos memes y muchos chistes basados en las series y películas que nos hicieron quienes somos, suscribite a nuestro newsletter.",
     "button": "Subscribirme"
@@ -140,7 +132,7 @@
     },
     "memories": {
       "title": "Nuestras memorias",
-      "button_text":"Memorias \nde gestión"
+      "button_text": "Memorias \nde gestión"
     },
     "slider_title": "Nuestro equipo"
   },
@@ -225,21 +217,18 @@
     "title_1": "Parametrización",
     "features_1_1": "Permite al equipo adaptar la plataforma a las necesidades locales definiendo la segmentación en distritos, la convivencia de una o varias partidas presupuestarias, la cantidad de votos por usuario, la existencia de padrones especiales, la integración o no de la plataforma con un dispositivo electoral presencial, etc.",
     "img_1": "img_1_es",
-
     "title_2": "Propuesta Ciudadana",
     "features_2_1": "Abierto a la ciudadanía de un área específica",
     "features_2_2": "Fomenta el involucramiento de la ciudadanía en el desarrollo de las políticas públicas",
     "features_2_3": "Comentarios: interacción - diálogo",
     "features_2_4": "Posibilidad de compartir en redes sociales",
     "img_2": "img_1_2_es",
-
     "title_3": "Análisis de factibilidad",
     "features_3_1": "Criterios pautados previamente",
     "features_3_2": "Criterios informados a la ciudadanía participante con claridad",
     "features_3_3": "Comunicación con autores para mejora de propuestas",
     "features_3_4": "Comunicación del dictamen de factibilidad",
     "img_3": "img_1_3_es",
-
     "title_4": "Votación de propuestas",
     "features_4_1": "Abierto a la ciudadanía de determinada región/área específica",
     "features_4_2": "Fomenta la participación y el compromiso",
@@ -247,13 +236,11 @@
     "features_4_4": "Participación ciudadana vinculante",
     "img_4": "img_1_4_es",
     "title_5": "Publicación de resultados",
-
     "features_5_1": "Publicacion de proyectos ganadores",
     "features_5_2": "Publicacion de estadística",
     "features_5_3": "Se notifica a los y las autoras de las propuestas ganadoras",
     "features_5_4": "Se notifica en general a la ciudadanía",
     "img_5": "img_1_5_es",
-
     "title_6": "Seguimiento de ejecución",
     "features_6_1": "Se establecen compromisos por parte del gobierno/actor que abre el proceso participativo",
     "features_6_2": "Transparenta a la ciudadanía el proceso de ejecución",
@@ -269,7 +256,6 @@
     "features_1_4": "Una vez terminada la votación, se exhiben los resultados.",
     "features_1_5": "Permite a la ciudadanía dejar comentarios.",
     "img_1": "img_2_1_es",
-
     "title_2": "Apoyar una causa",
     "features_2_1": "Permite a la ciudadanía brindar su apoyo a una iniciativa",
     "features_2_2": "Plazo de votación pre-determinado.",
@@ -277,7 +263,6 @@
     "features_2_4": "Una vez terminada la votación, se exhiben los resultados.",
     "features_2_5": "Permite a la ciudadanía dejar comentarios.",
     "img_2": "img_2_2_es",
-
     "title_3": "Encuesta de opciones múltiples",
     "features_3_1": "Permite a la ciudadanía elegir la opción que más se ajuste a su posición entre una serie de opciones pre-establecidas.",
     "features_3_2": "Plazo de votación pre-determinado.",
@@ -285,7 +270,6 @@
     "features_3_4": "Una vez terminada la votación, se exhiben los resultados.",
     "features_3_5": "Permite a la ciudadanía dejar comentarios.",
     "img_3": "img_2_3_es",
-
     "title_4": "Votación A-B",
     "features_4_1": "Permite a la ciudadanía manifestarse a favor o en contra de una iniciativa.",
     "features_4_2": "Plazo de votación pre-determinado.",
@@ -293,7 +277,6 @@
     "features_4_4": "Una vez terminada la votación, se exhiben los resultados.",
     "features_4_5": "Permite a la ciudadanía dejar comentarios.",
     "img_4": "img_2_4_es",
-
     "title_5": "Rango",
     "features_5_1": "Permite a la ciudadanía ubicar su opinión o preferencia dentro de un rango pre-establecido.",
     "features_5_2": "Plazo de votación pre-determinado.",
@@ -301,7 +284,6 @@
     "features_5_4": "Visualización de resultados después de participar.",
     "features_5_5": "Permite a la ciudadanía dejar comentarios.",
     "img_5": "img_2_5_es",
-
     "title_6": "Proponer una idea",
     "features_6_1": "Convocatoria abierta para que la ciudadanía proponga ideas o proyectos.",
     "features_6_2": "Permite a la ciudadanía apoyar ideas o propuestas ya realizadas por otros ciudadanos.",
@@ -318,14 +300,12 @@
     "features_1_4": "Transparenta organizaciones dedicadas a su monitoreo.",
     "features_1_5": "Posibilidad de suscribirse para recibir actualizaciones.",
     "img_1": "img_3_1_es",
-
     "title_2": "Metas",
     "features_2_1": "Cuantitativas: contienen indicadores.",
     "features_2_2": "Cualitativas: contienen hitos relevantes para su cumplimiento.",
     "features_2_3": "Se muestra su avance gracias a una barra de progreso.",
     "features_2_4": "Se actualizan gracias a los reportes.",
     "img_2": "img_3_2_es",
-
     "title_3": "Reportes",
     "features_3_1": "Actualizan el estado de las metas.",
     "features_3_2": "Pueden respaldarse con fotos y archivos.",
@@ -333,7 +313,6 @@
     "features_3_4": "Pueden ser de novedad, actualización o hito, según la información que contenga.",
     "features_3_5": "Posibilidad de suscribirse para recibir actualizaciones.",
     "img_3": "img_3_3_es",
-
     "title_4": "Validaciones",
     "features_4_1": "Fomenta el involucramiento ciudadano.",
     "features_4_2": "Sirve como mecanismo de legitimidad de los reportes.",
@@ -346,7 +325,6 @@
     "features_1_2": "Transparenta el armado del proyecto.",
     "features_1_3": "Funciona como vidriera legislativa.",
     "img_1": "img_4_1_es",
-
     "title_2": "Explicación del proyecto",
     "features_2_1": "Permite la inclusión de videos informativos.",
     "features_2_2": "Se espera lenguaje claro y sencillo.",
@@ -357,13 +335,11 @@
     "features_3_2": "Envío de notiﬁcaciones ante novedades.",
     "features_3_3": "Mantiene informada a la ciudadanía.",
     "img_3": "img_4_3_es",
-
     "title_4": "Aportes",
     "features_4_1": "Fomenta la participación ciudadana.",
     "features_4_2": "Espacio abierto de diálogo entre la ciudadanía y sus representantes.",
     "features_4_3": "Implica compromisos por parte de los representantes.",
     "img_4": "img_4_4_es",
-
     "title_5": "Versiones",
     "features_5_1": "Transparenta la actividad legislativa.",
     "features_5_2": "Permite un seguimiento claro de las modificaciones realizadas.",
@@ -374,29 +350,24 @@
     "title_1": "Parametrización",
     "features_1_1": "Permite al equipo adaptar la plataforma a las necesidades locales definiendo la segmentación en distritos, la convivencia de una o varias partidas presupuestarias, la cantidad de votos por usuario, la existencia de padrones especiales, la integración o no de la plataforma con un dispositivo electoral presencial, etc.",
     "img_1": "img_5_1_es",
-
     "title_2": "Alta de candidaturas",
     "features_2_1": "Permite cargar candidatos para varios niveles de autoridad en procesos electorales",
     "features_2_2": "Se identifica la agrupación a la que pertenecen",
     "features_2_3": "Vidriera de candidatos",
     "img_2": "img_5_2_es",
-
     "title_3": "Padrones de votantes",
     "features_3_1": "Se podrán cargar padrones digitales con información de votantes",
     "features_3_2": "Promueve la digitalización de padrones",
     "img_3": "img_5_3_es",
-
     "title_4": "Registro de votantes online",
     "features_4_1": "Registro en la plataforma con correo electrónico",
     "features_4_2": "Validación de identidad a través de la carga de su DNI y/o dato único customizable",
     "img_4": "img_5_4_es",
-
     "title_5": "Votación segura",
     "features_5_1": "Votación online de usuarios registrados que se encuentren en el padrón",
     "features_5_2": "Se puede integrar a la votación presencial",
     "features_5_3": "Facilita el proceso de votación y amplia el acceso",
     "img_5": "img_5_5_es",
-
     "title_6": "Resultados de la votación",
     "features_6_1": "Seguridad de los votos utilizando tecnología blockchain",
     "features_6_2": "Descarga de resultados por administradores y usuarios",
@@ -407,23 +378,18 @@
     "title_1": "POLÍTICXS EN TWITTER",
     "subtitle_1": "",
     "description_1": "Políticxs en Twitter es un repositorio con interacciones de más de 500 usuarios relacionados con la política en Argentina. Ponemos a disposición de la comunidad este ATLAS con datos libres y reutilizables, para facilitar la producción de conocimiento. Te invitamos a conocer más en el evento que hicimos de lanzamiento!",
-
     "title_2": "Incubadora de Ciudades Comunes",
     "subtitle_2": "",
     "description_2": "#VolverALaCalle busca soluciones replicables, de bajo costo y alto impacto para reactivar los espacios públicos con distanciamiento físico y recuperar la confianza perdida en la vida urbana. En el marco del programa de incubación los proyectos ganadores del #IDEATÓN, Agustín Frizzera, Director Ejecutivo de Democracia En Red y Coordinador de Causas Comunes, charló sobre Gobierno Abierto y Nuevas Tecnologías. Conocé más en http://ciudadescomunes.org",
-
     "title_3": "Electas",
     "subtitle_3": "",
     "description_3": "Un estudio y serie audiovisual sobre las mujeres latinoamericanas en el poder. Una aproximación a entender cómo las prácticas políticas y culturales pueden cambiar los espacios políticos institucionales en América Latina y los paradigmas de poder. \n  Más de 96 entrevistas a mujeres electas y especialistas en política y género de 6 países de América Latina.",
-
     "title_4": "#VolvamosADebatir",
     "subtitle_4": "",
     "description_4": "Un encuentro online gratuito para pensar las consecuencias de seguir degradando nuestro espacio público, nuestros lugares comunes. \n Un espacio para analizar cómo discutimos en las redes con una mirada humana, tecnológica y política. \n       Paneles, conversatorios, conferencias y la presentación del documento Estrategias y recomendaciones para enfrentar la #desinformación.",
-
     "title_5": "El impacto de la crisis actual en las decisiones de las ciudades",
     "subtitle_5": "",
     "description_5": "Una observación desde el confinamiento de la experiencia del entorno construido (planificacion urbana, espacio público, espacio privado, movilidad, lucha camLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua climático, vivienda) y a la vista de esta observación/experiencia. Algunas reflexiones abiertas de cómo pueden cambiar las decisiones que tomemos, o quizás las preguntas que nos hagamos en relación al entorno urbano que ya está construído. ",
-
     "title_6": "¿Cambia la forma de gobernar? ",
     "subtitle_6": "",
     "description_6": "Sentimos que el COVID-19 “lo cambia todo”, que nuestras vidas ya no serán iguales. Pero ¿cómo impactará la cuarentena más masiva de la historia en la gestión pública? ¿cuáles son los ajustes que podemos prever en la forma en que se gobiernan las ciudades? ¿cuáles son las oportunidades?"
@@ -438,107 +404,81 @@
   "team": {
     "title_2": "Agustín Frizzera",
     "subtitle_2": "Director Ejecutivo",
-
     "title_3": "Florencia Caffarone",
     "subtitle_3": "Directora General",
-
     "title_4": "Don Powa",
     "subtitle_4": "Desarrollo de proyectos",
-
     "title_5": "Esteban Brenman",
     "subtitle_5": "Vicepresidente",
-
     "title_6": "Alejandra Gonzalez",
     "subtitle_6": "Coordinadora Comunicacion",
-
     "title_7": "Federico Bertero",
     "subtitle_7": "Gestión de Proyectos",
-
     "title_8": "Guillermo Croppi",
     "subtitle_8": "Desarrollo",
-
     "title_9": "Álvaro Araujo",
     "subtitle_9": "DevOps",
-
     "title_10": "Valeria Lisciani",
     "subtitle_10": "Coordinadora de Proyectos",
-
     "title_11": "Florencia Polimeni",
     "subtitle_11": "Presidenta",
-
     "title_12": "Mauro Salerno",
     "subtitle_12": "Diseño Gráfico",
-    
     "title_21": "Julia Ferrando",
     "subtitle_21": "Diseño Gráfico",
-
     "title_13": "Nicole Alonso",
     "subtitle_13": "Community Manager",
-
     "title_14": "Mariano Heller",
     "subtitle_14": "Comisión Directiva",
-
     "title_15": "Florencia Primatesta",
     "subtitle_15": "Comisión directiva",
-
     "title_17": "Cecilia Ibarra",
     "subtitle_17": "Gestión de Proyectos",
-
     "title_18": "Federico Pasutti",
     "subtitle_18": "Diseñador UX/UI",
-
     "title_20": "Mariano Valdez",
-    "subtitle_20": "Desarrollo"
-
+    "subtitle_20": "Desarrollo",
+    "title_22": "Cristian Valdez",
+    "subtitle_22": "Web Developer",
+    "title_23": "Jennifer Perkes",
+    "subtitle_23": "Redactora"
   },
   "council": {
     "main_title": "Consejo Asesor",
     "title_1": "MÓNICA VILLEGAS",
     "subtitle_1": " Liderazgo Público, participación ciudadana y ciudades. ",
     "description_1": "COMPLETAR",
-
     "title_2": "DARDO CEBALLOS",
     "subtitle_2": "Estrategias de innovación y  transformación digital aplicadas al sector público y la innovación política. ",
     "description_2": "COMPLETAR",
-
     "title_3": "YANINA WELP",
     "subtitle_3": "Investigación y coordinación editorial con foco en participación política, Albert Hirschman Centre on Democracy.",
     "description_3": "COMPLETAR",
-
     "title_4": "JUAN CRUZ ZORZOLI",
     "subtitle_4": "Desarrollo Sostenible y Regenerativo / Planificación y Comunicación Participativa / Educación Ambiental / Cambio de Paradigma. ",
     "description_4": "COMPLETAR",
-
     "title_5": "NATALIA CARFI",
     "subtitle_5": "  Diseño e implementación de políticas públicas de  Gobierno Abiertos y datos abiertos. ",
     "description_5": "COMPLETAR",
-
     "title_6": "MARTÍN GALANTERNIK",
     "subtitle_6": " Programas participativos de educación cívica, de promoción de derechos y de educación y seguridad Vial.  ",
     "description_6": "COMPLETAR"
-
   },
   "ecosystem": {
     "main_title": "Ecosistema",
-
     "title_1": "Gobiernos e Instituciones",
     "features_1_1": "RINP",
     "features_1_2": "Red de Parlamento abierto",
     "features_1_3": "People Powered",
     "features_1_4": "Red de OSC para un Estado Abierto",
     "features_1_5": "Abrelatam",
-
-    "description_1": "Rosario, San Lorenzo, Vicente Lopez, Sunchales, Cámara Diputados Argentina, Concejo Bogota, Maipu, UBA, Santa lab, UNR, GCBA, Ecuador, Godoy Cruz.",  
-
+    "description_1": "Rosario, San Lorenzo, Vicente Lopez, Sunchales, Cámara Diputados Argentina, Concejo Bogota, Maipu, UBA, Santa lab, UNR, GCBA, Ecuador, Godoy Cruz.",
     "title_2": "Financiadores",
     "description_2": "Open Society Foundation, Luminate, BID, AVINA, UE, KAS, Y combinator, Fondo Altec / CLIP / FHHC, IFA, Tomson Reuters, FES, CAF, Google, Microsoft, PERFIT, SLACK.",
-
     "title_3": "Redes & Comunidades",
     "description_3": "Abrelatam, Red de Parlamento abierto, Red de OSC para un estado abierto, People Powered, RINP.",
-    
     "title_4": "Organizaciones y Movimientos",
     "description_4": "XR, Extituto, Artemisas, ODIA, ART 41, Change, ACIJ, Directorio Legislativo, Acción Colectiva, ADS, Virtuagora, Conocimiento Abierto, Nave, Nuestra Córdoba, Nuestra Mendoza, Fundación Huésped, Activismo Digital, Fundeps, Estamos Listas."
-
   },
   "resources": {
     "title": "Recursos",
@@ -549,186 +489,142 @@
     "filter_2": "Política",
     "filter_3": "Participación Ciudadana",
     "filter_4": "Activismo",
-
     "main_title_1": "#Desinformación",
     "subtitle_1": "Más allá de las noticias falsas",
-    "img_1":"desinformacion",
-
+    "img_1": "desinformacion",
     "main_title_2": "Recuperar la política",
     "subtitle_2": "Recuperarla significa honrarla. ¿Cómo se organiza el poder y la democracia en una sociedad líquida?",
     "img_2": "recuperarLaPolitica",
-
     "main_title_3": "Internet: Guía Ciudadana.",
     "subtitle_3": "Un primer paso para que el uso crítico de Internet gane el lugar que merece.",
     "img_3": "guiaCiudadana",
-
     "main_title_4": "Caja de herramientas",
     "subtitle_4": "¿Cómo hacer un presupuesto participativo?",
     "img_4": "cajaHerramientasPresupuesto",
-
     "main_title_5": "Caja de herramientas",
     "subtitle_5": "¿Cómo hacer una consulta ciudadana?",
     "img_5": "cajaHerramientasConsulta",
-
     "main_title_7": " Presupuestos participativos en instituciones educativas: ¿para qué?",
     "subtitle_7": " ",
     "img_7": "en_presupuestoParticipativoInstitucionesEducativas",
-
     "main_title_8": "Corazones y Mentes",
     "subtitle_8": "Herramientas y mucha data para dominar internet y promover una convivencia digital positiva.",
     "img_8": "corazonesymentes",
-
     "main_title_9": "Reflexicons:",
     "subtitle_9": "Invitación a mensajes de reflexión",
     "img_9": "refexicons",
-
     "main_title_10": "Presupuesto Participativo Vicente López",
     "subtitle_10": "Participación e innovación para transformar el territorio.",
     "img_10": "ppvl",
-
     "main_title_11": "Leyes Abiertas",
     "subtitle_11": "Innovación y participación en la Cámara de Diputados.",
     "img_11": "leyesAbiertas",
-
     "main_title_12": "Desobedientes",
     "subtitle_12": "Las normas hay que cumplirlas hasta que necesitamos romperlas",
     "img_12": "desobedientes",
-
     "main_title_13": "Serie: Política Recuperada",
     "subtitle_13": "MUCHOS PROTAGONISTAS... ALGUNAS ENTREVISTAS",
-
     "main_title_14": "Políticos en Twitter:",
     "subtitle_14": "Repositorio con interacciones de más de 500 usuarios relacionados con la política en Argentina.",
     "img_14": "politicxsTwitter",
-
     "main_title_15": "Causas Comunes",
     "subtitle_15": "Porque sólo seremos mejores cuando seamos capaces de soñarnos mejores.",
     "img_15": "causasComunes",
-
     "main_title_16": "Partícipes digital",
     "subtitle_16": "¿Cómo hacer rendición de cuentas en la plataforma digital Partícipes?",
-
     "main_title_17": "TEDx Democracias y nuevas tecnologías",
     "subtitle_17": "La tecnología y la toma de decisiones colectiva, permiten imaginar una democracia que se adapte al estilo de vida de los ciudadanos del siglo XXI.",
-
     "main_title_18": "El Miedo y la Bronca",
     "subtitle_18": "Agustin Frizzera analiza las PASO de 2019 en Argentina.",
     "img_18": "miedoBronca",
-    
     "main_title_19": "Gatopardismo",
     "subtitle_19": "Sobre el Diputado Garretón y la utilización de tecnología digital en el Congreso",
-    
     "main_title_20": "MeRepresenta",
     "subtitle_20": "Una herramienta para pensar tu voto \nConocé candidaturas, partidos, propuestas y mucho más.",
     "img_20": "meRepresenta",
-
     "main_title_21": "Compás Político",
     "subtitle_21": "¿En qué ideología estás \"encuadrado\"?",
     "img_21": "compasPolitico",
-
     "main_title_22": "SERIE ELECCIONES Y DEMOCRACIA",
     "subtitle_22": "4 columnas sobre las elecciones, mas allá de la coyuntura",
     "img_22": "eleccionesDemocracia",
-
     "main_title_23": "¿Cómo hacer rendición de cuentas en la plataforma digital Sumen?",
     "subtitle_23": "Creemos que es importante poder contar con una sociedad informada que se involucre y con un Estado transparente",
     "img_23": "sumen",
-
     "main_title_24": "¿Cómo hacer rendición de cuentas en la plataforma digital Partícipes?",
     "subtitle_24": "Creemos que es importante poder contar con una sociedad informada que se involucre y con un Estado transparente",
-
     "main_title_25": "Somos Partícipes",
     "subtitle_25": "Experiencias de Rendición de Cuentas, Monitoreo y Participación Ciudadana en Argentina",
     "img_25": "somosParticipes",
-
     "main_title_26": "Datos en Fuga",
     "subtitle_26": "Queremos que el Estado asegure estándares de ciberseguridad y que atienda a las alarmas que suenan por todos lados",
     "img_26": "datosEnFuga",
-
     "main_title_27": "Protección de datos",
     "subtitle_27": "Un análisis comparativo en 9 países",
     "img_27": "proteccionDatos",
-
     "main_title_28": "DemOndial",
     "subtitle_28": "El juego donde no tenés que entrenar para ganar la copa del mundo",
     "img_28": "demondial",
-
     "main_title_29": "Reir para no llorar",
     "subtitle_29": "¿Los memes suman o restan al debate político?",
-    "img_29": "memes"    
+    "img_29": "memes"
   },
   "press": {
     "title": "Prensa",
     "name_1": "Open Democracy",
     "title_1": "Simplicity, openness, and modifiability",
     "subtitle_1": "Governments, endogamic institutions since forever, are not used to opening up. But now there’s political will for it to happen, if a lot of trial and error in the process.",
-
     "name_2": "BBC",
     "title_2": "Democracy at the touch of a button?",
     "subtitle_2": "The Internet has definitely changed our lives. However, some think that the last analog redoubt is our politics and the way it organizes its societies. (...)",
-
     "name_3": "La política online",
     "title_3": "Tratan proyectos votados en Internet",
     "subtitle_3": "La Legislatura porteña tratará tres proyectos que fueron elegidos por los ciudadanos mediante votación por Internet. Resultaron ganadores iniciativas sobre enfermeros, educación y trapitos.",
-
     "name_4": "La capital",
     "title_4": "Récord de votantes en el Presupuesto Participativo 2018",
     "subtitle_4": "Más de 100 mil rosarinos eligieron los proyectos para su barrio entre las categorías de oficios, deportes, cultura, alumbrado LED y recuperación de espacios públicos.",
-
     "name_5": "Wired",
     "title_5": "Out in the Open",
     "subtitle_5": "With an open source website, voters can have access to a platform that gives them the ability to influence the actions of politicians.",
-
     "name_6": "La Nación",
     "title_6": "Los porteños eligieron prohibir a los cuidacoches",
     "subtitle_6": "Prohibir a los cuidacoches fue uno de los proyectos más votado por la ciudadanía en la web de la Legislatura Porteña.",
-
     "name_7": "TED",
     "title_7": "How to upgrade democracy for the Internet era",
     "subtitle_7": "Through their open-source mobile platform they want to bring citizens inside the legislative process, and run candidates who will listen to what they say.",
-
     "name_8": "Popular",
     "title_8": "Vicente López: Lanzaron los Foros Vecinales Barriales",
     "subtitle_8": "El intendente de Vicente López, Jorge Macri, presentó una nueva edición de los Foros Vecinales Barriales.",
-
     "name_9": "Ámbito",
     "title_9": "Diputados lanzó un portal para que la ciudadanía participe en la elaboración de leyes",
     "subtitle_9": "Según sus creadores, la plataforma permitirá a los legisladores abrir a los ciudadanos proyectos que estén en etapa de elaboración.",
-
     "name_10": "Radio CUT",
     "title_10": "Entrevista a Agustín Frizzera director de democracia en red",
     "subtitle_10": "Diputados lanzó un portal para que la ciudadanía participe en la elaboración de leyes",
-
     "name_11": "TN",
     "title_11": "La visión esloganera del futuro y una campaña sin ideas",
     "subtitle_11": "Nuestro sistema democrático depende del flujo de información veraz y de la oferta electoral diversa con candidaturas que expresen de forma clara y concreta lo que quieren hacer.",
-
     "name_12": "Infobae",
     "title_12": "Adolescentes y polarización en las redes sociales",
     "subtitle_12": "Hoy más que nunca es importante entender cómo funcionan las Redes Sociales y, sobre todo, cómo funcionamos en relación a ellas. La verdadera dicotomía está en “dominar la herramienta o ser dominados por ella”",
-
     "name_13": "La Nación",
     "title_13": "#MeRepresenta",
     "subtitle_13": "El sitio que organiza los datos de las candidaturas y propuestas de los partidos políticos que participan en las elecciones del domingo.",
-  
     "name_14": "Clarín",
     "title_14": "Disonancia cognitiva: nuestro entorno no siempre tiene razón.",
     "subtitle_14": "Como señalamos desde la iniciativa Corazones y Mentes, lo descrito puede sonar familiar: es un mecanismo que predomina en nuestras interacciones y está presente en el ecosistema de las redes sociales, donde las etiquetas se exponen con orgullo y la demanda de inmediatez entorpece la reflexión.",
-
     "name_15": "TN",
     "title_15": "Fuga de datos personales en la Argentina: se registraron más de 14.000 reportes en el último año",
     "subtitle_15": "Las diferentes filtraciones demuestran que los sistema del Estado son vulnerables y que la información privada de las personas se encuentra expuesta a hackeos.",
-
     "see_more": "Ver más",
     "see_less": "Ver menos"
   },
-
   "transparency": {
     "title": "Transparencia",
     "description": "Somos una organización que promueve la <b>apertura</b> y la <b>transparencia</b>.<br> Por eso <b>publicamos nuestros ingresos y egresos</b> para que conozcas cómo se generan nuestros ingresos y en qué lo gastamos.",
     "subtitle": "Transparencia",
     "description_home": "Somos una organización que promueve la <b>apertura</b> y la <b>transparencia</b>.<br> Por eso <b>publicamos nuestros ingresos y egresos</b> para que conozcas cómo se generan nuestros ingresos y en qué lo gastamos.",
-    "balance_button":"VER BALANCES COMPLETOS",
+    "balance_button": "VER BALANCES COMPLETOS",
     "download_balance": "Te invitamos a descargar y conocer los balances de años pasados",
     "link": "/transparencia",
     "balance": {
@@ -751,20 +647,20 @@
     "evolution": {
       "title": "Evolución de ingresos y gastos",
       "labels": {
-        "label_1":"30 de junio de 2015",
-        "label_2":"30 de junio de 2016",
-        "label_3":"30 de junio de 2017",
-        "label_4":"30 de junio de 2018",
-        "label_5":"30 de junio de 2019",
-        "label_6":"30 de junio de 2020"
+        "label_1": "30 de junio de 2015",
+        "label_2": "30 de junio de 2016",
+        "label_3": "30 de junio de 2017",
+        "label_4": "30 de junio de 2018",
+        "label_5": "30 de junio de 2019",
+        "label_6": "30 de junio de 2020"
       },
       "incomesBar": {
-        "title":"Ingresos por fuente de financiamiento (año fiscal)",
+        "title": "Ingresos por fuente de financiamiento (año fiscal)",
         "label_1": "Servicios",
-        "label_2":"Donaciones"
+        "label_2": "Donaciones"
       },
       "outcomesBar": {
-        "title":"Egreso por objeto del año fiscal",
+        "title": "Egreso por objeto del año fiscal",
         "label_1": "Diseño",
         "label_2": "Impuestos e intereses",
         "label_3": "Gastos de oficina",
@@ -772,7 +668,6 @@
       }
     }
   },
-
   "requirements": "Requisitos",
   "features": "Características",
   "preview": "Visualización",
@@ -781,13 +676,12 @@
   "us": "Conocenos",
   "contact": "Contactanos",
   "transparencia": "Transparencia",
-  "prensa":"Prensa",
+  "prensa": "Prensa",
   "ecosistema": "Ecosistema",
   "work_with": "Trabajamos con",
   "claim": "“Hoy, las ideas se diseminan con mucha facilidad. Nuestra capacidad milenaria de compartir historias y experiencias anidó en internet, formando una red de conocimientos para evolucionar. Nuestro sistema de gobierno, sin embargo, ha evolucionado poco y continúa reservando la potestad de decidir en 'especialistas', como hace dos siglos atrás. El saber del representante sigue siendo necesario pero debe ser permeable a la sabiduría colectiva. La política no puede ser el monopolio del poder sino que deberia ser la habilidad de tramitar poderes repartidos”",
   "livesH1": "#VIVOS",
-  
-  "title_def":"Datos en Fuga",
+  "title_def": "Datos en Fuga",
   "subtitle_def": "Creamos soluciones de participación ciudadana con gobiernos y activistas para fortalecer la democracia.",
-  "button_def":"Conocé el proyecto"
+  "button_def": "Conocé el proyecto"
 }
