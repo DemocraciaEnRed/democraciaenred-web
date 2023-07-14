@@ -1,0 +1,25 @@
+#blog .card,
+.blogContent .card{
+    max-height: none;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+    border: 0;
+
+    .content {
+        height: auto !important;
+    }
+
+    .tag{
+        border: 1px solid rgba(0, 0, 0, 0.12);
+    }
+
+    .backgroundImage{
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+

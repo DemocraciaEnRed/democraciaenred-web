@@ -54,6 +54,8 @@ import demondial from "./assets/demondial.png";
 import demondial_en from "./assets/demondial_en.png";
 import memes from "./assets/memes.jpg";
 import memes_en from "./assets/memes_en.jpg";
+import pis from "./assets/pis.png";
+import pis_en from "./assets/pis_en.png";
 
 const images = {
   desinformacion,
@@ -105,7 +107,9 @@ const images = {
   demondial,
   demondial_en,
   memes,
-  memes_en  
+  memes_en,
+  pis,
+  pis_en  
 };
 
 const ResourcesMansonery = ({ resources, home, filter }) => {
@@ -125,7 +129,7 @@ const ResourcesMansonery = ({ resources, home, filter }) => {
     let resourcesArray = resources.resources.filter(
       (resource) => resource.type === filter
     );
-    // console.log(resourcesArray)
+  
       if (filter == 'all'){
         resourcesArray = resourcesArray.concat(
           resources.resources
@@ -133,7 +137,6 @@ const ResourcesMansonery = ({ resources, home, filter }) => {
             .map((resource) => resource)
         );
       }
-    // console.log("resources \n", resourcesArray)
     return resourcesArray.reverse()
   };
   useEffect(() => {

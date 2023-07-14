@@ -1,0 +1,14 @@
+@import "~bulma/sass/utilities/_all.sass";
+
+#blog {
+  background-color: #1D1D1B;
+}
+
+.activeButton {
+  background-color: #F7EC86 !important;
+  color: #000 !important;
+}
+.inactiveButton {
+  background-color: #1D1D1B !important;
+  color: #F7EC86 !important;
+}

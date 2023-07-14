@@ -9,7 +9,7 @@ const TransparencySection = ({ data }) => {
   return (
     <section id="transparency" className="has-background-light">
       <div className="section">
-        <div className="columns mb-6">
+        <div className="columns mb-1">
           <div className="column">
             <h1 className="title is-spaced">
               {intl.formatMessage({ id: data.subtitle })}

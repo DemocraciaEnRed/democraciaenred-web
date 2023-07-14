@@ -266,6 +266,15 @@
             "color":"yellow",
             "home": true,
             "type":"politica"
+        },
+        {
+            "title":"resources.main_title_30",
+            "subtitle":"resources.subtitle_30",
+            "link": "https://pis.org.ar/",
+            "id":"resources.img_30",
+            "color":"pink",
+            "home": true,
+            "type":"activismo"
         }                   
     ]
     

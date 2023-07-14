@@ -5,7 +5,7 @@ const
 Memories = ({ data }) => {
   const intl = useIntl();
   return (
-    <section className="memories-section hero is-fullheight ">
+    <section className="memories-section hero">
       <div className="section">
         <h2 className="is-size-3 is-spaced has-text-white has-text-centered mb-6">
           {intl.formatMessage({ id: data.memories.title })}

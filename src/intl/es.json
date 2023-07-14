@@ -84,7 +84,7 @@
     "description_2": "Instalamos y dejamos el producto funcionando en su servidor o nuestro servidor con nuestro equipo técnico.",
     "requirements_2_1": "Completar el formulario de requerimientos.",
     "requirements_2_2": "Un equipo para coordinar el proyecto.",
-    "requirements_2_3": "Precio básico: USD 2.500",
+    "requirements_2_3": "Precio: Solicitar presupuesto",
     "button_text_2": "Contactar",
     "button_link_2": "https://preguntarparaacordar.typeform.com/to/bkXtFW",
     "title_3": "Versión a medida",
@@ -437,13 +437,13 @@
   },
   "team": {
     "title_2": "Agustín Frizzera",
-    "subtitle_2": "Director Ejecutivo",
+    "subtitle_2": "Comisión directiva",
 
     "title_3": "Florencia Caffarone",
-    "subtitle_3": "Directora General",
+    "subtitle_3": "Co-directora",
 
     "title_4": "Don Powa",
-    "subtitle_4": "Desarrollo de proyectos",
+    "subtitle_4": "Co-director",
 
     "title_5": "Esteban Brenman",
     "subtitle_5": "Vicepresidente",
@@ -455,7 +455,7 @@
     "subtitle_7": "Gestión de Proyectos",
 
     "title_8": "Guillermo Croppi",
-    "subtitle_8": "Desarrollo",
+    "subtitle_8": "Ingeniero en Sistemas",
 
     "title_9": "Álvaro Araujo",
     "subtitle_9": "DevOps",
@@ -465,9 +465,6 @@
 
     "title_11": "Florencia Polimeni",
     "subtitle_11": "Presidenta",
-
-    "title_12": "Mauro Salerno",
-    "subtitle_12": "Diseño Gráfico",
     
     "title_21": "Julia Ferrando",
     "subtitle_21": "Diseño Gráfico",
@@ -488,8 +485,19 @@
     "subtitle_18": "Diseñador UX/UI",
 
     "title_20": "Mariano Valdez",
-    "subtitle_20": "Desarrollo"
+    "subtitle_20": "Coordinador de Desarrollo",
 
+    "title_22": "Cristian Valdez",
+    "subtitle_22": "Web Developer",
+
+    "title_23": "Nicolás Confalonieri",
+    "subtitle_23": "Web Developer",
+
+    "title_24": "Gerardo Rodríguez",
+    "subtitle_24": "Colaborador externo",
+
+    "title_25": "Jennifer Perkes",
+    "subtitle_25": "Redactora"
   },
   "council": {
     "main_title": "Consejo Asesor",
@@ -655,7 +663,11 @@
 
     "main_title_29": "Reir para no llorar",
     "subtitle_29": "¿Los memes suman o restan al debate político?",
-    "img_29": "memes"    
+    "img_29": "memes",
+    
+    "main_title_30": "PIS",
+    "subtitle_30": "Herramientas e información para reducir el impacto de los agroquímicos desde los territorios.",
+    "img_30": "pis"
   },
   "press": {
     "title": "Prensa",
@@ -771,6 +783,14 @@
         "label_4": "Honorarios"
       }
     }
+  },
+  "blog": {
+    "title": "BLOG",
+    "subtitle": "Conoce nuestras novedades",
+    "searchBar":"Ingresa el nombre o apellido del Autor o Autora",
+    "filterText":"Filtrar por tema",
+    "filterButton": "Ordenar por",
+    "notFoundPosts": "No se encontraron posts para tu búsqueda"
   },
 
   "requirements": "Requisitos",

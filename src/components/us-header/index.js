@@ -4,7 +4,6 @@ import "./style.scss";
 
 const UsHeader = ({ data , background}) => {
   const intl = useIntl();
-  console.log(background)
   return (
     <section className={`us-header hero is-medium has-background-${background}`} >
       <div className="hero-body has-text-centered ">

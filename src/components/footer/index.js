@@ -74,7 +74,15 @@ export default () => {
                   data-target="press-slider"
                 >
                   {intl.formatMessage({ id: "press.title" })}
-                </Link>                                
+                </Link>
+                <Link
+                    className="navbar-item pl-0 ml-0"
+                    onClick={() => setIsActive(false)}
+                    to="/blog"
+                    data-target="blog"
+                >
+                  Blog
+                </Link>                             
               </div>
               <div className="column ">
                  <h1 className="subtitle">
