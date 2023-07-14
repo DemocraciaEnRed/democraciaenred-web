@@ -173,7 +173,8 @@
             "subtitle":"resources.subtitle_19",
             "link":"https://medium.com/multitudes/gatopardismo-1e6967894774",
             "id":"gatopardismo",
-            "color":"yellow",          
+            "color":"yellow",
+            "home": true,            
             "type":"participacion_ciudadana"
         },
         {
