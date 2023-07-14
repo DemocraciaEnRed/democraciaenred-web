@@ -129,7 +129,11 @@
 
         "main_title_29": "Laugh to keep from crying",
         "subtitle_29": "The use of memes, does it add or subtract from political debate?",
-        "img_29": "memes_en"        
+        "img_29": "memes_en",
+        
+        "main_title_30": "PIS",
+        "subtitle_30": "Tools and information to reduce the impact of agrochemicals from territories.",
+        "img_30": "pis_en"
     },
     "products": {
         "first_slide_title":"Our products",
