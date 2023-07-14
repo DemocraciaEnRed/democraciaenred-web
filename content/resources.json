@@ -173,8 +173,7 @@
             "subtitle":"resources.subtitle_19",
             "link":"https://medium.com/multitudes/gatopardismo-1e6967894774",
             "id":"gatopardismo",
-            "color":"yellow",
-            "home": true,            
+            "color":"yellow",    
             "type":"participacion_ciudadana"
         },
         {
@@ -182,8 +181,7 @@
             "subtitle":"resources.subtitle_20",
             "link":"https://merepresenta.info/",
             "id":"resources.img_20",
-            "color":"pink",
-            "home": true,            
+            "color":"pink",         
             "type":"participacion_ciudadana"
         },
         {
