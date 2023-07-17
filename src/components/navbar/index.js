@@ -100,14 +100,14 @@ export default (props) => {
           >
             {intl.formatMessage({ id: "press.title" })}
           </Link>
-          <Link
+          {/* <Link
             className="navbar-item is-size-6 my-3 is-capitalized"
             onClick={() => setIsActive(false)}
             to="/blog"
             data-target="blog"
           >
             Blog
-          </Link>
+          </Link> */}
 {/* 
           <a href="#press-slider" className="navbar-item is-size-6 my-3 is-capitalized">
             {intl.formatMessage({ id: "press.title" })}
