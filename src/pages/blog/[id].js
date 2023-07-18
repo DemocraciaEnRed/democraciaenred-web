@@ -2,10 +2,12 @@ import React, { useState, useEffect } from "react";
 import { navigate } from "gatsby-plugin-intl";
 import Layout from "../../components/layout";
 import BlogContent from "../../components/blog-content";
-import { getStoryByFullSlug } from "../../controllers/StoryblokController";
+// import { getStoryByFullSlug } from "../../controllers/StoryblokController";
 
 const BlogView = (param) => {
-  navigate(`/404`);
+  useEffect(() => {
+    navigate(`/`);
+  }, [])
   /* const [post, setPost] = useState({});
 
   useEffect(() => {
@@ -33,5 +35,12 @@ const BlogView = (param) => {
       <h1> CARGANDO POST</h1>;
     </Layout>
   ); */
+  return (
+    <Layout>
+       <section className="section">
+          <h2 className='subtitle has-text-centered'>PÁGINA EN CONSTRUCCIÓN</h2>
+        </section>
+    </Layout>
+  );
 };
 export default BlogView;
