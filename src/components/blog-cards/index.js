@@ -5,7 +5,6 @@ import { dateParse } from '../../utils/DateParse'
 import { textClamp } from '../../utils/TextClamp'
 
 const BlogCards = ({ post }) => {
-
   return (
     <div className='column is-one-third'>
       <Link to={`/${post.full_slug}`}>
@@ -16,9 +15,14 @@ const BlogCards = ({ post }) => {
           </div>
           <div className="card-content">
             <div className="is-flex is-align-center mb-3">
-              <div className="media-content">
-                {post.content.author.name}
-              </div>
+            <div className="media-content">
+              {
+                post.content.author.length > 1 ? post.content.author.map((author, index) => (
+                  <p key={index}>{author.name}</p>
+                )) : 
+                <p>{post.content.author.name}</p>
+              }
+            </div>
               {dateParse(post.published_at)}
             </div>
             <div className="content p-0">

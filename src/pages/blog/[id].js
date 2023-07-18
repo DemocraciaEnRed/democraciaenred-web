@@ -5,7 +5,8 @@ import BlogContent from "../../components/blog-content";
 import { getStoryByFullSlug } from "../../controllers/StoryblokController";
 
 const BlogView = (param) => {
-  const [post, setPost] = useState({});
+  navigate(`/404`);
+  /* const [post, setPost] = useState({});
 
   useEffect(() => {
 
@@ -31,6 +32,6 @@ const BlogView = (param) => {
     <Layout>
       <h1> CARGANDO POST</h1>;
     </Layout>
-  );
+  ); */
 };
 export default BlogView;

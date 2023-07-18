@@ -25,12 +25,12 @@ const Blog = () => {
     const controller = new AbortController();
 
     getStories()
-    .then((response) => {setData(response)})
-    .catch((error) => {console.log(error)})
+      .then((response) => { setData(response) })
+      .catch((error) => { console.log(error) })
 
     getTags()
-    .then((res) => {setTags(res)})
-    .catch((err) => {console.log(err)})
+      .then((res) => { setTags(res) })
+      .catch((err) => { console.log(err) })
 
     return () => {
       controller.abort();
@@ -45,7 +45,10 @@ const Blog = () => {
         <SEO title={title} description={description} robot={robot} />
         <InternalPageHero data={dataBlog} background={"pink"} />
         <Division />
-        <BlogHeader data={dataBlog} posts={data} tags={tags} />
+        {/* <BlogHeader data={dataBlog} posts={data} tags={tags} /> */}
+        <section className="section">
+          <h2 className='subtitle has-text-centered'>PÁGINA EN CONSTRUCCIÓN</h2>
+        </section>
       </Layout>
     </React.Fragment>
   )

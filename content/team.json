@@ -21,12 +21,12 @@
     "description": "team.description_3",
     "socialmedia": [
       {
-        "url": "www.linkedin.com/in/florenciacaffarone",
-        "icon": "ln"
-      },
-      {
         "url": "https://twitter.com/pitucaffarone",
         "icon": "tw"
+      },
+      {
+        "url": "www.linkedin.com/in/florenciacaffarone",
+        "icon": "ln"
       }
     ],
     "id": "florencia-dir"
@@ -37,12 +37,12 @@
     "description": "team.description_4",
     "socialmedia": [
       {
-        "url": "https://www.linkedin.com/in/don-powa-59290473/",
-        "icon": "ln"
-      },
-      {
         "url": "https://twitter.com/donpowa",
         "icon": "tw"
+      },
+      {
+        "url": "https://www.linkedin.com/in/don-powa-59290473/",
+        "icon": "ln"
       }
     ],
     "id": "powa"
@@ -223,5 +223,27 @@
     "subtitle": "team.subtitle_24",
     "socialmedia": [],
     "id": "gerarodriguez"
+  },
+  {
+    "title": "team.title_22",
+    "subtitle": "team.subtitle_22",
+    "socialmedia": [
+      {
+        "url": "https://www.linkedin.com/in/cristian-ezequiel-valdez-aguilar-b00957136/",
+        "icon": "ln"
+      }
+    ],
+    "id": "tina"
+  },
+  {
+    "title": "team.title_25",
+    "subtitle": "team.subtitle_25",
+    "socialmedia": [
+      {
+        "url": "https://www.linkedin.com/in/jenniferperkes/",
+        "icon": "ln"
+      }
+    ],
+    "id": "jennifer"
   }
 ]

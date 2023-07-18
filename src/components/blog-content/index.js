@@ -6,7 +6,6 @@ import FeaturedPosts from "./featured-posts";
 
 const BlogContent = ({ post }) => {
   if (Object.keys(post).length > 0) {
-    const author = post.content.author;
     return (
       <section className="blogContent">
         <div
@@ -41,11 +40,27 @@ const BlogContent = ({ post }) => {
               <div className="column is-12-touch is-9-desktop">
                 <div className="is-flex is-flex-direction-row is-align-items-center is-justify-content-space-between is-flex-wrap-wrap">
                   <div className="is-flex is-flex-direction-row">
-                    <figure className="image is-64x64 mr-4">
-                      <img className="is-rounded" src={author.content?.photo?.filename ? author.content.photo.filename : `https://democraciaenred.org/der-share.png`} />
-                    </figure>
+                    {
+                      Array.isArray(post.content.author) ? post.content.author.map((author, index) => (
+                        <figure className="image is-64x64 mr-4" key={index}>
+                          <img className="is-rounded" src={author.content?.photo?.filename ? author.content.photo.filename : `https://democraciaenred.org/der-share.png`} alt={author.name} />
+                        </figure>
+                      )) : 
+                        <figure className="image is-64x64 mr-4">
+                          <img className="is-rounded" src={post.content.author.content?.photo?.filename ? post.content.author.content.photo.filename : `https://democraciaenred.org/der-share.png`} alt={post.content.author.name} />
+                        </figure>
+                    }
                     <div className="is-flex is-flex-direction-column is-justify-content-center">
-                      <p>{author.name}</p>
+                      {
+                      Array.isArray(post.content.author) ? post.content.author.map((author, index) => (
+                        <div key={index}>
+                          <b>{author.name}</b>
+                        </div>
+                      )) : 
+                        <div>
+                          <b>{post.content.author.name}</b>
+                        </div>
+                    }
                       <p>{dateParse(post.published_at)}</p>
                     </div>
                   </div>
@@ -82,16 +97,34 @@ const BlogContent = ({ post }) => {
                 )}
               </div>
               <div className="column is-12-touch is-3-desktop">
-                <figure className="image is-128x128 mb-3 author-image">
-                  <img className="is-rounded" src={author.content?.photo?.filename ? author.content.photo.filename : `https://democraciaenred.org/der-share.png`} />
-                </figure>
-                <b>{author.name}</b>
-                <p className="pb-2">{author.content?.role}</p>
-                {author.content?.linkedin ? <a href={author.content.linkedin} style={{ color: '#0077b5' }} target="_blank" ><i className="fab fa-linkedin fa-2x mx-1" /></a> : ''}
-                {author.content?.twitter ? <a href={author.content.twitter} target="_blank" ><i className="fab fa-twitter fa-2x mx-1" /></a> : ''}
-                <div className="is-full-tablet mt-4">
-                  <p>{author.content?.bio}</p>
-                </div>
+                {
+                  Array.isArray(post.content.author) ? post.content.author.map((author, index) => (
+                    <div style={{marginBottom: 15}} key={index}>
+                      <figure className="image is-128x128 mb-3 author-image">
+                        <img className="is-rounded" src={author.content?.photo?.filename ? author.content.photo.filename : `https://democraciaenred.org/der-share.png`} />
+                      </figure>
+                      <b>{author.name}</b>
+                      <p className="pb-2">{author.content?.role}</p>
+                      {author.content?.linkedin ? <a href={author.content.linkedin} style={{ color: '#0077b5' }} target="_blank" ><i className="fab fa-linkedin fa-2x mx-1" /></a> : ''}
+                      {author.content?.twitter ? <a href={author.content.twitter} target="_blank" ><i className="fab fa-twitter fa-2x mx-1" /></a> : ''}
+                      <div className="is-full-tablet mt-4">
+                        <p>{author.content?.bio}</p>
+                      </div>
+                    </div>
+                  )) :
+                  <div>
+                      <figure className="image is-128x128 mb-3 author-image">
+                        <img className="is-rounded" src={post.content.author.content?.photo?.filename ? post.content.author.content.photo.filename : `https://democraciaenred.org/der-share.png`} />
+                      </figure>
+                      <b>{post.content.author.name}</b>
+                      <p className="pb-2">{post.content.author.content?.role}</p>
+                      {post.content.author.content?.linkedin ? <a href={post.content.author.content.linkedin} style={{ color: '#0077b5' }} target="_blank" ><i className="fab fa-linkedin fa-2x mx-1" /></a> : ''}
+                      {post.content.author.content?.twitter ? <a href={post.content.author.content.twitter} target="_blank" ><i className="fab fa-twitter fa-2x mx-1" /></a> : ''}
+                      <div className="is-full-tablet mt-4">
+                        <p>{post.content.author.content?.bio}</p>
+                      </div>
+                    </div>
+                }     
               </div>
             </div>
           </div>
