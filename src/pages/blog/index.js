@@ -8,8 +8,8 @@ import SEO from '../../components/seo';
 import Division from '../../components/division';
 import InternalPageHero from '../../components/internal-page-hero';
 import BlogHeader from '../../components/blog-header';
-import { StoryblockService } from '../../services/StoryblockService';
-import { getStories, getTags } from '../../controllers/StoryblokController';
+// import { StoryblockService } from '../../services/StoryblockService';
+// import { getStories, getTags } from '../../controllers/StoryblokController';
 
 const Blog = () => {
 
@@ -17,7 +17,7 @@ const Blog = () => {
   const description = "Conocé nuestras novedades";
   const robot = "noindex"
 
-  const [data, setData] = useState([])
+  /* const [data, setData] = useState([])
   const [tags, setTags] = useState([])
 
   useEffect(() => {
@@ -37,7 +37,7 @@ const Blog = () => {
     };
 
 
-  }, [])
+  }, []) */
 
   return (
     <React.Fragment>
