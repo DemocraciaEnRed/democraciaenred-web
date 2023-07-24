@@ -14,9 +14,9 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     "gatsby-plugin-sass",
     {
-      resolve: "gatsby-plugin-google-analytics",
+      resolve: "gatsby-plugin-google-gtag",
       options: {
-        trackingId: "UA-118262366-1",
+        trackingIds: ["G-PB9BN0PCCB"],
       },
     },
     "gatsby-plugin-react-helmet",
