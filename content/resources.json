@@ -190,7 +190,6 @@
             "link":"https://compaspolitico.merepresenta.info/intro",
             "id":"resources.img_21",
             "color":"blue",
-            "home": true,            
             "type":"politica"
         },
         {
@@ -273,7 +272,16 @@
             "color":"pink",
             "home": true,
             "type":"activismo"
-        }                   
+        },
+        {
+            "title":"resources.main_title_31",
+            "subtitle":"resources.subtitle_31",
+            "link":"https://merepresenta.info/",
+            "id":"resources.img_31",
+            "color":"orange",
+            "home": true,        
+            "type":"participacion_ciudadana"
+        }                 
     ]
     
 

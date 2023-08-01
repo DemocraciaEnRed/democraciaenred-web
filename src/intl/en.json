@@ -133,7 +133,11 @@
         
         "main_title_30": "PIS",
         "subtitle_30": "Tools and information to reduce the impact of agrochemicals from territories.",
-        "img_30": "pis_en"
+        "img_30": "pis_en",
+
+        "main_title_31": "#MeRepresenta: a platform where you can find out what each party's plans are for your future.",
+        "subtitle_31": "Much better than guessing or leaving it to chance, right?",
+        "img_31": "merre2023_en"
     },
     "products": {
         "first_slide_title":"Our products",

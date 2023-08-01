@@ -54,6 +54,8 @@ import demondial from "./assets/demondial.png";
 import demondial_en from "./assets/demondial_en.png";
 import memes from "./assets/memes.jpg";
 import memes_en from "./assets/memes_en.jpg";
+import merre2023 from './assets/merre2023.png';
+import merre2023_en from './assets/merre2023_en.png';
 import pis from "./assets/pis.png";
 import pis_en from "./assets/pis_en.png";
 
@@ -109,7 +111,9 @@ const images = {
   memes,
   memes_en,
   pis,
-  pis_en  
+  pis_en,
+  merre2023,
+  merre2023_en
 };
 
 const ResourcesMansonery = ({ resources, home, filter }) => {

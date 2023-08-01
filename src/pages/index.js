@@ -35,6 +35,17 @@ if (typeof window !== "undefined") {
 }
 
 const IndexPage =()=>{
+
+  const [showModal, setShowModal] = React.useState(false);
+
+  // after 3 seconds, set showModal to true
+  React.useEffect(() => {
+    setTimeout(() => {
+      setShowModal(true);
+      console.log("showModal is true")
+    }, 3000);
+  }, []);
+
   return (
     <React.Fragment>
       <Layout>
