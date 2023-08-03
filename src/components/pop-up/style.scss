@@ -1,0 +1,46 @@
+@import "~bulma/sass/utilities/_all.sass";
+
+.popup-container{
+    background-color: #000000b6;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: background-color 0.3s ease;
+    z-index: 50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-image-container{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 70;
+    padding: 15px;
+    text-align: center;
+}
+
+.popup-close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2rem;
+    line-height: normal;
+    color: #000;
+    background: #FFF;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.popup-link{
+    color: #FFF;
+    &:hover {
+        text-decoration: underline;
+    }
+}

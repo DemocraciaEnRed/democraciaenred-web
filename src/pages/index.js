@@ -27,6 +27,7 @@ import pressData from "../../content/press.json";
 import dataTransparency from "../../content/transparency.json";
 import TransparencySection from "../components/transparency-section";
 import Layout from "../components/layout";
+import PopUp from "../components/pop-up";
 
 //Sets smooth scroll animation for anchor links
 if (typeof window !== "undefined") {
@@ -41,14 +42,33 @@ const IndexPage =()=>{
   // after 3 seconds, set showModal to true
   React.useEffect(() => {
     setTimeout(() => {
+      // check in local storage if the user has already visited the site today
+      const today = new Date();
+      const lastVisit = localStorage.getItem("lastVisit");
+      if (lastVisit) {
+        // if the user has already visited the site today, do nothing
+        if (today.getDate() === parseInt(lastVisit)) {
+          return;
+        }
+      }
+      // if the user has not visited the site today, set showModal to true
       setShowModal(true);
-      console.log("showModal is true")
-    }, 3000);
+      // and save the current date in local storage
+      localStorage.setItem("lastVisit", today.getDate());
+    }, 1000);
   }, []);
+
+  // define a function that when the PopUp components calls "closePopUp" it will set showModal to false
+  const closePopUp = () => {
+    setShowModal(false);
+  };
 
   return (
     <React.Fragment>
       <Layout>
+        {
+          showModal && <PopUp closePopUp={closePopUp} />
+        }
         <HeroSlider slides={heroSliderData} />
         <Division />
         <SocialMediaNavbar socialMedia={socialMedia} />
