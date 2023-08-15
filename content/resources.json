@@ -177,14 +177,6 @@
             "type":"participacion_ciudadana"
         },
         {
-            "title":"resources.main_title_20",
-            "subtitle":"resources.subtitle_20",
-            "link":"https://merepresenta.info/",
-            "id":"resources.img_20",
-            "color":"pink",         
-            "type":"participacion_ciudadana"
-        },
-        {
             "title":"resources.main_title_21",
             "subtitle":"resources.subtitle_21",
             "link":"https://compaspolitico.merepresenta.info/intro",
