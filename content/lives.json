@@ -52,9 +52,16 @@
         "color": "green",
         "video":"https://www.youtube.com/embed/5beGeuQElZw",
         "id": "live-forma-de-gobernar"
-    }
-
-
+    },
+    {
+        "title":"lives.title_7",
+        "subtitle":"lives.subtitle_7",
+        "description": "lives.description_7",
+        "link": "#",
+        "color": "green",
+        "video":"https://www.youtube.com/embed/82_Ruvimtvk",
+        "id": "live-reir-para-no-llorar"
+    }    
 
 
 
