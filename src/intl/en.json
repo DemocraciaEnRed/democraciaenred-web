@@ -608,54 +608,76 @@
         "title_6": "Does the Form of Governance Change?",
         "description_6": "Participants:\nFabio Quetglas - Argentine National Congressman\nDonka Atanassova - Mayor de Bogotá\nLucía Abelenda - AVINA\nModerator:\nAgustin Frizzera - Democracia en Red\n\n\nMore information",
         "subtitle_6": "",
-        "title_7": "#Disinformation: Beyond Fake News",
-        "description_7": "A conversation with Agustín Frizzera from @DemocraciaenRed y Bernardo Sorj from Democratic Platform (Brazil), to describe and analyze the current phenomenon that changed the paradigm in political communication and threatens the democratic space: #Disinformation.\nThis is a space to talk about the strategies and tactics that are carried out to try to understand how disinformation operates as a political project.",
+        "title_7": "LAUGHING TO AVOID CRYING: Do #memes add or subtract from political debate?",
+        "description_7": "'Laughing to Avoid Crying' is an investigation conducted by Bárbara Zeifer and Julieta Lenarduzzi that delves into the keys behind the most viral memes of the 2021 elections. The work thoroughly analyzes the role of this new discursive genre in shaping public opinion in an electoral context and opens the door to the debate we all were waiting for: Can memes influence voting intentions? 👀🗳",
         "subtitle_7": ""
     },
+
     "team": {
-        "title_2": "Agustin Frizzera",
-        "subtitle_2": "Board of Directors",
-        "title_3": "Florencia  Caffarone",
-        "subtitle_3": "Co-director",
-        "title_4": "Don Powa",
-        "subtitle_4": "Co-director",
-        "title_6":"Alejandra Gonzalez",
-        "subtitle_6": "Communications",
-        "title_10": "Valeria Liciaini",
-        "subtitle_10": "Direct Project",
-        "title_7": "Federico  Bertero",
+        "title_1": "Florencia Caffarone",
+        "subtitle_1": "Co-director",
+    
+        "title_2": "Don Powa",
+        "subtitle_2": "Co-director",
+    
+        "title_3": "Valeria Lisciani",
+        "subtitle_3": "Direct Project",
+    
+        "title_4": "Pano Valdez",
+        "subtitle_4": "Development Coordinator",
+    
+        "title_5": "Alejandra Gonzalez",
+        "subtitle_5": "Communications",
+    
+        "title_6": "Federico Bertero",
+        "subtitle_6": "Project Manager",
+    
+        "title_7": "Ignacio Gertie",
         "subtitle_7": "Project Manager",
-        "title_17": "Cecilia Ibarra",
-        "subtitle_17": "Project Manager",
-        "title_21": "Julia Ferrando",
-        "subtitle_21": "Graphic Designer",
-        "title_18": "Federico  Pasutti",
-        "subtitle_18": "UX and UI Designer",
-        "title_8": "Guillermo Croppi",
-        "subtitle_8": "Systems Engineer",
+    
+        "title_8": "Cecilia Ibarra",
+        "subtitle_8": "Project Manager",
+    
+        "title_9": "Federico Pasutti",
+        "subtitle_9": "UX and UI Designer",    
+    
+        "title_10": "Guillermo Croppi",
+        "subtitle_10": "Systems Engineer",
+    
+        "title_11": "Jennifer Perkes",
+        "subtitle_11": "Editor",
+    
+        "title_12": "Cristian Valdez",
+        "subtitle_12": "Web Developer",
+    
         "title_13": "Nicole Alonso",
         "subtitle_13": "Community Manager",
-        "title_20": "Mariano Valdez",
-        "subtitle_20": "Development Coordinator",
-        "title_9": "Alvaro Araujo",
-        "subtitle_9": "Operations",
-        "title_5": "Esteban Brenman",
-        "subtitle_5": "Vice President",
-        "title_11": "Florencia  Polimeni",
-        "subtitle_11": "President",
-        "title_14": "Mariano Heller",
-        "subtitle_14": "Board of Directors",
-        "title_15": "Florencia Primatesta",
-        "subtitle_15": "Board of Directors",
-        "title_22": "Cristian Valdez",
-        "subtitle_22": "Web Developer",
-        "title_23": "Nicolás Confalonieri",
-        "subtitle_23": "Web Developer",
-        "title_24": "Gerardo Rodríguez",
-        "subtitle_24": "External collaborator",
-        "title_25": "Jennifer Perkes",
-        "subtitle_25": "Editor"
-    },
+    
+        "title_14": "Álvaro Araujo",
+        "subtitle_14": "DevOps",
+    
+        "title_15": "Nicolás Confalonieri",
+        "subtitle_15": "Web Developer",
+    
+        "title_16": "Gerardo Rodríguez",
+        "subtitle_16": "External collaborator",
+    
+        "title_17": "Florencia Polimeni",
+        "subtitle_17": "President",
+    
+        "title_18": "Esteban Brenman",
+        "subtitle_18": "Vice President",
+    
+        "title_19": "Agustín Frizzera",
+        "subtitle_19": "Board of Directors",
+    
+        "title_20": "Florencia Primatesta",
+        "subtitle_20": "Board of Directors",
+    
+        "title_21": "Mariano Heller",
+        "subtitle_21": "Board of Directors"
+    
+      },
 
     "council": {
         "main_title": "Advisory Council",

@@ -1,24 +1,8 @@
 [
   {
-    "title": "team.title_2",
-    "subtitle": "team.subtitle_2",
-    "description": "team.description_2",
-    "socialmedia": [
-      {
-        "url": "https://twitter.com/agustinfrizzera",
-        "icon": "tw"
-      },
-      {
-        "url": "https://www.linkedin.com/in/agustin-frizzera-a33a792a/",
-        "icon": "ln"
-      }
-    ],
-    "id": "agustin"
-  },
-  {
-    "title": "team.title_3",
-    "subtitle": "team.subtitle_3",
-    "description": "team.description_3",
+    "title": "team.title_1",
+    "subtitle": "team.subtitle_1",
+    "description": "team.description_1",
     "socialmedia": [
       {
         "url": "https://twitter.com/pitucaffarone",
@@ -32,9 +16,9 @@
     "id": "florencia-dir"
   },
   {
-    "title": "team.title_4",
-    "subtitle": "team.subtitle_4",
-    "description": "team.description_4",
+    "title": "team.title_2",
+    "subtitle": "team.subtitle_2",
+    "description": "team.description_2",
     "socialmedia": [
       {
         "url": "https://twitter.com/donpowa",
@@ -48,61 +32,8 @@
     "id": "powa"
   },
   {
-    "title": "team.title_5",
-    "subtitle": "team.subtitle_5",
-    "description": "team.description_5",
-    "socialmedia": [
-      {
-        "url": "https://twitter.com/ebrenman",
-        "icon": "tw"
-      }
-    ],
-    "id": "esteban"
-  },
-  {
-    "title": "team.title_6",
-    "subtitle": "team.subtitle_6",
-    "description": "team.description_6",
-    "socialmedia": [
-    ],
-    "id": "alejandra"
-  },
-  {
-    "title": "team.title_7",
-    "subtitle": "team.subtitle_7",
-    "socialmedia": [
-      {
-        "url": "https://www.linkedin.com/in/federico-bertero-7b86a71a1/",
-        "icon": "ln"
-      }
-    ],
-    "id": "fede-bertero"
-  },
-  {
-    "title": "team.title_8",
-    "subtitle": "team.subtitle_8",
-    "socialmedia": [
-      {
-        "url": "https://twitter.com/guillermocroppi",
-        "icon": "tw"
-      }
-    ],
-    "id": "guille"
-  },
-  {
-    "title": "team.title_9",
-    "subtitle": "team.subtitle_9",
-    "socialmedia": [
-      {
-        "url": "https://github.com/mxdlx",
-        "icon": "gh"
-      }
-    ],
-    "id": "alvaro"
-  },
-  {
-    "title": "team.title_10",
-    "subtitle": "team.subtitle_10",
+    "title": "team.title_3",
+    "subtitle": "team.subtitle_3",
     "socialmedia": [
       {
         "url": "https://twitter.com/ValeLisciani",
@@ -116,26 +47,108 @@
     "id": "vale"
   },
   {
+    "title": "team.title_4",
+    "subtitle": "team.subtitle_4",
+    "socialmedia": [
+      {
+        "url": "https://github.com/mpvaldez",
+        "icon": "gh"
+      },
+      {
+        "url": "https://twitter.com/Frenhofer1",
+        "icon": "tw"
+      } 
+    ],
+    "id": "pano"
+  },
+  {
+    "title": "team.title_5",
+    "subtitle": "team.subtitle_5",
+    "description": "team.description_5",
+    "socialmedia": [
+    ],
+    "id": "alejandra"
+  },
+  {
+    "title": "team.title_6",
+    "subtitle": "team.subtitle_6",
+    "socialmedia": [
+      {
+        "url": "https://www.linkedin.com/in/federico-bertero-7b86a71a1/",
+        "icon": "ln"
+      }
+    ],
+    "id": "fede-bertero"
+  },
+  {
+    "title": "team.title_7",
+    "subtitle": "team.subtitle_7",
+    "socialmedia": [
+      {
+        "url": "https://www.linkedin.com/in/ignacio-gertie-2b6a54155/",
+        "icon": "ln"
+      },
+      {
+        "url": "https://twitter.com/nachoger8",
+        "icon": "tw"
+      }       
+    ],
+    "id": "nacho"
+  },
+  {
+    "title": "team.title_8",
+    "subtitle": "team.subtitle_8",
+    "socialmedia": [
+      {
+        "url": "https://www.linkedin.com/in/cecilia-anabel-ibarra-0b0141166/",
+        "icon": "ln"
+      }
+    ],
+    "id": "ceci"
+  },  
+  {
+    "title": "team.title_9",
+    "subtitle": "team.subtitle_9",
+    "socialmedia": [
+      {
+        "url": "https://www.linkedin.com/in/federico-pasutti/",
+        "icon": "ln"
+      }
+    ],
+    "id": "pasutti"
+  },
+  {
+    "title": "team.title_10",
+    "subtitle": "team.subtitle_10",
+    "socialmedia": [
+      {
+        "url": "https://twitter.com/guillermocroppi",
+        "icon": "tw"
+      }
+    ],
+    "id": "guille"
+  },
+  {
     "title": "team.title_11",
     "subtitle": "team.subtitle_11",
     "socialmedia": [
       {
-        "url": "https://twitter.com/juicyminerva",
-        "icon": "tw"
-      }
-    ],
-    "id": "florencia-presi"
-  },
-  {
-    "title": "team.title_21",
-    "subtitle": "team.subtitle_21",
-    "socialmedia": [
-      {
-        "url": "https://www.linkedin.com/in/julia-ferrando-0aaa34237/",
+        "url": "https://www.linkedin.com/in/jenniferperkes/",
         "icon": "ln"
       }
     ],
-    "id": "julia"
+    "id": "jennifer"
+  },
+  {
+    "title": "team.title_12",
+    "subtitle": "team.subtitle_12",
+    "socialmedia": [
+      {
+        "url": "https://www.linkedin.com/in/cristian-ezequiel-valdez-aguilar-b00957136/",
+        "icon": "ln"
+      }
+    ],
+    "id": "tina"
   },
   {
     "title": "team.title_13",
@@ -153,63 +166,15 @@
     "subtitle": "team.subtitle_14",
     "socialmedia": [
       {
-        "url": "https://www.linkedin.com/in/mariano-heller-68361813/",
-        "icon": "ln"
+        "url": "https://github.com/mxdlx",
+        "icon": "gh"
       }
     ],
-    "id": "mariano"
+    "id": "alvaro"
   },
   {
     "title": "team.title_15",
     "subtitle": "team.subtitle_15",
-    "socialmedia": [
-      {
-        "url": "https://www.linkedin.com/in/florenciaprimatesta",
-        "icon": "ln"
-      }
-    ],
-    "id": "florencia-comis"
-  },
-  {
-    "title": "team.title_17",
-    "subtitle": "team.subtitle_17",
-    "socialmedia": [
-      {
-        "url": "https://www.linkedin.com/in/cecilia-anabel-ibarra-0b0141166/",
-        "icon": "ln"
-      }
-    ],
-    "id": "ceci"
-  },
-  {
-    "title": "team.title_18",
-    "subtitle": "team.subtitle_18",
-    "socialmedia": [
-      {
-        "url": "https://www.linkedin.com/in/federico-pasutti/",
-        "icon": "ln"
-      }
-    ],
-    "id": "pasutti"
-  },
-  {
-    "title": "team.title_20",
-    "subtitle": "team.subtitle_20",
-    "socialmedia": [
-      {
-        "url": "https://github.com/mpvaldez",
-        "icon": "gh"
-      },
-      {
-        "url": "https://twitter.com/Frenhofer1",
-        "icon": "tw"
-      } 
-    ],
-    "id": "pano"
-  },
-  {
-    "title": "team.title_23",
-    "subtitle": "team.subtitle_23",
     "socialmedia": [
       {
         "url": "https://www.github.com/nicoc0",
@@ -219,31 +184,78 @@
     "id": "nicoconfa"
   },
   {
-    "title": "team.title_24",
-    "subtitle": "team.subtitle_24",
+    "title": "team.title_16",
+    "subtitle": "team.subtitle_16",
     "socialmedia": [],
     "id": "gerarodriguez"
   },
   {
-    "title": "team.title_22",
-    "subtitle": "team.subtitle_22",
+    "title": "team.title_17",
+    "subtitle": "team.subtitle_17",
     "socialmedia": [
       {
-        "url": "https://www.linkedin.com/in/cristian-ezequiel-valdez-aguilar-b00957136/",
-        "icon": "ln"
+        "url": "https://twitter.com/juicyminerva",
+        "icon": "tw"
       }
     ],
-    "id": "tina"
+    "id": "florencia-presi"
   },
   {
-    "title": "team.title_25",
-    "subtitle": "team.subtitle_25",
+    "title": "team.title_18",
+    "subtitle": "team.subtitle_18",
+    "description": "team.description_18",
     "socialmedia": [
       {
-        "url": "https://www.linkedin.com/in/jenniferperkes/",
+        "url": "https://twitter.com/ebrenman",
+        "icon": "tw"
+      }
+    ],
+    "id": "esteban"
+  },
+  {
+    "title": "team.title_19",
+    "subtitle": "team.subtitle_19",
+    "description": "team.description_19",
+    "socialmedia": [
+      {
+        "url": "https://twitter.com/agustinfrizzera",
+        "icon": "tw"
+      },
+      {
+        "url": "https://www.linkedin.com/in/agustin-frizzera-a33a792a/",
         "icon": "ln"
       }
     ],
-    "id": "jennifer"
+    "id": "agustin"
+  },
+  {
+    "title": "team.title_20",
+    "subtitle": "team.subtitle_20",
+    "socialmedia": [
+      {
+        "url": "https://www.linkedin.com/in/florenciaprimatesta",
+        "icon": "ln"
+      }
+    ],
+    "id": "florencia-comis"
+  },
+  {
+    "title": "team.title_21",
+    "subtitle": "team.subtitle_21",
+    "socialmedia": [
+      {
+        "url": "https://www.linkedin.com/in/mariano-heller-68361813/",
+        "icon": "ln"
+      }
+    ],
+    "id": "mariano"
   }
+
+
+
+
+
+
+
 ]
+

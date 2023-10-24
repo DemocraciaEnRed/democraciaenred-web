@@ -34,12 +34,26 @@ export default ({ slides,title }) =>  {
         },
       ]
     }
+
+    const shuffleArray = (array) => {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+      return array;
+    }    
     
     return (
         <section id="team-slider" className="px-6 team-slider pb-6 hero is-fullheight-deesktop is-large is-primary">
             <h1 className="pl-6 mb-0 mt-6 our-team title has-text-black">{intl.formatMessage({ id: title.slider_title})}</h1>
             <Slider {...sliderSettingsWith3} >
-                {slides.map((team, index) => 
+                {slides.slice(0, 4).map((team, index) => 
+                    <Team data={team} key={index} className="pt-6"/>
+                )}
+                {shuffleArray(slides.slice(5, 13)).map((team, index) => 
+                    <Team data={team} key={index} className="pt-6"/>
+                )}
+                {slides.slice(14).map((team, index) => 
                     <Team data={team} key={index} className="pt-6"/>
                 )}
             </Slider>

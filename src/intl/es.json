@@ -426,7 +426,11 @@
 
     "title_6": "¿Cambia la forma de gobernar? ",
     "subtitle_6": "",
-    "description_6": "Sentimos que el COVID-19 “lo cambia todo”, que nuestras vidas ya no serán iguales. Pero ¿cómo impactará la cuarentena más masiva de la historia en la gestión pública? ¿cuáles son los ajustes que podemos prever en la forma en que se gobiernan las ciudades? ¿cuáles son las oportunidades?"
+    "description_6": "Sentimos que el COVID-19 “lo cambia todo”, que nuestras vidas ya no serán iguales. Pero ¿cómo impactará la cuarentena más masiva de la historia en la gestión pública? ¿cuáles son los ajustes que podemos prever en la forma en que se gobiernan las ciudades? ¿cuáles son las oportunidades?",
+
+    "title_7": "REIR PARA NO LLORAR: ¿Los #memes suman o restan al debate politico?",
+    "subtitle_7": "",
+    "description_7": "‘Reír para no llorar’, es una investigación que realizaron Bárbara Zeifer y Julieta Lenarduzzi sobre las claves detrás de los memes más virales de las elecciones de 2021. \nEl trabajo analiza en detalle cuál es el rol de este nuevo género discursivo en la formación de la opinión pública en un contexto electoral y abre la puerta al debate que todos/as esperábamos: \n¿Pueden los memes influenciar la intención del voto? 👀🗳"
   },
   "usSection": {
     "title": "Quiénes somos",
@@ -436,68 +440,69 @@
     "button": "Conocenos"
   },
   "team": {
-    "title_2": "Agustín Frizzera",
-    "subtitle_2": "Comisión directiva",
+    "title_1": "Florencia Caffarone",
+    "subtitle_1": "Co-directora",
 
-    "title_3": "Florencia Caffarone",
-    "subtitle_3": "Co-directora",
+    "title_2": "Don Powa",
+    "subtitle_2": "Co-director",
 
-    "title_4": "Don Powa",
-    "subtitle_4": "Co-director",
+    "title_3": "Valeria Lisciani",
+    "subtitle_3": "Coordinadora de Proyectos",
 
-    "title_5": "Esteban Brenman",
-    "subtitle_5": "Vicepresidente",
+    "title_4": "Pano Valdez",
+    "subtitle_4": "Coordinador de Desarrollo",
 
-    "title_6": "Alejandra Gonzalez",
-    "subtitle_6": "Coordinadora Comunicacion",
+    "title_5": "Alejandra Gonzalez",
+    "subtitle_5": "Coordinadora Comunicacion",
 
-    "title_7": "Federico Bertero",
+    "title_6": "Federico Bertero",
+    "subtitle_6": "Gestión de Proyectos",
+
+    "title_7": "Ignacio Gertie",
     "subtitle_7": "Gestión de Proyectos",
 
-    "title_8": "Guillermo Croppi",
-    "subtitle_8": "Ingeniero en Sistemas",
+    "title_8": "Cecilia Ibarra",
+    "subtitle_8": "Gestión de Proyectos",
 
-    "title_9": "Álvaro Araujo",
-    "subtitle_9": "DevOps",
+    "title_9": "Federico Pasutti",
+    "subtitle_9": "Diseñador UX/UI",    
 
-    "title_10": "Valeria Lisciani",
-    "subtitle_10": "Coordinadora de Proyectos",
+    "title_10": "Guillermo Croppi",
+    "subtitle_10": "Ingeniero en Sistemas",
 
-    "title_11": "Florencia Polimeni",
-    "subtitle_11": "Presidenta",
-    
-    "title_21": "Julia Ferrando",
-    "subtitle_21": "Diseño Gráfico",
+    "title_11": "Jennifer Perkes",
+    "subtitle_11": "Redactora",
+
+    "title_12": "Cristian Valdez",
+    "subtitle_12": "Web Developer",
 
     "title_13": "Nicole Alonso",
     "subtitle_13": "Community Manager",
 
-    "title_14": "Mariano Heller",
-    "subtitle_14": "Comisión Directiva",
+    "title_14": "Álvaro Araujo",
+    "subtitle_14": "DevOps",
 
-    "title_15": "Florencia Primatesta",
-    "subtitle_15": "Comisión directiva",
+    "title_15": "Nicolás Confalonieri",
+    "subtitle_15": "Web Developer",
 
-    "title_17": "Cecilia Ibarra",
-    "subtitle_17": "Gestión de Proyectos",
+    "title_16": "Gerardo Rodríguez",
+    "subtitle_16": "Colaborador externo",
 
-    "title_18": "Federico Pasutti",
-    "subtitle_18": "Diseñador UX/UI",
+    "title_17": "Florencia Polimeni",
+    "subtitle_17": "Presidenta",
 
-    "title_20": "Mariano Valdez",
-    "subtitle_20": "Coordinador de Desarrollo",
+    "title_18": "Esteban Brenman",
+    "subtitle_18": "Vicepresidente",
 
-    "title_22": "Cristian Valdez",
-    "subtitle_22": "Web Developer",
+    "title_19": "Agustín Frizzera",
+    "subtitle_19": "Comisión directiva",
 
-    "title_23": "Nicolás Confalonieri",
-    "subtitle_23": "Web Developer",
+    "title_20": "Florencia Primatesta",
+    "subtitle_20": "Comisión directiva",
 
-    "title_24": "Gerardo Rodríguez",
-    "subtitle_24": "Colaborador externo",
+    "title_21": "Mariano Heller",
+    "subtitle_21": "Comisión Directiva"
 
-    "title_25": "Jennifer Perkes",
-    "subtitle_25": "Redactora"
   },
   "council": {
     "main_title": "Consejo Asesor",
