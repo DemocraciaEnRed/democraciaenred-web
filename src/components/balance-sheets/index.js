@@ -33,6 +33,13 @@ export default ({data}) =>  {
             </div>
             <div className="columns is-flex-desktop is-flex-wrap-wrap">
 
+            <div className="column is-one-fifth is-full-mobile balance">
+                    <div className="above ">
+                        <img className="imgres" src={images.rosa}></img>
+                        <a href="https://drive.google.com/file/d/1tPevuiDCDylsiaZwj0iAEd1pqSmL-Q1N/view" target="_blank" className="anio">2023</a>
+                    </div>
+                </div>                
+
                 <div className="column is-one-fifth is-full-mobile balance">
                     <div className="above ">
                         <img className="imgres" src={images.rosa}></img>
