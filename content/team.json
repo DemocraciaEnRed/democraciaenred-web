@@ -155,11 +155,15 @@
     "subtitle": "team.subtitle_13",
     "socialmedia": [
       {
-        "url": "https://www.instagram.com/niquialonso/",
+        "url": "https://www.instagram.com/milumartino",
         "icon": "ig"
-      }
+      },
+      {
+        "url": "https://www.linkedin.com/in/milagrosmartino/",
+        "icon": "ln"
+      }      
     ],
-    "id": "niqui"
+    "id": "milu"
   },
   {
     "title": "team.title_14",
