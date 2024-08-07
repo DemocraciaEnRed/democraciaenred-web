@@ -1,4 +1,5 @@
 @import "~bulma/sass/utilities/_all.sass";
+@import "../../pages/generalSet.scss";
 
 .navbar {
     transition: background-color 0.3s ease;
@@ -13,6 +14,8 @@
     border: none;
     background-color: transparent;
     outline: none !important;
+    margin-right: 1rem;
+    margin-top:.5rem;
     span {
         width: 30px;
         height: 2px;
@@ -54,57 +57,40 @@
     font-size: 1rem;
 }
 
-@include touch {
-    .navbar.is-active {
-        position: fixed;
-        height: 100%;
-        background-color: #4d4d4d;
+.navbar-menu{
+    .menu-logo{
+        display: none;
     }
-
-    .navbar-menu {
-        box-shadow: none;
-        .navbar-item {
-            padding: 0.2rem 0.75rem;
-        }
+    .navbar-start{
+        .media-wrapper{
+            display: none;
+           }
     }
-    .navbar-start {
-        position: relative;
+    .navbar-brand{
+        display: none;
     }
-    .navbar-start p {
-        position: fixed;
-        bottom: 2rem;
-        left: 1rem;
-        right: 3rem;
-    }
-    .lang-switch {
-        position: absolute;
-        bottom: -30px;
-    }
-    .navbar-item-lang {
-        display: inline-block;
+    .footer-navbar{
+        display: none;
     }
 }
-   
+
 @include desktop {
     .navbar {
         // margin-top: 1.5rem;
-        justify-content: flex-end;
+        justify-content: space-between;
         // top: -26px;
-
         .navbar-item {
             font-size: 18px;
         }
     }
-    .navbar-brand {
-        position: absolute;
-        left: 6rem;
-        transform: translateX(-50%);
-    }
+
     .navbar-menu {
         flex-grow: 0;
+        
         .navbar-start {
             align-items: center;
             margin-right: 2rem;
+            
         }
         .left-wrapper {
             position: absolute;
@@ -143,12 +129,93 @@
                 }
             }
         }
-        
+ 
     }
     @media screen and (min-width: 1024px){
         .is-size-2-desktop {
             right:100px;
         }
+    }        
+}
+@media screen and (max-width: 1278px){
+
+
+    .navbar-brand {
+        left: 6rem;
     }
-        
+
+
+    .navbar-menu {
+        box-shadow: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        background-color: #4d4d4d!important;
+        width: min-content;
+        &.is-active {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .menu-logo{
+            display: block;
+            img{
+                max-height: 3rem !important;
+            }
+        }
+        .navbar-item {
+            padding: 0.2rem 0.75rem;
+            margin-left: 1rem;
+        }
+        .navbar-brand{
+            display: flex;
+                .navbar-burger{
+                    margin-top: 0;
+                }
+        }
+        .footer-navbar{
+            padding: 1rem 2rem;
+            display: block;
+            
+        }
+    }
+    .navbar-start {
+        position: relative;
+        display:flex;
+        align-items: start!important;
+        flex-direction: column;
+        margin-right: 2rem;
+        p {
+           position: fixed;
+           bottom: 2rem;
+           left: 1rem;
+           right: 3rem;
+       }
+       .media-wrapper{
+        display: flex!important;
+       }
+    }
+    .lang-switch {
+        position: absolute;
+        bottom: -30px;
+    }
+    .navbar-item-lang {
+        display: inline-block;
+    }
+  
+}
+
+@media screen and (max-width: 576px){
+
+    .navbar-start {
+       .media-wrapper{
+        flex-wrap: wrap;
+       }
+    }
+    .navbar-menu{
+        &.is-active{
+            width: 100%;
+        }
+    }
 }

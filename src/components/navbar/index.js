@@ -56,6 +56,24 @@ export default (props) => {
         id="navbarColapse"
         className={isActive ? "navbar-menu is-active" : "navbar-menu"}
       >
+        <div>
+
+          <div className="navbar-brand">
+            <Link className="menu-logo" onClick={() => setIsActive(false)} to="/">
+              <img src={LogoDer} alt="Logo Democracia en Red" />
+            </Link>
+            <button
+              onClick={() => setIsActive((prevState) => !prevState)}
+              className={isActive ? "navbar-burger is-active" : "navbar-burger"}
+              aria-label="menu"
+              aria-expanded="false"
+              data-target="navbarColapse"
+            >
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </button>
+          </div>
         <div className="navbar-start">
           <Link
             className="navbar-item is-size-6 my-3 is-capitalized"
@@ -100,14 +118,15 @@ export default (props) => {
           >
             {intl.formatMessage({ id: "press.title" })}
           </Link>
-          {/* <Link
+            <Link
             className="navbar-item is-size-6 my-3 is-capitalized"
             onClick={() => setIsActive(false)}
-            to="/blog"
+              target="_blank"
+              to="http://blog.democraciaenred.org"
             data-target="blog"
           >
             Blog
-          </Link> */}
+            </Link>
 {/* 
           <a href="#press-slider" className="navbar-item is-size-6 my-3 is-capitalized">
             {intl.formatMessage({ id: "press.title" })}
@@ -119,10 +138,10 @@ export default (props) => {
           >
             {intl.formatMessage({ id: "contact" })}
           </PopupButton>
-          <div className="my-3 is-flex is-justify-content-space-between mr-2">
+            <div className="my-3  mr-2 media-wrapper">
             {socialMedia.map((media, index) => (
             <a
-              className="navbar-item is-hidden-desktop is-inline-block p-0"
+                className="navbar-item  is-inline-block p-0"
               href={media.link}
               target="_blank"
               rel="noopener noreferrer"
@@ -135,9 +154,7 @@ export default (props) => {
           ))}
           </div>
           
-          <p className="is-size-7 is-hidden-desktop has-text-white">
-            {intl.formatMessage({ id: "footer.copyright_1" })}
-          </p>
+
           <div className="lang-switch">
             <IntlContextConsumer>
               {({ languages, language: currentLocale }) =>
@@ -157,6 +174,10 @@ export default (props) => {
             </IntlContextConsumer>
           </div>
         </div>
+        </div>
+        <p className="is-size-7 has-text-white footer-navbar">
+          {intl.formatMessage({ id: "footer.copyright_1" })}
+        </p>
       </div>
     </nav>
   );
