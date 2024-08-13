@@ -121,8 +121,7 @@ export default (props) => {
             <Link
             className="navbar-item is-size-6 my-3 is-capitalized"
             onClick={() => setIsActive(false)}
-              target="_blank"
-              to="http://blog.democraciaenred.org"
+            to="http://blog.democraciaenred.org"
             data-target="blog"
           >
             Blog
