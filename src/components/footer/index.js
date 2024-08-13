@@ -78,7 +78,7 @@ export default () => {
                 <Link
                     className="navbar-item pl-0 ml-0"
                     onClick={() => setIsActive(false)}
-                    to="/blog"
+                    to="http://blog.democraciaenred.org"
                     data-target="blog"
                 >
                   Blog
