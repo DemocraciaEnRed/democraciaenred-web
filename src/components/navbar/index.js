@@ -118,14 +118,12 @@ export default (props) => {
           >
             {intl.formatMessage({ id: "press.title" })}
           </Link>
-            <Link
+            <a
             className="navbar-item is-size-6 my-3 is-capitalized"
-            onClick={() => setIsActive(false)}
-            to="https://blog.democraciaenred.org"
-            data-target="blog"
+            href="https://blog.democraciaenred.org"
           >
             Blog
-            </Link>
+            </a>
 {/* 
           <a href="#press-slider" className="navbar-item is-size-6 my-3 is-capitalized">
             {intl.formatMessage({ id: "press.title" })}

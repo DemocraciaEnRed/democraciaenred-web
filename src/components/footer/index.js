@@ -75,14 +75,12 @@ export default () => {
                 >
                   {intl.formatMessage({ id: "press.title" })}
                 </Link>
-                <Link
-                    className="navbar-item pl-0 ml-0"
-                    onClick={() => setIsActive(false)}
-                    to="https://blog.democraciaenred.org"
-                    data-target="blog"
+                <a
+                  className="navbar-item pl-0 ml-0"
+                  href="https://blog.democraciaenred.org"
                 >
                   Blog
-                </Link>                             
+                </a>                                           
               </div>
               <div className="column ">
                  <h1 className="subtitle">
