@@ -52,6 +52,7 @@ import via_libre from "./assets/viaLibre.png"
 import luminate from "./assets/luminate-logo.png"
 import ef from "./assets/ef.png"
 import ccij from "./assets/ccij.png"
+import qrcodechimp from "./assets/qrcodechimp.png"
 
 const WorkWith = () => {
   const intl = useIntl();
@@ -312,6 +313,12 @@ const WorkWith = () => {
       src: ef,
       class: "",
     },
+    {
+      name: "QRCodeChimp",
+      src: qrcodechimp,
+      class: "",
+      href:"https://www.qrcodechimp.com?from=power"
+    },    
   ];
 
   return (
@@ -324,11 +331,18 @@ const WorkWith = () => {
           {logos.map((logo, index) => (
             <div key={index} className="column is-one-third-tablet is-one-quarter-desktop is-half-mobile">
               <figure className="image">
-                <img
+                {logo.href? <a href={logo.href} target="_blank" rel="noopener noreferrer">
+                  <img
+                    src={logo.src}
+                    className={`client-logo ${logo.class}`}
+                    alt={`${logo.name}`}
+                  />
+                </a> : <img
                   src={logo.src}
                   className={`client-logo ${logo.class}`}
                   alt={`${logo.name}`}
-                />
+                />}
+                
               </figure>
             </div>
           ))}
