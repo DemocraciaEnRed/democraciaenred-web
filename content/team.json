@@ -32,21 +32,6 @@
     "id": "powa"
   },
   {
-    "title": "team.title_3",
-    "subtitle": "team.subtitle_3",
-    "socialmedia": [
-      {
-        "url": "https://twitter.com/ValeLisciani",
-        "icon": "tw"
-      },
-      {
-        "url":"https://www.linkedin.com/in/valeria-lisciani",
-        "icon":"ln"
-      }
-    ],
-    "id": "vale"
-  },
-  {
     "title": "team.title_4",
     "subtitle": "team.subtitle_4",
     "socialmedia": [
@@ -106,17 +91,6 @@
     ],
     "id": "ceci"
   },  
-  {
-    "title": "team.title_9",
-    "subtitle": "team.subtitle_9",
-    "socialmedia": [
-      {
-        "url": "https://www.linkedin.com/in/federico-pasutti/",
-        "icon": "ln"
-      }
-    ],
-    "id": "pasutti"
-  },
   {
     "title": "team.title_10",
     "subtitle": "team.subtitle_10",
