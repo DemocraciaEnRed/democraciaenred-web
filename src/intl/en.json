@@ -137,7 +137,15 @@
 
         "main_title_31": "#MeRepresenta",
         "subtitle_31": "Discover each party's plans for your future. Much better than guessing or leaving it to chance, right?",
-        "img_31": "merre2023_en"
+        "img_31": "merre2023_en",
+
+        "main_title_32": "Asambleas Climáticas",
+        "subtitle_32": "Citizen deliberation to face the climate crisis in a participatory way",
+        "img_32": "asambleas",
+
+        "main_title_33": "Reconoceme",
+        "subtitle_33": "What is the facial recognition system? Civil rights, people's privacy, limits to the state in its use, and the search for a regulatory framework.",
+        "img_33": "reconoceme"
     },
     "products": {
         "first_slide_title":"Our products",

@@ -58,6 +58,8 @@ import merre2023 from './assets/merre2023.png';
 import merre2023_en from './assets/merre2023_en.png';
 import pis from "./assets/pis.png";
 import pis_en from "./assets/pis_en.png";
+import asambleas from "./assets/asambleas.png";
+import reconoceme from "./assets/reconoceme.png";
 
 const images = {
   desinformacion,
@@ -113,7 +115,9 @@ const images = {
   pis,
   pis_en,
   merre2023,
-  merre2023_en
+  merre2023_en,
+  asambleas,
+  reconoceme
 };
 
 const ResourcesMansonery = ({ resources, home, filter }) => {

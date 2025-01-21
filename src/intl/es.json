@@ -676,7 +676,15 @@
 
     "main_title_31": "#MeRepresenta",
     "subtitle_31": "Conocé cuáles son los planes de cada partido para tu futuro. Mucho mejor que estar adivinando o dejarlo a la suerte, ¿no?",
-    "img_31": "merre2023"
+    "img_31": "merre2023",
+
+    "main_title_32": "Asambleas Climáticas",
+    "subtitle_32": "Deliberación ciudadana para enfrentar la crisis climática de manera participativa.",
+    "img_32": "asambleas",
+
+    "main_title_33": "Reconoceme",
+    "subtitle_33": "¿Qué es el sistema de reconocimiento facial?. Derechos civiles, privacidad de las personas, limites al estado en su uso y la búsqueda de un marco regulatorio.",
+    "img_33": "reconoceme"
   },
   "press": {
     "title": "Prensa",

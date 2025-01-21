@@ -190,7 +190,7 @@
             "link":"/assets/ebooks/mr-articulos-frizzera.pdf",
             "id":"resources.img_22",
             "color":"purple",
-            "home": true,            
+            "home": false,            
             "type":"politica"
         },
         {
@@ -199,7 +199,7 @@
             "link": "/assets/ebooks/SUMEN_RendicionDeCuentas.pdf",
             "id":"resources.img_23",
             "color":"yellow",
-            "home": true,            
+            "home": false,            
             "type":"participacion_ciudadana"
         },
         {
@@ -271,9 +271,27 @@
             "link":"https://merepresenta.info/",
             "id":"resources.img_31",
             "color":"orange",
-            "home": true,        
+            "home": true,
             "type":"participacion_ciudadana"
-        }                 
+        },
+        {
+            "title":"resources.main_title_32",
+            "subtitle":"resources.subtitle_32",
+            "link":"https://resurgentes.org/",
+            "id":"resources.img_32",
+            "color":"yellow",
+            "home": true,
+            "type":"politica"
+        },
+        {
+            "title":"resources.main_title_33",
+            "subtitle":"resources.subtitle_33",
+            "link":"https://reconoceme.org/",
+            "id":"resources.img_33",
+            "color":"pink",
+            "home": true,
+            "type":"activismo"
+        }        
     ]
     
 
