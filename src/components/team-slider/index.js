@@ -50,10 +50,10 @@ export default ({ slides,title }) =>  {
                 {slides.slice(0, 2).map((team, index) => 
                     <Team data={team} key={index} className="pt-6"/>
                 )}
-                {shuffleArray(slides.slice(2, 13)).map((team, index) => 
+                {shuffleArray(slides.slice(2, 15)).map((team, index) => 
                     <Team data={team} key={index} className="pt-6"/>
                 )}
-                {slides.slice(13).map((team, index) => 
+                {slides.slice(15).map((team, index) => 
                     <Team data={team} key={index} className="pt-6"/>
                 )}
                 

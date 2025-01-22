@@ -151,6 +151,28 @@
     "id": "alvaro"
   },
   {
+    "title": "team.title_22",
+    "subtitle": "team.subtitle_22",
+    "socialmedia": [
+      {
+        "url": "https://www.linkedin.com/in/lucianouchurrua/",
+        "icon": "ln"
+      }
+    ],
+    "id": "lucho"
+  },
+  {
+    "title": "team.title_23",
+    "subtitle": "team.subtitle_23",
+    "socialmedia": [
+      {
+        "url": "https://www.linkedin.com/in/rosario-lenkiewicz/",
+        "icon": "ln"
+      }
+    ],
+    "id": "rosario"
+  },  
+  {
     "title": "team.title_15",
     "subtitle": "team.subtitle_15",
     "socialmedia": [
