@@ -37,43 +37,27 @@ export default () => {
                 </h1>
                 <Link
                   className="navbar-item pl-0 ml-0"
-                  // onClick={() => setIsActive(false)}
                   to="/conocenos"
-                  data-target="nosotros"
                 >
                   {intl.formatMessage({ id: "us" })}
                 </Link>
                 <Link
                   className="navbar-item pl-0 ml-0"
-                  // onClick={() => setIsActive(false)}
+                  to="/productos"
+                >
+                  {intl.formatMessage({ id: "products_title" })}
+                </Link>
+                <Link
+                  className="navbar-item pl-0 ml-0"
                   to="/recursos"
-                  data-target="nosotros"
                 >
-                  {intl.formatMessage({ id: "resources.title" })}
+                  Proyectos
                 </Link>
                 <Link
                   className="navbar-item pl-0 ml-0"
-                  // onClick={() => setIsActive(false)}
-                  to="/transparencia"
-                  data-target="transparency"
-                >
-                  {intl.formatMessage({ id: "transparencia" })}
-                </Link>
-                <Link
-                  className="navbar-item pl-0 ml-0"
-                  // onClick={() => setIsActive(false)}
-                  to="/#ecosystem"
-                  data-target="ecosystem"
+                  to="/ecosistema"
                 >
                   {intl.formatMessage({ id: "ecosystem.main_title" })}
-                </Link>
-                <Link
-                  className="navbar-item pl-0 ml-0"
-                  // onClick={() => setIsActive(false)}
-                  to="/#press-slider"
-                  data-target="press-slider"
-                >
-                  {intl.formatMessage({ id: "press.title" })}
                 </Link>
                 <a
                   className="navbar-item pl-0 ml-0"

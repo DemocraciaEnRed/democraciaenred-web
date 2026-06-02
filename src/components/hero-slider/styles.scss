@@ -16,7 +16,7 @@ $coral: #f09c77;
   }
 
   .hero-body {
-    background-color: rgb(15 10 7 / 78%);
+    background-color: rgb(15 10 7 / 45%);
 
     @include touch {
       height: calc(100vh - 104px);
@@ -102,6 +102,26 @@ padding: 10rem 6rem;
 
   @include mobile {
     display: none;
+  }
+}
+
+#hero-slider .hero-slider-pause {
+  position: absolute;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s;
+  &:hover {
+    background: rgba(255, 255, 255, 0.3);
   }
 }
 

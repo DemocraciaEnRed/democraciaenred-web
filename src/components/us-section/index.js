@@ -1,7 +1,6 @@
 import React from "react"
 import "./styles.scss"
-import { useIntl,Link } from "gatsby-plugin-intl"
-import { PopupButton } from '@typeform/embed-react'
+import { useIntl } from "gatsby-plugin-intl"
 
 
 export default ({ data }) =>  {
@@ -33,7 +32,6 @@ export default ({ data }) =>  {
                         <p className="has-text-black subtitle">
                             {intl.formatMessage({ id: data.subtitle_2})}
                         </p>
-                        <Link className="button button-disabled-shadow has-no-background is-rounded is-medium is-black is-outlined is-uppercase is-inline-block my-0 ml-0 mr-auto" to={data.link}>{intl.formatMessage({ id: data.button })}</Link>
                     </div>
                     
                 </div>

@@ -7,7 +7,7 @@ import consulta_publica_icon from "./assets/Icono_ConsultasDigitales.png";
 import seguimiento_metas_icon from "./assets/Icono_SeguimientoMetas.png";
 
 
-const ProductButtons = ({ data, sliderRef }) => {
+const ProductButtons = ({ data }) => {
     const intl = useIntl()
 
     const icons = {
@@ -19,7 +19,7 @@ const ProductButtons = ({ data, sliderRef }) => {
 
     return (
         <div className="column is-3-desktop is-5-touch">
-            <div class="is-clickable" onClick={()=>sliderRef.current.slickGoTo(data.slideNum)}>
+            <a href={`#${data.id}`} style={{ cursor: "pointer" }}>
                 <figure className={`image is-96x96 m-auto product-${data.color} button-shadow`}>
                     <img
                         src={`${icons[data.icon]}`}
@@ -27,7 +27,7 @@ const ProductButtons = ({ data, sliderRef }) => {
                         className={`${data.icon}`}
                     />
                 </figure>
-            </div>
+            </a>
             <p className="has-text-black is-spaced has-text-centered mt-4 mx-auto">
                 {intl.formatMessage({ id: data.title })}
             </p>

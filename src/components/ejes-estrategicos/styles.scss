@@ -1,0 +1,43 @@
+@import "~bulma/sass/utilities/_all.sass";
+@import "../../pages/generalSet.scss";
+
+.ejes-estrategicos {
+  .title:after {
+    display: block;
+    content: ' ';
+    height: 3px;
+    margin: 1rem 0;
+    width: 35px;
+    background-color: #000;
+  }
+
+  .ejes-card .title:after {
+    display: none;
+  }
+}
+
+.ejes-card {
+  padding: 2rem;
+  border-radius: 8px;
+  height: 100%;
+
+  h3 {
+    font-weight: 600;
+    margin-bottom: 40px !important;
+  }
+
+  &--yellow {
+    background-color: rgba($yellow, 0.3);
+    border-top: 4px solid $yellow;
+  }
+
+  &--purple {
+    background-color: rgba($purple, 0.3);
+    border-top: 4px solid $purple;
+  }
+
+  &--green {
+    background-color: rgba($green, 0.3);
+    border-top: 4px solid $green;
+  }
+}

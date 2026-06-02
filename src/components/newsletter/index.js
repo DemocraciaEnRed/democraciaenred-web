@@ -7,7 +7,7 @@ const Newsletter = ({ data }) => {
   const intl = useIntl();
 
   return (
-    <section id="newsletter" className="bg-dark py-2">
+    <section id="newsletter" className="newsletter-grey py-2">
       <hr className="coloured-divider-left" />
       <div className="columns mt-0 mx-0 section mb-0 pb-3 pt-4 newsletter-bg-position">
 

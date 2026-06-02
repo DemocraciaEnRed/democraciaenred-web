@@ -439,6 +439,24 @@
     "slider_title": "Nuestro equipo",
     "button": "Conocenos"
   },
+  "queHacemos": {
+    "title": "¿Qué hacemos?",
+    "item1_title": "Participación Ciudadana",
+    "item1_desc": "Implementamos iniciativas que involucran a la ciudadanía en la toma de decisiones. Tecnología cívica, deliberación y más.",
+    "item2_title": "Tecnología a medida",
+    "item2_desc": "Potenciamos el impacto de gobiernos y organizaciones con desarrollos de tecnología diseñados para sus objetivos.",
+    "item3_title": "Incidencia pública",
+    "item3_desc": "Trabajamos para influir en políticas públicas mediante investigación, estrategia digital y comunicación innovadora."
+  },
+  "ejes": {
+    "title": "Ejes estratégicos",
+    "item1_title": "Democratizar las instituciones",
+    "item1_desc": "Reimaginamos el vínculo entre Estado y ciudadanía, integrando tecnología como DemocraciaOS para abrir la toma de decisiones, ampliar la participación y fortalecer la transparencia.",
+    "item2_title": "Potenciar la inteligencia colectiva",
+    "item2_desc": "Impulsamos espacios deliberativos como las Asambleas por Sorteo, donde una muestra diversa y representativa de la sociedad debate e incide en temas clave para el bien común.",
+    "item3_title": "Activar el poder ciudadano",
+    "item3_desc": "Desarrollamos herramientas que ayudan a más personas a poner en práctica sus valores democráticos de forma informada, autónoma y con impacto real."
+  },
   "team": {
     "title_1": "Florencia Caffarone",
     "subtitle_1": "Co-directora",
@@ -560,8 +578,8 @@
 
   },
   "resources": {
-    "title": "Recursos",
-    "description": "Desarrollamos tecnología cívica innovadora.\nProducimos contenidos para la incidencia ciudadana.\nSistematizamos y compartimos nuestas experiencias.",
+    "title": "Proyectos",
+    "description": "Desarrollamos tecnología cívica innovadora.\nProducimos contenidos para la incidencia ciudadana.\nSistematizamos y compartimos nuestras experiencias.",
     "subtitle": "Mirá lo que hacemos.",
     "filter_0": "Todos los proyectos",
     "filter_1": "Convivencia Digital",
@@ -820,7 +838,7 @@
   "features": "Características",
   "preview": "Visualización",
   "implementation": "Implementar",
-  "products_title": "productos",
+  "products_title": "Productos",
   "us": "Conocenos",
   "contact": "Contactanos",
   "transparencia": "Transparencia",
