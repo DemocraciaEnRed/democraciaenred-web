@@ -16,8 +16,15 @@ $yellow: #F7EC86;
 //     width: min-content;
 // }
 
-.title-product {
-    border-bottom: 3px solid #000;
+.section-title {
+    &::after {
+        display: block;
+        content: ' ';
+        height: 3px;
+        margin: 1rem 0;
+        width: 35px;
+        background-color: #000;
+    }
 }
 
 .title-product figure {
@@ -79,6 +86,10 @@ $yellow: #F7EC86;
     &.product-yellow,
     .first-slide-buttons-array .product-yellow {
         background-color: $yellow;
+    }
+
+    &.product-white {
+        background-color: #fff;
     }
 
     .is-black {

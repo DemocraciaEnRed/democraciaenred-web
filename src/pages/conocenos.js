@@ -2,8 +2,8 @@ import React from "react";
 import "./styles.scss";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import Division from "../components/division";
-import UsSection from "../components/us-section";
+import PageHero from "../components/page-hero";
+import iconConocenos from "../components/page-hero/assets/conocenos.svg";
 import dataUs from "../../content/us-section.json";
 import EjesEstrategicos from "../components/ejes-estrategicos";
 import Mision from "../components/mision";
@@ -18,12 +18,18 @@ const Conocenos = () => (
   <React.Fragment>
     <Layout>
       <SEO title="Conocenos" description="Somos una organización de la sociedad civil que abre la toma de decisiones públicas." />
-      <UsSection data={dataUs} />
+      <PageHero
+        color="#ff9b73"
+        title="Quiénes somos"
+        subtitle={[
+          "Somos una organización conformada por personas activistas, programadoras y científicas sociales que creen en potenciar la inteligencia colectiva para adaptar la democracia al siglo XXI.",
+          "Buscamos recuperar la política."
+        ]}
+        icon={iconConocenos}
+      />
       <EjesEstrategicos />
       <Mision data={dataUsPage} />
-      <Division />
       <TeamGrid slides={teamData} title={dataUs} />
-      <Division />
       <Council staff={councilData} />
       <Balance />
     </Layout>

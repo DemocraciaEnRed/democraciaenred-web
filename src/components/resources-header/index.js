@@ -10,9 +10,9 @@ const ResourcesHeader = ({ data }) => {
     <section id="resources">
       <div className="columns bg-dark mx-0 mt-0 section mb-0 pb-6">
         <div className="column ">
-          <h1 className="has-text-yellow is-spaced mb-6">
+          <h2 className="title section-title has-text-white mb-6">
             {intl.formatMessage({ id: data.subtitle })}
-          </h1>
+          </h2>
           {data.filter.map((filter, index) => (
             <button
               key={index}

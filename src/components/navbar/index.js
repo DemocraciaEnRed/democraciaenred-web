@@ -128,7 +128,7 @@ export default (props) => {
           <Link
             className={`navbar-item is-size-6 my-3 is-capitalized${activeSection === "proyectos" ? " nav-active" : ""}`}
             onClick={() => setIsActive(false)}
-            to="/recursos#resources"
+            to="/recursos"
             data-target="proyectos"
           >
             Proyectos

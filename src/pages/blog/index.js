@@ -5,8 +5,7 @@ import dataBlog from '../../../content/blog.json';
 
 import Layout from '../../components/layout';
 import SEO from '../../components/seo';
-import Division from '../../components/division';
-import InternalPageHero from '../../components/internal-page-hero';
+import PageHero from '../../components/page-hero';
 import BlogHeader from '../../components/blog-header';
 // import { StoryblockService } from '../../services/StoryblockService';
 // import { getStories, getTags } from '../../controllers/StoryblokController';
@@ -43,8 +42,11 @@ const Blog = () => {
     <React.Fragment>
       <Layout style={{ margin: 50 }}>
         <SEO title={title} description={description} robot={robot} />
-        <InternalPageHero data={dataBlog} background={"pink"} />
-        <Division />
+        <PageHero
+          color="#ff7990"
+          title="Blog"
+          subtitle="Conocé nuestras novedades, análisis y reflexiones sobre democracia y tecnología."
+        />
         {/* <BlogHeader data={dataBlog} posts={data} tags={tags} /> */}
         <section className="section">
           <h2 className='subtitle has-text-centered'>PÁGINA EN CONSTRUCCIÓN</h2>

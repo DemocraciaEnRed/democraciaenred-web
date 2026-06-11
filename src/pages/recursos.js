@@ -1,8 +1,8 @@
 import React from "react";
 import "./styles.scss";
-import InternalPageHero from "../components/internal-page-hero";
+import PageHero from "../components/page-hero";
+import iconProyectos from "../components/page-hero/assets/proyectos.svg";
 import dataResources from "../../content/resources.json";
-import Division from "../components/division";
 import ResourcesHeader from "../components/resources-header";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -14,8 +14,16 @@ const Recursos = () => {
     <React.Fragment>
       <Layout>
         <SEO title={title} description={description} />
-        <InternalPageHero data={dataResources} background= {"lila"} />
-        <Division />
+        <PageHero
+          color="#69d69d"
+          title="Proyectos"
+          subtitle={[
+            "Desarrollamos tecnología cívica innovadora.",
+            "Producimos contenidos para la incidencia ciudadana.",
+            "Sistematizamos y compartimos nuestras experiencias."
+          ]}
+          icon={iconProyectos}
+        />
         <ResourcesHeader data={dataResources} />
       </Layout>
     </React.Fragment>

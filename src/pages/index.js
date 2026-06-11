@@ -3,7 +3,6 @@ import "./styles.scss";
 import Layout from "../components/layout";
 import HeroSlider from "../components/hero-slider";
 import heroSliderData from "../../content/hero-slider.json";
-import Division from "../components/division";
 import QueHacemos from "../components/que-hacemos";
 import Newsletter from "../components/newsletter";
 import newsletterData from "../../content/newsletter.json";
@@ -17,7 +16,6 @@ const IndexPage = () => (
   <React.Fragment>
     <Layout>
       <HeroSlider slides={heroSliderData} />
-      <Division />
       <QueHacemos />
       <Newsletter data={newsletterData} />
     </Layout>

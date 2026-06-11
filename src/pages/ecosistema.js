@@ -1,7 +1,8 @@
 import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import Division from "../components/division";
+import PageHero from "../components/page-hero";
+import iconEcosistema from "../components/page-hero/assets/ecosistema.svg";
 import "./ecosistema.scss";
 
 import acij from "../components/work-with-section/assets/acij.png";
@@ -104,7 +105,7 @@ const REDES = {
 
 const Sector = ({ title, logos, text }) => (
   <div className="ecosystem-sector">
-    <h2 className="ecosystem-sector-title">{title}</h2>
+    <h2 className="title ecosystem-sector-title">{title}</h2>
     <div className="ecosystem-logos">
       {logos.map((logo, i) => (
         <div key={i} className="ecosystem-logo-item">
@@ -124,15 +125,12 @@ const Sector = ({ title, logos, text }) => (
 const Ecosistema = () => (
   <Layout>
     <SEO title="Ecosistema" description="Las organizaciones con las que trabajamos." />
-    <div className="ecosystem-hero has-background-dark has-text-white has-text-centered">
-      <div className="container">
-        <h1 className="title has-text-white mb-4">Ecosistema</h1>
-        <p className="subtitle has-text-white is-5">
-          Estas son las organizaciones con las que trabajamos.
-        </p>
-      </div>
-    </div>
-    <Division />
+    <PageHero
+      color="#e9b4f2"
+      title="Ecosistema"
+      subtitle="Estas son las organizaciones, gobiernos y redes con las que trabajamos para transformar la democracia."
+      icon={iconEcosistema}
+    />
     <div className="ecosystem-page">
       <div className="container">
         <Sector {...SOCIEDAD_CIVIL} />
