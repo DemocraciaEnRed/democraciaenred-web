@@ -1,0 +1,23 @@
+.contact-popup-modal {
+  z-index: 2000;
+
+  .modal-content {
+    max-width: 420px;
+  }
+
+  .title:after {
+    display: none;
+  }
+
+  // El popup puede quedar anidado dentro de secciones con texto blanco
+  // (navbar, footer). Forzamos colores legibles sobre el fondo blanco del box.
+  .box {
+    .title {
+      color: #363636 !important;
+    }
+
+    a {
+      color: #3273dc !important;
+    }
+  }
+}

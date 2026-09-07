@@ -35,10 +35,17 @@ export default ({data}) =>  {
 
             <div className="column is-one-fifth is-full-mobile balance">
                     <div className="above ">
+                        <img className="imgres" src={images.naranja}></img>
+                        <a href="https://drive.google.com/file/d/1KQ8SUHsGmn7n40_N3JQ1DektXCXHtPrU/view" target="_blank" className="anio">2025</a>
+                    </div>
+                </div>
+
+            <div className="column is-one-fifth is-full-mobile balance">
+                    <div className="above ">
                         <img className="imgres" src={images.celeste}></img>
                         <a href="https://drive.google.com/file/d/15yrHC5pLf4Bv3bNnGAAyXTq1pXZRhKeF/view" target="_blank" className="anio">2024</a>
                     </div>
-                </div>                         
+                </div>
 
             <div className="column is-one-fifth is-full-mobile balance">
                     <div className="above ">

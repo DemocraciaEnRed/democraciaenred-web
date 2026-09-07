@@ -1,4 +1,5 @@
 import React from "react";
+import { useIntl } from "gatsby-plugin-intl";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import PageHero from "../components/page-hero";
@@ -9,13 +10,18 @@ import productsData from "../../content/products.json";
 import dcosData from "../../content/dcOS.json";
 
 const Productos = () => {
+  const intl = useIntl();
+
   return (
     <Layout>
-      <SEO title="Productos" description="Herramientas de participación ciudadana." />
+      <SEO
+        title={intl.formatMessage({ id: "products_title" })}
+        description={intl.formatMessage({ id: "pages.productos_seo_description" })}
+      />
       <PageHero
         color="#88cbff"
-        title="Productos"
-        subtitle="Herramientas de tecnología cívica basadas en DemocraciaOS para gobiernos, legislativos y organizaciones."
+        title={intl.formatMessage({ id: "products_title" })}
+        subtitle={intl.formatMessage({ id: "pages.productos_subtitle" })}
         icon={iconProductos}
       />
       <DemocracyosProduct data={dcosData} otherProducts={productsData} />

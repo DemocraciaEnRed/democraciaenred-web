@@ -3,13 +3,9 @@
     "subtitle":"usPage.subtitle",
     "content":[
         {
-            "title":"usPage.what_we_do.title",
-            "description":"usPage.what_we_do.description"    
-        },
-        {
             "title":"usPage.mision_values.title",
             "description":"usPage.mision_values.description"
-        
+
         },
         {
             "title":"usPage.mision_approach.title",

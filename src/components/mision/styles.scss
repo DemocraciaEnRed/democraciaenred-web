@@ -12,10 +12,4 @@
    }
 
 
-.mision-section :first-child{
-   @include desktop {
-      grid-column-start: 1;
-      grid-column-end: 4;
-   }
-}
 

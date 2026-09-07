@@ -118,9 +118,22 @@
       "social": "Redes"
     }
   },
+  "pages": {
+    "conocenos_seo_description": "Somos una organización de la sociedad civil que abre la toma de decisiones públicas.",
+    "productos_seo_description": "Herramientas de participación ciudadana.",
+    "productos_subtitle": "Herramientas de tecnología cívica basadas en DemocraciaOS para gobiernos, legislativos y organizaciones.",
+    "proyectos_seo_description": "Una caja de herramientas para implementar procesos de participación.",
+    "proyectos_subtitle": "Procesos participativos y tecnologías cívicas que llevan la voz ciudadana a las decisiones públicas",
+    "ecosistema_seo_description": "Las organizaciones con las que trabajamos.",
+    "ecosistema_subtitle": "Estas son las organizaciones, gobiernos y redes con las que trabajamos para transformar la democracia.",
+    "ecosistema_sector_civil": "Sociedad Civil",
+    "ecosistema_sector_funders": "Financiadores",
+    "ecosistema_sector_governments": "Gobiernos e Instituciones Públicas",
+    "ecosistema_sector_networks": "Redes y Comunidades"
+  },
   "newsletter":{
-    "title": "Newsletter",
-    "description": "Si querés conocer todos los proyectos que llevamos a cabo, ver buenos memes y muchos chistes basados en las series y películas que nos hicieron quienes somos, suscribite a nuestro newsletter.",
+    "title": "¿Qué estamos haciendo?",
+    "description": "Te contamos lo que pasa en Democracia en Red: nuestros proyectos, investigaciones, iniciativas y oportunidades para participar. Suscribite y recibí nuestras novedades directamente en tu mail.",
     "button": "Subscribirme"
   },
   "usPage": {
@@ -128,11 +141,11 @@
     "subtitle": "Una organización que usa la tecnología para adaptar la democracia al siglo XXI",
     "mision_values": {
       "title": "Misión",
-      "description": "Utilizar la tecnología para democratizar las instituciones públicas."
+      "description": "Democratizar el poder mediante la creación de soluciones y el fortalecimiento de la capacidad ciudadana para participar, deliberar e incidir en las decisiones públicas."
     },
     "mision_approach": {
       "title": "Visión",
-      "description": "Ser la Organización referente en todo LATAM en implementar la tecnología para abrir la toma de decisiones públicas a la ciudadanía."
+      "description": "Lograr una democracia donde más personas participen en la toma de decisiones que afectan su vida."
     },
     "what_we_do": {
       "title": "¿Qué hacemos?",
@@ -434,7 +447,7 @@
   },
   "usSection": {
     "title": "Quiénes somos",
-    "subtitle_1": "Somos una organización conformada por personas activistas, programadoras y científicas sociales que creen en potenciar la inteligencia colectiva para adaptar la democracia al siglo XXI.",
+    "subtitle_1": "Somos una organización conformada por personas activistas, programadores y científicas sociales que creen en potenciar la inteligencia colectiva para innovar en el gobierno y mejorar la democracia.",
     "subtitle_2": "Buscamos recuperar la política",
     "slider_title": "Nuestro equipo",
     "button": "Conocenos"
@@ -457,100 +470,152 @@
     "item3_title": "Activar el poder ciudadano",
     "item3_desc": "Desarrollamos herramientas que ayudan a más personas a poner en práctica sus valores democráticos de forma informada, autónoma y con impacto real."
   },
+  "lineasTrabajo": {
+    "title": "Líneas de trabajo",
+    "examples_label": "Algunos ejemplos",
+
+    "section1_title": "Participación Ciudadana",
+    "section1_subtitle": "Estrategias y herramientas para tomar mejores decisiones públicas",
+    "section1_body1": "Diseñamos, facilitamos e implementamos procesos que llevan la voz ciudadana a las decisiones públicas. Acompañamos a gobiernos y organizaciones, combinando instancias presenciales de deliberación con tecnologías cívicas, según lo que cada proceso necesita. Creemos que la participación construye mejores políticas públicas y reconstruye la confianza entre el Estado y la ciudadanía.",
+    "section1_body2": "Desde 2014 acompañamos a más de 60 instituciones de gobierno de Argentina y la región. Trabajamos con gobiernos locales como Vicente López, Rosario, Mar del Plata y San Miguel de Tucumán, con la Ciudad de Buenos Aires y su Legislatura, con la Cámara de Diputados de la Nación y con el gobierno nacional.",
+    "section1_subheading": "Procesos que diseñamos y facilitamos",
+    "section1_card1_title": "Asambleas ciudadanas por sorteo",
+    "section1_card1_desc": "Personas seleccionadas al azar deliberan y producen recomendaciones de política pública.",
+    "section1_card2_title": "Procesos presenciales en territorio",
+    "section1_card2_desc": "Talleres y encuentros de participación ciudadana local.",
+    "section1_card3_title": "Presupuesto participativo",
+    "section1_card3_desc": "La ciudadanía decide directamente en qué se invierte parte del presupuesto público.",
+    "section1_card4_title": "Consultas públicas",
+    "section1_card4_desc": "Espacios de diálogo y debate que conectan al gobierno con la comunidad.",
+    "section1_card5_title": "Co-construcción de normativa",
+    "section1_card5_desc": "Elaboración colaborativa de normas entre representantes y ciudadanía.",
+    "section1_card6_title": "Rendición de cuentas",
+    "section1_card6_desc": "La ciudadanía monitorea las metas y los compromisos asumidos por el gobierno.",
+    "section1_dosbox": "Muchos de estos procesos se apoyan en <b>DemocraciaOS</b>, nuestra familia de tecnologías cívicas de código abierto. Podés conocerlas en <a href=\"https://democraciaos.org\" target=\"_blank\" rel=\"noopener noreferrer\">democraciaos.org</a>.",
+    "section1_project1_name": "Leyes Abiertas",
+    "section1_project1_partner": "con Cámara de Diputados de la Nación",
+    "section1_project1_desc": "Plataforma de co-construcción de normas que permite a la ciudadanía participar en la elaboración de proyectos de ley.",
+    "section1_project2_name": "Consulta Pública",
+    "section1_project2_partner": "con Poder Ejecutivo Nacional",
+    "section1_project2_desc": "Plataforma de consulta, diálogo y debate que conecta al gobierno nacional con la comunidad.",
+    "section1_project3_name": "Presupuesto Participativo",
+    "section1_project3_partner": "con Municipio de Vicente López",
+    "section1_project3_desc": "La ciudadanía elige en qué se invierte parte del presupuesto público de su municipio.",
+
+    "section2_title": "Impacto a medida",
+    "section2_subtitle": "Somos el socio técnico de proyectos con impacto social",
+    "section2_body1": "Ponemos nuestra capacidad de diseño y desarrollo al servicio de organizaciones que llevan adelante proyectos de impacto y necesitan tecnología para lograrlo. Desde sus objetivos: traducimos problemas complejos en herramientas concretas que potencian su trabajo y multiplican su valor social.",
+    "section2_body2": "Construimos desde cero o a partir de soluciones probadas, según lo que cada proyecto necesita.",
+    "section2_subheading": "Qué podemos construir",
+    "section2_card1_title": "Plataformas a medida",
+    "section2_card1_desc": "Sitios y aplicaciones diseñados para los objetivos de cada proyecto.",
+    "section2_card2_title": "Visualización de datos",
+    "section2_card2_desc": "Volvemos clara y accesible la información pública compleja o dispersa.",
+    "section2_card3_title": "Uso de inteligencia artificial",
+    "section2_card3_desc": "Incorporamos IA para procesar información y ampliar el alcance de cada herramienta.",
+    "section2_project1_name": "Justa",
+    "section2_project1_partner": "con ACIJ",
+    "section2_project1_desc": "Un portal que muestra, con visualizaciones claras, cómo funciona el Poder Judicial.",
+    "section2_project2_name": "Periodistas Amenazadas",
+    "section2_project2_partner": "con FOPEA",
+    "section2_project2_desc": "Releva y visibiliza las amenazas y agresiones que sufren periodistas.",
+    "section2_project3_name": "Demoreset",
+    "section2_project3_partner": "con Extituto",
+    "section2_project3_desc": "Plataforma de matchmaking para conectar a quienes impulsan la innovación democrática.",
+
+    "section3_title": "Incidencia pública",
+    "section3_subtitle": "Innovación democrática, campañas y compromiso cívico",
+    "section3_body1": "Trabajamos junto a otras organizaciones para influir en las políticas públicas y la agenda social. Ponemos nuestro conocimiento, nuestras tecnologías y nuestros procesos al servicio de causas compartidas: diseñamos innovaciones democráticas para la incidencia, desplegamos campañas de comunicación y promovemos el compromiso cívico de la ciudadanía.",
+    "section3_body2": "Lo hacemos en alianza con organizaciones de Argentina y la región, alrededor de las agendas que consideramos clave para la democracia del siglo XXI.",
+    "section3_subheading": "Agendas en las que trabajamos",
+    "section3_tag1": "Democracia",
+    "section3_tag2": "Participación ciudadana",
+    "section3_tag3": "Transparencia",
+    "section3_tag4": "Derechos digitales",
+    "section3_tag5": "Ambiente",
+    "section3_project1_name": "PIS",
+    "section3_project1_partner": "Pesticidas Introducidos Silenciosamente",
+    "section3_project1_desc": "Tecnología cívica y ciencia ciudadana en territorio para contrarrestar el impacto de los agroquímicos.",
+    "section3_project2_name": "#MeRepresenta",
+    "section3_project2_desc": "Herramienta para pensar el voto que organiza información electoral, y campaña para promover el voto informado.",
+    "section3_project3_name": "#DatosEnFuga",
+    "section3_project3_desc": "Sobre la falta de inversión del Estado en ciberseguridad y la persecución a quienes reportan vulnerabilidades.",
+    "section3_project4_name": "Alerta Spyware",
+    "section3_project4_desc": "Investigación sobre software espía, con guía para quienes sospechan estar bajo vigilancia."
+  },
   "team": {
     "title_1": "Florencia Caffarone",
-    "subtitle_1": "Co-directora",
+    "subtitle_1": "Directora Ejecutiva",
 
-    "title_2": "Don Powa",
-    "subtitle_2": "Co-director",
+    "title_2": "Ignacio Gertie",
+    "subtitle_2": "Coordinador de Innovación e Incidencia",
 
-    "title_3": "Valeria Lisciani",
-    "subtitle_3": "Coordinadora de Proyectos",
+    "title_3": "Mariano Valdez",
+    "subtitle_3": "Coordinador de Desarrollo",
 
-    "title_4": "Pano",
-    "subtitle_4": "Coordinador de Desarrollo",
+    "title_4": "Guillermo Croppi",
+    "subtitle_4": "Ingeniero en Sistemas Senior",
 
-    "title_5": "Alejandra Gonzalez",
-    "subtitle_5": "Coordinadora Comunicacion",
+    "title_5": "Abril Chiesa",
+    "subtitle_5": "Líder de Comunicación y Redes Sociales",
 
-    "title_6": "Federico Bertero",
-    "subtitle_6": "Gestión de Proyectos",
+    "title_6": "Cristian Valdez",
+    "subtitle_6": "Desarrollador Web",
 
-    "title_7": "Ignacio Gertie",
-    "subtitle_7": "Gestión de Proyectos",
+    "title_7": "Álvaro Araujo",
+    "subtitle_7": "DevOps",
 
-    "title_8": "Cecilia Ibarra",
-    "subtitle_8": "Gestión de Proyectos",
+    "title_8": "Jennifer Perkes",
+    "subtitle_8": "Diseñadora Gráfica",
 
-    "title_9": "Federico Pasutti",
-    "subtitle_9": "Diseñador UX/UI",    
+    "title_9": "Sofía Caffaro",
+    "subtitle_9": "Diseñadora de Producto",
 
-    "title_10": "Guillermo Croppi",
-    "subtitle_10": "Ingeniero en Sistemas",
+    "title_10": "Lihuen Bezzo",
+    "subtitle_10": "Diseñadora UX",
 
-    "title_11": "Jennifer Perkes",
-    "subtitle_11": "Redactora",
+    "title_11": "Delfina Montagna Hughes",
+    "subtitle_11": "Investigadora UX",
 
-    "title_12": "Cristian Valdez",
-    "subtitle_12": "Web Developer",
+    "title_12": "Agustín Frizzera",
+    "subtitle_12": "Presidente",
 
-    "title_13": "Milu Martino",
-    "subtitle_13": "CM y Redactora Junior",
+    "title_13": "Florencia Polimeni",
+    "subtitle_13": "Vicepresidenta",
 
-    "title_14": "Álvaro Araujo",
-    "subtitle_14": "DevOps",
+    "title_14": "Esteban Brenman",
+    "subtitle_14": "Secretario",
 
-    "title_15": "Nicolás Confalonieri",
-    "subtitle_15": "Web Developer",
+    "title_15": "Florencia Primatesta",
+    "subtitle_15": "Tesorera",
 
-    "title_16": "Gerardo Rodríguez",
-    "subtitle_16": "Colaborador externo",
-
-    "title_17": "Florencia Polimeni",
-    "subtitle_17": "Presidenta",
-
-    "title_18": "Esteban Brenman",
-    "subtitle_18": "Vicepresidente",
-
-    "title_19": "Agustín Frizzera",
-    "subtitle_19": "Comisión directiva",
-
-    "title_20": "Florencia Primatesta",
-    "subtitle_20": "Comisión directiva",
-
-    "title_21": "Mariano Heller",
-    "subtitle_21": "Comisión Directiva",
-    
-    "title_22": "Luciano Churruarín",
-    "subtitle_22": "Diseñador UX/UI",    
-
-    "title_23": "Rosario Lenkiewicz",
-    "subtitle_23": "Gestión administrativa"
+    "title_16": "Mariano Heller",
+    "subtitle_16": "Vocal"
 
   },
   "council": {
     "main_title": "Consejo Asesor",
-    "title_1": "MÓNICA VILLEGAS",
+    "title_1": "Mónica Villegas",
     "subtitle_1": " Liderazgo Público, participación ciudadana y ciudades. ",
     "description_1": "COMPLETAR",
 
-    "title_2": "DARDO CEBALLOS",
+    "title_2": "Dardo Ceballos",
     "subtitle_2": "Estrategias de innovación y  transformación digital aplicadas al sector público y la innovación política. ",
     "description_2": "COMPLETAR",
 
-    "title_3": "YANINA WELP",
+    "title_3": "Yanina Welp",
     "subtitle_3": "Investigación y coordinación editorial con foco en participación política, Albert Hirschman Centre on Democracy.",
     "description_3": "COMPLETAR",
 
-    "title_4": "JUAN CRUZ ZORZOLI",
+    "title_4": "Juan Cruz Zorzoli",
     "subtitle_4": "Desarrollo Sostenible y Regenerativo / Planificación y Comunicación Participativa / Educación Ambiental / Cambio de Paradigma. ",
     "description_4": "COMPLETAR",
 
-    "title_5": "NATALIA CARFI",
+    "title_5": "Natalia Carfi",
     "subtitle_5": "  Diseño e implementación de políticas públicas de  Gobierno Abiertos y datos abiertos. ",
     "description_5": "COMPLETAR",
 
-    "title_6": "MARTÍN GALANTERNIK",
+    "title_6": "Martín Galanternik",
     "subtitle_6": " Programas participativos de educación cívica, de promoción de derechos y de educación y seguridad Vial.  ",
     "description_6": "COMPLETAR"
 
@@ -841,6 +906,13 @@
   "products_title": "Productos",
   "us": "Conocenos",
   "contact": "Contactanos",
+  "contactPopup": {
+    "verify": "Verificá que sos humano para ver el contacto",
+    "copy": "Copiar dirección",
+    "copied": "¡Copiado!",
+    "close": "Cerrar",
+    "error": "Hubo un problema con la verificación. Recargá la página e intentá de nuevo."
+  },
   "transparencia": "Transparencia",
   "prensa":"Prensa",
   "ecosistema": "Ecosistema",

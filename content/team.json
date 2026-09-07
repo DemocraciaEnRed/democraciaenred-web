@@ -2,14 +2,9 @@
   {
     "title": "team.title_1",
     "subtitle": "team.subtitle_1",
-    "description": "team.description_1",
     "socialmedia": [
       {
-        "url": "https://twitter.com/pitucaffarone",
-        "icon": "tw"
-      },
-      {
-        "url": "www.linkedin.com/in/florenciacaffarone",
+        "url": "https://www.linkedin.com/in/florenciacaffarone/",
         "icon": "ln"
       }
     ],
@@ -18,104 +13,50 @@
   {
     "title": "team.title_2",
     "subtitle": "team.subtitle_2",
-    "description": "team.description_2",
     "socialmedia": [
       {
-        "url": "https://twitter.com/donpowa",
-        "icon": "tw"
-      },
-      {
-        "url": "https://www.linkedin.com/in/don-powa-59290473/",
+        "url": "https://www.linkedin.com/in/ignacio-gertie/",
         "icon": "ln"
       }
     ],
-    "id": "powa"
+    "id": "nacho"
+  },
+  {
+    "title": "team.title_3",
+    "subtitle": "team.subtitle_3",
+    "socialmedia": [
+      {
+        "url": "https://www.linkedin.com/in/mariano-valdez-anopa/",
+        "icon": "ln"
+      }
+    ],
+    "id": "pano"
   },
   {
     "title": "team.title_4",
     "subtitle": "team.subtitle_4",
     "socialmedia": [
       {
-        "url": "https://github.com/mpvaldez",
-        "icon": "gh"
-      },
-      {
-        "url": "https://twitter.com/Frenhofer1",
-        "icon": "tw"
-      } 
-    ],
-    "id": "pano"
-  },
-  {
-    "title": "team.title_5",
-    "subtitle": "team.subtitle_5",
-    "description": "team.description_5",
-    "socialmedia": [
-    ],
-    "id": "alejandra"
-  },
-  {
-    "title": "team.title_6",
-    "subtitle": "team.subtitle_6",
-    "socialmedia": [
-      {
-        "url": "https://www.linkedin.com/in/federico-bertero-7b86a71a1/",
+        "url": "https://www.linkedin.com/in/guillecro/",
         "icon": "ln"
-      }
-    ],
-    "id": "fede-bertero"
-  },
-  {
-    "title": "team.title_7",
-    "subtitle": "team.subtitle_7",
-    "socialmedia": [
-      {
-        "url": "https://www.linkedin.com/in/ignacio-gertie-2b6a54155/",
-        "icon": "ln"
-      },
-      {
-        "url": "https://twitter.com/nachoger8",
-        "icon": "tw"
-      }       
-    ],
-    "id": "nacho"
-  },
-  {
-    "title": "team.title_8",
-    "subtitle": "team.subtitle_8",
-    "socialmedia": [
-      {
-        "url": "https://www.linkedin.com/in/cecilia-anabel-ibarra-0b0141166/",
-        "icon": "ln"
-      }
-    ],
-    "id": "ceci"
-  },  
-  {
-    "title": "team.title_10",
-    "subtitle": "team.subtitle_10",
-    "socialmedia": [
-      {
-        "url": "https://twitter.com/guillermocroppi",
-        "icon": "tw"
       }
     ],
     "id": "guille"
   },
   {
-    "title": "team.title_11",
-    "subtitle": "team.subtitle_11",
+    "title": "team.title_5",
+    "subtitle": "team.subtitle_5",
     "socialmedia": [
       {
-        "url": "https://www.linkedin.com/in/jenniferperkes/",
+        "url": "https://www.linkedin.com/in/abril-chiesa-0bb375107/",
         "icon": "ln"
       }
     ],
-    "id": "jennifer"
+    "id": "abril"
   },
   {
-    "title": "team.title_12",
-    "subtitle": "team.subtitle_12",
+    "title": "team.title_6",
+    "subtitle": "team.subtitle_6",
     "socialmedia": [
       {
         "url": "https://www.linkedin.com/in/cristian-ezequiel-valdez-aguilar-b00957136/",
@@ -125,102 +66,64 @@
     "id": "tina"
   },
   {
-    "title": "team.title_13",
-    "subtitle": "team.subtitle_13",
+    "title": "team.title_7",
+    "subtitle": "team.subtitle_7",
     "socialmedia": [
       {
-        "url": "https://www.instagram.com/milumartino",
-        "icon": "ig"
-      },
-      {
-        "url": "https://www.linkedin.com/in/milagrosmartino/",
+        "url": "https://www.linkedin.com/in/aaraujo-00/",
         "icon": "ln"
-      }      
-    ],
-    "id": "milu"
-  },
-  {
-    "title": "team.title_14",
-    "subtitle": "team.subtitle_14",
-    "socialmedia": [
-      {
-        "url": "https://github.com/mxdlx",
-        "icon": "gh"
       }
     ],
     "id": "alvaro"
   },
   {
-    "title": "team.title_22",
-    "subtitle": "team.subtitle_22",
+    "title": "team.title_8",
+    "subtitle": "team.subtitle_8",
     "socialmedia": [
       {
-        "url": "https://www.linkedin.com/in/lucianouchurrua/",
+        "url": "https://www.linkedin.com/in/jenniferperkes/",
         "icon": "ln"
       }
     ],
-    "id": "lucho"
+    "id": "jennifer"
   },
   {
-    "title": "team.title_23",
-    "subtitle": "team.subtitle_23",
+    "title": "team.title_9",
+    "subtitle": "team.subtitle_9",
     "socialmedia": [
       {
-        "url": "https://www.linkedin.com/in/rosario-lenkiewicz/",
+        "url": "https://www.linkedin.com/in/soficaffaro/",
         "icon": "ln"
       }
     ],
-    "id": "rosario"
-  },  
+    "id": "sofia"
+  },
   {
-    "title": "team.title_15",
-    "subtitle": "team.subtitle_15",
+    "title": "team.title_10",
+    "subtitle": "team.subtitle_10",
     "socialmedia": [
       {
-        "url": "https://www.github.com/nicoc0",
-        "icon": "gh"
+        "url": "https://www.linkedin.com/in/bezzolihuen/",
+        "icon": "ln"
       }
     ],
-    "id": "nicoconfa"
+    "id": "lihuen"
   },
   {
-    "title": "team.title_16",
-    "subtitle": "team.subtitle_16",
-    "socialmedia": [],
-    "id": "gerarodriguez"
-  },
-  {
-    "title": "team.title_17",
-    "subtitle": "team.subtitle_17",
+    "title": "team.title_11",
+    "subtitle": "team.subtitle_11",
     "socialmedia": [
       {
-        "url": "https://twitter.com/juicyminerva",
-        "icon": "tw"
+        "url": "https://www.linkedin.com/in/delfina-montagna-hughes/",
+        "icon": "ln"
       }
     ],
-    "id": "florencia-presi"
+    "id": "delfina"
   },
   {
-    "title": "team.title_18",
-    "subtitle": "team.subtitle_18",
-    "description": "team.description_18",
+    "title": "team.title_12",
+    "subtitle": "team.subtitle_12",
     "socialmedia": [
-      {
-        "url": "https://twitter.com/ebrenman",
-        "icon": "tw"
-      }
-    ],
-    "id": "esteban"
-  },
-  {
-    "title": "team.title_19",
-    "subtitle": "team.subtitle_19",
-    "description": "team.description_19",
-    "socialmedia": [
-      {
-        "url": "https://twitter.com/agustinfrizzera",
-        "icon": "tw"
-      },
       {
         "url": "https://www.linkedin.com/in/agustin-frizzera-a33a792a/",
         "icon": "ln"
@@ -229,19 +132,41 @@
     "id": "agustin"
   },
   {
-    "title": "team.title_20",
-    "subtitle": "team.subtitle_20",
+    "title": "team.title_13",
+    "subtitle": "team.subtitle_13",
     "socialmedia": [
       {
-        "url": "https://www.linkedin.com/in/florenciaprimatesta",
+        "url": "https://www.linkedin.com/in/maria-florencia-polimeni-415a9799/",
+        "icon": "ln"
+      }
+    ],
+    "id": "florencia-presi"
+  },
+  {
+    "title": "team.title_14",
+    "subtitle": "team.subtitle_14",
+    "socialmedia": [
+      {
+        "url": "https://www.linkedin.com/in/ebrenman/",
+        "icon": "ln"
+      }
+    ],
+    "id": "esteban"
+  },
+  {
+    "title": "team.title_15",
+    "subtitle": "team.subtitle_15",
+    "socialmedia": [
+      {
+        "url": "https://www.linkedin.com/in/florenciaprimatesta/",
         "icon": "ln"
       }
     ],
     "id": "florencia-comis"
   },
   {
-    "title": "team.title_21",
-    "subtitle": "team.subtitle_21",
+    "title": "team.title_16",
+    "subtitle": "team.subtitle_16",
     "socialmedia": [
       {
         "url": "https://www.linkedin.com/in/mariano-heller-68361813/",
@@ -250,12 +175,4 @@
     ],
     "id": "mariano"
   }
-
-
-
-
-
-
-
 ]
-

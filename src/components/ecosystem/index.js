@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.scss";
 import { useIntl, Link } from "gatsby-plugin-intl";
-import { PopupButton } from "@typeform/embed-react";
+import ContactPopup from "../contact-popup";
 
 import hexagono_green from "./assets/hexagono-green.png";
 import hexagono_blue from "./assets/hexagono-blue.png";
@@ -86,13 +86,11 @@ export default ({ data }) => {
           )}
           {data.popup && (
             <div className="button-container">
-              <PopupButton
-                id="fSqwwL"
+              <ContactPopup
                 style={{ fontSize: 20 }}
                 className="button button-disabled-shadow has-no-background is-rounded is-medium is-black is-outlined is-uppercase is-inline-block"
-              >
-                {intl.formatMessage({ id: "press.see_more" })}
-              </PopupButton>
+                button={intl.formatMessage({ id: "press.see_more" })}
+              />
             </div>
           )}
         </div>

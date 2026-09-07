@@ -2,9 +2,10 @@ import React, { useState, useEffect } from "react";
 import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
 import { useIntl, IntlContextConsumer, changeLocale, Link } from "gatsby-plugin-intl";
 import socialMedia from "../../../content/social-media-navbar.json";
+import SocialIcon from "../social-icon";
 import "./styles.scss";
 import LogoDer from "./assets/logo-der.png";
-import { PopupButton } from "@typeform/embed-react";
+import ContactPopup from "../contact-popup";
 
 const HOME_SECTIONS = [
   { id: "productos", key: "productos" },
@@ -131,7 +132,7 @@ export default (props) => {
             to="/recursos"
             data-target="proyectos"
           >
-            Proyectos
+            {intl.formatMessage({ id: "resources.title" })}
           </Link>
           <Link
             className={`navbar-item is-size-6 my-3 is-capitalized${activeSection === "ecosystem" ? " nav-active" : ""}`}
@@ -147,13 +148,11 @@ export default (props) => {
           >
             Blog
           </a>
-          <PopupButton
-            id="fSqwwL"
+          <ContactPopup
             style={{ fontSize: 20 }}
             className="navbar-item contact is-size-6 my-3 is-capitalized"
-          >
-            {intl.formatMessage({ id: "contact" })}
-          </PopupButton>
+            button={intl.formatMessage({ id: "contact" })}
+          />
             <div className="my-3  mr-2 media-wrapper">
             {socialMedia.map((media, index) => (
             <a
@@ -164,7 +163,7 @@ export default (props) => {
               key={index}
             >
               <span className="icon is-large ">
-                <i className={media.icon}></i>
+                <SocialIcon media={media} />
               </span>
             </a>
           ))}

@@ -1,186 +1,926 @@
 {
-    "hero_slider": {
-        "title_1": "Democratizar a democracia",
-        "subtitle_1": "Ferramentas digitais para participação cidadã em governos e instituições",
-        "image_description_1": "Foto: São Paulo, Brasil",
-        "title_2": "Tecnologia",
-        "image_description_2": "Foto: Mérida, Mexico",
-        "asset_1_title": "Customizável",
-        "asset_2_title": "Código aberto",
-        "asset_3_title": "Instalação fácil",
-        "title_3": "Soluções",
-        "subtitle_3": "Para poderes legislativos, executivos e judiciários, partidos políticos, organizações de base e outros tipos de instituições.",
-        "image_description_3": "Foto: Guillermo Batakis, Buenos Aires, Argentina"
+  "hero_slider": {
+    "title_1": "Democratizar a democracia",
+    "subtitle_1": "Criamos soluções de participação cidadã com governos e ativistas para fortalecer a democracia.",
+    "image_description_1": "Foto: São Paulo, Brasil",
+
+    "title_2": "Redistribuir o poder",
+    "image_description_2": "Foto: Mérida, México",
+    "subtitle_2": "Abrimos as instituições públicas e a tomada de decisões através de processos participativos inovadores.",
+
+    "title_3": "Ocupar a política",
+    "subtitle_3": " Buscamos recuperar a política incorporando a cidadania nos processos de tomada de decisão.",
+    "image_description_3": "Foto: Guillermo Batakis, Buenos Aires, Argentina"
+  },
+  "products": {
+    "first_slide_title":"Nossos produtos",
+    "first_slide_description_1":"Baseados na nossa tecnologia DemocraciaOS",
+    "first_slide_description_2":"Oferecemos soluções para governos locais e nacionais, poderes legislativos, organismos descentralizados, partidos políticos, organizações da sociedade civil e outras instituições.",
+    "first_slide_see_more":"Saiba mais sobre a democraciaOS",
+
+    "title_0": "DemocraciaOS",
+    "description_0": "Oferecemos soluções para governos locais e nacionais, poderes legislativos, organismos descentralizados, partidos políticos, organizações da sociedade civil e outras instituições.",
+
+    "title_1": "Orçamento Participativo",
+    "subtitle_1": "Plataforma digital que permite a gestão integral de Orçamentos Participativos, gerando instâncias de diálogo entre a cidadania e os governos.",
+    "description_1": "Plataforma digital que permite a gestão integral de Orçamentos Participativos, gerando instâncias de diálogo entre a cidadania e os governos.",
+    "link_1": "https://democraciaos.org/es/presupuestoparticipativo",
+    "features_1_1": "Cadastro de propostas",
+    "features_1_2": "Viabilidade de propostas",
+    "features_1_3": "Fases de execução de projetos",
+    "features_1_4": "Acompanhamento de projetos",
+    "features_1_5": "Comentários",
+    "features_1_6": "Votação",
+
+    "title_2": "Consultas Digitais",
+    "subtitle_2": "\n Plataforma digital de consulta, diálogo e debate que conecta o governo com a comunidade.",
+    "description_2": "Busca favorecer a participação, o debate e a interação entre entidades e pessoas sobre diversas temáticas.",
+    "link_2": "https://democraciaos.org/es/consultadigital",
+    "features_2_1": "Cadastro de consultas",
+    "features_2_2": "Cadastro de propostas cidadãs",
+    "features_2_3": "Comentários",
+    "features_2_4": "Votação",
+    "features_2_5": "Enquetes",
+    "features_2_6": "Priorização",
+
+    "title_3": "Co-construção de leis",
+    "subtitle_3": "\nPlataforma digital de elaboração colaborativa de normas entre representantes e cidadania.",
+    "description_3": "Plataforma digital de elaboração colaborativa de normas entre representantes e cidadania.",
+    "link_3": "https://democraciaos.org/es/coconstruccionleyes",
+    "features_3_1": "Cadastro de projetos de lei",
+    "features_3_2": "Comentários",
+    "features_3_3": "Sugestões",
+    "features_3_4": "Acompanhamento de projetos",
+
+    "title_4": "Acompanhamento de metas",
+    "subtitle_4": "Plataforma digital que permite a publicação de metas e compromissos de governo, facilitando o acompanhamento cidadão.",
+    "description_4": "Plataforma digital que permite a publicação de metas e compromissos de governo, facilitando o acompanhamento cidadão.",
+    "link_4": "https://democraciaos.org/es/seguimientometas",
+    "features_4_1": "Cadastro de objetivos e metas",
+    "features_4_2": "Relatórios de atualização de metas georreferenciáveis",
+    "features_4_3": "Validação e comentários cidadãos",
+
+    "title_5": "Votação de autoridades",
+    "subtitle_5": "\n Plataforma digital para votação de autoridades em processos eleitorais de democracias cotidianas.",
+    "description_5": "Plataforma digital para votação de autoridades em instituições e organizações.",
+    "link_5": "https://democraciaos.org/es/votacionautoridades",
+    "features_5_1": "Cadastro de candidaturas",
+    "features_5_2": "Cadastro de cadastro eleitoral",
+    "features_5_3": "Registro de eleitores",
+    "features_5_4": "Votação segura",
+    "features_5_5": "Resultados da votação",
+    "features_5_6": "Visualização de dados"
+  },
+  "instalations": {
+    "main_title": "Três maneiras de implementar nossos produtos:",
+    "title_1": "D.I.Y. Faça você mesmo",
+    "description_1": "Todos os produtos da Democracia OS são de código aberto e têm licença GPL-v3. Isso significa que o produto pode ser instalado de acordo com suas necessidades sem custo.",
+    "requirements_1_1": "Equipe de desenvolvimento.",
+    "requirements_1_2": "Servidor.",
+    "requirements_1_3": "Equipe para coordenar o projeto.",
+    "button_text_1": "Github",
+    "button_link_1": "https://github.com/democraciaenred",
+    "title_2": "Instalação padrão",
+    "description_2": "Instalamos e deixamos o produto funcionando no seu servidor ou no nosso servidor com nossa equipe técnica.",
+    "requirements_2_1": "Preencher o formulário de requisitos.",
+    "requirements_2_2": "Uma equipe para coordenar o projeto.",
+    "requirements_2_3": "Preço: Solicitar orçamento",
+    "button_text_2": "Contatar",
+    "button_link_2": "https://preguntarparaacordar.typeform.com/to/bkXtFW",
+    "title_3": "Versão sob medida",
+    "description_3": "Versão sob medida. Personalizamos a plataforma de acordo com suas necessidades e os acompanhamos na cogestão do processo de participação cidadã. A instalação pode ser em outro servidor externo à nossa organização.",
+    "requirements_3_1": "Preencher o formulário de requisitos.",
+    "requirements_3_2": "Uma equipe para coordenar o projeto.",
+    "requirements_3_3": "Preço: Solicitar orçamento",
+    "button_text_3": "Contatar",
+    "button_link_3": "https://preguntarparaacordar.typeform.com/to/bkXtFW"
+  },
+  "nosotros": {
+    "title": "Quem somos?",
+    "subtitle_1": "Somos uma organização formada por pessoas ativistas, programadoras e cientistas sociais que acreditam em potencializar a inteligência coletiva para adaptar a democracia ao século XXI.",
+    "subtitle_2": " Buscamos recuperar a política"
+  },
+  "cases": {
+    "main_title": "Casos",
+    "title_1": "Orçamento Participativo",
+    "subtitle_1": "Vicente López",
+    "title_2": "Consulta Pública",
+    "subtitle_2": "Secretaria de Modernização da Nação Argentina",
+    "title_3": "Leis Abertas",
+    "subtitle_3": "Câmara de Deputados da Nação"
+  },
+  "footer": {
+    "description": "A tecnologia avança e muda nossas vidas. É o momento do sistema político se abrir ao diálogo com a participação cidadã.",
+    "copyright_1": "Democracia em Rede é uma ONG latino-americana de Buenos Aires, Argentina, para o mundo. ",
+    "subtitles": {
+      "sections": "Seções",
+      "contact": "Contato",
+      "social": "Redes"
+    }
+  },
+  "pages": {
+    "conocenos_seo_description": "Somos uma organização da sociedade civil que abre a tomada de decisões públicas.",
+    "productos_seo_description": "Ferramentas de participação cidadã.",
+    "productos_subtitle": "Ferramentas de tecnologia cívica baseadas na DemocraciaOS para governos, legislativos e organizações.",
+    "proyectos_seo_description": "Uma caixa de ferramentas para implementar processos de participação.",
+    "proyectos_subtitle": "Processos participativos e tecnologias cívicas que levam a voz cidadã às decisões públicas",
+    "ecosistema_seo_description": "As organizações com as quais trabalhamos.",
+    "ecosistema_subtitle": "Estas são as organizações, governos e redes com os quais trabalhamos para transformar a democracia.",
+    "ecosistema_sector_civil": "Sociedade Civil",
+    "ecosistema_sector_funders": "Financiadores",
+    "ecosistema_sector_governments": "Governos e Instituições Públicas",
+    "ecosistema_sector_networks": "Redes e Comunidades"
+  },
+  "newsletter":{
+    "title": "O que estamos fazendo?",
+    "description": "Contamos o que acontece na Democracia en Red: nossos projetos, pesquisas, iniciativas e oportunidades para participar. Inscreva-se e receba nossas novidades diretamente no seu e-mail.",
+    "button": "Inscrever-me"
+  },
+  "usPage": {
+    "title": "Conheça-nos",
+    "subtitle": "Uma organização que usa a tecnologia para adaptar a democracia ao século XXI",
+    "mision_values": {
+      "title": "Missão",
+      "description": "Democratizar o poder por meio da criação de soluções e do fortalecimento da capacidade cidadã de participar, deliberar e incidir nas decisões públicas."
     },
-    "products": {
-        "title_1":"Orçamento participativo",
-        "subtitle_1":"Plataforma digital para gestão participativa de orçamento, promovendo o diálogo entre a cidadania, autores de projetos e governos.",
-        "description_1": "Plataforma digital para gestão participativa de orçamento, promovendo o diálogo entre cidadania, autores de projetos e governos.",
-        "link_1":"https://democraciaos.org/pt/presupuestoparticipativo",
-        "features_1_1": "Carregar propostas",
-        "features_1_2": "Viabilidade de propostas",
-        "features_1_3": "Fases de execução do projeto",
-        "features_1_4": "Acompanhamento dos projetos",
-        "features_1_5": "Comentários",
-        "features_1_6": "Voto",
-        "title_2":"Consulta pública",
-        "subtitle_2":"Plataforma digital para consulta, diálogo e debate entre um governo e sua comunidade.",
-        "description_2": "Plataforma digital para consulta, diálogo e debate entre um governo e sua comunidade.",
-        "link_2":"https://democraciaos.org/pt/coconstruccionleyes",
-        "features_2_1": "Consultar upload",
-        "features_2_2": "Carregar proposta de cidadão",
-        "features_2_3": "Comentários",
-        "features_2_4": "Voto",
-        "features_2_5": "Sondagens",
-        "features_2_6":  "Priorizar",
-        "title_3":"Legislação Participativa",
-        "subtitle_3":"Plataforma digital para elaborar projetos / leis de colaboração entre parlamentos e cidadania.",
-        "description_3": "Plataforma digital para elaborar projetos / leis de colaboração entre parlamentos e cidadania.",
-        "link_3":"https://democraciaos.org/pt/consultadigital",
-        "features_3_1": "Enviar projetos",
-        "features_3_2": "Comentários",
-        "features_3_3": "Sugestões",
-        "features_3_4": "Administração descentralizada",
-        "title_4": "Rastreamento de meta",
-        "subtitle_4":"Plataforma digital que permite a publicação de objetivos e compromissos governamentais, facilitando o monitoramento do cidadão.",
-        "description_4": "Plataforma digital que permite a publicação de objetivos e compromissos governamentais, facilitando o monitoramento do cidadão.",
-        "link_4":"https://democraciaos.org/pt/seguimientometas",
-        "features_4_1": "Registro de objetivos e metas",
-        "features_4_2": "Relatórios de atualização de metas georreferenciáveis",
-        "features_4_3": "Validação e feedback do cidadão"
+    "mision_approach": {
+      "title": "Visão",
+      "description": "Alcançar uma democracia em que mais pessoas participem das decisões que afetam suas vidas."
     },
-    "instalations": {
-        "main_title": "Três maneiras diferentes de implementar nossos produtos:",
-        "title_1": "D.I.Y Faça você mesmo",
-        "description_1": "Todos os produtos Democracy OS são de código aberto e possuem uma licença GPL - v.3. Isso significa que o produto pode ser instalado de acordo com suas próprias necessidades gratuitamente.",
-        "requirements_1_1": "Equipe de desenvolvimento.", 
-        "requirements_1_2": "Servidor.",
-        "requirements_1_3": "Time de gerenciamento.",
-        "button_text_1": "Github",
-        "button_link_1": "https://github.com/democraciaenred",
-        "title_2": "Instalação padrão",
-        "description_2": "Nossa equipe de software realiza a instalação da plataforma no seu servidor.",
-        "requirements_2_1": "Preencha o nosso formulário de requisição.",
-        "requirements_2_2": "Time de gerenciamento.",
-        "requirements_2_3": "Orçamento padrão: USD 2.500",
-        "button_text_2": "Contato",
-        "button_link_2": "https://preguntarparaacordar.typeform.com/to/bkXtFW",
-        "title_3": "Instalação customizada",
-        "description_3": "Nova versão personalizada. Podemos personalizá-lo com nossa equipe de desenvolvimento e ajudar os gerentes de projeto.",
-        "requirements_3_1": "Preencha o nosso formulário de requisição.",
-        "requirements_3_2": "Time de gerenciamento.",
-        "requirements_3_3": "Peça um orçamento",
-        "button_text_3": "Contato",
-        "button_link_3": "https://preguntarparaacordar.typeform.com/to/bkXtFW"
+    "what_we_do": {
+      "title": "O que fazemos?",
+      "description": "Acreditamos em potencializar a inteligência coletiva para garantir a democracia.\n\n- Geramos e aplicamos estratégias para abrir as instituições públicas através do design, desenvolvimento e implementação de ferramentas digitais que promovem a participação cidadã.\n-Realizamos assessorias para Governos e Organizações da Sociedade Civil de toda a América Latina para reduzir a distância entre representantes e representados e gerar políticas públicas com maior impacto.\n-Impulsionamos a mudança cultural em forma de campanhas de comunicação e ferramentas educativas que motivem a participação cidadã.\n "
     },
-    "nosotros": {
-        "title":"Sobre nós",
-        "subtitle": "Somos Democracia en Red, uma organização da sociedade civil com sede na Argentina, composta por ativistas, desenvolvedores e cientistas sociais com o objetivo de abrir as instituições públicas e os espaços de decisão."
+    "memories": {
+      "title": "Nossas memórias",
+      "button_text":"Memórias \nde gestão"
     },
-    "cases": {
-        "main_title": "Casos",
-        "title_1": "Orçamento Participativo de Vicente Lopez",
-        "subtitle_1": "Município de Vicente López",
-        "title_2":"Consulta pública",
-        "subtitle_2": "Secretaria de Modernização da Nação",
-        "title_3": "Leis Abertas",
-        "subtitle_3": "Câmara dos Deputados da Nação da Argentina"
-    },
-    "footer": {
-        "title": "DemocraciaOS",
-        "description": "A tecnologia avança e muda nossas vidas. É hora que os sistemas políticos se abram à participação cidadã.",
-        "copyright_1": "Democracia OS é um projeto da ",
-        "copyright_2": ", uma ONG com sede em Buenos Aires, Argentina."
-    },
-    "header_1": {
-        "main_title": "Presupuesto Participativo",
-        "description": "Plataforma digital que permite la gestión integral de Presupuestos Participativos, generando instancias de diálogo, co gobernaza entre la ciudadanía y los gobiernos, adaptandola al contexto y al reglamento de cada región.",
-        "title_1": "Personalizable",
-        "title_2": "Código abierto",
-        "title_3": "Fácil instalación"
-    },
-    "header_2": {
-        "main_title": "Consultas digitales",
-        "description": "Una herramienta digital de participación ciudadana para gobiernos e instituciones, que permite a los usuarios comentar, votar, jerarquizar, optar entre opciones, o establecer grados de valoración entre temas públicos.",
-        "title_1": "Personalizable",
-        "title_2": "Código abierto",
-        "title_3": "Fácil instalación"
-    },
-    "header_3": {
-        "main_title": "Seguimiento de metas",
-        "description": "Plataforma digital para gobiernos e instituciones que permite la publicación de metas y compromisos, facilitando el seguimiento de avances y la transparencia activa.",
-        "title_1": "Personalizable",
-        "title_2": "Código abierto",
-        "title_3": "Fácil instalación"
-    },
-    "header_4": {
-        "main_title": "Co-construcción de leyes",
-        "description": "Una herramienta digital que abre el diálogo y transparenta el proceso de elaboración de normas, en donde los y las representantes ponen a consideración de la ciudadanía las leyes a elaborar, invitando a que dejen sus aportes.",
-        "title_1": "Personalizable",
-        "title_2": "Código abierto",
-        "title_3": "Fácil instalación"
-    },
-    "features_section": {
-        "main_title": "Tipos de consulta",
-        "title_1": "Hierarquia",
-        "title_2": "apoiar uma causa",
-        "title_3": "Pesquisa de múltipla escolha",
-        "title_4": "Voto A- B",
-        "title_5": "classificação",
-        "title_6": "Propor uma ideia"
-    },
-    "product_specs": {
-        "title_1":"Hierarquia",
-        "features_1_1": "Ele permite que o usuário organize ou arraste opções pré-determinadas na ordem que melhor se adapte às suas prioridades.",
-        "features_1_2": "Período de votação pré-determinado.",
-        "features_1_3": "Possibilidade de compartilhamento em redes.",
-        "features_1_4": "Depois que a votação for concluída, os resultados serão exibidos.",
-        "features_1_5": "Permitir que os usuários deixem comentários.",
-        "img_1": "img13",
-        "title_2":"Apoiar uma causa",
-        "features_2_1": "Permite ao usuário apoiar uma iniciativa.",
-        "features_2_2": "Período de votação pré-determinado.",
-        "features_2_3": "Possibilidade de compartilhamento em redes.",
-        "features_2_4": "Depois que a votação for concluída, os resultados serão exibidos.",
-        "features_2_5": "Permitir que os usuários deixem comentários.",
-        "img_2": "img14",
-        "title_3":"Pesquisa de múltipla escolha",
-        "features_3_1": "Permite ao usuário escolher a opção que melhor se adapta à sua posição a partir de uma série de opções pré-estabelecidas.",
-        "features_3_2": "Período de votação pré-determinado.",
-        "features_3_3": "Possibilidade de compartilhamento em redes.",
-        "features_3_4": "Depois que a votação for concluída, os resultados serão exibidos.",
-        "features_3_5": "Permitir que os usuários deixem comentários.",
-        "img_3": "img15",
-        "title_4":"Voto A- B",
-        "features_4_1": "Ele permite que o usuário demonstre a favor ou contra uma iniciativa.",
-        "features_4_2": "Período de votação pré-determinado.",
-        "features_4_3": "Possibilidade de compartilhamento em redes.",
-        "features_4_4": "Depois que a votação for concluída, os resultados serão exibidos.",
-        "features_4_5": "Permitir que os usuários deixem comentários.",
-        "img_4": "img16",
-        "title_5":"classificação",
-        "features_5_1": "Permite ao usuário colocar sua opinião ou preferência dentro de uma faixa pré-estabelecida.",
-        "features_5_2": "Período de votação pré-determinado.",
-        "features_5_3": "Possibilidade de compartilhamento em redes.",
-        "features_5_4": "Visualizando resultados após a participação.",
-        "features_5_5": "Permitir que os usuários deixem comentários.",
-        "img_5": "img17",
-        "title_6":"Propor uma ideia",
-        "features_6_1": "Chamada aberta para que os cidadãos proponham ideias ou projetos.",
-        "features_6_2": "Permite ao usuário apoiar ideias ou propostas já formuladas por outros cidadãos.",
-        "features_6_3": "Período de participação aberto ou pré-determinado.",
-        "features_6_4": "Possibilidade de compartilhar as propostas em redes.",
-        "features_6_5": "Permite que os usuários deixem comentários sobre as propostas feitas.",
-        "img_6": "img18"
-    },
-    "requirements": "Requisitos",
-    "features": "Caracteristicas",
-    "preview": "Exibição",
-    "implementation": "Implementar",
+    "slider_title": "Nossa equipe"
+  },
+  "header_1": {
+    "main_title": "Orçamento Participativo",
+    "description": "Uma ferramenta digital de participação cidadã para governos e instituições, que permite aos usuários comentar, votar, hierarquizar, optar entre opções, ou estabelecer graus de avaliação sobre temas públicos.",
+    "title_1": "Personalizável",
+    "title_2": "Código aberto",
+    "title_3": "Fácil instalação"
+  },
+  "header_2": {
+    "main_title": "Consultas digitais",
+    "description": "Uma ferramenta digital de participação cidadã para governos e instituições, que permite aos usuários comentar, votar, hierarquizar, optar entre opções, ou estabelecer graus de avaliação entre temas públicos.",
+    "title_1": "Personalizável",
+    "title_2": "Código aberto",
+    "title_3": "Fácil instalação"
+  },
+  "header_3": {
+    "main_title": "Acompanhamento de metas",
+    "description": "Plataforma digital para governos e instituições que permite a publicação de metas e compromissos, facilitando o acompanhamento de avanços e a transparência ativa.",
+    "title_1": "Personalizável",
+    "title_2": "Código aberto",
+    "title_3": "Fácil instalação"
+  },
+  "header_4": {
+    "main_title": "Co-construção de leis",
+    "description": "Uma ferramenta digital que abre o diálogo e torna transparente o processo de elaboração de normas, na qual os e as representantes submetem à consideração da cidadania as leis a serem elaboradas, convidando-os a deixar suas contribuições.",
+    "title_1": "Personalizável",
+    "title_2": "Código aberto",
+    "title_3": "Fácil instalação"
+  },
+  "header_5": {
+    "main_title": "Votação de autoridades",
+    "description": "Plataforma digital para a votação de autoridades em eleições de democracia cotidiana, segura e integrada com a votação presencial.",
+    "title_1": "Personalizável",
+    "title_2": "Código aberto",
+    "title_3": "Fácil instalação"
+  },
+  "features_section_1": {
+    "main_title": "Características",
+    "title_1": "Parametrização",
+    "title_2": "Proposta cidadã",
+    "title_3": "Análise de viabilidade",
+    "title_4": "Votação",
+    "title_5": "Publicação de resultados",
+    "title_6": "Acompanhamento de execução"
+  },
+  "features_section_2": {
+    "main_title": "Tipos de consulta",
+    "title_1": "Hierarquização",
+    "title_2": "Apoiar uma causa",
+    "title_3": "Enquete de múltipla escolha",
+    "title_4": "Votação A-B",
+    "title_5": "Faixa",
+    "title_6": "Propor uma ideia"
+  },
+  "features_section_3": {
+    "main_title": "Características",
+    "title_1": "Objetivos",
+    "title_2": "Metas",
+    "title_3": "Relatórios",
+    "title_4": "Validações"
+  },
+  "features_section_4": {
+    "main_title": "Características",
+    "title_1": "Cadastro de projetos de lei",
+    "title_2": "Explicação do projeto",
+    "title_3": "Apoiar projetos",
+    "title_4": "Contribuições",
+    "title_5": "Versões"
+  },
+  "features_section_5": {
+    "main_title": "Características",
+    "title_1": "Parametrização",
+    "title_2": "Cadastro de candidaturas",
+    "title_3": "Cadastros de eleitores",
+    "title_4": "Registro de eleitores online",
+    "title_5": "Votação segura",
+    "title_6": "Resultados da votação"
+  },
+  "product_specs_1": {
+    "title_1": "Parametrização",
+    "features_1_1": "Permite à equipe adaptar a plataforma às necessidades locais, definindo a segmentação em distritos, a convivência de uma ou várias rubricas orçamentárias, a quantidade de votos por usuário, a existência de cadastros especiais, a integração ou não da plataforma com um dispositivo eleitoral presencial, etc.",
+    "img_1": "img_1_es",
+
+    "title_2": "Proposta Cidadã",
+    "features_2_1": "Aberto à cidadania de uma área específica",
+    "features_2_2": "Fomenta o envolvimento da cidadania no desenvolvimento das políticas públicas",
+    "features_2_3": "Comentários: interação - diálogo",
+    "features_2_4": "Possibilidade de compartilhar nas redes sociais",
+    "img_2": "img_1_2_es",
+
+    "title_3": "Análise de viabilidade",
+    "features_3_1": "Critérios pautados previamente",
+    "features_3_2": "Critérios informados à cidadania participante com clareza",
+    "features_3_3": "Comunicação com autores para melhoria de propostas",
+    "features_3_4": "Comunicação do parecer de viabilidade",
+    "img_3": "img_1_3_es",
+
+    "title_4": "Votação de propostas",
+    "features_4_1": "Aberto à cidadania de determinada região/área específica",
+    "features_4_2": "Fomenta a participação e o compromisso",
+    "features_4_3": "Impulsiona a transparência",
+    "features_4_4": "Participação cidadã vinculante",
+    "img_4": "img_1_4_es",
+    "title_5": "Publicação de resultados",
+
+    "features_5_1": "Publicação de projetos vencedores",
+    "features_5_2": "Publicação de estatísticas",
+    "features_5_3": "Os autores e autoras das propostas vencedoras são notificados",
+    "features_5_4": "A cidadania em geral é notificada",
+    "img_5": "img_1_5_es",
+
+    "title_6": "Acompanhamento de execução",
+    "features_6_1": "São estabelecidos compromissos por parte do governo/ator que abre o processo participativo",
+    "features_6_2": "Torna transparente para a cidadania o processo de execução",
+    "features_6_3": "Fomenta a confiança",
+    "features_6_4": "Fortalece o vínculo entre a cidadania e o ator que abre o processo",
+    "img_6": "img_1_6_es"
+  },
+  "product_specs_2": {
+    "title_1": "Hierarquização",
+    "features_1_1": "Permite à cidadania organizar ou arrastar opções pré-determinadas na ordem que mais se ajuste às suas prioridades.",
+    "features_1_2": "Prazo de votação pré-determinado.",
+    "features_1_3": "Possibilidade de compartilhar nas redes",
+    "features_1_4": "Uma vez encerrada a votação, os resultados são exibidos.",
+    "features_1_5": "Permite à cidadania deixar comentários.",
+    "img_1": "img_2_1_es",
+
+    "title_2": "Apoiar uma causa",
+    "features_2_1": "Permite à cidadania oferecer seu apoio a uma iniciativa",
+    "features_2_2": "Prazo de votação pré-determinado.",
+    "features_2_3": "Possibilidade de compartilhar nas redes.",
+    "features_2_4": "Uma vez encerrada a votação, os resultados são exibidos.",
+    "features_2_5": "Permite à cidadania deixar comentários.",
+    "img_2": "img_2_2_es",
+
+    "title_3": "Enquete de múltipla escolha",
+    "features_3_1": "Permite à cidadania escolher a opção que mais se ajuste à sua posição entre uma série de opções pré-estabelecidas.",
+    "features_3_2": "Prazo de votação pré-determinado.",
+    "features_3_3": "Possibilidade de compartilhar nas redes.",
+    "features_3_4": "Uma vez encerrada a votação, os resultados são exibidos.",
+    "features_3_5": "Permite à cidadania deixar comentários.",
+    "img_3": "img_2_3_es",
+
+    "title_4": "Votação A-B",
+    "features_4_1": "Permite à cidadania se manifestar a favor ou contra uma iniciativa.",
+    "features_4_2": "Prazo de votação pré-determinado.",
+    "features_4_3": "Possibilidade de compartilhar nas redes.",
+    "features_4_4": "Uma vez encerrada a votação, os resultados são exibidos.",
+    "features_4_5": "Permite à cidadania deixar comentários.",
+    "img_4": "img_2_4_es",
+
+    "title_5": "Faixa",
+    "features_5_1": "Permite à cidadania situar sua opinião ou preferência dentro de uma faixa pré-estabelecida.",
+    "features_5_2": "Prazo de votação pré-determinado.",
+    "features_5_3": "Possibilidade de compartilhar nas redes.",
+    "features_5_4": "Visualização de resultados após participar.",
+    "features_5_5": "Permite à cidadania deixar comentários.",
+    "img_5": "img_2_5_es",
+
+    "title_6": "Propor uma ideia",
+    "features_6_1": "Convocatória aberta para que a cidadania proponha ideias ou projetos.",
+    "features_6_2": "Permite à cidadania apoiar ideias ou propostas já realizadas por outros cidadãos.",
+    "features_6_3": "Prazo de participação aberto ou pré-determinado.",
+    "features_6_4": "Possibilidade de compartilhar as propostas nas redes.",
+    "features_6_5": "Permite à cidadania deixar comentários sobre as propostas realizadas.",
+    "img_6": "img_2_6_es"
+  },
+  "product_specs_3": {
+    "title_1": "Objetivos",
+    "features_1_1": "Contém várias metas.",
+    "features_1_2": "Inclui botão com link de acesso a uma comunidade.",
+    "features_1_3": "Informação visualizada em gráfico de pizza.",
+    "features_1_4": "Torna transparentes as organizações dedicadas ao seu monitoramento.",
+    "features_1_5": "Possibilidade de se inscrever para receber atualizações.",
+    "img_1": "img_3_1_es",
+
+    "title_2": "Metas",
+    "features_2_1": "Quantitativas: contêm indicadores.",
+    "features_2_2": "Qualitativas: contêm marcos relevantes para seu cumprimento.",
+    "features_2_3": "Seu avanço é exibido graças a uma barra de progresso.",
+    "features_2_4": "São atualizadas graças aos relatórios.",
+    "img_2": "img_3_2_es",
+
+    "title_3": "Relatórios",
+    "features_3_1": "Atualizam o estado das metas.",
+    "features_3_2": "Podem ser respaldados com fotos e arquivos.",
+    "features_3_3": "Georreferenciáveis.",
+    "features_3_4": "Podem ser de novidade, atualização ou marco, conforme a informação que contenham.",
+    "features_3_5": "Possibilidade de se inscrever para receber atualizações.",
+    "img_3": "img_3_3_es",
+
+    "title_4": "Validações",
+    "features_4_1": "Fomenta o envolvimento cidadão.",
+    "features_4_2": "Serve como mecanismo de legitimidade dos relatórios.",
+    "features_4_3": "Possibilidade de deixar comentários.",
+    "img_4": "img_3_4_es"
+  },
+  "product_specs_4": {
+    "title_1": "Cadastro de projetos de lei",
+    "features_1_1": "Envolve a cidadania.",
+    "features_1_2": "Torna transparente a elaboração do projeto.",
+    "features_1_3": "Funciona como vitrine legislativa.",
+    "img_1": "img_4_1_es",
+
+    "title_2": "Explicação do projeto",
+    "features_2_1": "Permite a inclusão de vídeos informativos.",
+    "features_2_2": "Espera-se linguagem clara e simples.",
+    "features_2_3": "Serve como nivelador de conhecimentos.",
+    "img_2": "img_4_2_es",
+    "title_3": "Apoiar projetos",
+    "features_3_1": "Possibilidade de escolher agendas de interesse preferencial.",
+    "features_3_2": "Envio de notificações sobre novidades.",
+    "features_3_3": "Mantém a cidadania informada.",
+    "img_3": "img_4_3_es",
+
+    "title_4": "Contribuições",
+    "features_4_1": "Fomenta a participação cidadã.",
+    "features_4_2": "Espaço aberto de diálogo entre a cidadania e seus representantes.",
+    "features_4_3": "Implica compromissos por parte dos representantes.",
+    "img_4": "img_4_4_es",
+
+    "title_5": "Versões",
+    "features_5_1": "Torna transparente a atividade legislativa.",
+    "features_5_2": "Permite um acompanhamento claro das modificações realizadas.",
+    "features_5_3": "Demonstra que efetivamente as contribuições cidadãs são incorporadas.",
+    "img_5": "img_4_5_es"
+  },
+  "product_specs_5": {
+    "title_1": "Parametrização",
+    "features_1_1": "Permite à equipe adaptar a plataforma às necessidades locais, definindo a segmentação em distritos, a convivência de uma ou várias rubricas orçamentárias, a quantidade de votos por usuário, a existência de cadastros especiais, a integração ou não da plataforma com um dispositivo eleitoral presencial, etc.",
+    "img_1": "img_5_1_es",
+
+    "title_2": "Cadastro de candidaturas",
+    "features_2_1": "Permite cadastrar candidatos para vários níveis de autoridade em processos eleitorais",
+    "features_2_2": "Identifica-se o agrupamento ao qual pertencem",
+    "features_2_3": "Vitrine de candidatos",
+    "img_2": "img_5_2_es",
+
+    "title_3": "Cadastros de eleitores",
+    "features_3_1": "Poderão ser carregados cadastros digitais com informações de eleitores",
+    "features_3_2": "Promove a digitalização de cadastros",
+    "img_3": "img_5_3_es",
+
+    "title_4": "Registro de eleitores online",
+    "features_4_1": "Registro na plataforma com e-mail",
+    "features_4_2": "Validação de identidade através do envio do documento de identidade e/ou dado único personalizável",
+    "img_4": "img_5_4_es",
+
+    "title_5": "Votação segura",
+    "features_5_1": "Votação online de usuários registrados que estejam no cadastro eleitoral",
+    "features_5_2": "Pode ser integrada à votação presencial",
+    "features_5_3": "Facilita o processo de votação e amplia o acesso",
+    "img_5": "img_5_5_es",
+
+    "title_6": "Resultados da votação",
+    "features_6_1": "Segurança dos votos utilizando tecnologia blockchain",
+    "features_6_2": "Download de resultados por administradores e usuários",
+    "features_6_3": "Publicação de resultados ao final da votação para eleitores e candidaturas",
+    "img_6": "img_5_6_es"
+  },
+  "lives": {
+    "title_1": "POLÍTICXS NO TWITTER",
+    "subtitle_1": "",
+    "description_1": "Políticxs no Twitter é um repositório com interações de mais de 500 usuários relacionados à política na Argentina. Disponibilizamos para a comunidade este ATLAS com dados livres e reutilizáveis, para facilitar a produção de conhecimento. Convidamos você a conhecer mais no evento de lançamento que fizemos!",
+
+    "title_2": "Incubadora de Cidades Comuns",
+    "subtitle_2": "",
+    "description_2": "#VolverALaCalle busca soluções replicáveis, de baixo custo e alto impacto para reativar os espaços públicos com distanciamento físico e recuperar a confiança perdida na vida urbana. No âmbito do programa de incubação dos projetos vencedores do #IDEATÓN, Agustín Frizzera, Diretor Executivo da Democracia em Rede e Coordenador de Causas Comuns, conversou sobre Governo Aberto e Novas Tecnologias. Saiba mais em http://ciudadescomunes.org",
+
+    "title_3": "Eleitas",
+    "subtitle_3": "",
+    "description_3": "Um estudo e série audiovisual sobre as mulheres latino-americanas no poder. Uma aproximação para entender como as práticas políticas e culturais podem mudar os espaços políticos institucionais na América Latina e os paradigmas de poder. \n  Mais de 96 entrevistas com mulheres eleitas e especialistas em política e gênero de 6 países da América Latina.",
+
+    "title_4": "#VolvamosADebatir",
+    "subtitle_4": "",
+    "description_4": "Um encontro online gratuito para pensar as consequências de continuar degradando nosso espaço público, nossos lugares comuns. \n Um espaço para analisar como discutimos nas redes com um olhar humano, tecnológico e político. \n       Painéis, conversas, conferências e a apresentação do documento Estratégias e recomendações para enfrentar a #desinformação.",
+
+    "title_5": "O impacto da crise atual nas decisões das cidades",
+    "subtitle_5": "",
+    "description_5": "Uma observação a partir do confinamento da experiência do ambiente construído (planejamento urbano, espaço público, espaço privado, mobilidade, luta climática, moradia) e à luz dessa observação/experiência. Algumas reflexões abertas sobre como podem mudar as decisões que tomamos, ou talvez as perguntas que fazemos em relação ao ambiente urbano que já está construído. ",
+
+    "title_6": "A forma de governar muda? ",
+    "subtitle_6": "",
+    "description_6": "Sentimos que a COVID-19 “muda tudo”, que nossas vidas não serão mais as mesmas. Mas como impactará a quarentena mais massiva da história na gestão pública? quais são os ajustes que podemos prever na forma como as cidades são governadas? quais são as oportunidades?",
+
+    "title_7": "RIR PARA NÃO CHORAR: os #memes somam ou diminuem o debate político?",
+    "subtitle_7": "",
+    "description_7": "‘Rir para não chorar’ é uma pesquisa realizada por Bárbara Zeifer e Julieta Lenarduzzi sobre as chaves por trás dos memes mais virais das eleições de 2021. \nO trabalho analisa em detalhe qual é o papel desse novo gênero discursivo na formação da opinião pública em um contexto eleitoral e abre a porta ao debate que todos e todas esperávamos: \nOs memes podem influenciar a intenção de voto? 👀🗳"
+  },
+  "usSection": {
+    "title": "Quem somos",
+    "subtitle_1": "Somos uma organização formada por pessoas ativistas, programadores e cientistas sociais que acreditam em potencializar a inteligência coletiva para inovar no governo e melhorar a democracia.",
+    "subtitle_2": "Buscamos recuperar a política",
+    "slider_title": "Nossa equipe",
+    "button": "Conheça-nos"
+  },
+  "queHacemos": {
+    "title": "O que fazemos?",
+    "item1_title": "Participação Cidadã",
+    "item1_desc": "Implementamos iniciativas que envolvem a cidadania na tomada de decisões. Tecnologia cívica, deliberação e muito mais.",
+    "item2_title": "Tecnologia sob medida",
+    "item2_desc": "Potencializamos o impacto de governos e organizações com desenvolvimentos de tecnologia projetados para seus objetivos.",
+    "item3_title": "Incidência pública",
+    "item3_desc": "Trabalhamos para influenciar políticas públicas por meio de pesquisa, estratégia digital e comunicação inovadora."
+  },
+  "ejes": {
+    "title": "Eixos estratégicos",
+    "item1_title": "Democratizar as instituições",
+    "item1_desc": "Reimaginamos o vínculo entre Estado e cidadania, integrando tecnologia como a DemocraciaOS para abrir a tomada de decisões, ampliar a participação e fortalecer a transparência.",
+    "item2_title": "Potencializar a inteligência coletiva",
+    "item2_desc": "Impulsionamos espaços deliberativos como as Assembleias por Sorteio, onde uma amostra diversa e representativa da sociedade debate e influencia temas-chave para o bem comum.",
+    "item3_title": "Ativar o poder cidadão",
+    "item3_desc": "Desenvolvemos ferramentas que ajudam mais pessoas a colocar em prática seus valores democráticos de forma informada, autônoma e com impacto real."
+  },
+  "lineasTrabajo": {
+    "title": "Linhas de trabalho",
+    "examples_label": "Alguns exemplos",
+
+    "section1_title": "Participação Cidadã",
+    "section1_subtitle": "Estratégias e ferramentas para tomar melhores decisões públicas",
+    "section1_body1": "Projetamos, facilitamos e implementamos processos que levam a voz cidadã às decisões públicas. Acompanhamos governos e organizações, combinando instâncias presenciais de deliberação com tecnologias cívicas, conforme o que cada processo precisa. Acreditamos que a participação constrói melhores políticas públicas e reconstrói a confiança entre o Estado e a cidadania.",
+    "section1_body2": "Desde 2014 acompanhamos mais de 60 instituições de governo da Argentina e da região. Trabalhamos com governos locais como Vicente López, Rosario, Mar del Plata e San Miguel de Tucumán, com a Cidade de Buenos Aires e sua Legislatura, com a Câmara de Deputados da Nação e com o governo nacional.",
+    "section1_subheading": "Processos que desenhamos e facilitamos",
+    "section1_card1_title": "Assembleias cidadãs por sorteio",
+    "section1_card1_desc": "Pessoas selecionadas aleatoriamente deliberam e produzem recomendações de política pública.",
+    "section1_card2_title": "Processos presenciais em território",
+    "section1_card2_desc": "Oficinas e encontros de participação cidadã local.",
+    "section1_card3_title": "Orçamento participativo",
+    "section1_card3_desc": "A cidadania decide diretamente em que se investe parte do orçamento público.",
+    "section1_card4_title": "Consultas públicas",
+    "section1_card4_desc": "Espaços de diálogo e debate que conectam o governo com a comunidade.",
+    "section1_card5_title": "Co-construção de normativa",
+    "section1_card5_desc": "Elaboração colaborativa de normas entre representantes e cidadania.",
+    "section1_card6_title": "Prestação de contas",
+    "section1_card6_desc": "A cidadania monitora as metas e os compromissos assumidos pelo governo.",
+    "section1_dosbox": "Muitos desses processos se apoiam na <b>DemocraciaOS</b>, nossa família de tecnologias cívicas de código aberto. Você pode conhecê-las em <a href=\"https://democraciaos.org\" target=\"_blank\" rel=\"noopener noreferrer\">democraciaos.org</a>.",
+    "section1_project1_name": "Leyes Abiertas",
+    "section1_project1_partner": "com a Câmara de Deputados da Nação",
+    "section1_project1_desc": "Plataforma de co-construção de normas que permite à cidadania participar na elaboração de projetos de lei.",
+    "section1_project2_name": "Consulta Pública",
+    "section1_project2_partner": "com o Poder Executivo Nacional",
+    "section1_project2_desc": "Plataforma de consulta, diálogo e debate que conecta o governo nacional com a comunidade.",
+    "section1_project3_name": "Orçamento Participativo",
+    "section1_project3_partner": "com o Município de Vicente López",
+    "section1_project3_desc": "A cidadania escolhe em que se investe parte do orçamento público de seu município.",
+
+    "section2_title": "Impacto sob medida",
+    "section2_subtitle": "Somos o parceiro técnico de projetos com impacto social",
+    "section2_body1": "Colocamos nossa capacidade de design e desenvolvimento a serviço de organizações que levam adiante projetos de impacto e precisam de tecnologia para realizá-lo. A partir de seus objetivos: traduzimos problemas complexos em ferramentas concretas que potencializam seu trabalho e multiplicam seu valor social.",
+    "section2_body2": "Construímos do zero ou a partir de soluções comprovadas, conforme o que cada projeto precisa.",
+    "section2_subheading": "O que podemos construir",
+    "section2_card1_title": "Plataformas sob medida",
+    "section2_card1_desc": "Sites e aplicativos projetados para os objetivos de cada projeto.",
+    "section2_card2_title": "Visualização de dados",
+    "section2_card2_desc": "Tornamos clara e acessível a informação pública complexa ou dispersa.",
+    "section2_card3_title": "Uso de inteligência artificial",
+    "section2_card3_desc": "Incorporamos IA para processar informação e ampliar o alcance de cada ferramenta.",
+    "section2_project1_name": "Justa",
+    "section2_project1_partner": "com ACIJ",
+    "section2_project1_desc": "Um portal que mostra, com visualizações claras, como funciona o Poder Judiciário.",
+    "section2_project2_name": "Periodistas Amenazadas",
+    "section2_project2_partner": "com FOPEA",
+    "section2_project2_desc": "Levanta e dá visibilidade às ameaças e agressões sofridas por jornalistas.",
+    "section2_project3_name": "Demoreset",
+    "section2_project3_partner": "com Extituto",
+    "section2_project3_desc": "Plataforma de matchmaking para conectar quem impulsiona a inovação democrática.",
+
+    "section3_title": "Incidência pública",
+    "section3_subtitle": "Inovação democrática, campanhas e compromisso cívico",
+    "section3_body1": "Trabalhamos junto a outras organizações para influenciar as políticas públicas e a agenda social. Colocamos nosso conhecimento, nossas tecnologias e nossos processos a serviço de causas compartilhadas: desenhamos inovações democráticas para a incidência, lançamos campanhas de comunicação e promovemos o compromisso cívico da cidadania.",
+    "section3_body2": "Fazemos isso em aliança com organizações da Argentina e da região, em torno das agendas que consideramos-chave para a democracia do século XXI.",
+    "section3_subheading": "Agendas nas quais trabalhamos",
+    "section3_tag1": "Democracia",
+    "section3_tag2": "Participação cidadã",
+    "section3_tag3": "Transparência",
+    "section3_tag4": "Direitos digitais",
+    "section3_tag5": "Meio ambiente",
+    "section3_project1_name": "PIS",
+    "section3_project1_partner": "Pesticidas Introduzidos Silenciosamente",
+    "section3_project1_desc": "Tecnologia cívica e ciência cidadã em território para contrarrestar o impacto dos agroquímicos.",
+    "section3_project2_name": "#MeRepresenta",
+    "section3_project2_desc": "Ferramenta para pensar o voto que organiza informações eleitorais, e campanha para promover o voto informado.",
+    "section3_project3_name": "#DatosEnFuga",
+    "section3_project3_desc": "Sobre a falta de investimento do Estado em cibersegurança e a perseguição a quem reporta vulnerabilidades.",
+    "section3_project4_name": "Alerta Spyware",
+    "section3_project4_desc": "Pesquisa sobre software espião, com guia para quem suspeita estar sob vigilância."
+  },
+  "team": {
+    "title_1": "Florencia Caffarone",
+    "subtitle_1": "Diretora Executiva",
+
+    "title_2": "Ignacio Gertie",
+    "subtitle_2": "Coordenador de Inovação e Incidência",
+
+    "title_3": "Mariano Valdez",
+    "subtitle_3": "Coordenador de Desenvolvimento",
+
+    "title_4": "Guillermo Croppi",
+    "subtitle_4": "Engenheiro de Sistemas Sênior",
+
+    "title_5": "Abril Chiesa",
+    "subtitle_5": "Líder de Comunicação e Redes Sociais",
+
+    "title_6": "Cristian Valdez",
+    "subtitle_6": "Desenvolvedor Web",
+
+    "title_7": "Álvaro Araujo",
+    "subtitle_7": "DevOps",
+
+    "title_8": "Jennifer Perkes",
+    "subtitle_8": "Designer Gráfica",
+
+    "title_9": "Sofía Caffaro",
+    "subtitle_9": "Designer de Produto",
+
+    "title_10": "Lihuen Bezzo",
+    "subtitle_10": "Designer UX",
+
+    "title_11": "Delfina Montagna Hughes",
+    "subtitle_11": "Pesquisadora UX",
+
+    "title_12": "Agustín Frizzera",
+    "subtitle_12": "Presidente",
+
+    "title_13": "Florencia Polimeni",
+    "subtitle_13": "Vice-presidente",
+
+    "title_14": "Esteban Brenman",
+    "subtitle_14": "Secretário",
+
+    "title_15": "Florencia Primatesta",
+    "subtitle_15": "Tesoureira",
+
+    "title_16": "Mariano Heller",
+    "subtitle_16": "Vogal"
+
+  },
+  "council": {
+    "main_title": "Conselho Consultivo",
+    "title_1": "Mónica Villegas",
+    "subtitle_1": " Liderança Pública, participação cidadã e cidades. ",
+    "description_1": "COMPLETAR",
+
+    "title_2": "Dardo Ceballos",
+    "subtitle_2": "Estratégias de inovação e transformação digital aplicadas ao setor público e à inovação política. ",
+    "description_2": "COMPLETAR",
+
+    "title_3": "Yanina Welp",
+    "subtitle_3": "Pesquisa e coordenação editorial com foco em participação política, Albert Hirschman Centre on Democracy.",
+    "description_3": "COMPLETAR",
+
+    "title_4": "Juan Cruz Zorzoli",
+    "subtitle_4": "Desenvolvimento Sustentável e Regenerativo / Planejamento e Comunicação Participativa / Educação Ambiental / Mudança de Paradigma. ",
+    "description_4": "COMPLETAR",
+
+    "title_5": "Natalia Carfi",
+    "subtitle_5": "  Desenho e implementação de políticas públicas de Governo Aberto e dados abertos. ",
+    "description_5": "COMPLETAR",
+
+    "title_6": "Martín Galanternik",
+    "subtitle_6": " Programas participativos de educação cívica, de promoção de direitos e de educação e segurança viária.  ",
+    "description_6": "COMPLETAR"
+
+  },
+  "ecosystem": {
+    "main_title": "Ecossistema",
+
+    "title_1": "Governos e Instituições",
+    "features_1_1": "RINP",
+    "features_1_2": "Red de Parlamento abierto",
+    "features_1_3": "People Powered",
+    "features_1_4": "Red de OSC para un Estado Abierto",
+    "features_1_5": "Abrelatam",
+
+    "description_1": "Rosario, San Lorenzo, Vicente Lopez, Sunchales, Cámara Diputados Argentina, Concejo Bogota, Maipu, UBA, Santa lab, UNR, GCBA, Ecuador, Godoy Cruz.",
+
+    "title_2": "Financiadores",
+    "description_2": "Open Society Foundation, Luminate, BID, AVINA, UE, KAS, Y combinator, Fondo Altec / CLIP / FHHC, IFA, Tomson Reuters, FES, CAF, Google, Microsoft, PERFIT, SLACK.",
+
+    "title_3": "Redes & Comunidades",
+    "description_3": "Abrelatam, Red de Parlamento abierto, Red de OSC para un estado abierto, People Powered, RINP.",
+
+    "title_4": "Organizações e Movimentos",
+    "description_4": "XR, Extituto, Artemisas, ODIA, ART 41, Change, ACIJ, Directorio Legislativo, Acción Colectiva, ADS, Virtuagora, Conocimiento Abierto, Nave, Nuestra Córdoba, Nuestra Mendoza, Fundación Huésped, Activismo Digital, Fundeps, Estamos Listas."
+
+  },
+  "resources": {
+    "title": "Projetos",
+    "description": "Desenvolvemos tecnologia cívica inovadora.\nProduzimos conteúdos para a incidência cidadã.\nSistematizamos e compartilhamos nossas experiências.",
+    "subtitle": "Veja o que fazemos",
+    "filter_0": "Todos os projetos",
+    "filter_1": "Convivência Digital",
+    "filter_2": "Política",
+    "filter_3": "Participação Cidadã",
+    "filter_4": "Ativismo",
+
+    "main_title_1": "#Desinformação",
+    "subtitle_1": "Além das notícias falsas",
+    "img_1":"desinformacion",
+
+    "main_title_2": "Recuperar a política",
+    "subtitle_2": "Recuperá-la significa honrá-la. Como se organiza o poder e a democracia em uma sociedade líquida?",
+    "img_2": "recuperarLaPolitica",
+
+    "main_title_3": "Internet: Guia Cidadã.",
+    "subtitle_3": "Um primeiro passo para que o uso crítico da Internet ganhe o lugar que merece.",
+    "img_3": "guiaCiudadana",
+
+    "main_title_4": "Caixa de ferramentas",
+    "subtitle_4": "Como fazer um orçamento participativo?",
+    "img_4": "cajaHerramientasPresupuesto",
+
+    "main_title_5": "Caixa de ferramentas",
+    "subtitle_5": "Como fazer uma consulta cidadã?",
+    "img_5": "cajaHerramientasConsulta",
+
+    "main_title_7": " Orçamentos participativos em instituições educativas: para quê?",
+    "subtitle_7": " ",
+    "img_7": "en_presupuestoParticipativoInstitucionesEducativas",
+
+    "main_title_8": "Corações e Mentes",
+    "subtitle_8": "Ferramentas e muitos dados para dominar a internet e promover uma convivência digital positiva.",
+    "img_8": "corazonesymentes",
+
+    "main_title_9": "Reflexicons:",
+    "subtitle_9": "Convite a mensagens de reflexão",
+    "img_9": "refexicons",
+
+    "main_title_10": "Orçamento Participativo Vicente López",
+    "subtitle_10": "Participação e inovação para transformar o território.",
+    "img_10": "ppvl",
+
+    "main_title_11": "Leis Abertas",
+    "subtitle_11": "Inovação e participação na Câmara de Deputados.",
+    "img_11": "leyesAbiertas",
+
+    "main_title_12": "Desobedientes",
+    "subtitle_12": "As normas devem ser cumpridas até que precisemos rompê-las",
+    "img_12": "desobedientes",
+
+    "main_title_13": "Série: Política Recuperada",
+    "subtitle_13": "MUITOS PROTAGONISTAS... ALGUMAS ENTREVISTAS",
+
+    "main_title_14": "Políticos no Twitter:",
+    "subtitle_14": "Repositório com interações de mais de 500 usuários relacionados à política na Argentina.",
+    "img_14": "politicxsTwitter",
+
+    "main_title_15": "Causas Comuns",
+    "subtitle_15": "Porque só seremos melhores quando formos capazes de nos sonhar melhores.",
+    "img_15": "causasComunes",
+
+    "main_title_16": "Partícipes digital",
+    "subtitle_16": "Como fazer prestação de contas na plataforma digital Partícipes?",
+
+    "main_title_17": "TEDx Democracias e novas tecnologias",
+    "subtitle_17": "A tecnologia e a tomada de decisão coletiva permitem imaginar uma democracia que se adapte ao estilo de vida dos cidadãos do século XXI.",
+
+    "main_title_18": "O Medo e a Raiva",
+    "subtitle_18": "Agustin Frizzera analisa as PASO de 2019 na Argentina.",
+    "img_18": "miedoBronca",
+
+    "main_title_19": "Gatopardismo",
+    "subtitle_19": "Sobre o Deputado Garretón e o uso de tecnologia digital no Congresso",
+
+    "main_title_20": "MeRepresenta",
+    "subtitle_20": "Uma ferramenta para pensar seu voto \nConheça candidaturas, partidos, propostas e muito mais.",
+    "img_20": "meRepresenta",
+
+    "main_title_21": "Bússola Política",
+    "subtitle_21": "Em que ideologia você está \"enquadrado\"?",
+    "img_21": "compasPolitico",
+
+    "main_title_22": "SÉRIE ELEIÇÕES E DEMOCRACIA",
+    "subtitle_22": "4 colunas sobre as eleições, além da conjuntura",
+    "img_22": "eleccionesDemocracia",
+
+    "main_title_23": "Como fazer prestação de contas na plataforma digital Sumen?",
+    "subtitle_23": "Acreditamos que é importante poder contar com uma sociedade informada que se envolva e com um Estado transparente",
+    "img_23": "sumen",
+
+    "main_title_24": "Como fazer prestação de contas na plataforma digital Partícipes?",
+    "subtitle_24": "Acreditamos que é importante poder contar com uma sociedade informada que se envolva e com um Estado transparente",
+
+    "main_title_25": "Somos Partícipes",
+    "subtitle_25": "Experiências de Prestação de Contas, Monitoramento e Participação Cidadã na Argentina",
+    "img_25": "somosParticipes",
+
+    "main_title_26": "Dados em Fuga",
+    "subtitle_26": "Queremos que o Estado assegure padrões de cibersegurança e que atenda aos alarmes que soam por todos os lados",
+    "img_26": "datosEnFuga",
+
+    "main_title_27": "Proteção de dados",
+    "subtitle_27": "Uma análise comparativa em 9 países",
+    "img_27": "proteccionDatos",
+
+    "main_title_28": "DemOndial",
+    "subtitle_28": "O jogo onde você não precisa treinar para ganhar a copa do mundo",
+    "img_28": "demondial",
+
+    "main_title_29": "Rir para não chorar",
+    "subtitle_29": "Os memes somam ou diminuem o debate político?",
+    "img_29": "memes",
+
+    "main_title_30": "PIS",
+    "subtitle_30": "Ferramentas e informações para reduzir o impacto dos agroquímicos a partir dos territórios.",
+    "img_30": "pis",
+
+    "main_title_31": "#MeRepresenta",
+    "subtitle_31": "Conheça quais são os planos de cada partido para o seu futuro. Muito melhor do que ficar adivinhando ou deixar ao acaso, não é?",
+    "img_31": "merre2023",
+
+    "main_title_32": "Assembleias Climáticas",
+    "subtitle_32": "Deliberação cidadã para enfrentar a crise climática de maneira participativa.",
+    "img_32": "asambleas",
+
+    "main_title_33": "Reconoceme",
+    "subtitle_33": "O que é o sistema de reconhecimento facial? Direitos civis, privacidade das pessoas, limites ao Estado em seu uso e a busca de um marco regulatório.",
+    "img_33": "reconoceme"
+  },
+  "press": {
+    "title": "Imprensa",
+    "name_1": "Open Democracy",
+    "title_1": "Simplicity, openness, and modifiability",
+    "subtitle_1": "Governments, endogamic institutions since forever, are not used to opening up. But now there’s political will for it to happen, if a lot of trial and error in the process.",
+
+    "name_2": "BBC",
+    "title_2": "Democracy at the touch of a button?",
+    "subtitle_2": "The Internet has definitely changed our lives. However, some think that the last analog redoubt is our politics and the way it organizes its societies. (...)",
+
+    "name_3": "La política online",
+    "title_3": "Tratam projetos votados na Internet",
+    "subtitle_3": "A Legislatura portenha tratará três projetos que foram escolhidos pelos cidadãos por meio de votação pela Internet. Foram vencedoras iniciativas sobre enfermeiros, educação e trapitos.",
+
+    "name_4": "La capital",
+    "title_4": "Recorde de eleitores no Orçamento Participativo 2018",
+    "subtitle_4": "Mais de 100 mil rosarinos escolheram os projetos para o seu bairro entre as categorias de ofícios, esportes, cultura, iluminação LED e recuperação de espaços públicos.",
+
+    "name_5": "Wired",
+    "title_5": "Out in the Open",
+    "subtitle_5": "With an open source website, voters can have access to a platform that gives them the ability to influence the actions of politicians.",
+
+    "name_6": "La Nación",
+    "title_6": "Os portenhos escolheram proibir os flanelinhas",
+    "subtitle_6": "Proibir os flanelinhas foi um dos projetos mais votados pela cidadania no site da Legislatura Portenha.",
+
+    "name_7": "TED",
+    "title_7": "How to upgrade democracy for the Internet era",
+    "subtitle_7": "Through their open-source mobile platform they want to bring citizens inside the legislative process, and run candidates who will listen to what they say.",
+
+    "name_8": "Popular",
+    "title_8": "Vicente López: Lançaram os Fóruns Vicinais de Bairro",
+    "subtitle_8": "O prefeito de Vicente López, Jorge Macri, apresentou uma nova edição dos Fóruns Vicinais de Bairro.",
+
+    "name_9": "Ámbito",
+    "title_9": "Câmara de Deputados lançou um portal para que a cidadania participe na elaboração de leis",
+    "subtitle_9": "Segundo seus criadores, a plataforma permitirá aos legisladores abrir aos cidadãos projetos que estejam em fase de elaboração.",
+
+    "name_10": "Radio CUT",
+    "title_10": "Entrevista com Agustín Frizzera, diretor da Democracia em Rede",
+    "subtitle_10": "Câmara de Deputados lançou um portal para que a cidadania participe na elaboração de leis",
+
+    "name_11": "TN",
+    "title_11": "A visão sloganeira do futuro e uma campanha sem ideias",
+    "subtitle_11": "Nosso sistema democrático depende do fluxo de informação verdadeira e da oferta eleitoral diversa com candidaturas que expressem de forma clara e concreta o que querem fazer.",
+
+    "name_12": "Infobae",
+    "title_12": "Adolescentes e polarização nas redes sociais",
+    "subtitle_12": "Hoje mais do que nunca é importante entender como funcionam as Redes Sociais e, sobretudo, como funcionamos em relação a elas. A verdadeira dicotomia está em “dominar a ferramenta ou ser dominado por ela”",
+
+    "name_13": "La Nación",
+    "title_13": "#MeRepresenta",
+    "subtitle_13": "O site que organiza os dados das candidaturas e propostas dos partidos políticos que participam das eleições de domingo.",
+
+    "name_14": "Clarín",
+    "title_14": "Dissonância cognitiva: nosso entorno nem sempre tem razão.",
+    "subtitle_14": "Como assinalamos desde a iniciativa Corações e Mentes, o descrito pode soar familiar: é um mecanismo que predomina em nossas interações e está presente no ecossistema das redes sociais, onde os rótulos se expõem com orgulho e a demanda por imediatismo dificulta a reflexão.",
+
+    "name_15": "TN",
+    "title_15": "Vazamento de dados pessoais na Argentina: foram registrados mais de 14.000 relatos no último ano",
+    "subtitle_15": "Os diferentes vazamentos demonstram que os sistemas do Estado são vulneráveis e que a informação privada das pessoas está exposta a invasões.",
+
     "see_more": "Ver mais",
-    "products_title": "produtos",
-    "us": "sobre nós",
-    "contact": "contato",
-    "work_with": "Trabalhamos com",
-    "claim": "“Hoje, as ideias se espalham com muita facilidade. Nossa antiga capacidade de compartilhar histórias e experiências foram aninhadas na internet, formando uma rede de conhecimento para evoluir. Nosso sistema de governo, porém, pouco evoluiu e continua reservando o poder de decidir em 'especialistas', como fazia há dois séculos. O conhecimento do representante ainda é necessário, mas deve ser permeável à sabedoria coletiva. A política não pode ser o monopólio do poder, mas deve ser a capacidade de processar poderes distribuídos.”"
+    "see_less": "Ver menos"
+  },
+
+  "transparency": {
+    "title": "Transparência",
+    "description": "Somos uma organização que promove a <b>abertura</b> e a <b>transparência</b>.<br> Por isso <b>publicamos nossas receitas e despesas</b> para que você saiba como geramos nossa receita e em que a gastamos.",
+    "subtitle": "Transparência",
+    "description_home": "Somos uma organização que promove a <b>abertura</b> e a <b>transparência</b>.<br> Por isso <b>publicamos nossas receitas e despesas</b> para que você saiba como geramos nossa receita e em que a gastamos.",
+    "balance_button":"VER BALANÇOS COMPLETOS",
+    "download_balance": "Convidamos você a baixar e conhecer os balanços de anos anteriores",
+    "link": "/transparencia",
+    "balance": {
+      "title": "Balanço 2020",
+      "subtitle": "Quem nos financia? Como e em que gastamos?"
+    },
+    "chartsPie": {
+      "income_title": "Receitas",
+      "outcome_title": "Despesas",
+      "labels": {
+        "services": "Serviços",
+        "donations": "Doações",
+        "europeanUnion": "União Europeia",
+        "fees": "Honorários",
+        "officeExpenses": "Despesas de escritório",
+        "taxes": "Impostos",
+        "designAndCommunication": "Design e comunicação"
+      }
+    },
+    "evolution": {
+      "title": "Evolução de receitas e despesas",
+      "labels": {
+        "label_1":"30 de junho de 2015",
+        "label_2":"30 de junho de 2016",
+        "label_3":"30 de junho de 2017",
+        "label_4":"30 de junho de 2018",
+        "label_5":"30 de junho de 2019",
+        "label_6":"30 de junho de 2020"
+      },
+      "incomesBar": {
+        "title":"Receitas por fonte de financiamento (ano fiscal)",
+        "label_1": "Serviços",
+        "label_2":"Doações"
+      },
+      "outcomesBar": {
+        "title":"Despesas por objeto do ano fiscal",
+        "label_1": "Design",
+        "label_2": "Impostos e juros",
+        "label_3": "Despesas de escritório",
+        "label_4": "Honorários"
+      }
+    }
+  },
+  "blog": {
+    "title": "BLOG",
+    "subtitle": "Conheça nossas novidades",
+    "searchBar":"Digite o nome ou sobrenome do Autor ou Autora",
+    "filterText":"Filtrar por tema",
+    "filterButton": "Ordenar por",
+    "notFoundPosts": "Nenhum post foi encontrado para sua busca"
+  },
+
+  "requirements": "Requisitos",
+  "features": "Características",
+  "preview": "Visualização",
+  "implementation": "Implementar",
+  "products_title": "Produtos",
+  "us": "Conheça-nos",
+  "contact": "Contate-nos",
+  "contactPopup": {
+    "verify": "Verifique que você é humano para ver o contato",
+    "copy": "Copiar endereço",
+    "copied": "Copiado!",
+    "close": "Fechar",
+    "error": "Houve um problema com a verificação. Recarregue a página e tente novamente."
+  },
+  "transparencia": "Transparência",
+  "prensa":"Imprensa",
+  "ecosistema": "Ecossistema",
+  "work_with": "Trabalhamos com",
+  "claim": "“Hoje, as ideias se disseminam com muita facilidade. Nossa capacidade milenar de compartilhar histórias e experiências se instalou na internet, formando uma rede de conhecimentos para evoluir. Nosso sistema de governo, no entanto, evoluiu pouco e continua reservando a faculdade de decidir a 'especialistas', como há dois séculos atrás. O saber do representante continua sendo necessário, mas deve ser permeável à sabedoria coletiva. A política não pode ser o monopólio do poder, mas sim a habilidade de administrar poderes distribuídos”",
+  "livesH1": "#AOVIVO",
+
+  "title_def":"Datos en Fuga",
+  "subtitle_def": "Criamos soluções de participação cidadã com governos e ativistas para fortalecer a democracia.",
+  "button_def":"Conheça o projeto"
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import { useIntl } from "gatsby-plugin-intl";
 import "./styles.scss";
-import NewsletterTypeForm from "../newsletter-typeform";
+import PerfitOptin from "../perfit-optin";
 import newsletterIcon from "./assets/newsletter.svg";
 
 const Newsletter = ({ data }) => {
@@ -29,7 +29,7 @@ const Newsletter = ({ data }) => {
           <h2 className="has-text-white is-spaced mb-3">
             {intl.formatMessage({ id: data.description })}
           </h2>
-          <NewsletterTypeForm button={intl.formatMessage({ id: data.button })} TFid={data.tfid}/>
+          <PerfitOptin button={intl.formatMessage({ id: data.button })} formId={data.perfitFormId}/>
         </div>
       </div>
     </section>

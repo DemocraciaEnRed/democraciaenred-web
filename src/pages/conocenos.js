@@ -1,4 +1,5 @@
 import React from "react";
+import { useIntl } from "gatsby-plugin-intl";
 import "./styles.scss";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -14,26 +15,33 @@ import Council from "../components/council";
 import councilData from "../../content/council.json";
 import Balance from "../components/balance-sheets";
 
-const Conocenos = () => (
-  <React.Fragment>
-    <Layout>
-      <SEO title="Conocenos" description="Somos una organización de la sociedad civil que abre la toma de decisiones públicas." />
-      <PageHero
-        color="#ff9b73"
-        title="Quiénes somos"
-        subtitle={[
-          "Somos una organización conformada por personas activistas, programadoras y científicas sociales que creen en potenciar la inteligencia colectiva para adaptar la democracia al siglo XXI.",
-          "Buscamos recuperar la política."
-        ]}
-        icon={iconConocenos}
-      />
-      <EjesEstrategicos />
-      <Mision data={dataUsPage} />
-      <TeamGrid slides={teamData} title={dataUs} />
-      <Council staff={councilData} />
-      <Balance />
-    </Layout>
-  </React.Fragment>
-);
+const Conocenos = () => {
+  const intl = useIntl();
+
+  return (
+    <React.Fragment>
+      <Layout>
+        <SEO
+          title={intl.formatMessage({ id: "us" })}
+          description={intl.formatMessage({ id: "pages.conocenos_seo_description" })}
+        />
+        <PageHero
+          color="#ff9b73"
+          title={intl.formatMessage({ id: "usSection.title" })}
+          subtitle={[
+            intl.formatMessage({ id: "usSection.subtitle_1" }),
+            intl.formatMessage({ id: "usSection.subtitle_2" })
+          ]}
+          icon={iconConocenos}
+        />
+        <EjesEstrategicos />
+        <Mision data={dataUsPage} />
+        <TeamGrid slides={teamData} title={dataUs} />
+        <Council staff={councilData} />
+        <Balance />
+      </Layout>
+    </React.Fragment>
+  );
+};
 
 export default Conocenos;
