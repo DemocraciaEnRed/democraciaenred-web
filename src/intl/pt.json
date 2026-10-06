@@ -145,7 +145,7 @@
     },
     "mision_approach": {
       "title": "Visão",
-      "description": "Alcançar uma democracia em que mais pessoas participem das decisões que afetam suas vidas."
+      "description": "Uma democracia em que mais pessoas participem das decisões que afetam suas vidas."
     },
     "what_we_do": {
       "title": "O que fazemos?",
@@ -496,8 +496,8 @@
     "section1_project1_partner": "com a Câmara de Deputados da Nação",
     "section1_project1_desc": "Plataforma de co-construção de normas que permite à cidadania participar na elaboração de projetos de lei.",
     "section1_project2_name": "Consulta Pública",
-    "section1_project2_partner": "com o Poder Executivo Nacional",
-    "section1_project2_desc": "Plataforma de consulta, diálogo e debate que conecta o governo nacional com a comunidade.",
+    "section1_project2_partner": "com San Miguel de Tucumán",
+    "section1_project2_desc": "Plataforma de consulta, diálogo e debate que conecta projetos do governo local com ideias da comunidade.",
     "section1_project3_name": "Orçamento Participativo",
     "section1_project3_partner": "com o Município de Vicente López",
     "section1_project3_desc": "A cidadania escolhe em que se investe parte do orçamento público de seu município.",
@@ -539,9 +539,9 @@
     "section3_project2_name": "#MeRepresenta",
     "section3_project2_desc": "Ferramenta para pensar o voto que organiza informações eleitorais, e campanha para promover o voto informado.",
     "section3_project3_name": "#DatosEnFuga",
-    "section3_project3_desc": "Sobre a falta de investimento do Estado em cibersegurança e a perseguição a quem reporta vulnerabilidades.",
+    "section3_project3_desc": "Campanha sobre a falta de investimento do Estado em cibersegurança e a perseguição a quem reporta vulnerabilidades.",
     "section3_project4_name": "Alerta Spyware",
-    "section3_project4_desc": "Pesquisa sobre software espião, com guia para quem suspeita estar sob vigilância."
+    "section3_project4_desc": "Pesquisa sobre software espião, com guia para quem suspeita estar sob vigilância estatal."
   },
   "team": {
     "title_1": "Florencia Caffarone",

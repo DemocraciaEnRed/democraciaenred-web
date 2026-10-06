@@ -294,8 +294,8 @@
         "section1_project1_partner": "with Argentina's Chamber of Deputies",
         "section1_project1_desc": "A co-creation platform that lets citizens take part in drafting bills.",
         "section1_project2_name": "Consulta Pública",
-        "section1_project2_partner": "with the National Executive Branch",
-        "section1_project2_desc": "A consultation, dialogue and debate platform connecting the national government with its community.",
+        "section1_project2_partner": "with San Miguel de Tucumán",
+        "section1_project2_desc": "A consultation, dialogue and debate platform connecting local government projects with ideas from the community.",
         "section1_project3_name": "Participatory Budget",
         "section1_project3_partner": "with the Municipality of Vicente López",
         "section1_project3_desc": "Citizens choose how part of their municipality's public budget is invested.",
@@ -335,9 +335,9 @@
         "section3_project2_name": "#MeRepresenta",
         "section3_project2_desc": "A tool to think about your vote that organizes electoral information, plus a campaign to promote informed voting.",
         "section3_project3_name": "#DatosEnFuga",
-        "section3_project3_desc": "On the state's lack of investment in cybersecurity and the persecution of those who report vulnerabilities.",
+        "section3_project3_desc": "Campaign on the state's lack of investment in cybersecurity and the persecution of those who report vulnerabilities.",
         "section3_project4_name": "Alerta Spyware",
-        "section3_project4_desc": "Research on spyware, with a guide for those who suspect they are under surveillance."
+        "section3_project4_desc": "Research on spyware, with a guide for those who suspect they are under state surveillance."
     },
     "pages": {
         "conocenos_seo_description": "We are a civil society organization that opens up public decision-making.",
@@ -353,7 +353,7 @@
         "ecosistema_sector_networks": "Networks and Communities"
     },
     "newsletter": {
-        "title": "What are we up to?",
+        "title": "Newsletter",
         "description": "We'll tell you what's happening at Democracia en Red: our projects, research, initiatives, and opportunities to get involved. Subscribe and get our updates straight to your inbox.",
         "button": "Subscribe"
     },
@@ -366,7 +366,7 @@
         },
         "mision_approach": {
           "title": "Vision",
-          "description": "Achieve a democracy where more people participate in the decisions that affect their lives."
+          "description": "A democracy where more people participate in the decisions that affect their lives."
         },
         "what_we_do": {
           "title": "What do we do?",

@@ -132,8 +132,8 @@
     "ecosistema_sector_networks": "Redes y Comunidades"
   },
   "newsletter":{
-    "title": "¿Qué estamos haciendo?",
-    "description": "Te contamos lo que pasa en Democracia en Red: nuestros proyectos, investigaciones, iniciativas y oportunidades para participar. Suscribite y recibí nuestras novedades directamente en tu mail.",
+    "title": "Newsletter",
+    "description": "¿Qué estamos haciendo? Te contamos lo que pasa en Democracia en Red: nuestros proyectos, investigaciones, iniciativas y oportunidades para participar. Suscribite y recibí nuestras novedades directamente en tu mail.",
     "button": "Subscribirme"
   },
   "usPage": {
@@ -145,7 +145,7 @@
     },
     "mision_approach": {
       "title": "Visión",
-      "description": "Lograr una democracia donde más personas participen en la toma de decisiones que afectan su vida."
+      "description": "Una democracia donde más personas participen en la toma de decisiones que afectan su vida."
     },
     "what_we_do": {
       "title": "¿Qué hacemos?",
@@ -496,8 +496,8 @@
     "section1_project1_partner": "con Cámara de Diputados de la Nación",
     "section1_project1_desc": "Plataforma de co-construcción de normas que permite a la ciudadanía participar en la elaboración de proyectos de ley.",
     "section1_project2_name": "Consulta Pública",
-    "section1_project2_partner": "con Poder Ejecutivo Nacional",
-    "section1_project2_desc": "Plataforma de consulta, diálogo y debate que conecta al gobierno nacional con la comunidad.",
+    "section1_project2_partner": "con San Miguel de Tucumán",
+    "section1_project2_desc": "Plataforma de consulta, diálogo y debate que conecta proyectos del gobierno local con ideas de la comunidad.",
     "section1_project3_name": "Presupuesto Participativo",
     "section1_project3_partner": "con Municipio de Vicente López",
     "section1_project3_desc": "La ciudadanía elige en qué se invierte parte del presupuesto público de su municipio.",
@@ -539,9 +539,9 @@
     "section3_project2_name": "#MeRepresenta",
     "section3_project2_desc": "Herramienta para pensar el voto que organiza información electoral, y campaña para promover el voto informado.",
     "section3_project3_name": "#DatosEnFuga",
-    "section3_project3_desc": "Sobre la falta de inversión del Estado en ciberseguridad y la persecución a quienes reportan vulnerabilidades.",
+    "section3_project3_desc": "Campaña sobre la falta de inversión del Estado en ciberseguridad y la persecución a quienes reportan vulnerabilidades.",
     "section3_project4_name": "Alerta Spyware",
-    "section3_project4_desc": "Investigación sobre software espía, con guía para quienes sospechan estar bajo vigilancia."
+    "section3_project4_desc": "Investigación sobre software espía, con guía para quienes sospechan estar bajo vigilancia estatal."
   },
   "team": {
     "title_1": "Florencia Caffarone",
