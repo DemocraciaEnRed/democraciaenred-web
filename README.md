@@ -14,15 +14,24 @@
 
 ### Para correr la aplicación:
 
-1. Asegurarnos de tener utilizar la versión correcta de Node. Requiere, como minimo, NodeJS 14.x 
+1. Utilizar Node.js 22, tanto en desarrollo como en el build de Docker:
 ```bash
-nvm use v14
+nvm install
+nvm use
 ```
 
 2. Instalar dependencias del proyecto
 ```bash
-npm install
+npm ci
 ```
+
+`npm ci` instala las versiones de `package-lock.json` sin modificarlo. Usar npm
+también en Docker: Yarn no utiliza este lockfile y puede resolver otras versiones.
+
+El archivo `.npmrc` configura `legacy-peer-deps=true` porque
+`gatsby-plugin-intl@0.3.3` declara Gatsby 2 como peer dependency, aunque el proyecto
+usa Gatsby 3. Esta compatibilidad mantiene las dependencias bloqueadas; no corrige
+la incompatibilidad declarada por el plugin.
 
 4. Levantar en modo desarrollo (actualiza los cambios automáticamente)
 ```bash
@@ -34,7 +43,7 @@ Se disponibiliza el sitio en [http://localhost:8000/](http://localhost:8000/)
 ```bash
 npm run build
 ```
-Genera archivos estáticos dentro de la carpeta `build`
+Genera archivos estáticos dentro de la carpeta `public`
 
 > Se aconseja ejecutar `gatsby clean` previo a generar build productivo que limpia cache de gatsby
 
