@@ -16,7 +16,7 @@ $coral: #f09c77;
   }
 
   .hero-body {
-    background-color: rgb(15 10 7 / 78%);
+    background-color: rgb(15 10 7 / 45%);
 
     @include touch {
       height: calc(100vh - 104px);
@@ -49,13 +49,21 @@ padding: 10rem 6rem;
   }
 }
 
-#hero-slider .slick-dots li {
-  button:before {
+#hero-slider .slick-slider {
+  position: relative;
+}
+
+#hero-slider .slick-dots {
+  position: absolute;
+  bottom: 1.5rem;
+  width: 100%;
+
+  li button:before {
     color: #848181;
     opacity: 0.75;
   }
 
-  &.slick-active button:before {
+  li.slick-active button:before {
     color: white;
   }
 }
@@ -72,16 +80,32 @@ padding: 10rem 6rem;
   }
 }
 
+.hero.is-primary .title.hero-slider-coral,
+.hero.is-primary .title.hero-slider-green,
+.hero.is-primary .title.hero-slider-blue {
+  color: #191919;
+  display: inline-block;
+  padding: 0.2em 0.5em;
+  border-radius: 6px;
+  line-height: 1.3;
+  white-space: nowrap;
+  font-weight: 700;
+
+  &::after {
+    display: none;
+  }
+}
+
 .hero.is-primary .title.hero-slider-coral {
-  color: $coral;
+  background-color: $coral;
 }
 
 .hero.is-primary .title.hero-slider-green {
-  color: $green;
+  background-color: $green;
 }
 
 .hero.is-primary .title.hero-slider-blue {
-  color: $blue;
+  background-color: $blue;
 }
 
 #hero-slider .slick-prev,
@@ -102,6 +126,26 @@ padding: 10rem 6rem;
 
   @include mobile {
     display: none;
+  }
+}
+
+#hero-slider .hero-slider-pause {
+  position: absolute;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s;
+  &:hover {
+    background: rgba(255, 255, 255, 0.3);
   }
 }
 

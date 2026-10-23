@@ -3,9 +3,9 @@ import "./styles.scss";
 import { useIntl, Link } from "gatsby-plugin-intl";
 // import logo_der from "./assets/logo-der-white.svg";
 import logo_der from "./assets/logo-der.png";
-import { PopupButton } from "@typeform/embed-react";
-
 import socialMedia from "../../../content/social-media-navbar.json";
+import SocialIcon from "../social-icon";
+import ContactPopup from "../contact-popup";
 
 export default () => {
   const intl = useIntl();
@@ -37,43 +37,27 @@ export default () => {
                 </h1>
                 <Link
                   className="navbar-item pl-0 ml-0"
-                  // onClick={() => setIsActive(false)}
                   to="/conocenos"
-                  data-target="nosotros"
                 >
                   {intl.formatMessage({ id: "us" })}
                 </Link>
                 <Link
                   className="navbar-item pl-0 ml-0"
-                  // onClick={() => setIsActive(false)}
+                  to="/productos"
+                >
+                  {intl.formatMessage({ id: "products_title" })}
+                </Link>
+                <Link
+                  className="navbar-item pl-0 ml-0"
                   to="/recursos"
-                  data-target="nosotros"
                 >
                   {intl.formatMessage({ id: "resources.title" })}
                 </Link>
                 <Link
                   className="navbar-item pl-0 ml-0"
-                  // onClick={() => setIsActive(false)}
-                  to="/transparencia"
-                  data-target="transparency"
-                >
-                  {intl.formatMessage({ id: "transparencia" })}
-                </Link>
-                <Link
-                  className="navbar-item pl-0 ml-0"
-                  // onClick={() => setIsActive(false)}
-                  to="/#ecosystem"
-                  data-target="ecosystem"
+                  to="/ecosistema"
                 >
                   {intl.formatMessage({ id: "ecosystem.main_title" })}
-                </Link>
-                <Link
-                  className="navbar-item pl-0 ml-0"
-                  // onClick={() => setIsActive(false)}
-                  to="/#press-slider"
-                  data-target="press-slider"
-                >
-                  {intl.formatMessage({ id: "press.title" })}
                 </Link>
                 <a
                   className="navbar-item pl-0 ml-0"
@@ -86,15 +70,11 @@ export default () => {
                  <h1 className="subtitle">
                   {intl.formatMessage({id: "footer.subtitles.contact"})}
                  </h1>
-                <PopupButton
-                  id="fSqwwL"
+                <ContactPopup
                   style={{ fontSize: 20 }}
                   className="navbar-item contact is-size-6 my-3 is-capitalized"
-                >
-                  {intl.formatMessage({ id: "contact" })}
-                </PopupButton>
-                
-                <p>contacto@democraciaenred.org</p>
+                  button={intl.formatMessage({ id: "contact" })}
+                />
 
                 <div className="container mt-6">
                   <h1 className="subtitle">
@@ -111,7 +91,7 @@ export default () => {
                         key={index}
                       >
                         <span className="icon">
-                          <i className={media.icon}></i>
+                          <SocialIcon media={media} />
                         </span>
                       </a>
                     ))}

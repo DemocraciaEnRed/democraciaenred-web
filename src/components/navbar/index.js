@@ -2,13 +2,48 @@ import React, { useState, useEffect } from "react";
 import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
 import { useIntl, IntlContextConsumer, changeLocale, Link } from "gatsby-plugin-intl";
 import socialMedia from "../../../content/social-media-navbar.json";
+import SocialIcon from "../social-icon";
 import "./styles.scss";
 import LogoDer from "./assets/logo-der.png";
-import { PopupButton } from "@typeform/embed-react";
+import ContactPopup from "../contact-popup";
+
+const HOME_SECTIONS = [
+  { id: "productos", key: "productos" },
+  { id: "resources", key: "proyectos" },
+  { id: "ecosystem", key: "ecosystem" },
+];
 
 export default (props) => {
   const [isActive, setIsActive] = useState(false);
+  const [activeSection, setActiveSection] = useState(null);
   const intl = useIntl();
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+
+    const pathname = window.location.pathname.replace(/^\/(es|en|pt)/, "");
+
+    if (pathname === "/" || pathname === "") {
+      const observers = [];
+      HOME_SECTIONS.forEach(({ id, key }) => {
+        const el = document.getElementById(id);
+        if (!el) return;
+        const observer = new IntersectionObserver(
+          ([entry]) => { if (entry.isIntersecting) setActiveSection(key); },
+          { threshold: 0.3 }
+        );
+        observer.observe(el);
+        observers.push(observer);
+      });
+      return () => observers.forEach((o) => o.disconnect());
+    } else {
+      if (pathname.startsWith("/conocenos")) setActiveSection("conocenos");
+      else if (pathname.startsWith("/productos")) setActiveSection("productos");
+      else if (pathname.startsWith("/recursos")) setActiveSection("proyectos");
+      else if (pathname.startsWith("/ecosistema")) setActiveSection("ecosystem");
+      else setActiveSection(null);
+    }
+  }, [typeof window !== "undefined" && window.location.pathname]);
   const languageName = {
     es: "ESP",
     en: "ENG",
@@ -76,7 +111,7 @@ export default (props) => {
           </div>
         <div className="navbar-start">
           <Link
-            className="navbar-item is-size-6 my-3 is-capitalized"
+            className={`navbar-item is-size-6 my-3 is-capitalized${activeSection === "conocenos" ? " nav-active" : ""}`}
             onClick={() => setIsActive(false)}
             to="/conocenos"
             data-target="nosotros"
@@ -84,57 +119,40 @@ export default (props) => {
             {intl.formatMessage({ id: "us" })}
           </Link>
           <Link
-            className="navbar-item is-size-6 my-3 is-capitalized"
+            className={`navbar-item is-size-6 my-3 is-capitalized${activeSection === "productos" ? " nav-active" : ""}`}
             onClick={() => setIsActive(false)}
-            to="/recursos#resources"
-            data-target="nosotros"
+            to="/productos"
+            data-target="productos"
+          >
+            {intl.formatMessage({ id: "products_title" })}
+          </Link>
+          <Link
+            className={`navbar-item is-size-6 my-3 is-capitalized${activeSection === "proyectos" ? " nav-active" : ""}`}
+            onClick={() => setIsActive(false)}
+            to="/recursos"
+            data-target="proyectos"
           >
             {intl.formatMessage({ id: "resources.title" })}
           </Link>
           <Link
-            className="navbar-item is-size-6 my-3 is-capitalized"
+            className={`navbar-item is-size-6 my-3 is-capitalized${activeSection === "ecosystem" ? " nav-active" : ""}`}
             onClick={() => setIsActive(false)}
-            to="/transparencia"
-            data-target="transparency"
-          >
-            {intl.formatMessage({ id: "transparencia" })}
-          </Link>
-          <Link
-            className="navbar-item is-size-6 my-3 is-capitalized"
-            onClick={() => setIsActive(false)}
-            to="/#ecosystem"
+            to="/ecosistema"
             data-target="ecosystem"
           >
             {intl.formatMessage({ id: "ecosystem.main_title" })}
           </Link>
-          {/* <a href="#ecosystem" className="navbar-item is-size-6 my-3 is-capitalized">
-            {intl.formatMessage({ id: "ecosystem.main_title" })}
-          </a> */}
-          <Link
-            className="navbar-item is-size-6 my-3 is-capitalized"
-            onClick={() => setIsActive(false)}
-            to="/#press-slider"
-            data-target="press-slider"
-          >
-            {intl.formatMessage({ id: "press.title" })}
-          </Link>
-            <a
+          <a
             className="navbar-item is-size-6 my-3 is-capitalized"
             href="https://blog.democraciaenred.org"
           >
             Blog
-            </a>
-{/* 
-          <a href="#press-slider" className="navbar-item is-size-6 my-3 is-capitalized">
-            {intl.formatMessage({ id: "press.title" })}
-          </a> */}
-          <PopupButton
-            id="fSqwwL"
+          </a>
+          <ContactPopup
             style={{ fontSize: 20 }}
             className="navbar-item contact is-size-6 my-3 is-capitalized"
-          >
-            {intl.formatMessage({ id: "contact" })}
-          </PopupButton>
+            button={intl.formatMessage({ id: "contact" })}
+          />
             <div className="my-3  mr-2 media-wrapper">
             {socialMedia.map((media, index) => (
             <a
@@ -145,7 +163,7 @@ export default (props) => {
               key={index}
             >
               <span className="icon is-large ">
-                <i className={media.icon}></i>
+                <SocialIcon media={media} />
               </span>
             </a>
           ))}

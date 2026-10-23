@@ -5,7 +5,7 @@ import ProductButtons from './ProductButtons';
 
 import democracia_os_icon from "./assets/Icono_DemocraciaOS.png";
 
-const DemocracyosProduct = ({ data, otherProducts, sliderRef }) => {
+const DemocracyosProduct = ({ data, otherProducts }) => {
     const intl = useIntl();
 
     const icons = {
@@ -19,13 +19,9 @@ const DemocracyosProduct = ({ data, otherProducts, sliderRef }) => {
                     <div className="text-content">
                         <div className="columns is-align-items-center is-flex-wrap-wrap">
                             <div className="column">
-                                <div className="is-flex title-product is-align-items-center mb-5 mx-auto">
-                                    <div className="content-title">
-                                        <h1 className="has-text-black is-spaced">
-                                            {intl.formatMessage({ id: data.first_slide_title })}
-                                        </h1>
-                                    </div>
-                                </div>
+                                <h2 className="title section-title has-text-black mb-5">
+                                    {intl.formatMessage({ id: data.first_slide_title })}
+                                </h2>
                                 <span className="subtitle has-text-black has-text-weight-light is-spaced">
                                     {intl.formatMessage({ id: data.first_slide_description_1 })}
                                 </span>
@@ -33,11 +29,9 @@ const DemocracyosProduct = ({ data, otherProducts, sliderRef }) => {
                                     {intl.formatMessage({ id: data.first_slide_description_2 })}
                                 </p>
                                 <div className='columns first-slide-buttons-array is-mobile is-centered is-multiline'>
-                                    {otherProducts.map(product => {
-                                        return(
-                                            <ProductButtons data={product} sliderRef={sliderRef}/>
-                                        )
-                                    })}
+                                    {otherProducts.map((product, i) => (
+                                        <ProductButtons data={product} key={i} />
+                                    ))}
                                 </div>
                                 <a className="button is-rounded is-medium custom-button" href={data.external_link} target="_blank">
                                     {intl.formatMessage({ id: data.first_slide_see_more })}

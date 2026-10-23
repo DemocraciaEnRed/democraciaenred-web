@@ -1,22 +1,27 @@
 import React from "react";
+import { useIntl } from "gatsby-plugin-intl";
 import "./styles.scss";
-import InternalPageHero from "../components/internal-page-hero";
-import dataResources from "../../content/resources.json";
-import Division from "../components/division";
-import ResourcesHeader from "../components/resources-header";
+import PageHero from "../components/page-hero";
+import iconProyectos from "../components/page-hero/assets/proyectos.svg";
+import LineasTrabajo from "../components/lineas-trabajo";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 
 const Recursos = () => {
-  const title = "Recursos";
-  const description = "Una caja de herramientas para implementar procesos de participación.";
+  const intl = useIntl();
+  const title = intl.formatMessage({ id: "resources.title" });
+  const description = intl.formatMessage({ id: "pages.proyectos_seo_description" });
   return (
     <React.Fragment>
       <Layout>
         <SEO title={title} description={description} />
-        <InternalPageHero data={dataResources} background= {"lila"} />
-        <Division />
-        <ResourcesHeader data={dataResources} />
+        <PageHero
+          color="#69d69d"
+          title={title}
+          subtitle={intl.formatMessage({ id: "pages.proyectos_subtitle" })}
+          icon={iconProyectos}
+        />
+        <LineasTrabajo />
       </Layout>
     </React.Fragment>
   );

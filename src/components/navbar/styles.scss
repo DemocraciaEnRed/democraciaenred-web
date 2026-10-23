@@ -3,7 +3,11 @@
 
 .navbar {
     transition: background-color 0.3s ease;
-    // position: absolute;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
     width: 100%;
     background-color: #000;
 }
@@ -117,6 +121,10 @@
             &:not(.contact){
                 &:hover {
                     text-decoration: underline;
+                }
+                &.nav-active {
+                    text-decoration: underline;
+                    text-underline-offset: 4px;
                 }
             }
             &.contact {

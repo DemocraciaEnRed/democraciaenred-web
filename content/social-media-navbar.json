@@ -1,12 +1,12 @@
 [
-    { 
+    {
         "link":"https://www.linkedin.com/company/democracia-en-red/",
         "icon":"fas fab fa-linkedin"
-   
+
     },
-    {        
-        "link":"https://twitter.com/fundacionDER",
-        "icon":"fas fab fa-twitter"
+    {
+        "link":"https://x.com/fundacionDER",
+        "svg":"x-twitter"
     },
     {
         "link":"https://www.instagram.com/democraciaenred/",
@@ -15,14 +15,14 @@
     {
         "link":"https://github.com/democraciaenred",
         "icon":"fas fab fa-github"
-        
+
+    },
+    {
+        "link":"https://democraciaenred.substack.com/",
+        "svg":"substack"
     },
     {
         "link":"https://www.youtube.com/channel/UCm5n0zxmfWN0pMuMPxk7psw",
         "icon":"fab fa-youtube"
-    },
-    {
-        "link":"https://medium.com/@fundaciondemocraciaenred",
-        "icon":"fab fa-medium-m"
     }
 ]

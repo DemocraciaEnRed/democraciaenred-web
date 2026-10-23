@@ -5,3 +5,5 @@ public
 .vscode
 */pyenv
 !.env.production
+.DS_Store
+.claude/

@@ -33,7 +33,7 @@
 
 .hex-container:first-child .hex-container-inner:before, .hex-container-inner-2 {
   transform: skewX(-30deg) rotate(60deg) skewX(30deg);
-  background: orange;
+  background: transparent;
   content: '';
 }
 
@@ -44,7 +44,7 @@
 
 .hex-container-inner-2:before {
   margin-top: -0.5em;
-  height: 18em;
+  height: 15em;
   transform: skewX(-30deg) rotate(-90deg);
   background: url(https://assets.codepen.io/2017/17_05_a_amur_leopard_34.jpg);
   content: '';
@@ -74,13 +74,37 @@
   background-repeat: no-repeat;
 }
 .hex-container-inner-2.agustin-bg:before {
-  background:url(./assets/AgusF.png);
+  background:url(./assets/AgustinFrizzera.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .florencia-dir-bg:before {
-  background:url(./assets/Flor.png);
+  background:url(./assets/FlorenciaCaffarone.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.abril-bg:before {
+  background:url(./assets/AbrilChiesa.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sofia-bg:before {
+  background:url(./assets/SofiaCaffaro.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.lihuen-bg:before {
+  background:url(./assets/LihuenBezzo.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.delfina-bg:before {
+  background:url(./assets/DelfinaMontagna.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -91,28 +115,12 @@
   background-repeat: no-repeat;
 }
 
-.powa-bg:before {
-  background:url(./assets/powa.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 .guille-bg:before {
-  background:url(./assets/guille.jpg);
+  background:url(./assets/GuillermoCroppi.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.vale-bg:before {
-  background:url(./assets/Vale.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.alejandra-bg:before {
-  background:url(./assets/Ale.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 .alvaro-bg:before {
   background:url(./assets/alvaro.jpg);
   background-size: cover;
@@ -133,18 +141,6 @@
   background-repeat: no-repeat;
 }
 
-.milu-bg:before {
-  background:url(./assets/milu.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.fede-bertero-bg:before {
-  background:url(./assets/fede-bertero.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 .esteban-bg:before {
   background:url(./assets/esteban.jpg);
   background-size: cover;
@@ -152,7 +148,7 @@
 }
 
 .mariano-bg:before {
-  background:url(./assets/mariano.png);
+  background:url(./assets/MarianoHeller.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -163,60 +159,25 @@
   background-repeat: no-repeat;
 }
 
-.ceci-bg:before {
-  background:url(./assets/ceci.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.pasutti-bg:before {
-  background:url(./assets/pasutti.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 .pano-bg:before {
-  background:url(./assets/pano.jpg);
+  background:url(./assets/MarianoValdez.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.nicoconfa-bg:before {
-  background:url(./assets/nicoconfa.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.gerarodriguez-bg:before {
-  background:url(./assets/gerarodriguez.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 .tina-bg:before {
   background:url(./assets/tina.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .jennifer-bg:before {
-  background:url(./assets/jennifer.png);
+  background:url(./assets/JenniferPerkes.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .nacho-bg:before {
-  background:url(./assets/nacho.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.lucho-bg:before {
-  background:url(./assets/lucho.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.rosario-bg:before {
-  background:url(./assets/rosario.jpg);
+  background:url(./assets/IgnacioGertie.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }

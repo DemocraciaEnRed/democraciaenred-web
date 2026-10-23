@@ -14,7 +14,7 @@
         "image_description_3": "Photo: Guillermo Batakis, Buenos Aires, Argentina"
     },
     "resources": {
-        "title": "Resources",
+        "title": "Projects",
         "description": "We develop innovative civic technology. We produce content for citizen advocacy. We detail and share our experiences.",
         "subtitle": "Explore our work.",
         "filter_0": "All Projects",
@@ -227,7 +227,9 @@
     },
     "nosotros": {
         "title":"About us",
-        "subtitle": "We are Democracia en Red, a civil society organization based in Argentina composed by activists, developers and social scientists with the objective of opening public institutions and giving access to decision-making spaces."
+        "subtitle": "We are Democracia en Red, a civil society organization based in Argentina composed by activists, developers and social scientists with the objective of opening public institutions and giving access to decision-making spaces.",
+        "subtitle_1": "We are an organization made up of activists, developers and social scientists who believe in empowering collective intelligence to adapt democracy to the 21st century.",
+        "subtitle_2": " We seek to reclaim politics"
     },
     "cases": {
         "main_title": "Cases",
@@ -249,9 +251,110 @@
             "social": "Networks"
           }
     },
+    "queHacemos": {
+        "title": "What do we do?",
+        "item1_title": "Citizen Participation",
+        "item1_desc": "We implement initiatives that involve citizens in decision-making. Civic technology, deliberation and more.",
+        "item2_title": "Tailor-made technology",
+        "item2_desc": "We boost the impact of governments and organizations with technology built around their goals.",
+        "item3_title": "Public advocacy",
+        "item3_desc": "We work to shape public policy through research, digital strategy and innovative communication."
+    },
+    "ejes": {
+        "title": "Strategic pillars",
+        "item1_title": "Democratize institutions",
+        "item1_desc": "We reimagine the relationship between the state and its citizens, bringing in technology such as DemocraciaOS to open up decision-making, widen participation and strengthen transparency.",
+        "item2_title": "Empower collective intelligence",
+        "item2_desc": "We promote deliberative spaces such as Citizens' Assemblies by lottery, where a diverse, representative sample of society debates and shapes issues that are key to the common good.",
+        "item3_title": "Activate citizen power",
+        "item3_desc": "We build tools that help more people act on their democratic values in an informed, autonomous way and with real impact."
+    },
+    "lineasTrabajo": {
+        "title": "Our work",
+        "examples_label": "Some examples",
+        "section1_title": "Citizen Participation",
+        "section1_subtitle": "Strategies and tools for better public decisions",
+        "section1_body1": "We design, facilitate and implement processes that bring citizens' voices into public decisions. We support governments and organizations, combining in-person deliberation with civic technology, according to what each process needs. We believe participation builds better public policy and rebuilds trust between the state and its citizens.",
+        "section1_body2": "Since 2014 we have supported more than 60 government institutions in Argentina and across the region. We work with local governments such as Vicente López, Rosario, Mar del Plata and San Miguel de Tucumán, with the City of Buenos Aires and its Legislature, with Argentina's Chamber of Deputies and with the national government.",
+        "section1_subheading": "Processes we design and facilitate",
+        "section1_card1_title": "Citizens' assemblies by lottery",
+        "section1_card1_desc": "Randomly selected people deliberate and produce public policy recommendations.",
+        "section1_card2_title": "In-person processes on the ground",
+        "section1_card2_desc": "Local citizen participation workshops and gatherings.",
+        "section1_card3_title": "Participatory budgeting",
+        "section1_card3_desc": "Citizens directly decide how part of the public budget is invested.",
+        "section1_card4_title": "Public consultations",
+        "section1_card4_desc": "Spaces for dialogue and debate that connect government with its community.",
+        "section1_card5_title": "Co-creation of legislation",
+        "section1_card5_desc": "Collaborative rule-making between representatives and citizens.",
+        "section1_card6_title": "Accountability",
+        "section1_card6_desc": "Citizens monitor the goals and commitments taken on by government.",
+        "section1_dosbox": "Many of these processes rely on <b>DemocraciaOS</b>, our family of open source civic technologies. You can explore them at <a href=\"https://democraciaos.org\" target=\"_blank\" rel=\"noopener noreferrer\">democraciaos.org</a>.",
+        "section1_project1_name": "Leyes Abiertas",
+        "section1_project1_partner": "with Argentina's Chamber of Deputies",
+        "section1_project1_desc": "A co-creation platform that lets citizens take part in drafting bills.",
+        "section1_project2_name": "Consulta Pública",
+        "section1_project2_partner": "with San Miguel de Tucumán",
+        "section1_project2_desc": "A consultation, dialogue and debate platform connecting local government projects with ideas from the community.",
+        "section1_project3_name": "Participatory Budget",
+        "section1_project3_partner": "with the Municipality of Vicente López",
+        "section1_project3_desc": "Citizens choose how part of their municipality's public budget is invested.",
+        "section2_title": "Tailor-made impact",
+        "section2_subtitle": "We are the technical partner of projects with social impact",
+        "section2_body1": "We put our design and development capacity at the service of organizations running high-impact projects that need technology to make them happen. From their goals: we turn complex problems into concrete tools that strengthen their work and multiply its social value.",
+        "section2_body2": "We build from scratch or on top of proven solutions, depending on what each project needs.",
+        "section2_subheading": "What we can build",
+        "section2_card1_title": "Custom platforms",
+        "section2_card1_desc": "Sites and applications designed around each project's goals.",
+        "section2_card2_title": "Data visualization",
+        "section2_card2_desc": "We make complex or scattered public information clear and accessible.",
+        "section2_card3_title": "Use of artificial intelligence",
+        "section2_card3_desc": "We bring in AI to process information and extend the reach of each tool.",
+        "section2_project1_name": "Justa",
+        "section2_project1_partner": "with ACIJ",
+        "section2_project1_desc": "A portal that shows, through clear visualizations, how the judiciary works.",
+        "section2_project2_name": "Periodistas Amenazadas",
+        "section2_project2_partner": "with FOPEA",
+        "section2_project2_desc": "Documents and makes visible the threats and attacks journalists face.",
+        "section2_project3_name": "Demoreset",
+        "section2_project3_partner": "with Extituto",
+        "section2_project3_desc": "A matchmaking platform connecting the people driving democratic innovation.",
+        "section3_title": "Public advocacy",
+        "section3_subtitle": "Democratic innovation, campaigns and civic engagement",
+        "section3_body1": "We work alongside other organizations to shape public policy and the social agenda. We put our knowledge, our technologies and our processes at the service of shared causes: we design democratic innovations for advocacy, run communication campaigns and encourage civic engagement.",
+        "section3_body2": "We do this in alliance with organizations from Argentina and the region, around the agendas we consider key to 21st century democracy.",
+        "section3_subheading": "Agendas we work on",
+        "section3_tag1": "Democracy",
+        "section3_tag2": "Citizen participation",
+        "section3_tag3": "Transparency",
+        "section3_tag4": "Digital rights",
+        "section3_tag5": "Environment",
+        "section3_project1_name": "PIS",
+        "section3_project1_partner": "Silently Introduced Pesticides",
+        "section3_project1_desc": "Civic technology and citizen science on the ground to counter the impact of agrochemicals.",
+        "section3_project2_name": "#MeRepresenta",
+        "section3_project2_desc": "A tool to think about your vote that organizes electoral information, plus a campaign to promote informed voting.",
+        "section3_project3_name": "#DatosEnFuga",
+        "section3_project3_desc": "Campaign on the state's lack of investment in cybersecurity and the persecution of those who report vulnerabilities.",
+        "section3_project4_name": "Alerta Spyware",
+        "section3_project4_desc": "Research on spyware, with a guide for those who suspect they are under state surveillance."
+    },
+    "pages": {
+        "conocenos_seo_description": "We are a civil society organization that opens up public decision-making.",
+        "productos_seo_description": "Citizen participation tools.",
+        "productos_subtitle": "Civic technology tools based on DemocraciaOS for governments, legislatures and organizations.",
+        "proyectos_seo_description": "A toolbox for implementing participation processes.",
+        "proyectos_subtitle": "Participatory processes and civic technologies that bring citizens' voices into public decisions",
+        "ecosistema_seo_description": "The organizations we work with.",
+        "ecosistema_subtitle": "These are the organizations, governments and networks we work with to transform democracy.",
+        "ecosistema_sector_civil": "Civil Society",
+        "ecosistema_sector_funders": "Funders",
+        "ecosistema_sector_governments": "Governments and Public Institutions",
+        "ecosistema_sector_networks": "Networks and Communities"
+    },
     "newsletter": {
         "title": "Newsletter",
-        "description": "If you want to know all the projects we do, see good memes and many jokes based on the series and movies that made us who we are, subscribe to our newsletter.",
+        "description": "We'll tell you what's happening at Democracia en Red: our projects, research, initiatives, and opportunities to get involved. Subscribe and get our updates straight to your inbox.",
         "button": "Subscribe"
     },
     "usPage": {
@@ -259,11 +362,11 @@
         "subtitle": "An organization using technology to adapt democracy to the 21st century",
         "mision_values": {
           "title": "Mission",
-          "description": "Using technology to democratize public institutions."
+          "description": "Democratize power by creating solutions and strengthening citizens' capacity to participate, deliberate, and influence public decisions."
         },
         "mision_approach": {
           "title": "Vision",
-          "description": "To be the benchmark organization throughout LATAM in implementing technology to open public decision making to citizens."
+          "description": "A democracy where more people participate in the decisions that affect their lives."
         },
         "what_we_do": {
           "title": "What do we do?",
@@ -462,7 +565,7 @@
         "features_3_2": "Can be backed up with photos and files.",
         "features_3_3": "Georereferences .",
         "features_3_4": "Allows you to update the goal indicator, indicate milestone achievement, or tell a novelty.",
-        "features_3_5": "Posibilidad de suscribirse para recibir actualizaciones.",
+        "features_3_5": "Possibility to subscribe to receive updates.",
         "img_3": "img_3_3_en",
 
         "title_4":"Validation of reports",
@@ -539,9 +642,16 @@
     "preview": "Visualisation",
     "implementation": "Implement",
     "see_more": "See more",
-    "products_title": "products",
+    "products_title": "Products",
     "us": "About us",
     "contact": "contact us",
+    "contactPopup": {
+        "verify": "Verify you're human to see the contact info",
+        "copy": "Copy address",
+        "copied": "Copied!",
+        "close": "Close",
+        "error": "There was a problem with the verification. Reload the page and try again."
+    },
     "transparencia": "Transparency",
     "prensa":"press",
     "ecosistema": "ecosystem",
@@ -623,105 +733,89 @@
 
     "team": {
         "title_1": "Florencia Caffarone",
-        "subtitle_1": "Co-director",
-    
-        "title_2": "Don Powa",
-        "subtitle_2": "Co-director",
-    
-        "title_3": "Valeria Lisciani",
-        "subtitle_3": "Direct Project",
-    
-        "title_4": "Pano",
-        "subtitle_4": "Development Coordinator",
-    
-        "title_5": "Alejandra Gonzalez",
-        "subtitle_5": "Communications",
-    
-        "title_6": "Federico Bertero",
-        "subtitle_6": "Project Manager",
-    
-        "title_7": "Ignacio Gertie",
-        "subtitle_7": "Project Manager",
-    
-        "title_8": "Cecilia Ibarra",
-        "subtitle_8": "Project Manager",
-    
-        "title_9": "Federico Pasutti",
-        "subtitle_9": "UX and UI Designer",    
-    
-        "title_10": "Guillermo Croppi",
-        "subtitle_10": "Systems Engineer",
-    
-        "title_11": "Jennifer Perkes",
-        "subtitle_11": "Editor",
-    
-        "title_12": "Cristian Valdez",
-        "subtitle_12": "Web Developer",
-    
-        "title_13": "Milu Martino",
-        "subtitle_13": "CM and Junior Editor",
-    
-        "title_14": "Álvaro Araujo",
-        "subtitle_14": "DevOps",
-    
-        "title_15": "Nicolás Confalonieri",
-        "subtitle_15": "Web Developer",
-    
-        "title_16": "Gerardo Rodríguez",
-        "subtitle_16": "External collaborator",
-    
-        "title_17": "Florencia Polimeni",
-        "subtitle_17": "President",
-    
-        "title_18": "Esteban Brenman",
-        "subtitle_18": "Vice President",
-    
-        "title_19": "Agustín Frizzera",
-        "subtitle_19": "Board of Directors",
-    
-        "title_20": "Florencia Primatesta",
-        "subtitle_20": "Board of Directors",
-    
-        "title_21": "Mariano Heller",
-        "subtitle_21": "Board of Directors",
-    
-        "title_22": "Luciano Churruarín",
-        "subtitle_22": "UX and UI Designer",    
-    
-        "title_23": "Rosario Lenkiewicz",
-        "subtitle_23": "Administrative management"
+        "subtitle_1": "Executive Director",
+
+        "title_2": "Ignacio Gertie",
+        "subtitle_2": "Innovation & Advocacy Coordinator",
+
+        "title_3": "Mariano Valdez",
+        "subtitle_3": "Development Coordinator",
+
+        "title_4": "Guillermo Croppi",
+        "subtitle_4": "Senior Systems Engineer",
+
+        "title_5": "Abril Chiesa",
+        "subtitle_5": "Communications & Social Media Lead",
+
+        "title_6": "Cristian Valdez",
+        "subtitle_6": "Web Developer",
+
+        "title_7": "Álvaro Araujo",
+        "subtitle_7": "DevOps",
+
+        "title_8": "Jennifer Perkes",
+        "subtitle_8": "Graphic Designer",
+
+        "title_9": "Sofía Caffaro",
+        "subtitle_9": "Product Designer",
+
+        "title_10": "Lihuen Bezzo",
+        "subtitle_10": "UX Designer",
+
+        "title_11": "Delfina Montagna Hughes",
+        "subtitle_11": "UX Researcher",
+
+        "title_12": "Agustín Frizzera",
+        "subtitle_12": "President",
+
+        "title_13": "Florencia Polimeni",
+        "subtitle_13": "Vice President",
+
+        "title_14": "Esteban Brenman",
+        "subtitle_14": "Secretary",
+
+        "title_15": "Florencia Primatesta",
+        "subtitle_15": "Treasurer",
+
+        "title_16": "Mariano Heller",
+        "subtitle_16": "Board Member"
 
       },
 
     "council": {
         "main_title": "Advisory Council",
-        "title_1": "MÓNICA VILLEGAS",
+        "title_1": "Mónica Villegas",
         "subtitle_1": "Public leadership, citizen participation and cities.",
         "description_1": "COMPLETAR",
 
-        "title_2": "DARDO CEBALLOS",
+        "title_2": "Dardo Ceballos",
         "subtitle_2": "Innovation and digital transformation strategies applied to public sector and policy innovation.",
         "description_2": "COMPLETAR",
 
-        "title_3": "YANINA WELP",
+        "title_3": "Yanina Welp",
         "subtitle_3": "Research and editorial coordination with focus on political participation, Albert Hirschman Centre on Democracy.",
         "description_3": "COMPLETAR",
-        
-        "title_4": "JUAN CRUZ ZORZOLI",
+
+        "title_4": "Juan Cruz Zorzoli",
         "subtitle_4": "Sustainable and Regenerative Development / Participatory Planning and Communication / Environmental Education / Paradigm Shift.",
         "description_4": "COMPLETAR",
-        
-        "title_5": "NATALIA CARFI",
+
+        "title_5": "Natalia Carfi",
         "subtitle_5": "Design and implementation of Open Government public policies and open data.",
         "description_5": "COMPLETAR",
-    
-        "title_6": "MARTÍN GALANTERNIK",
+
+        "title_6": "Martín Galanternik",
         "subtitle_6": "Participatory programs of civic education, promotion of rights and education and Road Safety.",
         "description_6": "COMPLETAR" 
     },
     "ecosystem": {
         "main_title": "Ecosystem",
         "title_1": "Governments and Institutions",
+        "features_1_1": "RINP",
+        "features_1_2": "Red de Parlamento Abierto",
+        "features_1_3": "People Powered",
+        "features_1_4": "Red de OSC para un Estado Abierto",
+        "features_1_5": "Abrelatam",
         "title_2": "Funders",
         "description_1": "Rosario, San Lorenzo, Vicente Lopez, Sunchales, Cámara Diputados Argentina, Concejo Bogota, Maipu, UBA, Santa lab, UNR, GCBA, Ecuador, Godoy Cruz.",
         "description_2": "Open Society Foundation, Luminate, BID, AVINA, UE, KAS, Y combinator, Fondo Altec / CLIP / FHHC, IFA, Tomson Reuters, FES, CAF, Google, Microsoft, PERFIT, SLACK.",
@@ -732,7 +826,7 @@
     },
     "usSection": {
         "title": "Who we are",
-        "subtitle_1": "We are an organization made up of activists, programmers and social scientists who believe in empowering collective intelligence to adapt democracy to the 21st century.",
+        "subtitle_1": "We are an organization made up of activists, programmers and social scientists who believe in empowering collective intelligence to innovate in government and improve democracy.",
         "subtitle_2": "We seek to recover politics",
         "slider_title": "Our team",
         "button": "Meet us"
@@ -742,6 +836,8 @@
         "subtitle": "Transparency",
         "description": "We are an organization that promotes <b>transparency</b>. This is why <b>we publish our income and expenses</b>  - so that you can know how we generate funds and how we spend it.",
         "description_home": "We are an organization that promotes <b>openness</b> and <b>transparency</b>. That is why we <b>publish our income and expenses</b> so that you can know how our income is generated and what we spend it on.",
+        "balance_button": "SEE FULL BALANCE SHEETS",
+        "link": "/transparencia",
         "download_balance": "We invite you to download and view the balance sheets of past years.\n*All our balances are only available as PDF in spanish",
         "balance": {
             "title": "Balance 2020",

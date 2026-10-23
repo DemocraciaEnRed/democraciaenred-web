@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import Slider from "react-slick";
 import { useIntl } from "gatsby-plugin-intl";
 
@@ -11,8 +11,26 @@ import "slick-carousel/slick/slick-theme.css";
 import "./styles.scss";
 import sliderSettings from "../slider-settings";
 
+const heroSliderSettings = {
+  ...sliderSettings,
+  autoplay: true,
+  autoplaySpeed: 2500,
+  infinite: true,
+};
+
 export default ({ slides }) => {
   const intl = useIntl();
+  const sliderRef = useRef(null);
+  const [paused, setPaused] = useState(false);
+
+  const togglePause = () => {
+    if (paused) {
+      sliderRef.current.slickPlay();
+    } else {
+      sliderRef.current.slickPause();
+    }
+    setPaused((p) => !p);
+  };
 
   const images = {
     slider1: slider1,
@@ -20,18 +38,12 @@ export default ({ slides }) => {
     slider3: slider3,
   };
 
-  const colors = {
-    color1: "coral",
-    color2: "green",
-    color3: "blue",
-  };
-
   return (
     <section
       id="hero-slider"
       className="hero is-fullheight is-small is-primary is-bold"
     >
-      <Slider {...sliderSettings}>
+      <Slider ref={sliderRef} {...heroSliderSettings}>
         {slides.map((slider, index) => (
           <div key={index}>
             <div
@@ -66,6 +78,17 @@ export default ({ slides }) => {
           </div>
         ))}
       </Slider>
+      <button className="hero-slider-pause" onClick={togglePause} aria-label={paused ? "Reanudar" : "Pausar"}>
+        {paused ? (
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="20" height="20">
+            <path d="M8 5v14l11-7z"/>
+          </svg>
+        ) : (
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="20" height="20">
+            <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>
+          </svg>
+        )}
+      </button>
     </section>
   );
 };

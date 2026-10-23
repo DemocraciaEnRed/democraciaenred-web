@@ -3,15 +3,16 @@ import Navbar from "../navbar"
 import SEO from "../seo"
 import Footer from "../footer"
 import GoTop from "../go-top";
+import "./styles.scss";
 
 const Layout = ({ children }) => {
-
-
   return (
     <>
       <SEO />
       <Navbar />
-      {children}
+      <main className="layout-content">
+        {children}
+      </main>
       <GoTop/>
       <Footer />
     </>

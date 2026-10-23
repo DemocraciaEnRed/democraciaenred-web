@@ -1,0 +1,98 @@
+@import "~bulma/sass/utilities/_all.sass";
+
+.page-hero {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+// Hexágono — misma estructura que team/style.scss
+.page-hero .hex-container {
+  overflow: hidden;
+  display: inline-block;
+  margin: 2em 0;
+  width: 18em;
+  height: 18em;
+  transform: rotate(-30deg) skewX(30deg);
+  border-radius: 1.2em;
+
+  @include until($desktop) {
+    width: 13em;
+    height: 13em;
+  }
+}
+
+.page-hero .hex-container *,
+.page-hero .hex-container *:before {
+  display: block;
+  overflow: hidden;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+}
+
+.page-hero .hex-container-inner {
+  transform: skewX(-30deg) rotate(60deg) skewX(30deg);
+}
+
+.page-hero .hex-container-inner-2 {
+  transform: skewX(-30deg) rotate(60deg) skewX(30deg);
+  position: absolute;
+  top: 0;
+  background: white !important;
+}
+
+.page-hero .hex-container-inner-2::before {
+  margin-top: -0.5em;
+  height: 18rem;
+  transform: skewX(-30deg) rotate(-90deg);
+  content: '';
+
+  @include until($desktop) {
+    height: 13rem;
+  }
+}
+
+.page-hero .page-hero-placeholder::before {
+  background: #ffffff;
+}
+
+.page-hero-hex-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.page-hero-icon {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 48%;
+  height: 48%;
+  object-fit: contain;
+}
+
+.page-hero-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1.25rem;
+
+  &::after {
+    display: block;
+    content: ' ';
+    height: 3px;
+    margin: 1rem 0;
+    width: 35px;
+    background-color: #000;
+  }
+
+  @include until($desktop) {
+    font-size: 1.8rem;
+  }
+}
+
+.page-hero-subtitle {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+}
